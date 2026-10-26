@@ -337,3 +337,11 @@ Following my HW5 rule, Claude never created an account in the real app. It teste
 > yes leslie berckes and leslie berkes is the same person, and yes i would say that is a good time frame for finding speakers. lets start writing out the report! please review the report rubric under the report 10-15 pages here before you start https://zlisto.github.io/mgt_409_fa26/project_requirements.html the report will be an html file. when you are writing it act as if you are a professional report writer and you are explaining very clearly this app and how it works. you will go through each section carefully and make sure we have good explainations and evidence, as listed in the grading rubric under grading 100 points. for the evidence a lot of the time we need screen shots so please go ahead and take screenshots and add them in. be thoughtful about it and do a great job writing this. we have a great app! lets represent it well
 
 **Result:** Claude took 29 screenshots from a scratch copy of the app (the real database and accounts were never touched), wrote `submission/report_src.html` covering all eight rubric sections, and built `submission/report.html` with `submission/build_report.py`, which embeds the screenshots so the file works on its own. The printed report is 15 pages.
+
+## Step 24: Slides (slides.html)
+
+### Prompt
+
+> great! lets build the slides! please call it slides.html and use reveal.js , loaded from a CDN. 10 slides max, following the outline in my report and on the final project webpage. put the screen shots and diagrams right inside the file so it still works when emailed to someone. use a clean design simmilar to my app with big text and not too wordy. make it nice and clear and good and act as a professional slide deck builder
+
+**Result:** Claude wrote `submission/slides_src.html`, a 10-slide reveal.js deck (loaded from a CDN) in the app's Yale colors: title, problem, what's new, agent diagram, two demo slides, cost, safety, impact, and limits and next steps. `submission/build_slides.py` embeds the screenshots and the pipeline diagram to produce `submission/slides.html`. Every slide was checked at 1280×720.
