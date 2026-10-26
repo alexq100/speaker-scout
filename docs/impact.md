@@ -47,3 +47,14 @@ Sources: Urban Tree Summit 2026 speaker page (urbantreesummit.org), Casey Trees 
 - Results depend on what's public online. Early-career and community voices with little web presence are harder to verify, which is why Advocates is sometimes thin.
 - Searches take 1–2.5 minutes because every person is verified.
 - The app suggests and organizes. A human always decides and sends the invitations.
+
+## Real user feedback: YBEC speaker outreach lead
+
+Leah, a second-year student who leads speaker outreach for the Yale Business & the Environment Conference, tried Speaker Scout. Her feedback, as relayed by Alex (paraphrased):
+
+- The site is awesome and would be a huge help to the conference.
+- Researching good speakers is the hardest part, and it takes a long time just to get started.
+- It's a chicken-and-egg problem: you don't know who the speakers are, so you don't know what panel themes to make, and without themes it's hard to know who to reach out to.
+- Having names and bios pulled to start from is a huge help.
+
+What this shows: the problem is confirmed by the person who does the job, plus a benefit not framed before. Speaker Scout breaks the chicken-and-egg loop by surfacing real, verified people first and letting the Panel Architect propose themes around them.

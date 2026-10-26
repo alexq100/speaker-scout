@@ -8,7 +8,7 @@
   :root { --blue:#00356b; --blue2:#286dc0; --deep:#001a36; --tint:#eaf0f8; --tint2:#f3f7fc; --gray:#5a5a5a; --line:#dde3ea;
           --good:#1e6b3c; --goodt:#e6f2ea; --warn:#8a5300; --warnt:#fbf1e1; --bad:#a32d27; }
   * { box-sizing: border-box; }
-  body { margin:0; background:#f4f6f9; color:#1d1d1d; font: 10pt/1.48 "Open Sans", "Helvetica Neue", Arial, sans-serif; }
+  body { margin:0; background:#f4f6f9; color:#1d1d1d; font: 10pt/1.44 "Open Sans", "Helvetica Neue", Arial, sans-serif; }
   .page { max-width: 8.5in; margin: 0 auto; background:#fff; padding: 0.7in 0.8in; box-shadow: 0 6px 30px rgba(0,26,54,.08); }
   h1, h2, h3 { font-family: "Libre Baskerville", Georgia, "Times New Roman", serif; font-weight: 400; color: var(--blue); line-height: 1.2; }
   h1 { font-size: 30pt; margin: 6px 0 6px; letter-spacing: -.01em; }
@@ -307,11 +307,13 @@
   <tr><td>Yale Philanthropy</td><td>Stacy Palmer (Chronicle of Philanthropy), David Callahan (Inside Philanthropy), John Palfrey (MacArthur Foundation), Una Osili (IU Lilly School)</td><td>Leading voices in the field: the profile of speakers this conference books</td></tr>
   <tr><td>YBEC</td><td>Marian Chertow and Reid Lifset (Yale industrial ecology), Allison Lin (Mars)</td><td>Yale faculty and a Mars sustainability leader; YBEC's 2026 keynote was Mars's global head of sustainability</td></tr>
 </table>
-<p>The verification also shows in the numbers: across the official runs, every shown speaker has a real page confirming them, and the checks caught a name mismatch and two listing-only candidates that a chatbot would have passed through.</p>
 <h3>A real user tried it</h3>
 <figure class="float"><img src="{{img:28_whats_new}}" alt="What's new"><figcaption><b>Figure 17.</b> The team activity feed from my real conference ("Alex Kew moved Deborah Dull to…", "set Yossi Sheffi to declined"), showing real use of the outreach workflow.</figcaption></figure><p>I'm a real user: a planner on a Yale conference team and formerly a staff planner of the Urban Tree Summit. I used Speaker Scout for my own planning: it holds my "General" conference with <b>24 shortlisted speakers organized into 5 panels plus keynote candidates</b>, with outreach underway (people marked reached out, following up, in conversation, confirmed and declined, as the activity feed records). The program balance check on that real shortlist (Figure 13) surfaced things I hadn't noticed: a thin keynote slot, two water panels that overlapped, and a program leaning heavily on established speakers (13 established vs. 2 rising voices). It also suggested specific fixes.</p>
-<h3>Reach</h3>
-<p>The biggest beneficiaries are teams that can't afford bureaus: student-run, nonprofit and community conferences. At the measured cost, <b>100 planning teams would cost about $44 a month in model tokens</b> (section 5). Broadening lineups beyond the usual circuit is a quality gain that's otherwise expensive or impossible for a small team.</p>
+<h3>Feedback from YBEC's speaker outreach lead</h3>
+<p>I showed Speaker Scout to <b>Leah, a second-year student who leads speaker outreach for the Yale Business &amp; the Environment Conference</b>, the team this tool was built for. Her feedback, paraphrased from our conversation:</p>
+<div class="callout good">The site is awesome and would be a huge help to the conference. Researching good speakers is the hardest part, and it takes a long time just to <b>get started</b>: it's hard to know where to begin. It's a <b>chicken-and-egg problem</b>. You don't know who the speakers are, so you don't know what panel themes to make, and without themes it's hard to know who to reach out to. Having <b>names and bios pulled</b> to start from is a huge help.</div>
+<p>She confirms the problem in section 2 from the person who does the job, and she names a benefit I hadn't framed: <b>Speaker Scout breaks the chicken-and-egg loop.</b> A team can search a broad theme, see who is actually out there, let the Panel Architect propose panel themes built around real, verified people, and then narrow down. The empty first week of research becomes a starting list in about 90 seconds.</p>
+<p><b>Reach:</b> the biggest beneficiaries are teams that can't afford bureaus (student-run, nonprofit and community conferences), and <b>100 planning teams would cost about $44 a month</b> in model tokens (section 5).</p>
 
 <!-- ================================================================ 8 -->
 <h2><span class="num">8.</span>Limits + next steps</h2>
@@ -322,7 +324,7 @@
   <li><b>No fees or availability.</b> The app can't know a speaker's fee or calendar; budget only steers the speaker level.</li>
   <li><b>Web-search cost uncertainty.</b> Token costs are tiny, but per-query search fees, if billed, would dominate at scale.</li>
   <li><b>Runs locally.</b> Team logins work, but teammates need my laptop (or a temporary share link) until it's hosted.</li>
-  <li><b>Evidence of impact</b> is my own use and real-lineup matches; a timed study with more planners is the next step.</li>
+  <li><b>Evidence of impact</b> is my own use, feedback from YBEC's speaker outreach lead and real-lineup matches; a timed study with more planners is the next step.</li>
 </ul>
 <h3>With another month</h3>
 <ol class="steps">
@@ -335,7 +337,7 @@
 </ol>
 
 <h3 style="margin-top:16px">Sources</h3>
-<ol class="src" style="padding-left:18px;font-size:8pt;line-height:1.35">
+<ol class="src" style="padding-left:18px;font-size:8pt;line-height:1.3;columns:2;column-gap:24px">
   <li>Smart Meetings and Meetings &amp; Conventions coverage of CareerCast's "Most Stressful Jobs"; Eventflare, "Event Coordinator: Why it's one of the most stressful jobs."</li>
   <li>PCMA Convene, "Are You Finding the Best Speakers for Your Events?" pcmaconvene.org</li>
   <li>Innovation Women, "The whys of the all-male panel," innovationwomen.com</li>

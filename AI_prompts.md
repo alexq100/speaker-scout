@@ -353,3 +353,11 @@ Following my HW5 rule, Claude never created an account in the real app. It teste
 **Why a follow-up was needed:** the diagram only showed the search pipeline, not the agents used on demand during planning, and I wanted marketing assets added to next steps.
 
 **Result:** The agent diagram (report Figure 1 and slide 4) now has an "On demand, in planning" column with the Panel Reviewer, Program Reviewer, Replacement Finder, Speaker Chat and Email Writer. Marketing assets from confirmed speakers were added to next steps in both files. The report still prints to 15 pages. Claude also suggested more planning features to consider.
+
+## Step 25: Real User Feedback (Leah, YBEC Speaker Outreach Lead)
+
+### Prompt
+
+> hey claude! okay i was able to talk to someone on my Yale Business and Environment club team who is the leader for the speaker outreach team, Leah who is a second year. she said that the site is awesome and it would be a huge help to the conference since the hardest part is researching good speakers and it is really difficult and takes a lot of time to just get started. she said its hard to know where to start and it is often a chicken and egg situation with the speakers and the panel themes since you dont know who the speakers are so you dont know what themes to make, but if you dont know what themes to make, it is hard to know who you should reach out for for the speakers. so she said this tool will help immensly to get started and see what names to begin with. she said it takes a long time to get started and so just having names and bios pulled is a huge help. she had some suggestions i will give you next that we can impliment as some improvements, and also this feedback can be added to the impact section of the reports.
+
+**Result:** Leah's feedback (paraphrased) was added to the report's Impact section as "Feedback from YBEC's speaker outreach lead", to the Impact slide in place of the closing quote, and to `docs/impact.md`. It frames a new benefit: Speaker Scout breaks the chicken-and-egg loop between choosing speakers and choosing panel themes. Two repeated lines were cut, and the sources were set in two columns, so the report stays at 15 printed pages.
