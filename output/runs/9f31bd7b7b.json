@@ -1,0 +1,323 @@
+{
+  "id": "9f31bd7b7b",
+  "status": "done",
+  "brief": {
+    "conference_theme": "The future of philanthropy: trust-based giving and community power",
+    "looking_for": "moderator",
+    "panel_theme": null,
+    "panel_size": 3,
+    "conference_name": null,
+    "conference_type": null,
+    "location": null,
+    "reach": "national",
+    "budget": null,
+    "level": "auto",
+    "categories": [
+      "journalist"
+    ],
+    "prioritize": [
+      "has_spoken"
+    ],
+    "skip_names": [],
+    "notes": null,
+    "per_category": 5
+  },
+  "plan": {
+    "summary": "Find nationally relevant journalists and communicators who can moderate a discussion on trust-based giving and community power in philanthropy. Prioritize people with documented experience speaking or presenting at conferences or public events.",
+    "target_level": "mix",
+    "target_roles": [
+      "moderator"
+    ],
+    "location_focus": "United States (national; virtual or any region)",
+    "angles": [
+      {
+        "category": "journalist",
+        "angles": [
+          "Philanthropy reporters and editors at The Chronicle of Philanthropy, Inside Philanthropy, and Nonprofit Quarterly who have moderated or spoken at sector conferences",
+          "Hosts and producers of philanthropy-focused podcasts at The Giving Review, Philanthropytalk, or Candid who have appeared as conference presenters",
+          "Journalists covering community philanthropy and trust-based giving at Stanford Social Innovation Review and The Nonprofit Times, with public event moderation experience"
+        ]
+      }
+    ]
+  },
+  "categories": [
+    {
+      "category": "journalist",
+      "label": "Journalists & Communicators",
+      "cards": [
+        {
+          "name": "Stephanie Beasley",
+          "job_title": "Senior Writer and Fellowship Director",
+          "organization": "The Chronicle of Philanthropy",
+          "level": "established",
+          "best_for": [
+            "moderator",
+            "panelist"
+          ],
+          "speaking_badge": "experienced",
+          "could_speak_on": "Moderate a national conversation on how donor control, trust-based giving, and community needs shape philanthropy.",
+          "talk_ideas": [
+            "Who holds power in philanthropic giving?",
+            "What donors can learn from nonprofits about trust and flexibility",
+            "How major donors’ choices affect community-led work"
+          ],
+          "topic_tags": [
+            "philanthropy",
+            "donor trends",
+            "nonprofits",
+            "moderation"
+          ],
+          "bio": "Stephanie Beasley is a senior writer and fellowship director at The Chronicle of Philanthropy, where she covers major donors and charitable giving trends. She previously reported on global philanthropy for Devex and spent more than a decade covering policy on Capitol Hill.",
+          "credentials": [
+            "Dual master’s degrees in journalism and Latin American Studies from the University of California, Berkeley"
+          ],
+          "why_fit": "Her reporting on major donors and giving trends, combined with documented moderator experience, makes her a strong fit to guide a national discussion about philanthropy and community power.",
+          "past_speaking": [
+            {
+              "event": "Women’s Funding Network Summit — speaker/facilitator listing identifies her as moderator",
+              "year": null,
+              "url": "https://feministfunded.org/wfnsummit/speaker/stephanie-beasley/"
+            },
+            {
+              "event": "State of Nonprofits 2026: What Funders Need to Know",
+              "year": 2026,
+              "url": "https://www.ncgrantmakers.org/events/state-of-nonprofits-2026-what-funders-need-to-know"
+            }
+          ],
+          "notable_work": [
+            "Reporting on major donors and charitable giving trends at The Chronicle of Philanthropy"
+          ],
+          "profile_url": "https://www.philanthropy.com/author/stephanie-beasley/",
+          "links": [
+            {
+              "label": "Chronicle of Philanthropy profile",
+              "url": "https://www.philanthropy.com/author/stephanie-beasley/",
+              "kind": "profile"
+            },
+            {
+              "label": "Women’s Funding Network Summit speaker page",
+              "url": "https://feministfunded.org/wfnsummit/speaker/stephanie-beasley/",
+              "kind": "talk"
+            },
+            {
+              "label": "NCNG event: State of Nonprofits 2026",
+              "url": "https://www.ncgrantmakers.org/events/state-of-nonprofits-2026-what-funders-need-to-know",
+              "kind": "talk"
+            }
+          ],
+          "photo_url": "https://www.philanthropy.com/wp-content/uploads/2025/10/avatar-Stephanie-Beasley.png",
+          "evidence_urls": [
+            "https://www.philanthropy.com/author/stephanie-beasley/",
+            "https://feministfunded.org/wfnsummit/speaker/stephanie-beasley/",
+            "https://www.ncgrantmakers.org/events/state-of-nonprofits-2026-what-funders-need-to-know"
+          ],
+          "fit_score": 5,
+          "fit_reason": "Direct philanthropy coverage plus more than one documented moderation or event appearance."
+        },
+        {
+          "name": "Sara Herschander",
+          "job_title": "Journalist and audio producer; reporting for Vox",
+          "organization": "Vox",
+          "level": "rising",
+          "best_for": [
+            "moderator",
+            "panelist"
+          ],
+          "speaking_badge": "some",
+          "could_speak_on": "Moderate a discussion connecting philanthropy, nonprofit accountability, technology, and the communities affected by funding decisions.",
+          "talk_ideas": [
+            "How philanthropy shapes nonprofit work and public life",
+            "Community power and accountability in giving",
+            "Technology, equity, and the nonprofit sector"
+          ],
+          "topic_tags": [
+            "journalism",
+            "philanthropy",
+            "nonprofits",
+            "technology"
+          ],
+          "bio": "Sara Herschander is a journalist and audio producer currently reporting for Vox on global systems of power, inequality, and technology. Her work has appeared in The Chronicle of Philanthropy, the Associated Press, and other publications.",
+          "credentials": [],
+          "why_fit": "She has reported on philanthropy and nonprofits and was listed as moderator for a panel at a UCLA Center for Philanthropy and Nonprofits conference.",
+          "past_speaking": [
+            {
+              "event": "Nonprofits and AI: Possibilities and Pitfalls, UCLA Center for Philanthropy and Nonprofits conference",
+              "year": 2025,
+              "url": "https://www.nonprofits.law.ucla.edu/events/nonprofits-and-ai-challenges-and-opportunities"
+            }
+          ],
+          "notable_work": [
+            "Reporting for Vox on systems of power, inequality, and technology"
+          ],
+          "profile_url": "https://saraherschander.com/",
+          "links": [
+            {
+              "label": "Personal journalism profile",
+              "url": "https://saraherschander.com/",
+              "kind": "profile"
+            },
+            {
+              "label": "Chronicle of Philanthropy author page",
+              "url": "https://www.philanthropy.com/author/sara-herschander/",
+              "kind": "work"
+            },
+            {
+              "label": "UCLA conference panel listing",
+              "url": "https://www.nonprofits.law.ucla.edu/events/nonprofits-and-ai-challenges-and-opportunities",
+              "kind": "talk"
+            }
+          ],
+          "photo_url": null,
+          "evidence_urls": [
+            "https://saraherschander.com/",
+            "https://www.philanthropy.com/author/sara-herschander/",
+            "https://www.nonprofits.law.ucla.edu/events/nonprofits-and-ai-challenges-and-opportunities"
+          ],
+          "fit_score": 4,
+          "fit_reason": "Documented moderator experience and relevant reporting, though her current reporting role is at Vox rather than the Chronicle."
+        },
+        {
+          "name": "Andrew Simon",
+          "job_title": "Editor-in-Chief",
+          "organization": "The Chronicle of Philanthropy",
+          "level": "established",
+          "best_for": [
+            "moderator",
+            "panelist"
+          ],
+          "speaking_badge": "some",
+          "could_speak_on": "Moderate a conversation about how journalism can surface community perspectives and strengthen public understanding of philanthropy.",
+          "talk_ideas": [
+            "Journalism’s role in accountability and trust in philanthropy",
+            "How funders and nonprofit leaders can bridge divides",
+            "Reporting on emerging trends in giving and community power"
+          ],
+          "topic_tags": [
+            "philanthropy",
+            "journalism",
+            "nonprofits",
+            "editorial leadership"
+          ],
+          "bio": "Andrew Simon is editor-in-chief of The Chronicle of Philanthropy and joined the publication in April 2024. Previously, he held editorial and leadership-programming roles at Grist and Fast Company, among other media organizations.",
+          "credentials": [],
+          "why_fit": "His leadership at a national philanthropy publication and documented participation in a philanthropy-and-journalism roundtable offer relevant sector context for a moderator.",
+          "past_speaking": [
+            {
+              "event": "Philanthropy, Journalism, and Bridging Divides — Leading Locally 2025 roundtable",
+              "year": 2025,
+              "url": "https://cof.org/content/philanthropy-journalism-and-bridging-divides"
+            }
+          ],
+          "notable_work": [
+            "Launched or co-launched Grist’s leadership programming, including the Grist 50 and the Temperature Check podcast"
+          ],
+          "profile_url": "https://www.philanthropy.com/author/andrew-simon/",
+          "links": [
+            {
+              "label": "Chronicle of Philanthropy profile",
+              "url": "https://www.philanthropy.com/author/andrew-simon/",
+              "kind": "profile"
+            },
+            {
+              "label": "Institute for Nonprofit News speaker page",
+              "url": "https://inn.org/speakers/andrew-simon/",
+              "kind": "profile"
+            },
+            {
+              "label": "Leading Locally 2025 roundtable",
+              "url": "https://cof.org/content/philanthropy-journalism-and-bridging-divides",
+              "kind": "talk"
+            }
+          ],
+          "photo_url": "https://www.philanthropy.com/wp-content/uploads/2025/10/avatar-Andrew-Simon.png",
+          "evidence_urls": [
+            "https://www.philanthropy.com/author/andrew-simon/"
+          ],
+          "fit_score": 4,
+          "fit_reason": "Current role is confirmed by his publication, but the cited speaking event pages were inaccessible to verify directly during this check."
+        }
+      ],
+      "dropped": [],
+      "candidates_found": 3,
+      "error": null,
+      "usage": {
+        "model_calls": 7,
+        "input_tokens": 106138,
+        "cached_input_tokens": 69346,
+        "output_tokens": 2804,
+        "reasoning_tokens": 209,
+        "web_searches": 10,
+        "page_reads": 0,
+        "cost_usd": null
+      },
+      "seconds": 46.1
+    }
+  ],
+  "removals": [],
+  "injection_flags": [],
+  "events": [
+    {
+      "ts": "2026-10-26T03:19:13+00:00",
+      "seconds": 0.0,
+      "agent": "Scout Lead",
+      "category": null,
+      "message": "Reading your brief and planning the search…"
+    },
+    {
+      "ts": "2026-10-26T03:19:17+00:00",
+      "seconds": 3.1,
+      "agent": "Scout Lead",
+      "category": null,
+      "message": "Plan ready: Find nationally relevant journalists and communicators who can moderate a discussion on trust-based giving and community power in philanthropy. Prioritize people with documented experience speaking or presenting at conferences or public events."
+    },
+    {
+      "ts": "2026-10-26T03:19:17+00:00",
+      "seconds": 3.1,
+      "agent": "Journalists & Communicators searcher",
+      "category": "journalist",
+      "message": "Searching the web…"
+    },
+    {
+      "ts": "2026-10-26T03:19:31+00:00",
+      "seconds": 17.2,
+      "agent": "Journalists & Communicators searcher",
+      "category": "journalist",
+      "message": "Found 3 candidates (7 web searches): Stephanie Beasley, Sara Herschander, Andrew Simon"
+    },
+    {
+      "ts": "2026-10-26T03:19:31+00:00",
+      "seconds": 17.2,
+      "agent": "Journalists & Communicators verifier",
+      "category": "journalist",
+      "message": "Checking 3 people against their sources…"
+    },
+    {
+      "ts": "2026-10-26T03:20:03+00:00",
+      "seconds": 49.3,
+      "agent": "Journalists & Communicators verifier",
+      "category": "journalist",
+      "message": "3 confirmed, 0 dropped"
+    },
+    {
+      "ts": "2026-10-26T03:20:03+00:00",
+      "seconds": 49.3,
+      "agent": "Scout",
+      "category": null,
+      "message": "Done: 3 verified speakers across 1 categories."
+    }
+  ],
+  "usage": {
+    "model_calls": 8,
+    "input_tokens": 107484,
+    "cached_input_tokens": 69346,
+    "output_tokens": 2984,
+    "reasoning_tokens": 209,
+    "web_searches": 10,
+    "page_reads": 8,
+    "cost_usd": null
+  },
+  "seconds": 49.3,
+  "error": null,
+  "created_at": "2026-10-26T03:19:13+00:00",
+  "model": "gpt-6-luna"
+}

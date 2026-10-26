@@ -1,0 +1,275 @@
+{
+  "id": "97ba1ea5d8",
+  "status": "done",
+  "brief": {
+    "conference_theme": "Water security and AI for climate resilience",
+    "looking_for": "panel",
+    "panel_theme": null,
+    "panel_size": 3,
+    "conference_name": null,
+    "conference_type": null,
+    "location": null,
+    "reach": "national",
+    "budget": null,
+    "level": "auto",
+    "categories": [
+      "academic"
+    ],
+    "prioritize": [
+      "has_spoken"
+    ],
+    "skip_names": [],
+    "notes": null,
+    "per_category": 5
+  },
+  "plan": {
+    "summary": "Find three nationally relevant academic panelists connecting water security, AI, and climate resilience, prioritizing researchers with documented conference presentations or speaking experience. Bring complementary expertise across water systems and hydrology, AI/data science for climate or water, and climate adaptation or water-resource policy.",
+    "target_level": "mix",
+    "target_roles": [
+      "panelist"
+    ],
+    "location_focus": null,
+    "angles": [
+      {
+        "category": "academic",
+        "angles": [
+          "University faculty and lab directors researching AI or machine learning for hydrology, water forecasting, and flood or drought resilience; look at AGU Fall Meeting and AMS Annual Meeting presenters",
+          "Water security and climate adaptation researchers at US universities and institutes; search conference programs for presentations at the American Water Resources Association Annual Water Resources Conference and Universities Council on Water Resources meetings",
+          "Researchers applying remote sensing, geospatial AI, or climate modeling to water-resource management; look at NASA Earth Science conference speakers and the Association of American Geographers annual meeting program"
+        ]
+      }
+    ]
+  },
+  "categories": [
+    {
+      "category": "academic",
+      "label": "Academics & Researchers",
+      "cards": [
+        {
+          "name": "Zhi Li",
+          "job_title": "Assistant Professor",
+          "organization": "University of Colorado Boulder; Institute of Arctic and Alpine Research and Department of Civil, Environmental and Architectural Engineering",
+          "level": "rising",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "experienced",
+          "could_speak_on": "How AI, remote sensing, and physics-based flood models can improve flood prediction and risk assessment under climate change.",
+          "talk_ideas": [
+            "Coupling AI with physics-based flood inundation models",
+            "Remote sensing and high-resolution flood monitoring",
+            "Flood risk, climate extremes, and community impacts"
+          ],
+          "topic_tags": [
+            "flood prediction",
+            "AI flood modeling",
+            "remote sensing",
+            "hydrologic-hydraulic models",
+            "climate extremes",
+            "flood risk assessment"
+          ],
+          "bio": "Zhi Li is an Assistant Professor at the University of Colorado Boulder, with appointments in INSTAAR and Civil, Environmental and Architectural Engineering. His research uses remote sensing and coupled hydrologic-hydraulic models for flood prediction and monitoring, and includes AI for science and climate-related extreme events.",
+          "credentials": [
+            "PhD in Civil Engineering and Environmental Science, University of Oklahoma, 2022"
+          ],
+          "why_fit": "Direct match for the AI-and-water-resilience theme, with a focused flood forecasting perspective and documented public talks.",
+          "past_speaking": [
+            {
+              "event": "American Institute of Hydrology webinar: “When AI Meets Flood Simulation: Opportunities and Challenges”",
+              "year": 2026,
+              "url": "https://aihydrology.org/event/aih-webinar-when-ai-meets-flood-simulation-opportunities-and-challenges/"
+            },
+            {
+              "event": "CIRES ESOC Coffee Hour talk: “Rethinking flood research”",
+              "year": 2026,
+              "url": "https://cires.colorado.edu/events/esoc-coffee-hour-february-11-2026-guest-speaker"
+            }
+          ],
+          "notable_work": [
+            "Established Li’s Flood Lab at CU Boulder, focused on flood modeling, climate extremes, AI for science, and coupled analyses of floods and societal impacts."
+          ],
+          "profile_url": "https://www.colorado.edu/instaar/zhi-li",
+          "links": [
+            {
+              "label": "INSTAAR faculty profile",
+              "url": "https://www.colorado.edu/instaar/zhi-li",
+              "kind": "profile"
+            },
+            {
+              "label": "AIH webinar",
+              "url": "https://aihydrology.org/event/aih-webinar-when-ai-meets-flood-simulation-opportunities-and-challenges/",
+              "kind": "talk"
+            },
+            {
+              "label": "CIRES talk listing",
+              "url": "https://cires.colorado.edu/events/esoc-coffee-hour-february-11-2026-guest-speaker",
+              "kind": "talk"
+            }
+          ],
+          "photo_url": "https://www.colorado.edu/instaar/sites/default/files/styles/large_image_style/public/2025-05/zhi-li.png?itok=qjFJ1of7",
+          "evidence_urls": [
+            "https://www.colorado.edu/instaar/zhi-li",
+            "https://aihydrology.org/event/aih-webinar-when-ai-meets-flood-simulation-opportunities-and-challenges/",
+            "https://cires.colorado.edu/events/esoc-coffee-hour-february-11-2026-guest-speaker"
+          ],
+          "fit_score": 5,
+          "fit_reason": "His current research squarely combines AI methods and flood modeling, and he has multiple documented presentations."
+        },
+        {
+          "name": "Maheshwari Neelam",
+          "job_title": "Earth Scientist",
+          "organization": "Universities Space Research Association (USRA), Science and Technology Institute",
+          "level": "established",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "some",
+          "could_speak_on": "Using watershed science, remote sensing, climate information, and AI to assess water availability and infrastructure risks under climate extremes.",
+          "talk_ideas": [
+            "Watershed thresholds and climate extremes",
+            "AI-supported water planning for data-center infrastructure",
+            "Combining hydrologic models, remote sensing, and climate projections"
+          ],
+          "topic_tags": [
+            "surface hydrology",
+            "water-carbon studies",
+            "soil-moisture remote sensing",
+            "climate extremes",
+            "watershed thresholds",
+            "AI infrastructure water"
+          ],
+          "bio": "Maheshwari Neelam is an Earth Scientist at USRA, where she leads water-carbon research. Her work has included soil-moisture estimation using remote sensing, and she has presented on watershed responses to climate extremes and AI-driven infrastructure planning.",
+          "credentials": [
+            "PhD in Biological and Agricultural Engineering, Texas A&M University, 2018"
+          ],
+          "why_fit": "Her watershed and remote-sensing expertise connects water security to climate extremes and growing water demands from AI infrastructure; her 2025 symposium presentation is documented.",
+          "past_speaking": [
+            {
+              "event": "Alabama Water Resources Association Symposium: “Thresholds of Watershed Response to Climate Extremes: A Framework for AI-Driven Infrastructure”",
+              "year": 2025,
+              "url": "https://newsroom.usra.edu/ai-powered-watershed-intelligence-for-resilient-data-center-siting/"
+            }
+          ],
+          "notable_work": [
+            "Research on water-carbon studies at USRA",
+            "Research on soil-moisture estimation using remote sensing"
+          ],
+          "profile_url": "https://www.usra.edu/people/dr-maheshwari-neelam/",
+          "links": [
+            {
+              "label": "USRA profile",
+              "url": "https://www.usra.edu/people/dr-maheshwari-neelam/",
+              "kind": "profile"
+            },
+            {
+              "label": "USRA STI personnel profile",
+              "url": "https://sti.usra.edu/personnel/maheshwari-neelam/",
+              "kind": "profile"
+            },
+            {
+              "label": "USRA symposium presentation coverage",
+              "url": "https://newsroom.usra.edu/ai-powered-watershed-intelligence-for-resilient-data-center-siting/",
+              "kind": "work"
+            }
+          ],
+          "photo_url": "https://www.usra.edu/sites/usra/cache/file/6908AA70-B04A-6517-EC701326B921D0C5_large-portrait.jpg",
+          "evidence_urls": [
+            "https://www.usra.edu/people/dr-maheshwari-neelam/",
+            "https://newsroom.usra.edu/ai-powered-watershed-intelligence-for-resilient-data-center-siting/",
+            "https://sti.usra.edu/personnel/maheshwari-neelam/"
+          ],
+          "fit_score": 5,
+          "fit_reason": "Strong alignment across hydrology, climate extremes, remote sensing, and AI-related water planning, plus a documented invited symposium talk."
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Tiantian Yang",
+          "reason": "Could not confirm the current role or presentation: the supplied faculty and event pages blocked access, and the available search result did not provide sufficient page-level confirmation."
+        }
+      ],
+      "candidates_found": 3,
+      "error": null,
+      "usage": {
+        "model_calls": 3,
+        "input_tokens": 55209,
+        "cached_input_tokens": 13116,
+        "output_tokens": 2508,
+        "reasoning_tokens": 278,
+        "web_searches": 12,
+        "page_reads": 0,
+        "cost_usd": null
+      },
+      "seconds": 33.5
+    }
+  ],
+  "removals": [],
+  "injection_flags": [],
+  "events": [
+    {
+      "ts": "2026-10-26T04:00:32+00:00",
+      "seconds": 0.0,
+      "agent": "Scout Lead",
+      "category": null,
+      "message": "Reading your brief and planning the search…"
+    },
+    {
+      "ts": "2026-10-26T04:00:35+00:00",
+      "seconds": 3.5,
+      "agent": "Scout Lead",
+      "category": null,
+      "message": "Plan ready: Find three nationally relevant academic panelists connecting water security, AI, and climate resilience, prioritizing researchers with documented conference presentations or speaking experience. Bring complementary expertise across water systems and hydrology, AI/data science for climate or water, and climate adaptation or water-resource policy."
+    },
+    {
+      "ts": "2026-10-26T04:00:35+00:00",
+      "seconds": 3.5,
+      "agent": "Academics & Researchers searcher",
+      "category": "academic",
+      "message": "Searching the web…"
+    },
+    {
+      "ts": "2026-10-26T04:00:51+00:00",
+      "seconds": 19.2,
+      "agent": "Academics & Researchers searcher",
+      "category": "academic",
+      "message": "Found 3 candidates (9 web searches): Tiantian Yang, Zhi Li, Maheshwari Neelam"
+    },
+    {
+      "ts": "2026-10-26T04:00:51+00:00",
+      "seconds": 19.2,
+      "agent": "Academics & Researchers verifier",
+      "category": "academic",
+      "message": "Checking 3 people against their sources…"
+    },
+    {
+      "ts": "2026-10-26T04:01:09+00:00",
+      "seconds": 37.0,
+      "agent": "Academics & Researchers verifier",
+      "category": "academic",
+      "message": "2 confirmed, 1 dropped"
+    },
+    {
+      "ts": "2026-10-26T04:01:09+00:00",
+      "seconds": 37.0,
+      "agent": "Scout",
+      "category": null,
+      "message": "Done: 2 verified speakers across 1 categories."
+    }
+  ],
+  "panels": [],
+  "panel_usage": null,
+  "usage": {
+    "model_calls": 4,
+    "input_tokens": 56556,
+    "cached_input_tokens": 14286,
+    "output_tokens": 2711,
+    "reasoning_tokens": 278,
+    "web_searches": 12,
+    "page_reads": 4,
+    "cost_usd": null
+  },
+  "seconds": 37.0,
+  "error": null,
+  "created_at": "2026-10-26T04:00:32+00:00",
+  "model": "gpt-6-luna"
+}

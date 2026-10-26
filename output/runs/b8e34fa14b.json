@@ -1,0 +1,1509 @@
+{
+  "id": "b8e34fa14b",
+  "status": "done",
+  "brief": {
+    "conference_theme": "Environmental and social regeneration: beyond sustainability",
+    "looking_for": "panel",
+    "panel_theme": "Circularity at scale: regenerative sourcing and supply chains",
+    "panel_size": 3,
+    "conference_name": "Yale Business & the Environment Conference",
+    "conference_type": "business",
+    "location": "New Haven, CT",
+    "reach": "national",
+    "budget": "small",
+    "level": "auto",
+    "categories": [
+      "academic",
+      "practitioner",
+      "policy",
+      "founder",
+      "advocate",
+      "journalist"
+    ],
+    "prioritize": [
+      "has_spoken",
+      "range_of_perspectives"
+    ],
+    "skip_names": [],
+    "notes": null,
+    "per_category": 5
+  },
+  "plan": {
+    "summary": "Build a three-person panel on circularity at scale, focusing on regenerative sourcing and supply chains in business. Favor rising or established, budget-conscious candidates with prior conference or presentation experience, and balance sectors, career stages, places, and organization types; national reach allows searches beyond New Haven.",
+    "target_level": "rising",
+    "target_roles": [
+      "panelist"
+    ],
+    "location_focus": "National; include New Haven and the Northeast where useful",
+    "angles": [
+      {
+        "category": "academic",
+        "angles": [
+          "Business-school and supply-chain researchers studying circular procurement, regenerative agriculture, and scaling reuse",
+          "Researchers presenting at circular economy and sustainable business conferences"
+        ]
+      },
+      {
+        "category": "practitioner",
+        "angles": [
+          "Corporate sourcing, procurement, and supply-chain leaders implementing circular or regenerative practices",
+          "Circular-economy consultants and nonprofit program leaders with practical case studies and conference presentations"
+        ]
+      },
+      {
+        "category": "policy",
+        "angles": [
+          "State or federal circular-economy, sustainable materials, and responsible-sourcing policy specialists",
+          "Think-tank policy experts on producer responsibility and circular supply chains who present to business audiences"
+        ]
+      },
+      {
+        "category": "founder",
+        "angles": [
+          "Founders of early-stage circular materials, reuse, and regenerative sourcing businesses with demonstrated scale-up work",
+          "Small and mid-sized company leaders presenting supply-chain circularity case studies at industry events"
+        ]
+      },
+      {
+        "category": "advocate",
+        "angles": [
+          "Nonprofit and coalition leaders advancing just, regenerative supply chains and circular sourcing",
+          "Community or worker-centered advocates connecting materials circularity with equitable sourcing, with public speaking experience"
+        ]
+      },
+      {
+        "category": "journalist",
+        "angles": [
+          "Business or sustainability reporters covering circular supply chains, regenerative sourcing, and materials innovation",
+          "Trade-publication editors or podcast hosts who moderate circular economy and sustainable business discussions"
+        ]
+      }
+    ]
+  },
+  "categories": [
+    {
+      "category": "academic",
+      "label": "Academics & Researchers",
+      "cards": [
+        {
+          "name": "Kevin Lyons",
+          "job_title": "Professor of Professional Practice, Department of Supply Chain Management",
+          "organization": "Rutgers Business School–Newark and New Brunswick",
+          "level": "established",
+          "best_for": [
+            "panelist",
+            "workshop"
+          ],
+          "speaking_badge": "experienced",
+          "could_speak_on": "How local sourcing, procurement criteria, and end-of-life analysis can help businesses build more regenerative and resilient supply chains.",
+          "talk_ideas": [
+            "Embedding environmental and social criteria in procurement",
+            "Building local sourcing networks with community benefits",
+            "Using supply-chain archaeology to identify environmental impacts and end-of-life opportunities"
+          ],
+          "topic_tags": [
+            "supply chains",
+            "green purchasing",
+            "local sourcing",
+            "circularity"
+          ],
+          "bio": "Kevin Lyons is a professor of professional practice in supply chain management at Rutgers Business School and directs its Public Private Community Partnership Program. His research covers environmental, social, health, and economic criteria in supply-chain and procurement systems, including local sourcing and product end-of-life research.",
+          "credentials": [
+            "Author of *Buying for the Future: Contract Management and the Environmental Challenge* and *A Roadmap to Green Supply Chains*."
+          ],
+          "why_fit": "He brings an academic and applied procurement perspective directly relevant to scaling social and environmental criteria and local sourcing across supply chains.",
+          "past_speaking": [
+            {
+              "event": "ARIS Summit keynote: “Supply Chains for Society: Quantifying Impact by Design”",
+              "year": 2026,
+              "url": "https://researchinsociety.org/timetable/event/keynote-dr-kevin-lyons/"
+            }
+          ],
+          "notable_work": [
+            "Developed the Supply Chain Archeology research discipline.",
+            "Research on local sourcing networks for anchor institutions and small businesses."
+          ],
+          "profile_url": "https://www.business.rutgers.edu/faculty/kevin-lyons",
+          "links": [
+            {
+              "label": "Rutgers Business School faculty profile",
+              "url": "https://www.business.rutgers.edu/faculty/kevin-lyons",
+              "kind": "profile"
+            },
+            {
+              "label": "Rutgers Speakers Bureau profile",
+              "url": "https://speakersbureau.rutgers.edu/speakers/kevin-lyons",
+              "kind": "profile"
+            },
+            {
+              "label": "ARIS Summit keynote",
+              "url": "https://researchinsociety.org/timetable/event/keynote-dr-kevin-lyons/",
+              "kind": "talk"
+            }
+          ],
+          "photo_url": "https://www.business.rutgers.edu/sites/default/files/styles/hero_detail_1200x500_/public/images/faculty/faculty-kevin-lyons.jpg.jpg?h=f97871b5&itok=rOoOTHpE",
+          "evidence_urls": [
+            "https://www.business.rutgers.edu/faculty/kevin-lyons",
+            "https://globalhealth.rutgers.edu/directory/kevin-lyons/",
+            "https://speakersbureau.rutgers.edu/speakers/kevin-lyons",
+            "https://researchinsociety.org/timetable/event/keynote-dr-kevin-lyons/"
+          ],
+          "fit_score": 5,
+          "fit_reason": "Strong direct match on sourcing, procurement, supply-chain environmental and social criteria, plus a verified prior keynote."
+        },
+        {
+          "name": "Vishal Agrawal",
+          "job_title": "Henry J. Blommer Family Endowed Chair in Sustainable Business; Professor of Operations and Information Management; Director, Business of Sustainability Initiative",
+          "organization": "Georgetown University, McDonough School of Business",
+          "level": "established",
+          "best_for": [
+            "panelist",
+            "moderator"
+          ],
+          "speaking_badge": "experienced",
+          "could_speak_on": "How business-model innovation and sustainable operations can move circular sourcing from isolated initiatives toward wider adoption.",
+          "talk_ideas": [
+            "Scaling sustainable business models through operations",
+            "Circularity in fashion and consumer-product systems",
+            "How business leaders and academics can collaborate on sustainable supply chains"
+          ],
+          "topic_tags": [
+            "sustainable operations",
+            "business models",
+            "circularity",
+            "supply chains"
+          ],
+          "bio": "Vishal Agrawal is the Henry J. Blommer Family Endowed Chair in Sustainable Business and a professor of operations and information management at Georgetown McDonough. He directs the university’s Business of Sustainability Initiative and has moderated speaker-series conversations on circularity, sustainable business, and supply chains.",
+          "credentials": [],
+          "why_fit": "He offers a business-school operations perspective and has experience moderating sustainability conversations that include circularity and supply-chain topics.",
+          "past_speaking": [
+            {
+              "event": "Business of Sustainability Initiative Speaker Series conversation with Danielle Solomon Nkojo on circularity and sustainability in fashion",
+              "year": 2024,
+              "url": "https://businessofsustainability.georgetown.edu/events/speaker-series/"
+            },
+            {
+              "event": "Business of Sustainability Initiative Speaker Series conversation with Peter Blommer on supply chains and sustainable business practices",
+              "year": 2023,
+              "url": "https://businessofsustainability.georgetown.edu/events/speaker-series/"
+            }
+          ],
+          "notable_work": [],
+          "profile_url": "https://msb.georgetown.edu/profiles/vishal-agrawal/",
+          "links": [
+            {
+              "label": "Georgetown McDonough profile",
+              "url": "https://msb.georgetown.edu/profiles/vishal-agrawal/",
+              "kind": "profile"
+            },
+            {
+              "label": "Business of Sustainability Initiative speaker series",
+              "url": "https://businessofsustainability.georgetown.edu/events/speaker-series/",
+              "kind": "talk"
+            },
+            {
+              "label": "Business of Sustainability events",
+              "url": "https://businessofsustainability.georgetown.edu/events/",
+              "kind": "talk"
+            }
+          ],
+          "photo_url": null,
+          "evidence_urls": [
+            "https://msb.georgetown.edu/profiles/vishal-agrawal/",
+            "https://businessofsustainability.georgetown.edu/events/speaker-series/",
+            "https://businessofsustainability.georgetown.edu/events/"
+          ],
+          "fit_score": 4,
+          "fit_reason": "Relevant expertise in sustainable operations and documented moderation of conversations specifically about circularity and supply chains."
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Nicole DeHoratius",
+          "reason": "Could not verify a current Columbia Business School role or the claimed 2026 panel from pages read; available Columbia pages blocked access. Search results also surfaced older University of Chicago affiliations, so current role confirmation was insufficient."
+        }
+      ],
+      "candidates_found": 3,
+      "error": null,
+      "usage": {
+        "model_calls": 6,
+        "input_tokens": 87002,
+        "cached_input_tokens": 56001,
+        "output_tokens": 2475,
+        "reasoning_tokens": 197,
+        "web_searches": 9,
+        "page_reads": 0,
+        "cost_usd": null
+      },
+      "seconds": 40.0
+    },
+    {
+      "category": "practitioner",
+      "label": "Practitioners",
+      "cards": [
+        {
+          "name": "Alain Nguyen",
+          "job_title": "Global Responsible Sourcing Lead for Vegetables and Spices",
+          "organization": "Nestlé",
+          "level": "established",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "experienced",
+          "could_speak_on": "Scaling regenerative sourcing across international agricultural supply chains through traceability, supplier partnerships, and farmer-focused implementation.",
+          "talk_ideas": [
+            "Building traceability into regenerative sourcing programs",
+            "Scaling responsible sourcing across crops and countries",
+            "Connecting corporate sourcing goals with farming-community realities"
+          ],
+          "topic_tags": [
+            "regenerative agriculture",
+            "responsible sourcing",
+            "traceability",
+            "food supply chains"
+          ],
+          "bio": "Alain Nguyen leads Nestlé’s Responsible Sourcing Program for Vegetables and Spices, described as implemented in 14 countries and more than 40 crop categories. His work includes traceability, regenerative practices, and partnerships across sourcing regions.",
+          "credentials": [
+            "Global Responsible Sourcing Lead for Vegetables and Spices, Nestlé"
+          ],
+          "why_fit": "Provides a large-company sourcing perspective directly connected to regenerative agriculture and supply-chain implementation.",
+          "past_speaking": [
+            {
+              "event": "Regenerative Agriculture Forum 2026",
+              "year": 2026,
+              "url": "https://events.globallandscapesforum.org/regenerative-agriculture-forum-2026/speaker/alain-nguyen/"
+            },
+            {
+              "event": "Partnerships for regeneration: Aligning business and nature",
+              "year": 2026,
+              "url": "https://www.globallandscapesforum.org/video/partnerships-for-regeneration-aligning-business-and-nature/"
+            },
+            {
+              "event": "Engaging with suppliers to identify and remediate root causes of working hour issues",
+              "year": 2025,
+              "url": "https://aim-progress.com/event/engaging-with-suppliers-to-identify-and-remediate-root-causes-of-working-hour-issues"
+            }
+          ],
+          "notable_work": [
+            "Nestlé Responsible Sourcing Program for Vegetables and Spices"
+          ],
+          "profile_url": "https://events.globallandscapesforum.org/regenerative-agriculture-forum-2026/speaker/alain-nguyen/",
+          "links": [
+            {
+              "label": "Speaker profile, Regenerative Agriculture Forum",
+              "url": "https://events.globallandscapesforum.org/regenerative-agriculture-forum-2026/speaker/alain-nguyen/",
+              "kind": "profile"
+            },
+            {
+              "label": "Nestlé vegetables and spices sourcing program",
+              "url": "https://www.nestle.com/sustainability/responsible-sourcing/vegetables-spices",
+              "kind": "work"
+            },
+            {
+              "label": "Regeneration forum session video",
+              "url": "https://www.globallandscapesforum.org/video/partnerships-for-regeneration-aligning-business-and-nature/",
+              "kind": "talk"
+            },
+            {
+              "label": "AIM-Progress supplier webinar",
+              "url": "https://aim-progress.com/event/engaging-with-suppliers-to-identify-and-remediate-root-causes-of-working-hour-issues",
+              "kind": "talk"
+            }
+          ],
+          "photo_url": "https://i0.wp.com/events.globallandscapesforum.org/wp-content/uploads/sites/2/2026/05/Photo-Alain-4.jpg?resize=150%2C150&ssl=1",
+          "evidence_urls": [
+            "https://events.globallandscapesforum.org/regenerative-agriculture-forum-2026/speaker/alain-nguyen/",
+            "https://www.globallandscapesforum.org/video/partnerships-for-regeneration-aligning-business-and-nature/",
+            "https://aim-progress.com/event/engaging-with-suppliers-to-identify-and-remediate-root-causes-of-working-hour-issues"
+          ],
+          "fit_score": 5,
+          "fit_reason": "Strong match for regenerative agricultural sourcing at global scale, with multiple documented appearances."
+        },
+        {
+          "name": "Monica Becker",
+          "job_title": "Senior Director, Strategy & Development",
+          "organization": "Cradle to Cradle Products Innovation Institute",
+          "level": "established",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "experienced",
+          "could_speak_on": "Scaling circularity through product design, certification, and collaborative initiatives across supply chains and sectors.",
+          "talk_ideas": [
+            "Circular design as a supply-chain strategy",
+            "Using product certification to advance circular sourcing",
+            "Cross-sector collaboration to scale safer, circular products"
+          ],
+          "topic_tags": [
+            "circular design",
+            "product certification",
+            "supply chains",
+            "circular economy"
+          ],
+          "bio": "Monica Becker is Senior Director of Strategy & Development at the Cradle to Cradle Products Innovation Institute, where she leads growth, innovation, and impact initiatives across sectors. Her prior work includes collaborative innovation at the Green Chemistry & Commerce Council.",
+          "credentials": [
+            "Senior Director of Strategy & Development, Cradle to Cradle Products Innovation Institute"
+          ],
+          "why_fit": "Offers an institute and product-design perspective that complements corporate sourcing and farm-level implementation.",
+          "past_speaking": [
+            {
+              "event": "Circular Supply Chain Summit",
+              "year": 2026,
+              "url": "https://www.climateweeknyc.org/event-search/circular-supply-chain-summit"
+            },
+            {
+              "event": "Material Health Open Innovation Symposium V",
+              "year": 2024,
+              "url": "https://www.hpd-collaborative.org/monica-becker-on-cradle-to-cradles-latest-developments/"
+            }
+          ],
+          "notable_work": [
+            "Strategy and impact initiatives across sectors at the Cradle to Cradle Products Innovation Institute"
+          ],
+          "profile_url": "https://c2ccertified.org/the-institute/the-team/monica-becker",
+          "links": [
+            {
+              "label": "Institute team profile",
+              "url": "https://c2ccertified.org/the-institute/the-team/monica-becker",
+              "kind": "profile"
+            },
+            {
+              "label": "Circular Supply Chain Summit",
+              "url": "https://www.climateweeknyc.org/event-search/circular-supply-chain-summit",
+              "kind": "talk"
+            },
+            {
+              "label": "Material Health Open Innovation Symposium V",
+              "url": "https://www.hpd-collaborative.org/monica-becker-on-cradle-to-cradles-latest-developments/",
+              "kind": "talk"
+            }
+          ],
+          "photo_url": null,
+          "evidence_urls": [
+            "https://c2ccertified.org/the-institute/the-team/monica-becker",
+            "https://www.climateweeknyc.org/event-search/circular-supply-chain-summit",
+            "https://www.hpd-collaborative.org/monica-becker-on-cradle-to-cradles-latest-developments/"
+          ],
+          "fit_score": 5,
+          "fit_reason": "Current role and specific circular-supply-chain summit appearance match the panel; brings product design and certification expertise."
+        },
+        {
+          "name": "Deborah Dull",
+          "job_title": "Founder",
+          "organization": "Circular Supply Chain Network",
+          "level": "established",
+          "best_for": [
+            "panelist",
+            "keynote",
+            "workshop"
+          ],
+          "speaking_badge": "experienced",
+          "could_speak_on": "Practical levers for embedding circularity in supply-chain strategy and operations, including how organizations can scale circular models.",
+          "talk_ideas": [
+            "Four operational levers for circular supply chains",
+            "Moving from linear to circular sourcing and operations",
+            "Designing supply chains for material reuse and value retention"
+          ],
+          "topic_tags": [
+            "circular supply chains",
+            "supply-chain strategy",
+            "circular economy",
+            "operations"
+          ],
+          "bio": "Deborah Dull founded the Circular Supply Chain Network and is Managing Partner of Trillium Digital Services. Her work spans supply-chain roles and organizations including Microsoft, the Bill & Melinda Gates Foundation, and General Electric; she has written books on circular and sustainable supply chains.",
+          "credentials": [
+            "Founder, Circular Supply Chain Network",
+            "Managing Partner, Trillium Digital Services"
+          ],
+          "why_fit": "Directly aligned with circularity at scale and brings an operational supply-chain perspective, plus public speaking experience.",
+          "past_speaking": [
+            {
+              "event": "Circular Supply Chain Summit",
+              "year": 2026,
+              "url": "https://www.climateweeknyc.org/event-search/circular-supply-chain-summit"
+            }
+          ],
+          "notable_work": [
+            "Circular Supply Chain: 17 Common Questions",
+            "Circular Supply Chain Network"
+          ],
+          "profile_url": "https://www.deborahdull.com/",
+          "links": [
+            {
+              "label": "Deborah Dull personal profile",
+              "url": "https://www.deborahdull.com/",
+              "kind": "profile"
+            },
+            {
+              "label": "Supply Chain Now host profile",
+              "url": "https://supplychainnow.com/host/deborah-dull/",
+              "kind": "work"
+            },
+            {
+              "label": "Circular Supply Chain Summit",
+              "url": "https://www.climateweeknyc.org/event-search/circular-supply-chain-summit",
+              "kind": "talk"
+            }
+          ],
+          "photo_url": null,
+          "evidence_urls": [
+            "https://www.deborahdull.com/",
+            "https://www.climateweeknyc.org/event-search/circular-supply-chain-summit",
+            "https://supplychainnow.com/host/deborah-dull/"
+          ],
+          "fit_score": 5,
+          "fit_reason": "Her current work and expertise directly center on circular supply chains, with an evidenced summit appearance."
+        },
+        {
+          "name": "Tom Ryan",
+          "job_title": "President",
+          "organization": "Truterra",
+          "level": "established",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "experienced",
+          "could_speak_on": "Connecting farmers and downstream food companies through supply-chain value streams that support climate-smart agricultural practices.",
+          "talk_ideas": [
+            "Creating value streams for farmers through supply-chain partnerships",
+            "From offsets to insets in agricultural supply chains",
+            "Scaling climate-smart practices through food and CPG partnerships"
+          ],
+          "topic_tags": [
+            "regenerative agriculture",
+            "farmer partnerships",
+            "food supply chains",
+            "climate-smart agriculture"
+          ],
+          "bio": "Tom Ryan is President of Truterra, Land O’Lakes’ sustainability business. His work focuses on connecting farmers, agricultural retailers, and food and consumer packaged goods companies to create supply-chain value streams and encourage climate-smart practices.",
+          "credentials": [
+            "President, Truterra"
+          ],
+          "why_fit": "Brings an agribusiness implementation perspective linking farm adoption with downstream corporate sourcing demand.",
+          "past_speaking": [
+            {
+              "event": "The Modern Acre podcast: “From Offsets to Insets – Enabling a New Value Stream for Farmers”",
+              "year": null,
+              "url": "https://www.themodernacre.com/299-from-offsets-to-insets-enabling-a-new-value-stream-for-farmers-with-tom-ryan-president-of-tr/"
+            },
+            {
+              "event": "2022 ARA Conference & Expo",
+              "year": 2022,
+              "url": "https://ara.swoogo.com/conference22/speaker/509934/tom-ryan"
+            }
+          ],
+          "notable_work": [
+            "Truterra agricultural sustainability business"
+          ],
+          "profile_url": "https://www.sustainableagsummit.org/speakers",
+          "links": [
+            {
+              "label": "Truterra regenerative agriculture article",
+              "url": "https://www.truterraag.com/Articles/Scale-Regenerative-Agriculture-Truterra",
+              "kind": "work"
+            },
+            {
+              "label": "Sustainable Ag Summit speakers",
+              "url": "https://www.sustainableagsummit.org/speakers",
+              "kind": "talk"
+            },
+            {
+              "label": "Modern Acre podcast episode",
+              "url": "https://www.themodernacre.com/299-from-offsets-to-insets-enabling-a-new-value-stream-for-farmers-with-tom-ryan-president-of-tr/",
+              "kind": "talk"
+            }
+          ],
+          "photo_url": null,
+          "evidence_urls": [
+            "https://www.sustainableagsummit.org/speakers",
+            "https://www.truterraag.com/Articles/Scale-Regenerative-Agriculture-Truterra",
+            "https://www.themodernacre.com/299-from-offsets-to-insets-enabling-a-new-value-stream-for-farmers-with-tom-ryan-president-of-tr/"
+          ],
+          "fit_score": 4,
+          "fit_reason": "Strong practitioner fit at the farm-to-company interface, though his focus is regenerative agriculture more than circular materials."
+        }
+      ],
+      "dropped": [],
+      "candidates_found": 4,
+      "error": null,
+      "usage": {
+        "model_calls": 3,
+        "input_tokens": 53279,
+        "cached_input_tokens": 13734,
+        "output_tokens": 3453,
+        "reasoning_tokens": 332,
+        "web_searches": 13,
+        "page_reads": 0,
+        "cost_usd": null
+      },
+      "seconds": 37.8
+    },
+    {
+      "category": "policy",
+      "label": "Policy & Government",
+      "cards": [
+        {
+          "name": "Mallory Anderson",
+          "job_title": "Packaging EPR Coordinator",
+          "organization": "Minnesota Pollution Control Agency",
+          "level": "rising",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "experienced",
+          "could_speak_on": "How Minnesota’s packaging EPR law can shift producer responsibility, packaging design, and the systems needed for circular supply chains.",
+          "talk_ideas": [
+            "What producer-funded packaging EPR means for sourcing and packaging choices",
+            "Designing reuse, recycling, and composting systems at statewide scale",
+            "Building producer accountability into packaging supply chains"
+          ],
+          "topic_tags": [
+            "packaging EPR",
+            "producer responsibility",
+            "circular economy",
+            "state policy"
+          ],
+          "bio": "Mallory Anderson is the Packaging EPR Coordinator at the Minnesota Pollution Control Agency. She leads implementation of Minnesota’s Packaging Waste and Cost Reduction Act, which establishes a producer-funded statewide packaging program.",
+          "credentials": [],
+          "why_fit": "Offers a direct state implementation perspective on how regulation and producer funding can influence packaging systems and business supply chains.",
+          "past_speaking": [
+            {
+              "event": "Beyond the Basics: Advancing EPR in the Great Lakes Region webinar",
+              "year": null,
+              "url": "https://productstewardship.us/webinar/beyond-the-basics-great-lakes-region/"
+            },
+            {
+              "event": "Project Optimist presentation on Minnesota’s EPR law",
+              "year": 2025,
+              "url": "https://www.projectoptimist.us/experts-dive-into-minnesotas-extended-producer-responsibility-law/"
+            },
+            {
+              "event": "2025 EPR Think Tank",
+              "year": 2025,
+              "url": "https://www.americanconference.com/eprthinktank/2025-conference/"
+            }
+          ],
+          "notable_work": [],
+          "profile_url": "https://productstewardship.us/webinar/beyond-the-basics-great-lakes-region/",
+          "links": [
+            {
+              "label": "Product Stewardship Institute webinar speaker bio",
+              "url": "https://productstewardship.us/webinar/beyond-the-basics-great-lakes-region/",
+              "kind": "profile"
+            },
+            {
+              "label": "Project Optimist presentation coverage",
+              "url": "https://www.projectoptimist.us/experts-dive-into-minnesotas-extended-producer-responsibility-law/",
+              "kind": "work"
+            },
+            {
+              "label": "2025 EPR Think Tank past conference",
+              "url": "https://www.americanconference.com/eprthinktank/2025-conference/",
+              "kind": "talk"
+            }
+          ],
+          "photo_url": null,
+          "evidence_urls": [
+            "https://productstewardship.us/webinar/beyond-the-basics-great-lakes-region/",
+            "https://www.projectoptimist.us/experts-dive-into-minnesotas-extended-producer-responsibility-law/",
+            "https://www.americanconference.com/eprthinktank/2025-conference/"
+          ],
+          "fit_score": 5,
+          "fit_reason": "Strong match: her current state role centers on implementing packaging EPR, and multiple sources document public presentations on the topic."
+        },
+        {
+          "name": "Daniel Zlatnik",
+          "job_title": "Attorney",
+          "organization": "California Department of Resources Recycling and Recovery (CalRecycle)",
+          "level": "established",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "experienced",
+          "could_speak_on": "What packaging EPR and state plastics laws mean for producer obligations, business risk, and circular packaging systems.",
+          "talk_ideas": [
+            "How state packaging EPR laws affect producers and supply-chain decisions",
+            "Regulatory approaches to plastic packaging and circularity",
+            "Navigating compliance and policy variation across states"
+          ],
+          "topic_tags": [
+            "packaging EPR",
+            "environmental law",
+            "producer obligations",
+            "state policy"
+          ],
+          "bio": "Daniel Zlatnik is an attorney with CalRecycle, California’s Department of Resources Recycling and Recovery. He has participated in public discussions on extended producer responsibility and state plastics and packaging laws.",
+          "credentials": [],
+          "why_fit": "Provides a legal and regulatory perspective on how packaging EPR laws shape producer obligations and business decisions.",
+          "past_speaking": [
+            {
+              "event": "People, Places, Planet podcast: “Packaged with Care: Plastic Packaging, EPR, and the Circular Economy”",
+              "year": 2025,
+              "url": "https://www.eli.org/podcasts/packaged-care-plastic-packaging-epr-and-circular-economy"
+            },
+            {
+              "event": "Extended Producer Responsibility: Examining State Plastics and Packaging Laws",
+              "year": null,
+              "url": "https://www.eli.org/events/extended-producer-responsibility-examining-state-plastics-and-packaging-laws"
+            },
+            {
+              "event": "2025 EPR Think Tank",
+              "year": 2025,
+              "url": "https://www.americanconference.com/eprthinktank/2025-conference/"
+            }
+          ],
+          "notable_work": [],
+          "profile_url": "https://apps.calbar.ca.gov/attorney/Licensee/Detail/259690",
+          "links": [
+            {
+              "label": "California State Bar attorney profile",
+              "url": "https://apps.calbar.ca.gov/attorney/Licensee/Detail/259690",
+              "kind": "profile"
+            },
+            {
+              "label": "ELI People, Places, Planet podcast",
+              "url": "https://www.eli.org/podcasts/packaged-care-plastic-packaging-epr-and-circular-economy",
+              "kind": "talk"
+            },
+            {
+              "label": "ELI webinar on state plastics and packaging laws",
+              "url": "https://www.eli.org/events/extended-producer-responsibility-examining-state-plastics-and-packaging-laws",
+              "kind": "talk"
+            },
+            {
+              "label": "2025 EPR Think Tank past conference",
+              "url": "https://www.americanconference.com/eprthinktank/2025-conference/",
+              "kind": "talk"
+            }
+          ],
+          "photo_url": null,
+          "evidence_urls": [
+            "https://www.eli.org/podcasts/packaged-care-plastic-packaging-epr-and-circular-economy",
+            "https://apps.calbar.ca.gov/attorney/Licensee/Detail/259690",
+            "https://www.eli.org/events/extended-producer-responsibility-examining-state-plastics-and-packaging-laws",
+            "https://www.americanconference.com/eprthinktank/2025-conference/"
+          ],
+          "fit_score": 5,
+          "fit_reason": "A strong legal-policy fit with confirmed CalRecycle affiliation and multiple public appearances focused on packaging EPR."
+        },
+        {
+          "name": "Kara Steward",
+          "job_title": "Recycling Market Development Center Coordinator, Solid Waste Management Program",
+          "organization": "Washington State Department of Ecology",
+          "level": "established",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "some",
+          "could_speak_on": "How public policy and market development can connect recovered materials to business supply chains and expand circular materials markets.",
+          "talk_ideas": [
+            "Public-sector tools for growing markets for recycled materials",
+            "Connecting recycling infrastructure and recovered materials with manufacturers",
+            "How packaging policy implementation intersects with market development"
+          ],
+          "topic_tags": [
+            "recycling markets",
+            "materials policy",
+            "circular supply chains",
+            "state government"
+          ],
+          "bio": "Kara Steward works in the Solid Waste Management Program at the Washington State Department of Ecology and coordinates the state’s Recycling Market Development Center. Her work includes supporting implementation of Washington’s packaging extended producer responsibility program.",
+          "credentials": [],
+          "why_fit": "Brings a state-agency market-development perspective that complements packaging regulation with attention to demand, infrastructure, and material flows.",
+          "past_speaking": [
+            {
+              "event": "Clean Materials Policy in Washington webinar",
+              "year": 2025,
+              "url": "https://www.cleantechalliance.org/2025/05/23/clean-materials-policy-in-washington/"
+            },
+            {
+              "event": "2025 EPR Think Tank",
+              "year": 2025,
+              "url": "https://www.americanconference.com/eprthinktank/2025-conference/"
+            }
+          ],
+          "notable_work": [],
+          "profile_url": "https://www.nextcyclewashington.com/add-governance-members-here/fkegc8mcahjnjwx-rkfgc-jp5m8-39rbt-z8yp5",
+          "links": [
+            {
+              "label": "NextCycle Washington governance profile",
+              "url": "https://www.nextcyclewashington.com/add-governance-members-here/fkegc8mcahjnjwx-rkfgc-jp5m8-39rbt-z8yp5",
+              "kind": "profile"
+            },
+            {
+              "label": "Clean Materials Policy in Washington webinar",
+              "url": "https://www.cleantechalliance.org/2025/05/23/clean-materials-policy-in-washington/",
+              "kind": "talk"
+            },
+            {
+              "label": "2025 EPR Think Tank past conference",
+              "url": "https://www.americanconference.com/eprthinktank/2025-conference/",
+              "kind": "talk"
+            }
+          ],
+          "photo_url": null,
+          "evidence_urls": [
+            "https://www.nextcyclewashington.com/add-governance-members-here/fkegc8mcahjnjwx-rkfgc-jp5m8-39rbt-z8yp5",
+            "https://www.cleantechalliance.org/2025/05/23/clean-materials-policy-in-washington/",
+            "https://www.americanconference.com/eprthinktank/2025-conference/"
+          ],
+          "fit_score": 5,
+          "fit_reason": "Strong complementary state-policy angle, with a current role focused on recycling market development and documented 2025 presentations."
+        }
+      ],
+      "dropped": [],
+      "candidates_found": 3,
+      "error": null,
+      "usage": {
+        "model_calls": 6,
+        "input_tokens": 81787,
+        "cached_input_tokens": 56257,
+        "output_tokens": 3276,
+        "reasoning_tokens": 138,
+        "web_searches": 7,
+        "page_reads": 0,
+        "cost_usd": null
+      },
+      "seconds": 37.3
+    },
+    {
+      "category": "founder",
+      "label": "Founders & Industry",
+      "cards": [
+        {
+          "name": "Alysia Garmulewicz",
+          "job_title": "Co-CEO and Founder",
+          "organization": "Materiom",
+          "level": "established",
+          "best_for": [
+            "panelist",
+            "workshop"
+          ],
+          "speaking_badge": "experienced",
+          "could_speak_on": "How regenerative bio-based materials and open data can help shift sourcing and material innovation toward circular supply chains at scale.",
+          "talk_ideas": [
+            "Scaling regenerative biomaterials with open data and AI",
+            "Regional renewable feedstocks and circular materials R&D",
+            "From scientific knowledge to commercial bio-based products"
+          ],
+          "topic_tags": [
+            "regenerative materials",
+            "bio-based sourcing",
+            "circular economy",
+            "materials data"
+          ],
+          "bio": "Alysia Garmulewicz is Co-CEO and Founder of Materiom, a platform providing open data and AI to accelerate bio-based materials development. She is also an associate professor focused on the circular economy at Universidad de Santiago de Chile and an associate fellow at the University of Oxford’s CABDyN Complexity Centre.",
+          "credentials": [
+            "Doctorate from the Saïd Business School, University of Oxford",
+            "Rhodes Scholar"
+          ],
+          "why_fit": "Her work directly connects regenerative biomaterials and materials R&D with the challenge of bringing new sourcing approaches toward wider use; her prior speaking includes circular economy and green chemistry sessions.",
+          "past_speaking": [
+            {
+              "event": "Circularity 25: “Green Chemistry as a Driver of Innovation” and “AI 2.0: Practical Tools for Circular Economy Leaders”",
+              "year": 2025,
+              "url": "https://trellis.net/speaker/alysia-garmulewicz/"
+            },
+            {
+              "event": "Ellen MacArthur Foundation Circular Economy Show, Episode 85: “Circular economy innovation: Regenerative materials in action”",
+              "year": 2022,
+              "url": "https://www.ellenmacarthurfoundation.org/podcasts/circular-economy-innovation-regenerative-materials-in-action"
+            }
+          ],
+          "notable_work": [
+            "Materiom’s open data and AI platform for bio-based materials"
+          ],
+          "profile_url": "https://www.materiom.org/team/alysia-garmulewicz",
+          "links": [
+            {
+              "label": "Materiom team profile",
+              "url": "https://www.materiom.org/team/alysia-garmulewicz",
+              "kind": "profile"
+            },
+            {
+              "label": "Trellis speaker profile and sessions",
+              "url": "https://trellis.net/speaker/alysia-garmulewicz/",
+              "kind": "talk"
+            },
+            {
+              "label": "Ellen MacArthur Foundation podcast episode",
+              "url": "https://www.ellenmacarthurfoundation.org/podcasts/circular-economy-innovation-regenerative-materials-in-action",
+              "kind": "talk"
+            }
+          ],
+          "photo_url": "https://cdn.prod.website-files.com/675070b3c14640fcab98f3f4/6a732f65a2b65cf91a5f3e92_Alysia_New.jpeg",
+          "evidence_urls": [
+            "https://trellis.net/speaker/alysia-garmulewicz/",
+            "https://www.materiom.org/team/alysia-garmulewicz",
+            "https://www.ellenmacarthurfoundation.org/podcasts/circular-economy-innovation-regenerative-materials-in-action"
+          ],
+          "fit_score": 5,
+          "fit_reason": "Strongest direct match to regenerative sourcing and materials innovation, with confirmed current founder role and multiple speaking appearances."
+        },
+        {
+          "name": "Andy Ruben",
+          "job_title": "Founder and Executive Chairman",
+          "organization": "Trove",
+          "level": "established",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "experienced",
+          "could_speak_on": "How branded resale and reverse logistics can extend product life and reduce dependence on virgin materials across major retail supply chains.",
+          "talk_ideas": [
+            "Scaling branded resale and trade-in across retail",
+            "Reverse logistics as circular supply-chain infrastructure",
+            "Aligning brand growth with lower reliance on new manufacturing"
+          ],
+          "topic_tags": [
+            "branded resale",
+            "reverse logistics",
+            "retail",
+            "circular business"
+          ],
+          "bio": "Andy Ruben is Founder and Executive Chairman of Trove, which partners with brands and retailers on branded resale and trade-in. Previously, he led sustainability efforts at Walmart as its first Chief Sustainability Officer and held roles in corporate and e-commerce strategy.",
+          "credentials": [
+            "BS in Engineering and MBA, Washington University in St. Louis",
+            "Sam M. Walton Entrepreneur of the Year (2008)"
+          ],
+          "why_fit": "He brings an industry-scale retail and reverse-logistics perspective, with experience in branded resale systems and prior public appearances as a speaker and podcast guest.",
+          "past_speaking": [
+            {
+              "event": "Circularity 25 keynote and sessions",
+              "year": 2025,
+              "url": "https://trellis.net/speaker/andy-ruben/"
+            },
+            {
+              "event": "Lead the Change podcast, “Andy Ruben on Revolutionizing Retail: A Deep Dive into Circularity and Innovation with Trove”",
+              "year": null,
+              "url": "https://leadthechange.bard.edu/podcast/andy-ruben-revolutionizing-retail-"
+            }
+          ],
+          "notable_work": [
+            "Launched a branded resale platform for Patagonia in 2017"
+          ],
+          "profile_url": "https://trove.com/about-trove/andy-ruben/",
+          "links": [
+            {
+              "label": "Trove profile",
+              "url": "https://trove.com/about-trove/andy-ruben/",
+              "kind": "profile"
+            },
+            {
+              "label": "Trellis speaker profile and sessions",
+              "url": "https://trellis.net/speaker/andy-ruben/",
+              "kind": "talk"
+            },
+            {
+              "label": "Lead the Change podcast episode",
+              "url": "https://leadthechange.bard.edu/podcast/andy-ruben-revolutionizing-retail-",
+              "kind": "talk"
+            }
+          ],
+          "photo_url": "https://trove.com/wp-content/uploads/2022/06/2022_03_16_Trove_Andy_0914_885x669px.jpg",
+          "evidence_urls": [
+            "https://trellis.net/speaker/andy-ruben/",
+            "https://trove.com/about-trove/andy-ruben/",
+            "https://leadthechange.bard.edu/podcast/andy-ruben-revolutionizing-retail-"
+          ],
+          "fit_score": 5,
+          "fit_reason": "A strong fit for the retail and reverse-logistics side of circularity at scale, with a confirmed current role and multiple speaking appearances."
+        },
+        {
+          "name": "Tom Szaky",
+          "job_title": "Founder and CEO",
+          "organization": "TerraCycle",
+          "level": "headliner",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "some",
+          "could_speak_on": "How businesses can build collection, recycling, and reusable-packaging systems with brand and retail partners as part of circular supply chains.",
+          "talk_ideas": [
+            "Building reuse and collection systems with brand partners",
+            "The business models behind hard-to-recycle materials",
+            "When reuse can complement recycling in circular packaging"
+          ],
+          "topic_tags": [
+            "reusable packaging",
+            "recycling systems",
+            "circular supply chains",
+            "waste streams"
+          ],
+          "bio": "Tom Szaky is Founder and CEO of TerraCycle, a company focused on collecting and repurposing complex waste streams. TerraCycle’s Loop platform supports reusable packaging models, and Szaky is the author of several books on waste and packaging.",
+          "credentials": [
+            "Author of Revolution in a Bottle, Outsmart Waste, Make Garbage Great, and The Future of Packaging"
+          ],
+          "why_fit": "He can offer a founder’s view of creating collection and reusable-packaging systems with commercial partners. His confirmed current role and prior Aspen Ideas appearance establish relevant experience for a business-facing panel.",
+          "past_speaking": [
+            {
+              "event": "Aspen Ideas Festival 2022: “Ending the Plague of Plastic”",
+              "year": 2022,
+              "url": "https://www.aspenideas.org/speakers/tom-szaky"
+            },
+            {
+              "event": "Sustainability In Your Ear podcast: “Tom Szaky On Building A Service-Centered Circular Economy”",
+              "year": 2025,
+              "url": "https://earth911.com/podcast/sustainability-in-your-ear-terracycle-founder-tom-szaky-on-building-the-circular-economy/"
+            }
+          ],
+          "notable_work": [
+            "TerraCycle’s Loop reusable-packaging platform"
+          ],
+          "profile_url": "https://www.aspenideas.org/speakers/tom-szaky",
+          "links": [
+            {
+              "label": "Aspen Ideas profile and 2022 session",
+              "url": "https://www.aspenideas.org/speakers/tom-szaky",
+              "kind": "profile"
+            },
+            {
+              "label": "Earth911 podcast episode",
+              "url": "https://earth911.com/podcast/sustainability-in-your-ear-terracycle-founder-tom-szaky-on-building-the-circular-economy/",
+              "kind": "talk"
+            }
+          ],
+          "photo_url": "https://aspenideasfestival.imgix.net/3763087b-78df-46fb-b526-21a3abb067cc/AIF2022_Szaky_Tom.jpeg?auto=compress%2Cformat&fit=min&fm=jpg&h=290&q=80&rect=999%2C763%2C1707%2C1698&w=290",
+          "evidence_urls": [
+            "https://www.aspenideas.org/speakers/tom-szaky",
+            "https://earth911.com/podcast/sustainability-in-your-ear-terracycle-founder-tom-szaky-on-building-the-circular-economy/"
+          ],
+          "fit_score": 4,
+          "fit_reason": "Relevant experience scaling commercial recycling and reuse models, though his focus is packaging and waste systems rather than regenerative sourcing specifically."
+        }
+      ],
+      "dropped": [],
+      "candidates_found": 3,
+      "error": null,
+      "usage": {
+        "model_calls": 5,
+        "input_tokens": 80209,
+        "cached_input_tokens": 31767,
+        "output_tokens": 3393,
+        "reasoning_tokens": 211,
+        "web_searches": 9,
+        "page_reads": 0,
+        "cost_usd": null
+      },
+      "seconds": 51.6
+    },
+    {
+      "category": "advocate",
+      "label": "Advocates & Community",
+      "cards": [
+        {
+          "name": "Charles Kamenides",
+          "job_title": "Executive Director",
+          "organization": "National Recycling Coalition",
+          "level": "established",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "experienced",
+          "could_speak_on": "Community engagement and coalition-building to strengthen recycling systems and scale circular material flows.",
+          "talk_ideas": [
+            "Building community partnerships for effective recycling systems",
+            "How coalitions can connect local recycling work to circularity at scale",
+            "Removing practical barriers to community participation in recycling"
+          ],
+          "topic_tags": [
+            "recycling",
+            "community engagement",
+            "circular economy",
+            "coalitions"
+          ],
+          "bio": "Charles Kamenides became Executive Director of the National Recycling Coalition in 2025. He brings more than 20 years of professional solid-waste management experience, including work in recycling and organics operations, business management, and program and policy development.",
+          "credentials": [
+            "Over 20 years of professional solid-waste management experience"
+          ],
+          "why_fit": "He can bring a national coalition perspective on how local participation, partnerships, and recycling-system operations contribute to circular material flows.",
+          "past_speaking": [
+            {
+              "event": "Sustainable Solutions with Planet Aid podcast: The Role of Communities in Recycling Efforts",
+              "year": 2026,
+              "url": "https://www.planetaid.org/blog/podcast-recap-the-role-of-communities-in-recycling-efforts"
+            },
+            {
+              "event": "2026 National Recycling Congress member meeting: NRC 2.0",
+              "year": 2026,
+              "url": "https://www.nrcrecycles.org/nrc-virtual-congress-2026.html"
+            },
+            {
+              "event": "Circularity Forum 2026",
+              "year": 2026,
+              "url": "https://www.nrcrecycles.org/circularity-forum.html"
+            }
+          ],
+          "notable_work": [
+            "National Recycling Coalition leadership and community-focused recycling advocacy"
+          ],
+          "profile_url": "https://www.nrcrecycles.org/about/board-staff.html",
+          "links": [
+            {
+              "label": "NRC Board & Staff profile",
+              "url": "https://www.nrcrecycles.org/about/board-staff.html",
+              "kind": "profile"
+            },
+            {
+              "label": "Planet Aid podcast recap",
+              "url": "https://www.planetaid.org/blog/podcast-recap-the-role-of-communities-in-recycling-efforts",
+              "kind": "work"
+            },
+            {
+              "label": "2026 National Recycling Congress program",
+              "url": "https://www.nrcrecycles.org/nrc-virtual-congress-2026.html",
+              "kind": "talk"
+            },
+            {
+              "label": "Circularity Forum 2026 recap",
+              "url": "https://www.nrcrecycles.org/circularity-forum.html",
+              "kind": "talk"
+            }
+          ],
+          "photo_url": null,
+          "evidence_urls": [
+            "https://www.nrcrecycles.org/nrc-virtual-congress-2026.html",
+            "https://www.nrcrecycles.org/about/board-staff.html",
+            "https://www.nrcrecycles.org/circularity-forum.html",
+            "https://www.planetaid.org/blog/podcast-recap-the-role-of-communities-in-recycling-efforts"
+          ],
+          "fit_score": 4,
+          "fit_reason": "Strong topic alignment and confirmed current coalition leadership, with several public appearances; community systems experience is relevant to scaling circularity."
+        },
+        {
+          "name": "Robin Wiener",
+          "job_title": "President",
+          "organization": "Recycled Materials Association (ReMA)",
+          "level": "established",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "some",
+          "could_speak_on": "How recycled-materials industry advocacy and market infrastructure support dependable circular feedstocks for manufacturing supply chains.",
+          "talk_ideas": [
+            "Making recycled materials reliable inputs for manufacturing",
+            "Industry advocacy and the systems needed to scale recycling markets"
+          ],
+          "topic_tags": [
+            "recycled materials",
+            "supply chains",
+            "recycling markets",
+            "industry advocacy"
+          ],
+          "bio": "Robin Wiener is President of the Recycled Materials Association and serves as an advocate for the recycled-materials industry. ReMA represents companies that collect, process, broker, and consume recycled materials.",
+          "credentials": [],
+          "why_fit": "She offers a national trade-association perspective on the industry and advocacy conditions that can help recycled materials become viable supply-chain inputs.",
+          "past_speaking": [
+            {
+              "event": "REMADE 2025 Circular Economy Conference speakers",
+              "year": 2025,
+              "url": "https://remadeinstitute.org/2025-conference/2025-conference-speakers/"
+            }
+          ],
+          "notable_work": [
+            "Recycled Materials Association industry advocacy"
+          ],
+          "profile_url": "https://www.recycledmaterials.org/people/robin-wiener/",
+          "links": [
+            {
+              "label": "Robin Wiener profile, ReMA",
+              "url": "https://www.recycledmaterials.org/people/robin-wiener/",
+              "kind": "profile"
+            },
+            {
+              "label": "REMADE 2025 Conference speaker profile",
+              "url": "https://remadeinstitute.org/2025-conference/2025-conference-speakers/",
+              "kind": "talk"
+            }
+          ],
+          "photo_url": null,
+          "evidence_urls": [
+            "https://remadeinstitute.org/2025-conference/2025-conference-speakers/",
+            "https://www.recycledmaterials.org/people/robin-wiener/"
+          ],
+          "fit_score": 4,
+          "fit_reason": "Highly relevant to recycled feedstock and supply-chain circularity, with a confirmed current national industry role and one verified speaking appearance."
+        }
+      ],
+      "dropped": [],
+      "candidates_found": 2,
+      "error": null,
+      "usage": {
+        "model_calls": 3,
+        "input_tokens": 45542,
+        "cached_input_tokens": 18828,
+        "output_tokens": 1727,
+        "reasoning_tokens": 272,
+        "web_searches": 8,
+        "page_reads": 0,
+        "cost_usd": null
+      },
+      "seconds": 29.0
+    },
+    {
+      "category": "journalist",
+      "label": "Journalists & Communicators",
+      "cards": [
+        {
+          "name": "Catherine Weetman",
+          "job_title": "Circular economy author, speaker, advisor, and podcast host",
+          "organization": "Rethink Global",
+          "level": "established",
+          "best_for": [
+            "panelist",
+            "moderator",
+            "workshop"
+          ],
+          "speaking_badge": "experienced",
+          "could_speak_on": "How businesses can scale circular and regenerative sourcing and supply-chain approaches beyond incremental sustainability.",
+          "talk_ideas": [
+            "Where circular business strategy meets supply-chain implementation",
+            "Regenerative and fair approaches across food, fashion, and supply chains",
+            "Practical business opportunities in keeping resources in circulation"
+          ],
+          "topic_tags": [
+            "circular economy",
+            "regenerative business",
+            "supply chains",
+            "business communication"
+          ],
+          "bio": "Catherine Weetman works with entrepreneurs and business leaders on circular, regenerative, and fair business strategies. She hosts The Circular Economy Podcast and has delivered more than 50 talks for corporate, academic, institute, trade, and public-sector clients.",
+          "credentials": [
+            "Author of A Circular Economy Handbook"
+          ],
+          "why_fit": "Her circular-economy expertise, supply-chain experience, and substantial record of talks align directly with a business-facing panel on regenerative sourcing at scale.",
+          "past_speaking": [
+            {
+              "event": "Corporate, academic, institute, trade, and public-sector talks (50+; individual event names not specified)",
+              "year": null,
+              "url": "https://www.rethinkglobal.info/circular-economy-workshops-talks/"
+            },
+            {
+              "event": "The Circular Economy Podcast",
+              "year": null,
+              "url": "https://www.rethinkglobal.info/circular-economy-podcast/"
+            }
+          ],
+          "notable_work": [
+            "The Circular Economy Podcast",
+            "A Circular Economy Handbook"
+          ],
+          "profile_url": "https://www.rethinkglobal.info/circular-economy-workshops-talks/",
+          "links": [
+            {
+              "label": "Talks and workshops profile",
+              "url": "https://www.rethinkglobal.info/circular-economy-workshops-talks/",
+              "kind": "profile"
+            },
+            {
+              "label": "Circular Economy Podcast",
+              "url": "https://www.rethinkglobal.info/circular-economy-podcast/",
+              "kind": "work"
+            }
+          ],
+          "photo_url": "https://www.rethinkglobal.info/wp-content/uploads/2020/06/CW-Highres-oval.png",
+          "evidence_urls": [
+            "https://www.rethinkglobal.info/circular-economy-workshops-talks/",
+            "https://www.rethinkglobal.info/circular-economy-podcast/"
+          ],
+          "fit_score": 5,
+          "fit_reason": "Strong direct fit on circularity, regenerative business, supply chains, and experience speaking to business and other audiences."
+        },
+        {
+          "name": "Sheri R. Hinish",
+          "job_title": "Founder and CEO; sustainability executive and board advisor",
+          "organization": "Supply Chain Revolution Global",
+          "level": "established",
+          "best_for": [
+            "panelist",
+            "keynote",
+            "moderator",
+            "workshop"
+          ],
+          "speaking_badge": "experienced",
+          "could_speak_on": "How regenerative sourcing and circular-economy principles can reshape supply chains and business operating models.",
+          "talk_ideas": [
+            "Moving sourcing from reducing harm toward regenerative outcomes",
+            "Circularity, climate finance, and just transition in supply chains",
+            "How business leaders can embed regeneration in supply-chain strategy"
+          ],
+          "topic_tags": [
+            "regenerative supply chains",
+            "circular economy",
+            "sourcing",
+            "sustainability"
+          ],
+          "bio": "Sheri R. Hinish is the founder and CEO of Supply Chain Revolution Global and works on regenerative supply chains, circular economy, and sustainability strategy. Her speaking page describes keynotes, panel moderation, fireside chats, and masterclasses, and reports more than 450 speaking engagements.",
+          "credentials": [
+            "Master of Arts from Harvard",
+            "Master of Science from Rutgers"
+          ],
+          "why_fit": "Her work and stated speaking topics directly address regenerative supply chains and circular economy, making her a close match for a panel on regenerative sourcing and supply chains.",
+          "past_speaking": [
+            {
+              "event": "COP27, UNFCCC Panel on Sustainable Agriculture",
+              "year": null,
+              "url": "https://www.supplychainqueen.com/about/"
+            },
+            {
+              "event": "Supply Chain Revolution podcast episode on regenerative sourcing",
+              "year": 2025,
+              "url": "https://pod.co/supplychainrevolution/regenerative-sourcing-10-big-ideas-to-transform-supply-chains-for-a-regenerative-world"
+            }
+          ],
+          "notable_work": [
+            "Supply Chain Revolution podcast",
+            "Supply Chain Revolution Global"
+          ],
+          "profile_url": "https://www.supplychainqueen.com/about/",
+          "links": [
+            {
+              "label": "About Sheri Hinish",
+              "url": "https://www.supplychainqueen.com/about/",
+              "kind": "profile"
+            },
+            {
+              "label": "Regenerative sourcing podcast episode",
+              "url": "https://pod.co/supplychainrevolution/regenerative-sourcing-10-big-ideas-to-transform-supply-chains-for-a-regenerative-world",
+              "kind": "work"
+            },
+            {
+              "label": "Speaking and events",
+              "url": "https://www.supplychainqueen.com/speaking/",
+              "kind": "talk"
+            }
+          ],
+          "photo_url": "https://www.supplychainqueen.com/wp-content/uploads/2026/04/Sheri-Hinish-Founder-ALTA-14-scaled.jpg",
+          "evidence_urls": [
+            "https://www.supplychainqueen.com/about/",
+            "https://www.supplychainqueen.com/speaking/",
+            "https://pod.co/supplychainrevolution/regenerative-sourcing-10-big-ideas-to-transform-supply-chains-for-a-regenerative-world"
+          ],
+          "fit_score": 5,
+          "fit_reason": "Direct expertise in regenerative supply chains and circular economy, with a documented record of speaking and panel moderation."
+        }
+      ],
+      "dropped": [],
+      "candidates_found": 2,
+      "error": null,
+      "usage": {
+        "model_calls": 4,
+        "input_tokens": 56285,
+        "cached_input_tokens": 22289,
+        "output_tokens": 1970,
+        "reasoning_tokens": 172,
+        "web_searches": 8,
+        "page_reads": 0,
+        "cost_usd": null
+      },
+      "seconds": 34.1
+    }
+  ],
+  "removals": [],
+  "injection_flags": [],
+  "events": [
+    {
+      "ts": "2026-10-26T02:53:45+00:00",
+      "seconds": 0.0,
+      "agent": "Scout Lead",
+      "category": null,
+      "message": "Reading your brief and planning the search…"
+    },
+    {
+      "ts": "2026-10-26T02:53:46+00:00",
+      "seconds": 0.9,
+      "agent": "Scout Lead",
+      "category": null,
+      "message": "Plan ready: Build a three-person panel on circularity at scale, focusing on regenerative sourcing and supply chains in business. Favor rising or established, budget-conscious candidates with prior conference or presentation experience, and balance sectors, career stages, places, and organization types; national reach allows searches beyond New Haven."
+    },
+    {
+      "ts": "2026-10-26T02:53:46+00:00",
+      "seconds": 0.9,
+      "agent": "Academics & Researchers searcher",
+      "category": "academic",
+      "message": "Searching the web…"
+    },
+    {
+      "ts": "2026-10-26T02:53:46+00:00",
+      "seconds": 0.9,
+      "agent": "Practitioners searcher",
+      "category": "practitioner",
+      "message": "Searching the web…"
+    },
+    {
+      "ts": "2026-10-26T02:53:46+00:00",
+      "seconds": 0.9,
+      "agent": "Policy & Government searcher",
+      "category": "policy",
+      "message": "Searching the web…"
+    },
+    {
+      "ts": "2026-10-26T02:53:46+00:00",
+      "seconds": 0.9,
+      "agent": "Founders & Industry searcher",
+      "category": "founder",
+      "message": "Searching the web…"
+    },
+    {
+      "ts": "2026-10-26T02:53:46+00:00",
+      "seconds": 0.9,
+      "agent": "Advocates & Community searcher",
+      "category": "advocate",
+      "message": "Searching the web…"
+    },
+    {
+      "ts": "2026-10-26T02:53:46+00:00",
+      "seconds": 0.9,
+      "agent": "Journalists & Communicators searcher",
+      "category": "journalist",
+      "message": "Searching the web…"
+    },
+    {
+      "ts": "2026-10-26T02:53:58+00:00",
+      "seconds": 13.0,
+      "agent": "Journalists & Communicators searcher",
+      "category": "journalist",
+      "message": "Found 2 candidates (6 web searches): Catherine Weetman, Sheri Hinish"
+    },
+    {
+      "ts": "2026-10-26T02:53:58+00:00",
+      "seconds": 13.0,
+      "agent": "Journalists & Communicators verifier",
+      "category": "journalist",
+      "message": "Checking 2 people against their sources…"
+    },
+    {
+      "ts": "2026-10-26T02:53:59+00:00",
+      "seconds": 14.0,
+      "agent": "Policy & Government searcher",
+      "category": "policy",
+      "message": "Found 3 candidates (7 web searches): Mallory Anderson, Kara Steward, Daniel Zlatnik"
+    },
+    {
+      "ts": "2026-10-26T02:53:59+00:00",
+      "seconds": 14.0,
+      "agent": "Policy & Government verifier",
+      "category": "policy",
+      "message": "Checking 3 people against their sources…"
+    },
+    {
+      "ts": "2026-10-26T02:54:00+00:00",
+      "seconds": 14.4,
+      "agent": "Advocates & Community searcher",
+      "category": "advocate",
+      "message": "Found 2 candidates (6 web searches): Charles Kamenides, Robin Wiener"
+    },
+    {
+      "ts": "2026-10-26T02:54:00+00:00",
+      "seconds": 14.4,
+      "agent": "Advocates & Community verifier",
+      "category": "advocate",
+      "message": "Checking 2 people against their sources…"
+    },
+    {
+      "ts": "2026-10-26T02:54:00+00:00",
+      "seconds": 15.1,
+      "agent": "Practitioners searcher",
+      "category": "practitioner",
+      "message": "Found 4 candidates (9 web searches): Alain Nguyen, Tom Ryan, Monica Becker, Deborah Dull"
+    },
+    {
+      "ts": "2026-10-26T02:54:00+00:00",
+      "seconds": 15.1,
+      "agent": "Practitioners verifier",
+      "category": "practitioner",
+      "message": "Checking 4 people against their sources…"
+    },
+    {
+      "ts": "2026-10-26T02:54:02+00:00",
+      "seconds": 16.7,
+      "agent": "Academics & Researchers searcher",
+      "category": "academic",
+      "message": "Found 3 candidates (7 web searches): Kevin Lyons, Vishal Agrawal, Nicole DeHoratius"
+    },
+    {
+      "ts": "2026-10-26T02:54:02+00:00",
+      "seconds": 16.7,
+      "agent": "Academics & Researchers verifier",
+      "category": "academic",
+      "message": "Checking 3 people against their sources…"
+    },
+    {
+      "ts": "2026-10-26T02:54:10+00:00",
+      "seconds": 25.1,
+      "agent": "Founders & Industry searcher",
+      "category": "founder",
+      "message": "Found 3 candidates (9 web searches): Alysia Garmulewicz, Andy Ruben, Tom Szaky"
+    },
+    {
+      "ts": "2026-10-26T02:54:10+00:00",
+      "seconds": 25.1,
+      "agent": "Founders & Industry verifier",
+      "category": "founder",
+      "message": "Checking 3 people against their sources…"
+    },
+    {
+      "ts": "2026-10-26T02:54:15+00:00",
+      "seconds": 29.9,
+      "agent": "Advocates & Community verifier",
+      "category": "advocate",
+      "message": "2 confirmed, 0 dropped"
+    },
+    {
+      "ts": "2026-10-26T02:54:20+00:00",
+      "seconds": 35.1,
+      "agent": "Journalists & Communicators verifier",
+      "category": "journalist",
+      "message": "2 confirmed, 0 dropped"
+    },
+    {
+      "ts": "2026-10-26T02:54:24+00:00",
+      "seconds": 38.3,
+      "agent": "Policy & Government verifier",
+      "category": "policy",
+      "message": "3 confirmed, 0 dropped"
+    },
+    {
+      "ts": "2026-10-26T02:54:24+00:00",
+      "seconds": 38.8,
+      "agent": "Practitioners verifier",
+      "category": "practitioner",
+      "message": "4 confirmed, 0 dropped"
+    },
+    {
+      "ts": "2026-10-26T02:54:26+00:00",
+      "seconds": 40.9,
+      "agent": "Academics & Researchers verifier",
+      "category": "academic",
+      "message": "2 confirmed, 1 dropped"
+    },
+    {
+      "ts": "2026-10-26T02:54:38+00:00",
+      "seconds": 52.5,
+      "agent": "Founders & Industry verifier",
+      "category": "founder",
+      "message": "3 confirmed, 0 dropped"
+    },
+    {
+      "ts": "2026-10-26T02:54:38+00:00",
+      "seconds": 52.5,
+      "agent": "Scout",
+      "category": null,
+      "message": "Done: 16 verified speakers across 6 categories."
+    }
+  ],
+  "usage": {
+    "model_calls": 28,
+    "input_tokens": 405472,
+    "cached_input_tokens": 199999,
+    "output_tokens": 16642,
+    "reasoning_tokens": 1322,
+    "web_searches": 54,
+    "page_reads": 38,
+    "cost_usd": null
+  },
+  "seconds": 52.5,
+  "error": null,
+  "created_at": "2026-10-26T02:53:45+00:00",
+  "model": "gpt-6-luna"
+}

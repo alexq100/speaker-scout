@@ -1,0 +1,208 @@
+{
+  "prices_per_1M": {
+    "input": 0.1,
+    "cached_input": 0.01,
+    "cache_write": 0.125,
+    "output": 0.5
+  },
+  "web_search_fee_assumption_per_1k_calls": 10.0,
+  "runs": [
+    {
+      "example": "ybec",
+      "conference": "Yale Business & the Environment Conference",
+      "search_id": "fa7a94541e",
+      "seconds": 146.9,
+      "speakers_total": 19,
+      "dropped": 3,
+      "model_calls": 28,
+      "input_tokens": 398697,
+      "cached_input_tokens": 203368,
+      "output_tokens": 20421,
+      "web_searches": 58,
+      "page_reads": 41,
+      "cached_share": 0.51,
+      "token_cost_usd": 0.0318,
+      "web_search_fee_usd_if_billed": 0.58,
+      "cost_per_verified_speaker_usd": 0.00167,
+      "by_agent": {
+        "scout_lead": {
+          "calls": 1,
+          "input": 1415,
+          "cached": 0,
+          "output": 527,
+          "web_searches": 0,
+          "cost_usd": 0.0004
+        },
+        "searcher": {
+          "calls": 6,
+          "input": 171566,
+          "cached": 28275,
+          "output": 5738,
+          "web_searches": 52,
+          "cost_usd": 0.01748
+        },
+        "verifier": {
+          "calls": 20,
+          "input": 220219,
+          "cached": 175093,
+          "output": 13258,
+          "web_searches": 6,
+          "cost_usd": 0.01289
+        },
+        "panel_architect": {
+          "calls": 1,
+          "input": 5497,
+          "cached": 0,
+          "output": 898,
+          "web_searches": 0,
+          "cost_usd": 0.001
+        }
+      }
+    },
+    {
+      "example": "philanthropy",
+      "conference": "Yale Philanthropy Conference",
+      "search_id": "e2b6c3e7a5",
+      "seconds": 62.2,
+      "speakers_total": 16,
+      "dropped": 1,
+      "model_calls": 28,
+      "input_tokens": 401571,
+      "cached_input_tokens": 219617,
+      "output_tokens": 18517,
+      "web_searches": 54,
+      "page_reads": 39,
+      "cached_share": 0.547,
+      "token_cost_usd": 0.0297,
+      "web_search_fee_usd_if_billed": 0.54,
+      "cost_per_verified_speaker_usd": 0.00185,
+      "by_agent": {
+        "scout_lead": {
+          "calls": 1,
+          "input": 1387,
+          "cached": 1170,
+          "output": 412,
+          "web_searches": 0,
+          "cost_usd": 0.00024
+        },
+        "searcher": {
+          "calls": 6,
+          "input": 157365,
+          "cached": 33930,
+          "output": 5200,
+          "web_searches": 47,
+          "cost_usd": 0.01528
+        },
+        "verifier": {
+          "calls": 20,
+          "input": 237776,
+          "cached": 183128,
+          "output": 11950,
+          "web_searches": 7,
+          "cost_usd": 0.01327
+        },
+        "panel_architect": {
+          "calls": 1,
+          "input": 5043,
+          "cached": 1389,
+          "output": 955,
+          "web_searches": 0,
+          "cost_usd": 0.00086
+        }
+      }
+    },
+    {
+      "example": "trees",
+      "conference": "Urban Tree Summit",
+      "search_id": "35e14ff0f8",
+      "seconds": 64.7,
+      "speakers_total": 10,
+      "dropped": 2,
+      "model_calls": 25,
+      "input_tokens": 362794,
+      "cached_input_tokens": 188639,
+      "output_tokens": 14274,
+      "web_searches": 55,
+      "page_reads": 44,
+      "cached_share": 0.52,
+      "token_cost_usd": 0.0264,
+      "web_search_fee_usd_if_billed": 0.55,
+      "cost_per_verified_speaker_usd": 0.00264,
+      "by_agent": {
+        "scout_lead": {
+          "calls": 1,
+          "input": 1404,
+          "cached": 1170,
+          "output": 469,
+          "web_searches": 0,
+          "cost_usd": 0.00027
+        },
+        "searcher": {
+          "calls": 6,
+          "input": 158047,
+          "cached": 33930,
+          "output": 4557,
+          "web_searches": 50,
+          "cost_usd": 0.01503
+        },
+        "verifier": {
+          "calls": 17,
+          "input": 199680,
+          "cached": 152150,
+          "output": 8570,
+          "web_searches": 5,
+          "cost_usd": 0.01056
+        },
+        "panel_architect": {
+          "calls": 1,
+          "input": 3663,
+          "cached": 1389,
+          "output": 678,
+          "web_searches": 0,
+          "cost_usd": 0.00058
+        }
+      }
+    }
+  ],
+  "average_per_search": {
+    "seconds": 91.2667,
+    "speakers_total": 15.0,
+    "input_tokens": 387687.3333,
+    "cached_input_tokens": 203874.6667,
+    "output_tokens": 17737.3333,
+    "web_searches": 55.6667,
+    "token_cost_usd": 0.0293,
+    "web_search_fee_usd_if_billed": 0.5567
+  },
+  "average_cached_share": 0.526,
+  "extras_cost_usd": {
+    "chat_question": 0.00168,
+    "email_draft": 0.00034,
+    "panel_review": 0.00129
+  },
+  "assumed_monthly_use_per_planner": {
+    "searches": 12,
+    "chat_questions": 40,
+    "email_drafts": 20,
+    "panel_reviews": 8
+  },
+  "per_planner_per_month_usd": {
+    "tokens_only": 0.436,
+    "with_web_search_fees": 7.516
+  },
+  "scale": {
+    "1": {
+      "tokens_only_usd_per_month": 0.44,
+      "with_web_search_fees_usd_per_month": 7.52
+    },
+    "100": {
+      "tokens_only_usd_per_month": 43.6,
+      "with_web_search_fees_usd_per_month": 751.6
+    },
+    "10000": {
+      "tokens_only_usd_per_month": 4360.2,
+      "with_web_search_fees_usd_per_month": 75160.2
+    }
+  },
+  "caching_savings_per_search_usd": 0.0183
+}

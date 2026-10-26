@@ -1,0 +1,29 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.14.7, pytest-9.1.1, pluggy-1.7.0 -- /Users/alexkew/Documents/AI Class Folder/final_project/.venv/bin/python
+cachedir: .pytest_cache
+rootdir: /Users/alexkew/Documents/AI Class Folder/final_project
+plugins: anyio-4.15.1, platformdirs-4.13.5
+collecting ... collected 20 items
+
+tests/test_safety.py::test_private_and_unsafe_urls_are_blocked[file:///etc/passwd] PASSED [  5%]
+tests/test_safety.py::test_private_and_unsafe_urls_are_blocked[ftp://example.com/x] PASSED [ 10%]
+tests/test_safety.py::test_private_and_unsafe_urls_are_blocked[http://127.0.0.1/] PASSED [ 15%]
+tests/test_safety.py::test_private_and_unsafe_urls_are_blocked[http://localhost/] PASSED [ 20%]
+tests/test_safety.py::test_private_and_unsafe_urls_are_blocked[http://10.0.0.5/admin] PASSED [ 25%]
+tests/test_safety.py::test_private_and_unsafe_urls_are_blocked[http://192.168.1.1/] PASSED [ 30%]
+tests/test_safety.py::test_private_and_unsafe_urls_are_blocked[http://169.254.169.254/latest/meta-data] PASSED [ 35%]
+tests/test_safety.py::test_private_and_unsafe_urls_are_blocked[http://example.com:8080/] PASSED [ 40%]
+tests/test_safety.py::test_private_and_unsafe_urls_are_blocked[http://user:pass@example.com/] PASSED [ 45%]
+tests/test_safety.py::test_injection_page_is_flagged PASSED              [ 50%]
+tests/test_safety.py::test_person_backed_by_injection_page_is_dropped PASSED [ 55%]
+tests/test_safety.py::test_invented_links_are_removed_and_unbacked_person_dropped PASSED [ 60%]
+tests/test_safety.py::test_event_listing_only_and_weak_title_are_dropped PASSED [ 65%]
+tests/test_safety.py::test_linkedin_alone_is_not_enough PASSED           [ 70%]
+tests/test_safety.py::test_photo_must_come_from_their_own_profile PASSED [ 75%]
+tests/test_safety.py::test_contact_details_are_scrubbed PASSED           [ 80%]
+tests/test_safety.py::test_skip_list_and_duplicates PASSED               [ 85%]
+tests/test_safety.py::test_panel_architect_cannot_invent_panelists PASSED [ 90%]
+tests/test_safety.py::test_only_gpt6_luna_is_allowed PASSED              [ 95%]
+tests/test_safety.py::test_api_guards PASSED                             [100%]
+
+============================== 20 passed in 1.89s ==============================

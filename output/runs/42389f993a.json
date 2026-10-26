@@ -1,0 +1,1104 @@
+{
+  "id": "42389f993a",
+  "status": "done",
+  "brief": {
+    "conference_theme": "Environmental and social regeneration: beyond sustainability",
+    "looking_for": "panel",
+    "panel_theme": "Circularity at scale: regenerative sourcing and supply chains",
+    "panel_size": 3,
+    "conference_name": "Yale Business & the Environment Conference",
+    "conference_type": "business",
+    "location": "New Haven, CT",
+    "reach": "national",
+    "budget": "small",
+    "level": "auto",
+    "categories": [
+      "academic",
+      "practitioner",
+      "policy",
+      "founder",
+      "advocate",
+      "journalist"
+    ],
+    "prioritize": [
+      "has_spoken",
+      "range_of_perspectives"
+    ],
+    "skip_names": [],
+    "notes": null,
+    "per_category": 5
+  },
+  "plan": {
+    "summary": "Build a three-person panel on circularity at scale, focusing on regenerative sourcing and supply chains in business. Favor rising or established, budget-conscious candidates with prior conference or presentation experience, and balance sectors, career stages, places, and organization types; national reach allows searches beyond New Haven.",
+    "target_level": "rising",
+    "target_roles": [
+      "panelist"
+    ],
+    "location_focus": "National; include New Haven and the Northeast where useful",
+    "angles": [
+      {
+        "category": "academic",
+        "angles": [
+          "Business-school and supply-chain researchers studying circular procurement, regenerative agriculture, and scaling reuse",
+          "Researchers presenting at circular economy and sustainable business conferences"
+        ]
+      },
+      {
+        "category": "practitioner",
+        "angles": [
+          "Corporate sourcing, procurement, and supply-chain leaders implementing circular or regenerative practices",
+          "Circular-economy consultants and nonprofit program leaders with practical case studies and conference presentations"
+        ]
+      },
+      {
+        "category": "policy",
+        "angles": [
+          "State or federal circular-economy, sustainable materials, and responsible-sourcing policy specialists",
+          "Think-tank policy experts on producer responsibility and circular supply chains who present to business audiences"
+        ]
+      },
+      {
+        "category": "founder",
+        "angles": [
+          "Founders of early-stage circular materials, reuse, and regenerative sourcing businesses with demonstrated scale-up work",
+          "Small and mid-sized company leaders presenting supply-chain circularity case studies at industry events"
+        ]
+      },
+      {
+        "category": "advocate",
+        "angles": [
+          "Nonprofit and coalition leaders advancing just, regenerative supply chains and circular sourcing",
+          "Community or worker-centered advocates connecting materials circularity with equitable sourcing, with public speaking experience"
+        ]
+      },
+      {
+        "category": "journalist",
+        "angles": [
+          "Business or sustainability reporters covering circular supply chains, regenerative sourcing, and materials innovation",
+          "Trade-publication editors or podcast hosts who moderate circular economy and sustainable business discussions"
+        ]
+      }
+    ]
+  },
+  "categories": [
+    {
+      "category": "academic",
+      "label": "Academics & Researchers",
+      "cards": [
+        {
+          "name": "Aditya Vedantam",
+          "job_title": "Associate Professor, Operations Management and Strategy; Affiliated Faculty, Center for Supply Chain Analytics",
+          "organization": "University at Buffalo School of Management",
+          "level": "established",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "experienced",
+          "could_speak_on": "How business models and operational decisions can move circular supply chains from pilot projects to scale.",
+          "talk_ideas": [
+            "Designing supply-chain contracts for remanufacturing",
+            "Circular business models and their environmental trade-offs",
+            "Sustainable operations: aligning profitability with environmental performance"
+          ],
+          "topic_tags": [
+            "sustainable operations",
+            "circular economy",
+            "supply chains",
+            "remanufacturing"
+          ],
+          "bio": "Aditya Vedantam is an associate professor in operations management and strategy at the University at Buffalo School of Management, where he is affiliated with the Center for Supply Chain Analytics. His research interests include sustainable operations management, supply-chain management, and new business models for a circular economy.",
+          "credentials": [
+            "PhD, Krannert School of Management, Purdue University"
+          ],
+          "why_fit": "Offers a business-school research perspective directly relevant to circular business models, supply-chain design, and scaling more sustainable operations.",
+          "past_speaking": [
+            {
+              "event": "Talks based on his research to the Institute of Supply Management, Western New York Sustainable Business Roundtable, UB Alumni Association, and Association of Plastic Recyclers",
+              "year": null,
+              "url": "https://management.buffalo.edu/faculty/academic-departments/operations-management-strategy/faculty/aditya-vedantam.html"
+            }
+          ],
+          "notable_work": [
+            "Research on revenue-sharing contracts under quality uncertainty in remanufacturing"
+          ],
+          "profile_url": "https://management.buffalo.edu/faculty/academic-departments/operations-management-strategy/faculty/aditya-vedantam.html",
+          "links": [
+            {
+              "label": "University at Buffalo faculty profile",
+              "url": "https://management.buffalo.edu/faculty/academic-departments/operations-management-strategy/faculty/aditya-vedantam.html",
+              "kind": "profile"
+            }
+          ],
+          "photo_url": "https://management.buffalo.edu/content/mgt/faculty/academic-departments/operations-management-strategy/faculty/aditya-vedantam/_jcr_content/root/maincontent/par/colctrl/col_break17800820483360/image_copy_copy.img.140.180.jpg/1565375799540.jpg",
+          "evidence_urls": [
+            "https://management.buffalo.edu/faculty/academic-departments/operations-management-strategy/faculty/aditya-vedantam.html"
+          ],
+          "fit_score": 5,
+          "fit_reason": "His current faculty profile confirms direct research fit and multiple prior research talks, including to supply-chain and recycling audiences."
+        },
+        {
+          "name": "Joseph Sarkis",
+          "job_title": "Professor of Management",
+          "organization": "Worcester Polytechnic Institute Business School",
+          "level": "headliner",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "some",
+          "could_speak_on": "How circular-economy principles and sustainable supply-chain practices can be embedded across organizations and industries.",
+          "talk_ideas": [
+            "Circular economy strategies for supply-chain management",
+            "Environmental sustainability and supply-chain transformation",
+            "Using management engineering to connect sustainability goals with operational decisions"
+          ],
+          "topic_tags": [
+            "circular economy",
+            "sustainable supply chains",
+            "environmental sustainability",
+            "management"
+          ],
+          "bio": "Joseph Sarkis is a professor of management in Worcester Polytechnic Institute’s Business School, with an affiliated appointment in Management Engineering. His work includes sustainable supply chains and the circular economy, and he has held a leadership role in a research center focused on transport, technology, circular economy, and sustainable supply chains.",
+          "credentials": [
+            "PhD, Management Sciences, SUNY at Buffalo"
+          ],
+          "why_fit": "A senior academic with explicit expertise in circular economy and sustainable supply chains, closely aligned with the panel’s systems-level business focus.",
+          "past_speaking": [
+            {
+              "event": "Sustainability Leaders Podcast appearance",
+              "year": 2024,
+              "url": "https://www.wpi.edu/people/faculty/jsarkis"
+            }
+          ],
+          "notable_work": [],
+          "profile_url": "https://www.wpi.edu/people/faculty/jsarkis",
+          "links": [
+            {
+              "label": "WPI faculty profile",
+              "url": "https://www.wpi.edu/people/faculty/jsarkis",
+              "kind": "profile"
+            }
+          ],
+          "photo_url": "https://www.wpi.edu/sites/default/files/styles/1x_383x383/public/2025-03/Joe2025.jpg?itok=YPsQUmwK",
+          "evidence_urls": [
+            "https://www.wpi.edu/people/faculty/jsarkis"
+          ],
+          "fit_score": 5,
+          "fit_reason": "His current WPI profile confirms a strong match on circular economy and sustainable supply chains, along with a documented public podcast appearance."
+        },
+        {
+          "name": "Christopher Marquis",
+          "job_title": "Sinyi Professor of Chinese Management",
+          "organization": "Cambridge Judge Business School, University of Cambridge",
+          "level": "established",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "some",
+          "could_speak_on": "How business accountability and regenerative agriculture connect environmental and social outcomes across value chains.",
+          "talk_ideas": [
+            "Regenerative agriculture and the business value chain",
+            "Corporate accountability for social and environmental supply-chain impacts",
+            "How business, government, and civil society can support regenerative outcomes"
+          ],
+          "topic_tags": [
+            "regenerative agriculture",
+            "business sustainability",
+            "social entrepreneurship",
+            "supply chains"
+          ],
+          "bio": "Christopher Marquis is Sinyi Professor of Chinese Management at Cambridge Judge Business School and a Fellow and Director of Studies at Jesus College. His research examines business sustainability, social entrepreneurship, and historical processes; he is the author of *The Profiteers: How Business Privatizes Profits and Socializes Costs*.",
+          "credentials": [
+            "PhD, University of Michigan",
+            "Author of *The Profiteers: How Business Privatizes Profits and Socializes Costs*"
+          ],
+          "why_fit": "Brings a business-sustainability research lens to regenerative agriculture and supply-chain accountability, with a directly relevant public discussion of regenerative sourcing.",
+          "past_speaking": [
+            {
+              "event": "Climate Rising podcast: “Regenerative Agriculture and ‘The Profiteers’”",
+              "year": 2024,
+              "url": "https://www.hbs.edu/environment/podcast/regenerative-agriculture-and-the-profiteers-with-cambridge-professor-chris-marquis"
+            }
+          ],
+          "notable_work": [
+            "The Profiteers: How Business Privatizes Profits and Socializes Costs",
+            "Better Business: How the B Corp Movement is Remaking Capitalism"
+          ],
+          "profile_url": "https://www.jbs.cam.ac.uk/people/christopher-marquis/",
+          "links": [
+            {
+              "label": "Cambridge Judge faculty profile",
+              "url": "https://www.jbs.cam.ac.uk/people/christopher-marquis/",
+              "kind": "profile"
+            },
+            {
+              "label": "Climate Rising podcast on regenerative agriculture",
+              "url": "https://www.hbs.edu/environment/podcast/regenerative-agriculture-and-the-profiteers-with-cambridge-professor-chris-marquis",
+              "kind": "talk"
+            }
+          ],
+          "photo_url": "https://www.jbs.cam.ac.uk/wp-content/uploads/2023/05/christopher-marquis-703x396-1.jpg",
+          "evidence_urls": [
+            "https://www.jbs.cam.ac.uk/people/christopher-marquis/",
+            "https://www.hbs.edu/environment/podcast/regenerative-agriculture-and-the-profiteers-with-cambridge-professor-chris-marquis"
+          ],
+          "fit_score": 4,
+          "fit_reason": "Strong connection to regenerative agriculture, business sustainability, and accountability across supply chains, supported by a relevant public podcast appearance."
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Nazli Turken",
+          "reason": "The supplied Johns Hopkins faculty profile blocked access, and no alternate page was available in this verification pass to confirm her current academic title and role."
+        }
+      ],
+      "candidates_found": 4,
+      "error": null,
+      "usage": {
+        "model_calls": 4,
+        "input_tokens": 55068,
+        "cached_input_tokens": 25207,
+        "output_tokens": 2727,
+        "reasoning_tokens": 312,
+        "web_searches": 6,
+        "page_reads": 0,
+        "cost_usd": null
+      },
+      "seconds": 32.5
+    },
+    {
+      "category": "practitioner",
+      "label": "Practitioners",
+      "cards": [
+        {
+          "name": "Deborah Dull",
+          "job_title": "Founder, Circular Supply Chain Network; Founder, Trillium Digital Services",
+          "organization": "Circular Supply Chain Network; Trillium Digital Services",
+          "level": "established",
+          "best_for": [
+            "panelist",
+            "keynote"
+          ],
+          "speaking_badge": "experienced",
+          "could_speak_on": "How organizations can operationalize circularity through supply-chain design, inventory practices, and material flows.",
+          "talk_ideas": [
+            "Practical levers for building circular supply chains",
+            "Using supply-chain operations to scale circular sourcing and recovery",
+            "What organizations can learn from applying circularity across different industries"
+          ],
+          "topic_tags": [
+            "circular supply chains",
+            "sourcing",
+            "operations",
+            "material flows"
+          ],
+          "bio": "Deborah Dull is the founder of the Circular Supply Chain Network and Trillium Digital Services. Her supply-chain experience includes work at Microsoft, the Bill & Melinda Gates Foundation, and General Electric, and she has authored books on circular supply chains.",
+          "credentials": [
+            "Author of books on circular supply chains"
+          ],
+          "why_fit": "Her operational supply-chain focus directly addresses the panel’s question of how circularity can move from ambition to implementation at scale.",
+          "past_speaking": [
+            {
+              "event": "GreenBiz Circularity20 session",
+              "year": 2020,
+              "url": "https://www.deborahdull.com/supplychain"
+            },
+            {
+              "event": "Vizibl Collaborate keynote",
+              "year": 2021,
+              "url": "https://www.deborahdull.com/supplychain"
+            }
+          ],
+          "notable_work": [
+            "Circular Supply Chain: 17 Common Questions",
+            "Supply Chain Orchestration",
+            "Full Circle: Supply Chains Reimagined"
+          ],
+          "profile_url": "https://www.deborahdull.com/",
+          "links": [
+            {
+              "label": "Professional profile",
+              "url": "https://www.deborahdull.com/",
+              "kind": "profile"
+            },
+            {
+              "label": "Supply-chain work and speaking examples",
+              "url": "https://www.deborahdull.com/supplychain",
+              "kind": "work"
+            },
+            {
+              "label": "Circular Supply Chain Summit listing",
+              "url": "https://www.climateweeknyc.org/event-search/circular-supply-chain-summit",
+              "kind": "talk"
+            }
+          ],
+          "photo_url": "https://cloud-1de12d.becdn.net/media/original/2ba088cbf6c3b87bfef4d56b19f9c3b1/DDULL.png",
+          "evidence_urls": [
+            "https://www.deborahdull.com/",
+            "https://www.deborahdull.com/supplychain",
+            "https://www.climateweeknyc.org/event-search/circular-supply-chain-summit"
+          ],
+          "fit_score": 5,
+          "fit_reason": "Strong direct fit on circular-supply-chain practice, with several public speaking examples and experience across major organizations."
+        },
+        {
+          "name": "Monica Becker",
+          "job_title": "Senior Director, Strategy & Development",
+          "organization": "Cradle to Cradle Products Innovation Institute",
+          "level": "established",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "some",
+          "could_speak_on": "How collaborative product and material initiatives can help businesses embed circularity and safer chemistry across value chains.",
+          "talk_ideas": [
+            "Building cross-sector collaborations to advance circular products",
+            "Circularity as a product-design and business strategy challenge",
+            "Scaling safer chemistry and materials initiatives across value chains"
+          ],
+          "topic_tags": [
+            "circular economy",
+            "product design",
+            "safer materials",
+            "industry collaboration"
+          ],
+          "bio": "Monica Becker is Senior Director of Strategy & Development at the Cradle to Cradle Products Innovation Institute, where she leads growth, innovation, and impact initiatives across sectors. Her previous roles include work with the Green Chemistry & Commerce Council and sustainability organizations in academia, government, and consulting.",
+          "credentials": [
+            "Master’s degrees in Civil & Environmental Engineering and Technology & Policy from MIT",
+            "B.S. in Engineering from the College of Environmental Science and Forestry"
+          ],
+          "why_fit": "She brings practical experience developing industry collaborations across product sectors and value chains, complementing supply-chain operators with a product and materials perspective.",
+          "past_speaking": [
+            {
+              "event": "Circular Supply Chain Summit",
+              "year": 2026,
+              "url": "https://www.climateweeknyc.org/event-search/circular-supply-chain-summit"
+            }
+          ],
+          "notable_work": [
+            "Designed and led cross-industry initiatives through the Green Chemistry & Commerce Council, including programs in beauty, personal care, and household products."
+          ],
+          "profile_url": "https://c2ccertified.org/the-institute/the-team/monica-becker",
+          "links": [
+            {
+              "label": "Institute team profile",
+              "url": "https://c2ccertified.org/the-institute/the-team/monica-becker",
+              "kind": "profile"
+            },
+            {
+              "label": "Circular Supply Chain Summit listing",
+              "url": "https://www.climateweeknyc.org/event-search/circular-supply-chain-summit",
+              "kind": "talk"
+            }
+          ],
+          "photo_url": "https://cms.dataverse.c2ccertified.org/img/containers/media_library/untitled-design-%2852%29.png/c4b0c49a5b988457139dff286b8e610a/untitled-design-%2852%29.png",
+          "evidence_urls": [
+            "https://c2ccertified.org/the-institute/the-team/monica-becker",
+            "https://www.climateweeknyc.org/event-search/circular-supply-chain-summit"
+          ],
+          "fit_score": 4,
+          "fit_reason": "Strong cross-sector circularity and product-materials expertise, with a confirmed summit appearance; less specifically focused on supply-chain operations than the top-ranked candidate."
+        },
+        {
+          "name": "Vivian Tai",
+          "job_title": "Director of Customer Success",
+          "organization": "GS1 US",
+          "level": "rising",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "some",
+          "could_speak_on": "How standards-based traceability and better resource visibility can enable circular sourcing and material recovery across supply networks.",
+          "talk_ideas": [
+            "Traceability standards as infrastructure for circular supply chains",
+            "Improving material and resource visibility across fragmented value chains",
+            "Using cross-industry collaboration to support material recovery"
+          ],
+          "topic_tags": [
+            "traceability",
+            "supply-chain standards",
+            "resource visibility",
+            "material recovery"
+          ],
+          "bio": "Vivian Tai is identified as Director of Customer Success at GS1 US and works with industries on standards-driven traceability. Her speaker profile describes collaboration with stakeholders to pilot models for resource transparency and material recovery.",
+          "credentials": [],
+          "why_fit": "She can contribute a practical data and standards perspective on the visibility needed to scale circular sourcing and recovery.",
+          "past_speaking": [
+            {
+              "event": "Circular Supply Chain Summit",
+              "year": 2026,
+              "url": "https://www.climateweeknyc.org/event-search/circular-supply-chain-summit"
+            }
+          ],
+          "notable_work": [],
+          "profile_url": "https://members.circularsupplychain.network/speakers",
+          "links": [
+            {
+              "label": "Speaker profile",
+              "url": "https://members.circularsupplychain.network/speakers",
+              "kind": "profile"
+            },
+            {
+              "label": "Circular Supply Chain Summit listing",
+              "url": "https://www.climateweeknyc.org/event-search/circular-supply-chain-summit",
+              "kind": "talk"
+            }
+          ],
+          "photo_url": null,
+          "evidence_urls": [
+            "https://members.circularsupplychain.network/speakers",
+            "https://www.climateweeknyc.org/event-search/circular-supply-chain-summit"
+          ],
+          "fit_score": 4,
+          "fit_reason": "Offers a distinct implementation angle—standards and traceability—that connects directly to the information needs of circular supply networks."
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Sushma Kittali-Weidner",
+          "reason": "The pages reviewed describe her as a circularity advisor and identify past product leadership, but did not establish a current job title and organization as required for confirmation."
+        }
+      ],
+      "candidates_found": 4,
+      "error": null,
+      "usage": {
+        "model_calls": 3,
+        "input_tokens": 45910,
+        "cached_input_tokens": 19141,
+        "output_tokens": 3254,
+        "reasoning_tokens": 599,
+        "web_searches": 6,
+        "page_reads": 0,
+        "cost_usd": null
+      },
+      "seconds": 42.1
+    },
+    {
+      "category": "policy",
+      "label": "Policy & Government",
+      "cards": [],
+      "dropped": [
+        {
+          "name": "Ashima Sukhdev",
+          "reason": "The source confirms her City of Seattle policy-advisor role and Circularity 25 speaker listing, but only an event listing was available; no profile page or page about her work was confirmed."
+        },
+        {
+          "name": "Anthony Tusino",
+          "reason": "The sources confirm his current public-policy role and Circularity 25 listing, but no individual profile page or page about his work was confirmed; the company LinkedIn page is not an individual profile or work page."
+        },
+        {
+          "name": "Heidi Sanborn",
+          "reason": "No page seen in this search confirms them (removed by code check)."
+        }
+      ],
+      "candidates_found": 3,
+      "error": null,
+      "usage": {
+        "model_calls": 6,
+        "input_tokens": 71628,
+        "cached_input_tokens": 48363,
+        "output_tokens": 1292,
+        "reasoning_tokens": 131,
+        "web_searches": 6,
+        "page_reads": 0,
+        "cost_usd": null
+      },
+      "seconds": 28.9
+    },
+    {
+      "category": "founder",
+      "label": "Founders & Industry",
+      "cards": [
+        {
+          "name": "Anthony Levy",
+          "job_title": "Founder and CEO",
+          "organization": "Circularity First",
+          "level": "established",
+          "best_for": [
+            "panelist",
+            "workshop"
+          ],
+          "speaking_badge": "experienced",
+          "could_speak_on": "How circular IT models extend hardware lifecycles, reduce e-waste, and help organizations build more resilient sourcing and supply chains.",
+          "talk_ideas": [
+            "Scaling reuse and refurbishment across enterprise IT supply chains",
+            "Measuring embodied carbon and Scope 3 impacts in technology procurement",
+            "Business value and practical barriers in extending the life of critical infrastructure"
+          ],
+          "topic_tags": [
+            "circular IT",
+            "reuse",
+            "supply chains",
+            "embodied carbon"
+          ],
+          "bio": "Anthony Levy is Founder and CEO of Circularity First, a group of sustainable IT businesses. The company says it enables organizations to reuse and repurpose technology, and Levy has discussed circular IT and sustainability at business events.",
+          "credentials": [],
+          "why_fit": "Direct founder-operator experience with extending the useful life of technology and putting reuse into organizational practice makes him a close fit for a business panel on circularity at scale.",
+          "past_speaking": [
+            {
+              "event": "UN Global Compact Network UK 2025 Annual Summit, “Transformative Innovation: How ESG Fuels Competitive Advantage”",
+              "year": 2025,
+              "url": "https://unglobalcompactuk.swoogo.com/annualsummit2025/speaker/1914291/anthony-levy"
+            },
+            {
+              "event": "COGx, E-Waste World Conference, and SustainX (events named in speaker bio)",
+              "year": null,
+              "url": "https://unglobalcompactuk.swoogo.com/annualsummit2025/speaker/1914291/anthony-levy"
+            },
+            {
+              "event": "Webinar on practical strategies for sustainable IT (November 2024)",
+              "year": 2024,
+              "url": "https://thesustainableitguy.com/"
+            }
+          ],
+          "notable_work": [
+            "Circularity First's reuse and repurposing of technology to reduce e-waste and embodied carbon"
+          ],
+          "profile_url": "https://thesustainableitguy.com/",
+          "links": [
+            {
+              "label": "Anthony Levy profile",
+              "url": "https://thesustainableitguy.com/",
+              "kind": "profile"
+            },
+            {
+              "label": "techUK profile and work overview",
+              "url": "https://www.techuk.org/insights/guest-insights/leading-the-charge-for-sustainable-it-and-climate-innovation",
+              "kind": "work"
+            },
+            {
+              "label": "UN Global Compact Network UK 2025 speaker page",
+              "url": "https://unglobalcompactuk.swoogo.com/annualsummit2025/speaker/1914291/anthony-levy",
+              "kind": "talk"
+            }
+          ],
+          "photo_url": "https://thesustainableitguy.com/wp-content/uploads/2023/12/ANthony-Sustainable-IT-Guy-december-2023.jpg",
+          "evidence_urls": [
+            "https://thesustainableitguy.com/",
+            "https://unglobalcompactuk.swoogo.com/annualsummit2025/speaker/1914291/anthony-levy",
+            "https://www.techuk.org/insights/guest-insights/leading-the-charge-for-sustainable-it-and-climate-innovation"
+          ],
+          "fit_score": 5,
+          "fit_reason": "Strong practitioner-founder match: his company's core work is circular IT reuse, and the evidence includes multiple public speaking appearances."
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Ahmad Ghahreman",
+          "reason": "The source confirms his participation in a podcast about Cyclic Materials, but the pages read did not confirm a current job title or provide a profile/work page, as required."
+        },
+        {
+          "name": "Tom Szaky",
+          "reason": "No page seen in this search confirms them (removed by code check)."
+        },
+        {
+          "name": "Andy Ruben",
+          "reason": "No page seen in this search confirms them (removed by code check)."
+        }
+      ],
+      "candidates_found": 4,
+      "error": null,
+      "usage": {
+        "model_calls": 4,
+        "input_tokens": 58098,
+        "cached_input_tokens": 31668,
+        "output_tokens": 2779,
+        "reasoning_tokens": 182,
+        "web_searches": 6,
+        "page_reads": 0,
+        "cost_usd": null
+      },
+      "seconds": 33.2
+    },
+    {
+      "category": "advocate",
+      "label": "Advocates & Community",
+      "cards": [
+        {
+          "name": "Naomi Davis",
+          "job_title": "Founder & CEO",
+          "organization": "Blacks in Green",
+          "level": "established",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "some",
+          "could_speak_on": "How community-led circular systems can connect regenerative sourcing and waste reuse with local ownership, resilience, and economic wellbeing.",
+          "talk_ideas": [
+            "Building circular neighborhood economies through local ownership and resource reuse",
+            "Connecting regenerative sourcing to community wealth and resilience",
+            "Designing zero-waste, resource-efficient housing and neighborhood systems"
+          ],
+          "topic_tags": [
+            "community wealth",
+            "circular economy",
+            "environmental justice",
+            "neighborhood resilience"
+          ],
+          "bio": "Naomi Davis is the Founder & CEO of Blacks in Green, a nonprofit focused on environmental economic development and community resilience. Its Sustainable Square Mile approach supports community-based economies and systems involving energy, housing, horticulture, tourism, and waste.",
+          "credentials": [],
+          "why_fit": "Offers a community-rooted nonprofit perspective on how circularity and resource systems can support local livelihoods and resilience.",
+          "past_speaking": [
+            {
+              "event": "Circularity 24",
+              "year": 2024,
+              "url": "https://www.wedonthavetime.org/events/circularity24"
+            }
+          ],
+          "notable_work": [
+            "Blacks in Green’s Sustainable Square Mile approach",
+            "House as Garden"
+          ],
+          "profile_url": "https://www.blacksingreen.org/",
+          "links": [
+            {
+              "label": "Blacks in Green",
+              "url": "https://www.blacksingreen.org/",
+              "kind": "profile"
+            },
+            {
+              "label": "Circularity 24",
+              "url": "https://www.wedonthavetime.org/events/circularity24",
+              "kind": "talk"
+            }
+          ],
+          "photo_url": "https://images.squarespace-cdn.com/content/v1/6564e5b266f1f6169a903712/29e66318-112e-4ed6-95e6-6c8a5ff35845/a21_namgo_naomidavis_481_002.jpg",
+          "evidence_urls": [
+            "https://www.blacksingreen.org/",
+            "https://www.wedonthavetime.org/events/circularity24"
+          ],
+          "fit_score": 5,
+          "fit_reason": "Directly connects community-centered environmental economic development with circular resource systems and has a verified Circularity 24 appearance."
+        },
+        {
+          "name": "Annie Leonard",
+          "job_title": "Executive Director",
+          "organization": "Greenpeace USA",
+          "level": "headliner",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "some",
+          "could_speak_on": "How product life-cycle impacts—from sourcing through disposal—shape a just and regenerative circular economy.",
+          "talk_ideas": [
+            "Tracing the environmental and social impacts of products across supply chains",
+            "Design justice and zero-waste pathways to a circular economy",
+            "Making consumer and business systems accountable for the full life cycle of materials"
+          ],
+          "topic_tags": [
+            "product life cycles",
+            "zero waste",
+            "environmental justice",
+            "consumerism"
+          ],
+          "bio": "Annie Leonard is Executive Director of Greenpeace USA and has spent more than two decades investigating and explaining the environmental and social impacts of products. She founded The Story of Stuff Project, which communicates how products are made, used, and discarded.",
+          "credentials": [
+            "Master’s in City and Regional Planning, Cornell University"
+          ],
+          "why_fit": "Brings a national advocacy perspective on product life cycles and the environmental and social consequences of sourcing, distribution, and disposal.",
+          "past_speaking": [
+            {
+              "event": "Design Justice and Zero Waste Conference",
+              "year": 2018,
+              "url": "https://www.tishmancenter.org/design-justice-and-zero-waste-conference"
+            }
+          ],
+          "notable_work": [
+            "The Story of Stuff film and project"
+          ],
+          "profile_url": "https://www.greenpeace.org/usa/",
+          "links": [
+            {
+              "label": "Greenpeace USA",
+              "url": "https://www.greenpeace.org/usa/",
+              "kind": "profile"
+            },
+            {
+              "label": "Design Justice and Zero Waste Conference",
+              "url": "https://www.tishmancenter.org/design-justice-and-zero-waste-conference",
+              "kind": "talk"
+            }
+          ],
+          "photo_url": null,
+          "evidence_urls": [
+            "https://www.greenpeace.org/usa/",
+            "https://www.tishmancenter.org/design-justice-and-zero-waste-conference"
+          ],
+          "fit_score": 4,
+          "fit_reason": "Her documented work on product life cycles and zero-waste advocacy aligns closely with the panel, though the verified speaking appearance is from 2018."
+        }
+      ],
+      "dropped": [],
+      "candidates_found": 2,
+      "error": null,
+      "usage": {
+        "model_calls": 4,
+        "input_tokens": 47670,
+        "cached_input_tokens": 22910,
+        "output_tokens": 1523,
+        "reasoning_tokens": 120,
+        "web_searches": 3,
+        "page_reads": 0,
+        "cost_usd": null
+      },
+      "seconds": 24.2
+    },
+    {
+      "category": "journalist",
+      "label": "Journalists & Communicators",
+      "cards": [
+        {
+          "name": "Nina Pullman",
+          "job_title": "Freelance journalist, producer, and editor",
+          "organization": "Independent",
+          "level": "established",
+          "best_for": [
+            "panelist",
+            "moderator"
+          ],
+          "speaking_badge": "some",
+          "could_speak_on": "What food supply-chain reporting reveals about sourcing impacts, farming practices, and the realities behind sustainability claims.",
+          "talk_ideas": [
+            "Tracing environmental impacts through food supply chains",
+            "Small-scale producers and lower-impact sourcing",
+            "How journalism can connect consumer choices to supply-chain realities"
+          ],
+          "topic_tags": [
+            "food systems",
+            "supply chains",
+            "farming",
+            "sustainability journalism"
+          ],
+          "bio": "Nina Pullman is a freelance journalist, producer, and editor specializing in food, supply chains, farming, sustainability, the environment, and travel. Her work includes producing and presenting for BBC Radio 4’s *Farming Today*, producing *The Food Programme*, and founding and editing *Wicked Leeks*.",
+          "credentials": [],
+          "why_fit": "She offers a distinct food-sourcing and reporting perspective, including first-hand coverage of producers and supply chains, complementing business and corporate voices on the panel.",
+          "past_speaking": [
+            {
+              "event": "BBC Radio 4’s Farming Today (producer-presenter)",
+              "year": null,
+              "url": "https://ninapullman.com/"
+            }
+          ],
+          "notable_work": [
+            "Founded and edited *Wicked Leeks*, a magazine for sustainable food and ethical business",
+            "Co-produced and co-presented *Who Gives a Fork*, a podcast about stories in popular food supply chains"
+          ],
+          "profile_url": "https://ninapullman.com/",
+          "links": [
+            {
+              "label": "Nina Pullman profile and work",
+              "url": "https://ninapullman.com/",
+              "kind": "profile"
+            }
+          ],
+          "photo_url": "https://ninapullman.com/wp-content/uploads/2018/04/cropped-img_3234.jpg",
+          "evidence_urls": [
+            "https://ninapullman.com/"
+          ],
+          "fit_score": 4,
+          "fit_reason": "Strong fit for food sourcing and supply-chain realities; her verified journalism and broadcast experience add a useful communicator perspective."
+        },
+        {
+          "name": "Heather Clancy",
+          "job_title": "Editor at large",
+          "organization": "Trellis (formerly GreenBiz)",
+          "level": "established",
+          "best_for": [
+            "panelist",
+            "moderator"
+          ],
+          "speaking_badge": "none_found",
+          "could_speak_on": "How companies are using business-model innovation and technology to change the business of climate and scale environmental solutions.",
+          "talk_ideas": [
+            "Corporate innovation and climate-focused business models",
+            "The role of technology in transforming supply chains",
+            "Communicating business climate strategies to a broad audience"
+          ],
+          "topic_tags": [
+            "business climate",
+            "corporate innovation",
+            "climate tech",
+            "journalism"
+          ],
+          "bio": "Heather Clancy is an award-winning journalist specializing in transformative technology and climate tech. As editor at large for Trellis, formerly GreenBiz, she covers how corporations use business-model innovation and technology in the transition to a low-carbon economy.",
+          "credentials": [
+            "Co-author of *Niche Down: How to Become Legendary By Being Different*"
+          ],
+          "why_fit": "Her business-climate reporting is relevant to corporate transformation and scaling solutions, though the verified profile does not establish specific circular-sourcing expertise or past speaking engagements.",
+          "past_speaking": [],
+          "notable_work": [],
+          "profile_url": "https://www.heatherclancy.com/",
+          "links": [
+            {
+              "label": "Heather Clancy profile",
+              "url": "https://www.heatherclancy.com/",
+              "kind": "profile"
+            }
+          ],
+          "photo_url": "https://www.heatherclancy.com/wp-content/uploads/2024/01/LEF_4422-683x1024.jpg",
+          "evidence_urls": [
+            "https://www.heatherclancy.com/"
+          ],
+          "fit_score": 3,
+          "fit_reason": "Relevant business and climate reporting expertise, but less directly tied to circular supply chains and no past speaking was confirmed."
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Catherine Weetman",
+          "reason": "No page seen in this search confirms them (removed by code check)."
+        }
+      ],
+      "candidates_found": 3,
+      "error": null,
+      "usage": {
+        "model_calls": 3,
+        "input_tokens": 41511,
+        "cached_input_tokens": 18674,
+        "output_tokens": 2078,
+        "reasoning_tokens": 187,
+        "web_searches": 6,
+        "page_reads": 0,
+        "cost_usd": null
+      },
+      "seconds": 23.2
+    }
+  ],
+  "removals": [
+    {
+      "category": "journalist",
+      "name": "Catherine Weetman",
+      "what": "dropped_weak_title",
+      "detail": "no real job title confirmed (got: 'Circular economy author, speaker, and podcaster')"
+    },
+    {
+      "category": "advocate",
+      "name": "Annie Leonard",
+      "what": "photo_removed",
+      "detail": "photo came from a page that is not their profile (https://www.tishmancenter.org/design-justice-and-zero-waste-conference)"
+    },
+    {
+      "category": "policy",
+      "name": "Heidi Sanborn",
+      "what": "dropped_no_work_proof",
+      "detail": "only event listings found; no profile page or page about their work"
+    },
+    {
+      "category": "founder",
+      "name": "Tom Szaky",
+      "what": "dropped_no_work_proof",
+      "detail": "only event listings found; no profile page or page about their work"
+    },
+    {
+      "category": "founder",
+      "name": "Andy Ruben",
+      "what": "dropped_no_work_proof",
+      "detail": "only event listings found; no profile page or page about their work"
+    }
+  ],
+  "injection_flags": [],
+  "events": [
+    {
+      "ts": "2026-10-26T02:51:40+00:00",
+      "seconds": 0.0,
+      "agent": "Scout Lead",
+      "category": null,
+      "message": "Reading your brief and planning the search…"
+    },
+    {
+      "ts": "2026-10-26T02:51:41+00:00",
+      "seconds": 1.3,
+      "agent": "Scout Lead",
+      "category": null,
+      "message": "Plan ready: Build a three-person panel on circularity at scale, focusing on regenerative sourcing and supply chains in business. Favor rising or established, budget-conscious candidates with prior conference or presentation experience, and balance sectors, career stages, places, and organization types; national reach allows searches beyond New Haven."
+    },
+    {
+      "ts": "2026-10-26T02:51:41+00:00",
+      "seconds": 1.3,
+      "agent": "Academics & Researchers searcher",
+      "category": "academic",
+      "message": "Searching the web…"
+    },
+    {
+      "ts": "2026-10-26T02:51:41+00:00",
+      "seconds": 1.3,
+      "agent": "Practitioners searcher",
+      "category": "practitioner",
+      "message": "Searching the web…"
+    },
+    {
+      "ts": "2026-10-26T02:51:41+00:00",
+      "seconds": 1.3,
+      "agent": "Policy & Government searcher",
+      "category": "policy",
+      "message": "Searching the web…"
+    },
+    {
+      "ts": "2026-10-26T02:51:41+00:00",
+      "seconds": 1.3,
+      "agent": "Founders & Industry searcher",
+      "category": "founder",
+      "message": "Searching the web…"
+    },
+    {
+      "ts": "2026-10-26T02:51:41+00:00",
+      "seconds": 1.3,
+      "agent": "Advocates & Community searcher",
+      "category": "advocate",
+      "message": "Searching the web…"
+    },
+    {
+      "ts": "2026-10-26T02:51:41+00:00",
+      "seconds": 1.3,
+      "agent": "Journalists & Communicators searcher",
+      "category": "journalist",
+      "message": "Searching the web…"
+    },
+    {
+      "ts": "2026-10-26T02:51:49+00:00",
+      "seconds": 8.8,
+      "agent": "Advocates & Community searcher",
+      "category": "advocate",
+      "message": "Found 2 candidates (3 web searches): Naomi Davis, Annie Leonard"
+    },
+    {
+      "ts": "2026-10-26T02:51:49+00:00",
+      "seconds": 8.8,
+      "agent": "Advocates & Community verifier",
+      "category": "advocate",
+      "message": "Checking 2 people against their sources…"
+    },
+    {
+      "ts": "2026-10-26T02:51:52+00:00",
+      "seconds": 12.2,
+      "agent": "Policy & Government searcher",
+      "category": "policy",
+      "message": "Found 3 candidates (6 web searches): Heidi Sanborn, Ashima Sukhdev, Anthony Tusino"
+    },
+    {
+      "ts": "2026-10-26T02:51:52+00:00",
+      "seconds": 12.2,
+      "agent": "Policy & Government verifier",
+      "category": "policy",
+      "message": "Checking 3 people against their sources…"
+    },
+    {
+      "ts": "2026-10-26T02:51:53+00:00",
+      "seconds": 12.8,
+      "agent": "Academics & Researchers searcher",
+      "category": "academic",
+      "message": "Found 4 candidates (6 web searches): Aditya Vedantam, Joseph Sarkis, Nazli Turken, Christopher Marquis"
+    },
+    {
+      "ts": "2026-10-26T02:51:53+00:00",
+      "seconds": 12.8,
+      "agent": "Academics & Researchers verifier",
+      "category": "academic",
+      "message": "Checking 4 people against their sources…"
+    },
+    {
+      "ts": "2026-10-26T02:51:54+00:00",
+      "seconds": 13.6,
+      "agent": "Journalists & Communicators searcher",
+      "category": "journalist",
+      "message": "Found 3 candidates (6 web searches): Heather Clancy, Catherine Weetman, Nina Pullman"
+    },
+    {
+      "ts": "2026-10-26T02:51:54+00:00",
+      "seconds": 13.6,
+      "agent": "Journalists & Communicators verifier",
+      "category": "journalist",
+      "message": "Checking 3 people against their sources…"
+    },
+    {
+      "ts": "2026-10-26T02:51:56+00:00",
+      "seconds": 15.9,
+      "agent": "Founders & Industry searcher",
+      "category": "founder",
+      "message": "Found 4 candidates (6 web searches): Ahmad Ghahreman, Andy Ruben, Anthony Levy, Tom Szaky"
+    },
+    {
+      "ts": "2026-10-26T02:51:56+00:00",
+      "seconds": 15.9,
+      "agent": "Founders & Industry verifier",
+      "category": "founder",
+      "message": "Checking 4 people against their sources…"
+    },
+    {
+      "ts": "2026-10-26T02:52:05+00:00",
+      "seconds": 24.5,
+      "agent": "Journalists & Communicators verifier",
+      "category": "journalist",
+      "message": "2 confirmed, 1 dropped"
+    },
+    {
+      "ts": "2026-10-26T02:52:05+00:00",
+      "seconds": 24.5,
+      "agent": "Practitioners searcher",
+      "category": "practitioner",
+      "message": "Found 4 candidates (6 web searches): Deborah Dull, Monica Becker, Vivian Tai, Sushma Kittali-Weidner"
+    },
+    {
+      "ts": "2026-10-26T02:52:05+00:00",
+      "seconds": 24.5,
+      "agent": "Practitioners verifier",
+      "category": "practitioner",
+      "message": "Checking 4 people against their sources…"
+    },
+    {
+      "ts": "2026-10-26T02:52:06+00:00",
+      "seconds": 25.5,
+      "agent": "Advocates & Community verifier",
+      "category": "advocate",
+      "message": "2 confirmed, 0 dropped"
+    },
+    {
+      "ts": "2026-10-26T02:52:10+00:00",
+      "seconds": 30.2,
+      "agent": "Policy & Government verifier",
+      "category": "policy",
+      "message": "0 confirmed, 3 dropped"
+    },
+    {
+      "ts": "2026-10-26T02:52:14+00:00",
+      "seconds": 33.8,
+      "agent": "Academics & Researchers verifier",
+      "category": "academic",
+      "message": "3 confirmed, 1 dropped"
+    },
+    {
+      "ts": "2026-10-26T02:52:15+00:00",
+      "seconds": 34.5,
+      "agent": "Founders & Industry verifier",
+      "category": "founder",
+      "message": "1 confirmed, 3 dropped"
+    },
+    {
+      "ts": "2026-10-26T02:52:24+00:00",
+      "seconds": 43.4,
+      "agent": "Practitioners verifier",
+      "category": "practitioner",
+      "message": "3 confirmed, 1 dropped"
+    },
+    {
+      "ts": "2026-10-26T02:52:24+00:00",
+      "seconds": 43.4,
+      "agent": "Scout",
+      "category": null,
+      "message": "Done: 11 verified speakers across 6 categories."
+    }
+  ],
+  "usage": {
+    "model_calls": 25,
+    "input_tokens": 321253,
+    "cached_input_tokens": 167086,
+    "output_tokens": 14001,
+    "reasoning_tokens": 1531,
+    "web_searches": 33,
+    "page_reads": 35,
+    "cost_usd": null
+  },
+  "seconds": 43.4,
+  "error": null,
+  "created_at": "2026-10-26T02:51:40+00:00",
+  "model": "gpt-6-luna"
+}

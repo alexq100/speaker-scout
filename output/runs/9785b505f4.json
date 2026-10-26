@@ -1,0 +1,647 @@
+{
+  "id": "9785b505f4",
+  "status": "done",
+  "brief": {
+    "conference_theme": "Urban forestry, tree equity and nature prescriptions",
+    "looking_for": "panel",
+    "panel_theme": null,
+    "panel_size": 3,
+    "conference_name": null,
+    "conference_type": null,
+    "location": null,
+    "reach": "national",
+    "budget": null,
+    "level": "auto",
+    "categories": [
+      "practitioner",
+      "academic"
+    ],
+    "prioritize": [
+      "has_spoken"
+    ],
+    "skip_names": [],
+    "notes": null,
+    "per_category": 5
+  },
+  "plan": {
+    "summary": "Find three national panelists on urban forestry, tree equity, and nature prescriptions, prioritizing people with documented conference talks or presentations. Build a complementary mix of hands-on practitioners and researchers across the theme.",
+    "target_level": "mix",
+    "target_roles": [
+      "panelist"
+    ],
+    "location_focus": null,
+    "angles": [
+      {
+        "category": "practitioner",
+        "angles": [
+          "Urban forestry and tree-equity program directors at American Forests and Arbor Day Foundation; prioritize conference presenters",
+          "City urban forestry directors and chief urban foresters presenting at Society of Municipal Arborists and U.S. Forest Service events",
+          "Nature-prescription program leaders at Park Rx America and National Recreation and Park Association; seek documented talks on healthcare partnerships"
+        ]
+      },
+      {
+        "category": "academic",
+        "angles": [
+          "Urban forestry and environmental-justice researchers at USDA Forest Service research stations and university forestry departments; find conference presentations",
+          "Researchers on tree canopy inequity and urban heat at the University of Vermont Spatial Analysis Lab and Yale School of the Environment; prioritize invited talks",
+          "Nature-and-health researchers studying nature prescriptions at University of Illinois Chicago and University of Exeter; seek published conference speaker biographies"
+        ]
+      }
+    ]
+  },
+  "categories": [
+    {
+      "category": "practitioner",
+      "label": "Practitioners",
+      "cards": [
+        {
+          "name": "Emily King",
+          "job_title": "Urban Forester",
+          "organization": "City of Austin",
+          "level": "established",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "experienced",
+          "could_speak_on": "Municipal canopy preservation, tree planting, and community partnerships, including how city forestry connects to tree equity.",
+          "talk_ideas": [
+            "Building community partnerships around urban canopy goals",
+            "Municipal approaches to tree planting and canopy preservation",
+            "Connecting local forestry practice with Tree Equity"
+          ],
+          "topic_tags": [
+            "urban forestry",
+            "tree equity",
+            "municipal practice",
+            "community partnerships"
+          ],
+          "bio": "Emily King is the City of Austin’s Urban Forester and serves on the board of the Urban & Community Forestry Society. She has more than 20 years of experience in urban and community forestry.",
+          "credentials": [
+            "Forest Management degree, Texas A&M University",
+            "ISA Certified Arborist",
+            "Certified Urban Forest Professional"
+          ],
+          "why_fit": "Offers current municipal urban-forestry experience and has publicly presented on Austin forestry work; directly relevant to a practitioner panel on tree equity.",
+          "past_speaking": [
+            {
+              "event": "Greater & Greener speaker",
+              "year": null,
+              "url": "https://cityparksalliance.org/greater-greener/speaker/emily-king/"
+            },
+            {
+              "event": "Austin Urban Forestry Committee staff briefing",
+              "year": 2026,
+              "url": "https://austintx.new.swagit.com/videos/388991"
+            },
+            {
+              "event": "TreeFolks interview on Austin’s urban forestry work",
+              "year": 2025,
+              "url": "https://www.treefolks.org/2025/04/23/meet-emily-king/"
+            }
+          ],
+          "notable_work": [
+            "Austin’s urban canopy preservation, tree planting, and community partnerships"
+          ],
+          "profile_url": "https://cityparksalliance.org/greater-greener/speaker/emily-king/",
+          "links": [
+            {
+              "label": "City Parks Alliance speaker profile",
+              "url": "https://cityparksalliance.org/greater-greener/speaker/emily-king/",
+              "kind": "profile"
+            },
+            {
+              "label": "TreeFolks interview",
+              "url": "https://www.treefolks.org/2025/04/23/meet-emily-king/",
+              "kind": "work"
+            },
+            {
+              "label": "Austin Urban Forestry Committee briefing",
+              "url": "https://austintx.new.swagit.com/videos/388991",
+              "kind": "talk"
+            }
+          ],
+          "photo_url": null,
+          "evidence_urls": [
+            "https://cityparksalliance.org/greater-greener/speaker/emily-king/",
+            "https://www.treefolks.org/2025/04/23/meet-emily-king/",
+            "https://austintx.new.swagit.com/videos/388991"
+          ],
+          "fit_score": 5,
+          "fit_reason": "Strong match: current city forester, extensive experience, and several documented presentations or appearances."
+        },
+        {
+          "name": "Stacy Beller Stryer",
+          "job_title": "Chief Health Officer",
+          "organization": "Park Rx America",
+          "level": "established",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "experienced",
+          "could_speak_on": "How clinicians and community partners can connect nature-prescription programs with equitable access to nearby urban green space.",
+          "talk_ideas": [
+            "Designing nature-prescription programs with parks and communities",
+            "Connecting healthcare practice to accessible neighborhood nature",
+            "Public-health pathways for bringing nature prescriptions into routine care"
+          ],
+          "topic_tags": [
+            "nature prescriptions",
+            "public health",
+            "healthcare partnerships",
+            "urban nature"
+          ],
+          "bio": "Dr. Stacy Beller Stryer is Park Rx America’s Chief Health Officer and a board-certified pediatrician. Her work includes public-health initiatives and nature-prescription programs.",
+          "credentials": [
+            "M.D.",
+            "Board-certified pediatrician"
+          ],
+          "why_fit": "Directly addresses nature prescriptions, an explicit conference theme, and has multiple documented podcast and webinar appearances.",
+          "past_speaking": [
+            {
+              "event": "Nature Breaking podcast episode on nature prescriptions",
+              "year": 2025,
+              "url": "https://www.worldwildlife.org/news/nature-breaking/nature-prescriptions-how-time-outdoors-can-improve-your-health/"
+            },
+            {
+              "event": "Pullback podcast: Nature Prescriptions",
+              "year": null,
+              "url": "https://www.pullback.org/episode-notes/natureprescriptions"
+            },
+            {
+              "event": "Park Rx: Exploring an Innovative Prescription Program webinar",
+              "year": 2021,
+              "url": "https://www.mainepublichealth.org/mpha-webinars-trainings/park-rx-exploring-an-innovative-prescription-program"
+            }
+          ],
+          "notable_work": [
+            "Park Rx America programs educating providers, schools, and park agencies about nature and nature prescriptions"
+          ],
+          "profile_url": "https://parkrxamerica.org/about/team.php",
+          "links": [
+            {
+              "label": "Park Rx America team profile",
+              "url": "https://parkrxamerica.org/about/team.php",
+              "kind": "profile"
+            },
+            {
+              "label": "Park Rx America podcast feature",
+              "url": "https://www.parkrxamerica.org/learn/podcasts.php",
+              "kind": "work"
+            },
+            {
+              "label": "Nature Breaking episode",
+              "url": "https://www.worldwildlife.org/news/nature-breaking/nature-prescriptions-how-time-outdoors-can-improve-your-health/",
+              "kind": "talk"
+            }
+          ],
+          "photo_url": "https://parkrxamerica.org/img/about/stacy-beller-stryer.jpg",
+          "evidence_urls": [
+            "https://parkrxamerica.org/about/team.php",
+            "https://www.worldwildlife.org/news/nature-breaking/nature-prescriptions-how-time-outdoors-can-improve-your-health/",
+            "https://www.pullback.org/episode-notes/natureprescriptions"
+          ],
+          "fit_score": 5,
+          "fit_reason": "Exact thematic fit for nature prescriptions, with healthcare experience and documented public appearances."
+        },
+        {
+          "name": "Jamie King",
+          "job_title": "Director, Coaching and Consulting",
+          "organization": "American Forests",
+          "level": "established",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "none_found",
+          "could_speak_on": "National coaching approaches that help city teams and community partners advance Tree Equity in urban forestry.",
+          "talk_ideas": [
+            "Building a community of practice for urban forestry leaders",
+            "Coaching cities and partners toward Tree Equity commitments",
+            "Cross-sector collaboration for equitable urban canopy goals"
+          ],
+          "topic_tags": [
+            "tree equity",
+            "urban forestry",
+            "coaching",
+            "cross-sector partnerships"
+          ],
+          "bio": "Jamie King is Director of Coaching and Consulting at American Forests. The organization’s National Coaching Network brings urban foresters, city leaders, community advocates, and allied professionals together to advance Tree Equity.",
+          "credentials": [],
+          "why_fit": "The role aligns closely with a national practitioner panel on Tree Equity, although the pages reviewed did not establish prior public speaking appearances.",
+          "past_speaking": [],
+          "notable_work": [
+            "American Forests National Coaching Network"
+          ],
+          "profile_url": "https://www.americanforests.org/project/coaching-network/",
+          "links": [
+            {
+              "label": "American Forests Coaching Network",
+              "url": "https://www.americanforests.org/project/coaching-network/",
+              "kind": "profile"
+            }
+          ],
+          "photo_url": null,
+          "evidence_urls": [
+            "https://www.americanforests.org/project/coaching-network/"
+          ],
+          "fit_score": 4,
+          "fit_reason": "Strong thematic relevance and national scope, but no past speaking evidence was confirmed."
+        }
+      ],
+      "dropped": [],
+      "candidates_found": 3,
+      "error": null,
+      "usage": {
+        "model_calls": 3,
+        "input_tokens": 54843,
+        "cached_input_tokens": 19409,
+        "output_tokens": 2524,
+        "reasoning_tokens": 303,
+        "web_searches": 14,
+        "page_reads": 0,
+        "cost_usd": null
+      },
+      "seconds": 25.8
+    },
+    {
+      "category": "academic",
+      "label": "Academics & Researchers",
+      "cards": [
+        {
+          "name": "Paige Brochu",
+          "job_title": "Director, Spatial Analysis Laboratory; Research Assistant Professor",
+          "organization": "University of Vermont, Rubenstein School of Environment and Natural Resources",
+          "level": "rising",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "some",
+          "could_speak_on": "How geospatial canopy and heat mapping can reveal environmental-health exposure and guide more equitable urban forestry investments.",
+          "talk_ideas": [
+            "Mapping tree canopy and heat exposure across communities",
+            "Using spatial data to evaluate urban greening and health",
+            "Turning environmental-health research into actionable local resilience data"
+          ],
+          "topic_tags": [
+            "urban forestry",
+            "tree equity",
+            "environmental health",
+            "GIS"
+          ],
+          "bio": "Paige Brochu is the current director of the University of Vermont Spatial Analysis Lab and a research assistant professor in the Rubenstein School. Her work applies geospatial analysis to human health, tree-canopy assessment, climate resilience, and community-focused decision-making.",
+          "credentials": [
+            "Ph.D. in Environmental Health, Boston University, 2023; M.S. in Environmental Health and Data Analytics, Boston University, 2018"
+          ],
+          "why_fit": "A direct research match for the brief: her current role and expertise combine environmental health, GIS, and tree-canopy assessment, supporting a practical evidence-based panel perspective.",
+          "past_speaking": [
+            {
+              "event": "Urban Forestry for Changing Times: The Practice of Science and the Science of Practice symposium",
+              "year": 2024,
+              "url": "https://www.youtube.com/watch?v=9OvDuerSjf0"
+            }
+          ],
+          "notable_work": [
+            "Geospatial analysis and GIS applications supporting community resilience",
+            "Urban tree-canopy assessment and climate-resilience research"
+          ],
+          "profile_url": "https://www.uvm.edu/rsenr/profile/paige-brochu",
+          "links": [
+            {
+              "label": "UVM faculty profile",
+              "url": "https://www.uvm.edu/rsenr/profile/paige-brochu",
+              "kind": "profile"
+            },
+            {
+              "label": "Spatial Analysis Lab projects",
+              "url": "https://www.uvm.edu/rsenr/sal/projects",
+              "kind": "work"
+            },
+            {
+              "label": "Urban Forestry for Changing Times symposium",
+              "url": "https://www.youtube.com/watch?v=9OvDuerSjf0",
+              "kind": "talk"
+            }
+          ],
+          "photo_url": "https://www.uvm.edu/d10-files/styles/717_width_square/public/images/2024-07/SAL_Paige_FullSize-4_Paige-Brochu.jpeg.webp?itok=CFuPzmOo",
+          "evidence_urls": [
+            "https://www.uvm.edu/rsenr/profile/paige-brochu",
+            "https://www.uvm.edu/rsenr/sal/projects"
+          ],
+          "fit_score": 5,
+          "fit_reason": "Excellent overlap with tree equity and health; current academic appointment and previous relevant symposium appearance are confirmed."
+        },
+        {
+          "name": "Xiaoqi Feng",
+          "job_title": "Professor of Population Health",
+          "organization": "University of South Wales, Australia",
+          "level": "established",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "some",
+          "could_speak_on": "Population-health evidence connecting urban green space and nature prescriptions with health outcomes and inequities.",
+          "talk_ideas": [
+            "Nature prescriptions and population health",
+            "Urban green space, health trajectories, and inequities",
+            "Translating environmental-health research into policy and practice"
+          ],
+          "topic_tags": [
+            "nature prescriptions",
+            "population health",
+            "urban green space",
+            "health equity"
+          ],
+          "bio": "Xiaoqi Feng is a Professor of Population Health at the University of South Wales, Australia. Her research examines how modifiable environmental factors, including urban green space, relate to wellbeing, health, and inequities across the life course.",
+          "credentials": [],
+          "why_fit": "She offers a strong health-research counterpart to urban forestry practitioners, with directly relevant work on urban green space and population wellbeing.",
+          "past_speaking": [
+            {
+              "event": "Nature and Health Workshop",
+              "year": 2024,
+              "url": "https://sites.brown.edu/nature-health/person/xiaoqi-feng/"
+            }
+          ],
+          "notable_work": [
+            "Research program on environmental factors shaping population wellbeing and health inequities",
+            "The cited profile reports more than 190 publications and major research projects"
+          ],
+          "profile_url": "https://sites.brown.edu/nature-health/person/xiaoqi-feng/",
+          "links": [
+            {
+              "label": "Nature and Health Workshop profile",
+              "url": "https://sites.brown.edu/nature-health/person/xiaoqi-feng/",
+              "kind": "profile"
+            },
+            {
+              "label": "Nature-prescription podcast episode",
+              "url": "https://armchairmedical.captivate.fm/episode/nature-prescription-integrating-green-spaces-and-time-in-nature-to-enhance-health",
+              "kind": "talk"
+            }
+          ],
+          "photo_url": null,
+          "evidence_urls": [
+            "https://sites.brown.edu/nature-health/person/xiaoqi-feng/",
+            "https://armchairmedical.captivate.fm/episode/nature-prescription-integrating-green-spaces-and-time-in-nature-to-enhance-health"
+          ],
+          "fit_score": 4,
+          "fit_reason": "Highly relevant academic perspective on nature prescriptions, green space, and health inequities; profile and public appearance are confirmed."
+        },
+        {
+          "name": "Robert Zarr",
+          "job_title": "Physician researcher and public health pediatrician; Founder, Park Rx America",
+          "organization": "Unity Health Care, Inc.; Park Rx America",
+          "level": "established",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "some",
+          "could_speak_on": "Clinical implementation of nature prescriptions and the potential role of neighborhood trees and parks in routine healthcare.",
+          "talk_ideas": [
+            "How clinicians can prescribe nature in everyday care",
+            "Connecting neighborhood green access with public-health practice",
+            "Building partnerships between healthcare providers and urban nature programs"
+          ],
+          "topic_tags": [
+            "nature prescriptions",
+            "public health",
+            "clinical practice",
+            "urban nature"
+          ],
+          "bio": "Robert Zarr is a physician researcher and public health pediatrician based at Unity Health Care, Inc. He founded Park Rx America and previously advised the National Park Service on park prescriptions; he is also a certified nature and forest therapy guide.",
+          "credentials": [
+            "Certified nature and forest therapy guide"
+          ],
+          "why_fit": "His clinical and program-building experience makes him a relevant panelist on translating nature-prescription research into practice and connecting healthcare with urban nature access.",
+          "past_speaking": [
+            {
+              "event": "Nature and Health Workshop",
+              "year": 2024,
+              "url": "https://sites.brown.edu/nature-health/person/robert-zarr/"
+            }
+          ],
+          "notable_work": [
+            "Founded Park Rx America"
+          ],
+          "profile_url": "https://sites.brown.edu/nature-health/person/robert-zarr/",
+          "links": [
+            {
+              "label": "Nature and Health Workshop profile",
+              "url": "https://sites.brown.edu/nature-health/person/robert-zarr/",
+              "kind": "profile"
+            },
+            {
+              "label": "Park Rx America articles",
+              "url": "https://parkrxamerica.org/learn/articles.php",
+              "kind": "work"
+            }
+          ],
+          "photo_url": null,
+          "evidence_urls": [
+            "https://sites.brown.edu/nature-health/person/robert-zarr/"
+          ],
+          "fit_score": 4,
+          "fit_reason": "Strong applied fit for the nature-prescription theme; confirmed professional background and participation in the 2024 workshop."
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Jarlath O’Neil-Dunne",
+          "reason": "UVM sources confirm that he died in January 2024, so he is not a current candidate for an invitation."
+        }
+      ],
+      "candidates_found": 4,
+      "error": null,
+      "usage": {
+        "model_calls": 3,
+        "input_tokens": 49353,
+        "cached_input_tokens": 19458,
+        "output_tokens": 2604,
+        "reasoning_tokens": 250,
+        "web_searches": 11,
+        "page_reads": 0,
+        "cost_usd": null
+      },
+      "seconds": 36.7
+    }
+  ],
+  "removals": [],
+  "injection_flags": [],
+  "events": [
+    {
+      "ts": "2026-10-26T03:49:55+00:00",
+      "seconds": 0.0,
+      "agent": "Scout Lead",
+      "category": null,
+      "message": "Reading your brief and planning the search…"
+    },
+    {
+      "ts": "2026-10-26T03:49:58+00:00",
+      "seconds": 3.3,
+      "agent": "Scout Lead",
+      "category": null,
+      "message": "Plan ready: Find three national panelists on urban forestry, tree equity, and nature prescriptions, prioritizing people with documented conference talks or presentations. Build a complementary mix of hands-on practitioners and researchers across the theme."
+    },
+    {
+      "ts": "2026-10-26T03:49:58+00:00",
+      "seconds": 3.3,
+      "agent": "Practitioners searcher",
+      "category": "practitioner",
+      "message": "Searching the web…"
+    },
+    {
+      "ts": "2026-10-26T03:49:58+00:00",
+      "seconds": 3.3,
+      "agent": "Academics & Researchers searcher",
+      "category": "academic",
+      "message": "Searching the web…"
+    },
+    {
+      "ts": "2026-10-26T03:50:11+00:00",
+      "seconds": 16.0,
+      "agent": "Practitioners searcher",
+      "category": "practitioner",
+      "message": "Found 3 candidates (11 web searches): Emily King, Stacy Beller Stryer, Jamie King"
+    },
+    {
+      "ts": "2026-10-26T03:50:11+00:00",
+      "seconds": 16.0,
+      "agent": "Practitioners verifier",
+      "category": "practitioner",
+      "message": "Checking 3 people against their sources…"
+    },
+    {
+      "ts": "2026-10-26T03:50:13+00:00",
+      "seconds": 18.6,
+      "agent": "Academics & Researchers searcher",
+      "category": "academic",
+      "message": "Found 4 candidates (7 web searches): Paige Brochu, Jarlath O’Neil-Dunne, Robert Zarr, Xiaoqi Feng"
+    },
+    {
+      "ts": "2026-10-26T03:50:13+00:00",
+      "seconds": 18.6,
+      "agent": "Academics & Researchers verifier",
+      "category": "academic",
+      "message": "Checking 4 people against their sources…"
+    },
+    {
+      "ts": "2026-10-26T03:50:24+00:00",
+      "seconds": 29.1,
+      "agent": "Practitioners verifier",
+      "category": "practitioner",
+      "message": "3 confirmed, 0 dropped"
+    },
+    {
+      "ts": "2026-10-26T03:50:35+00:00",
+      "seconds": 40.0,
+      "agent": "Academics & Researchers verifier",
+      "category": "academic",
+      "message": "3 confirmed, 1 dropped"
+    },
+    {
+      "ts": "2026-10-26T03:50:35+00:00",
+      "seconds": 40.0,
+      "agent": "Panel Architect",
+      "category": null,
+      "message": "Looking for people who would make great panels together…"
+    },
+    {
+      "ts": "2026-10-26T03:50:40+00:00",
+      "seconds": 45.7,
+      "agent": "Panel Architect",
+      "category": null,
+      "message": "Suggested 2 panel(s): From Canopy Maps to Fairer Streets; Can Nature Be Prescribed Equitably?"
+    },
+    {
+      "ts": "2026-10-26T03:50:40+00:00",
+      "seconds": 45.7,
+      "agent": "Scout",
+      "category": null,
+      "message": "Done: 6 verified speakers across 2 categories."
+    }
+  ],
+  "panels": [
+    {
+      "title": "From Canopy Maps to Fairer Streets",
+      "question": "How can cities turn evidence about canopy, heat and health into equitable tree-planting decisions?",
+      "members": [
+        {
+          "name": "Emily King",
+          "category": "practitioner",
+          "angle": "She brings municipal experience with canopy preservation, tree planting and community partnerships in Austin."
+        },
+        {
+          "name": "Paige Brochu",
+          "category": "academic",
+          "angle": "She brings geospatial canopy and heat mapping that can guide equitable urban forestry investments."
+        },
+        {
+          "name": "Jamie King",
+          "category": "practitioner",
+          "angle": "She brings a national coaching and cross-sector perspective on helping city teams advance Tree Equity."
+        }
+      ],
+      "moderator": null,
+      "why_together": [
+        "The panel links local implementation with spatial evidence and national support for city teams.",
+        "All three address tree equity from complementary practice and research vantage points.",
+        "Emily King and Paige Brochu have prior speaking or presentation experience, with Jamie King adding a national coaching perspective."
+      ],
+      "tension": "Data can identify where canopy and heat burdens are greatest, while city capacity and community partnerships shape how quickly and appropriately investments can be made.",
+      "balance_note": "Two practitioners and one academic span municipal and national practice with university-based research.",
+      "shared_stage": []
+    },
+    {
+      "title": "Can Nature Be Prescribed Equitably?",
+      "question": "What does it take to connect clinical nature prescriptions to accessible urban green space and measurable health benefits?",
+      "members": [
+        {
+          "name": "Stacy Beller Stryer",
+          "category": "practitioner",
+          "angle": "She brings experience connecting clinicians and community partners to equitable access through nature-prescription programs."
+        },
+        {
+          "name": "Robert Zarr",
+          "category": "academic",
+          "angle": "He brings a physician-researcher and public-health perspective on implementing nature prescriptions in routine care."
+        },
+        {
+          "name": "Xiaoqi Feng",
+          "category": "academic",
+          "angle": "She brings population-health evidence on urban green space, health outcomes and inequities."
+        }
+      ],
+      "moderator": null,
+      "why_together": [
+        "The discussion connects program design, clinical implementation and population-health evidence.",
+        "Each panelist addresses nature prescriptions or health-related access to urban nature from a distinct vantage point.",
+        "Stacy Beller Stryer and Robert Zarr offer implementation perspectives that can be tested against Xiaoqi Feng's population-level evidence."
+      ],
+      "tension": "Clinical programs can make nature part of individual care, but population-health research highlights the broader access conditions and inequities that shape who can benefit.",
+      "balance_note": "One practitioner and two academics bring healthcare practice and population-health research together, including perspectives from the United States and Australia.",
+      "shared_stage": []
+    }
+  ],
+  "panel_usage": {
+    "model_calls": 1,
+    "input_tokens": 2682,
+    "cached_input_tokens": 1389,
+    "output_tokens": 521,
+    "reasoning_tokens": 0,
+    "web_searches": 0,
+    "page_reads": 0,
+    "cost_usd": null
+  },
+  "usage": {
+    "model_calls": 8,
+    "input_tokens": 108228,
+    "cached_input_tokens": 41426,
+    "output_tokens": 5883,
+    "reasoning_tokens": 553,
+    "web_searches": 25,
+    "page_reads": 6,
+    "cost_usd": null
+  },
+  "seconds": 45.7,
+  "error": null,
+  "created_at": "2026-10-26T03:49:55+00:00",
+  "model": "gpt-6-luna"
+}

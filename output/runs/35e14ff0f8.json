@@ -1,0 +1,1181 @@
+{
+  "id": "35e14ff0f8",
+  "status": "done",
+  "brief": {
+    "conference_theme": "Shaping the future of urban forestry for greener cities and healthier communities",
+    "looking_for": "panel",
+    "panel_theme": "Tree equity and nature prescriptions: trees as public health infrastructure",
+    "panel_size": 4,
+    "conference_name": "Urban Tree Summit",
+    "conference_type": "practitioner",
+    "location": "Washington, DC / Maryland",
+    "reach": "regional",
+    "budget": "small",
+    "level": "auto",
+    "categories": [
+      "academic",
+      "practitioner",
+      "policy",
+      "founder",
+      "advocate",
+      "journalist"
+    ],
+    "prioritize": [
+      "has_spoken"
+    ],
+    "skip_names": [],
+    "notes": null,
+    "per_category": 5
+  },
+  "plan": {
+    "summary": "Find regional, budget-conscious panelists for a practitioner-focused discussion of tree equity and nature prescriptions as public health infrastructure in Washington, DC and Maryland. Favor rising and established speakers with evidence of prior presentations, and assemble complementary health, forestry, equity, and policy perspectives.",
+    "target_level": "rising",
+    "target_roles": [
+      "panelist"
+    ],
+    "location_focus": "Washington, DC and Maryland; regional Mid-Atlantic if needed",
+    "angles": [
+      {
+        "category": "academic",
+        "angles": [
+          "public health or urban forestry faculty at University of Maryland and University of the District of Columbia presenting research on tree canopy, health, or environmental justice",
+          "researchers at USDA Forest Service Northern Research Station and University of Maryland Extension who present on urban forestry or nature and health"
+        ]
+      },
+      {
+        "category": "practitioner",
+        "angles": [
+          "urban forestry and parks staff at DC Department of Energy & Environment, DC Department of Parks and Recreation, and Maryland Department of Natural Resources who have presented on tree equity",
+          "community forestry or nature-prescription program leads at Casey Trees and local health systems in DC and Maryland with conference presentations"
+        ]
+      },
+      {
+        "category": "policy",
+        "angles": [
+          "DC and Maryland government officials working on urban tree canopy, heat, environmental justice, or public health who have presented at regional planning or forestry events",
+          "policy researchers at Chesapeake Bay Foundation and regional planning organizations addressing tree canopy equity and community health"
+        ]
+      },
+      {
+        "category": "founder",
+        "angles": [
+          "DC and Maryland founders or program leaders at urban forestry, green infrastructure, and nature-based health organizations who have spoken at U.S. Green Building Council National Capital Region or regional sustainability events",
+          "local landscape architecture and environmental consulting firm principals presenting on equitable urban canopy or nature-based public health interventions"
+        ]
+      },
+      {
+        "category": "advocate",
+        "angles": [
+          "community forestry and tree equity organizers at Casey Trees, Tree Baltimore, and Prince George's County environmental justice organizations with prior public presentations",
+          "leaders of DC and Maryland community health or parks nonprofits advancing nature prescriptions, green space access, or neighborhood tree planting who have presented at regional events"
+        ]
+      },
+      {
+        "category": "journalist",
+        "angles": [
+          "Washington-area reporters covering urban heat, public health, parks, and environmental justice at The Washington Post, DCist, and Maryland Matters who moderate public forums",
+          "DC and Maryland environmental journalists or science communicators who have hosted panels at Chesapeake Bay or regional conservation conferences"
+        ]
+      }
+    ]
+  },
+  "categories": [
+    {
+      "category": "academic",
+      "label": "Academics & Researchers",
+      "cards": [
+        {
+          "name": "Jennifer D. Roberts",
+          "job_title": "Associate Professor, Department of Kinesiology; Co-Founder and Co-Director, NatureRx@UMD; Founder and Director, PHOEBE Laboratory",
+          "organization": "University of Maryland School of Public Health",
+          "location": "College Park, Maryland",
+          "level": "established",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "none_found",
+          "could_speak_on": "How green-space access, structural inequities, and public-health research can inform nature-prescription programs and equitable urban forestry.",
+          "talk_ideas": [
+            "Green-space benefits and nature prescriptions in community health",
+            "Measuring health equity impacts of the built and natural environment",
+            "Addressing structural inequities in access to urban green space"
+          ],
+          "topic_tags": [
+            "nature prescriptions",
+            "green-space health",
+            "health equity",
+            "built environment",
+            "community health",
+            "College Park"
+          ],
+          "bio": "Jennifer D. Roberts is a tenured associate professor in the University of Maryland School of Public Health’s Department of Kinesiology. She founded and directs the PHOEBE Laboratory and co-founded and co-directs NatureRx@UMD, and her scholarship examines how built, social, and natural environments affect health.",
+          "credentials": [],
+          "why_fit": "Direct local fit for the panel’s nature-prescription and health-equity focus, with leadership of a university NatureRx initiative.",
+          "past_speaking": [],
+          "notable_work": [],
+          "profile_url": "https://sph.umd.edu/people/jennifer-d-roberts",
+          "links": [
+            {
+              "label": "Faculty profile",
+              "url": "https://sph.umd.edu/people/jennifer-d-roberts",
+              "kind": "profile"
+            }
+          ],
+          "photo_url": "https://sph.umd.edu/sites/default/files/styles/optimized/public/people/Jennifer%20Denise%20Roberts%20Photo%201b%20-%2012.07.2020.png?itok=RJfhdkct",
+          "evidence_urls": [
+            "https://sph.umd.edu/people/jennifer-d-roberts"
+          ],
+          "fit_score": 5,
+          "fit_reason": "Exceptional geographic and subject fit; however, no public speaking appearance was confirmed in the pages read."
+        },
+        {
+          "name": "Michelle C. Kondo",
+          "job_title": "Research Social Scientist",
+          "organization": "USDA Forest Service, Northern Research Station",
+          "location": "Philadelphia, Pennsylvania",
+          "level": "established",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "some",
+          "could_speak_on": "Research evidence linking urban trees, community-led greening, nature prescriptions, and public health, including lessons from Philadelphia’s tree-canopy goals.",
+          "talk_ideas": [
+            "Nature prescriptions: evidence and research opportunities",
+            "Public-health outcomes of community-based urban forestry",
+            "Connecting canopy goals with equitable access and health"
+          ],
+          "topic_tags": [
+            "nature prescriptions",
+            "urban forestry",
+            "tree canopy",
+            "health impact assessment",
+            "community greening",
+            "Philadelphia"
+          ],
+          "bio": "Michelle Kondo is a research social scientist with the USDA Forest Service’s Northern Research Station. Her work includes research on nature prescriptions, health impacts of tree-canopy goals, and community-based urban greening.",
+          "credentials": [
+            "PhD"
+          ],
+          "why_fit": "Strong research match for the panel’s public-health infrastructure frame, with a verified webinar on community-based urban forestry and Philadelphia canopy goals.",
+          "past_speaking": [
+            {
+              "event": "Urban Forest Connections webinar: Methods and Public Health Impacts of Community-Based Urban Forestry Efforts",
+              "year": null,
+              "url": "https://research.fs.usda.gov/products/multimedia/webinars/methods-and-public-health-impacts-community-based-urban-forestry"
+            }
+          ],
+          "notable_work": [
+            "Nature Prescriptions for Health: A Review of Evidence and Research Opportunities",
+            "Health impact assessment of Philadelphia’s 2025 tree canopy cover goals"
+          ],
+          "profile_url": "https://research.fs.usda.gov/about/people/michelle.c.kondo",
+          "links": [
+            {
+              "label": "Forest Service profile",
+              "url": "https://research.fs.usda.gov/about/people/michelle.c.kondo",
+              "kind": "profile"
+            },
+            {
+              "label": "Nature prescriptions research review",
+              "url": "https://research.fs.usda.gov/treesearch/60336",
+              "kind": "work"
+            },
+            {
+              "label": "Urban Forest Connections webinar",
+              "url": "https://research.fs.usda.gov/products/multimedia/webinars/methods-and-public-health-impacts-community-based-urban-forestry",
+              "kind": "talk"
+            }
+          ],
+          "photo_url": "https://research.fs.usda.gov/sites/default/files/images/michelle.c.kondo-1766500239.jpg",
+          "evidence_urls": [
+            "https://research.fs.usda.gov/about/people/michelle.c.kondo",
+            "https://research.fs.usda.gov/products/multimedia/webinars/methods-and-public-health-impacts-community-based-urban-forestry",
+            "https://research.fs.usda.gov/treesearch/60336"
+          ],
+          "fit_score": 4,
+          "fit_reason": "Excellent thematic match and verified webinar appearance, though based outside the requested DC/Maryland region."
+        },
+        {
+          "name": "Meghan Avolio",
+          "job_title": "Associate Professor, Department of Earth and Planetary Sciences",
+          "organization": "Johns Hopkins University",
+          "location": "Baltimore, Maryland",
+          "level": "established",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "some",
+          "could_speak_on": "What Baltimore’s street-tree patterns reveal about environmental injustice, alongside ecological research on how urban environments shape plant communities.",
+          "talk_ideas": [
+            "Baltimore street trees and the legacy of housing policy",
+            "Urban plant communities and neighborhood environments",
+            "Using ecological evidence to understand inequity in urban forests"
+          ],
+          "topic_tags": [
+            "Baltimore street trees",
+            "redlining",
+            "urban plant ecology",
+            "plant communities",
+            "urban ecosystems",
+            "environmental injustice"
+          ],
+          "bio": "Meghan Avolio is an associate professor in Johns Hopkins University’s Department of Earth and Planetary Sciences. Her research examines plants in cities and grasslands, including how urban environments affect plant populations and communities.",
+          "credentials": [],
+          "why_fit": "A Baltimore-based ecologist whose work includes research on street-tree communities and race-based housing policy, bringing a locally grounded ecological perspective.",
+          "past_speaking": [
+            {
+              "event": "Horticulture Seminar Series: Plant community assembly in urban areas",
+              "year": 2020,
+              "url": "https://391241.mediaspace.kaltura.com/media/t/1_sqcu28co"
+            }
+          ],
+          "notable_work": [
+            "Current Street Tree Communities Reflect Race-based Housing Policy and Modern Attempts to Remedy Environmental Injustice"
+          ],
+          "profile_url": "https://eps.jhu.edu/directory/meghan-avolio/",
+          "links": [
+            {
+              "label": "Johns Hopkins faculty directory",
+              "url": "https://eps.jhu.edu/directory/meghan-avolio/",
+              "kind": "profile"
+            },
+            {
+              "label": "Baltimore street-tree research coverage",
+              "url": "https://cmns.umd.edu/news-events/news/urban-trees-rooted-redlining-and-environmental-injustice",
+              "kind": "work"
+            },
+            {
+              "label": "Horticulture seminar presentation",
+              "url": "https://391241.mediaspace.kaltura.com/media/t/1_sqcu28co",
+              "kind": "talk"
+            }
+          ],
+          "photo_url": null,
+          "evidence_urls": [
+            "https://eps.jhu.edu/directory/meghan-avolio/",
+            "https://cmns.umd.edu/news-events/news/urban-trees-rooted-redlining-and-environmental-injustice",
+            "https://391241.mediaspace.kaltura.com/media/t/1_sqcu28co"
+          ],
+          "fit_score": 4,
+          "fit_reason": "Strong regional and tree-equity research fit with a confirmed seminar presentation, though her work is more ecological than clinical public health."
+        }
+      ],
+      "dropped": [],
+      "candidates_found": 3,
+      "error": null,
+      "usage": {
+        "model_calls": 5,
+        "input_tokens": 83066,
+        "cached_input_tokens": 44247,
+        "output_tokens": 2805,
+        "reasoning_tokens": 248,
+        "web_searches": 11,
+        "page_reads": 0,
+        "cost_usd": null
+      },
+      "seconds": 48.8
+    },
+    {
+      "category": "practitioner",
+      "label": "Practitioners",
+      "cards": [
+        {
+          "name": "J.T. Bowers",
+          "job_title": "Deputy Director, Maryland Forest Service",
+          "organization": "Maryland Department of Natural Resources",
+          "location": "Maryland",
+          "level": "established",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "some",
+          "could_speak_on": "Maryland’s urban-forestry programs and how state partnerships can connect tree canopy expansion with public health and environmental justice.",
+          "talk_ideas": [
+            "Expanding urban forestry as public-health infrastructure",
+            "State support for tree canopy in underserved communities",
+            "Building local capacity through urban-forestry partnerships"
+          ],
+          "topic_tags": [
+            "Maryland urban forestry",
+            "tree equity",
+            "public health",
+            "5 Million Trees",
+            "community forestry"
+          ],
+          "bio": "J.T. Bowers serves as Deputy Director of the Maryland Forest Service, leading statewide forestry policy, strategic initiatives, and agency modernization efforts. His work includes expanding urban and community forestry programs and integrating forestry into public-health and environmental-justice policy.",
+          "credentials": [
+            "Master of Landscape Architecture",
+            "Master of Science in Conservation Ecology",
+            "ISA Certified Arborist"
+          ],
+          "why_fit": "A Maryland state-practice perspective closely matches the regional audience and panel’s focus on connecting trees, community access, and health.",
+          "past_speaking": [
+            {
+              "event": "2026 Urban Tree Summit: “The Expanding Mandate of Maryland’s Urban Forests”",
+              "year": 2026,
+              "url": "https://www.urbantreesummit.org/"
+            }
+          ],
+          "notable_work": [
+            "Maryland’s 5 Million Trees initiative",
+            "Expanded urban and community forestry programs"
+          ],
+          "profile_url": null,
+          "links": [
+            {
+              "label": "2026 Urban Tree Summit recap",
+              "url": "https://caseytrees.org/2026/09/navigating-whats-next-a-recap-of-the-2026-urban-tree-summit/",
+              "kind": "work"
+            },
+            {
+              "label": "2026 Urban Tree Summit agenda and speaker information",
+              "url": "https://www.urbantreesummit.org/",
+              "kind": "talk"
+            }
+          ],
+          "photo_url": null,
+          "evidence_urls": [
+            "https://www.urbantreesummit.org/",
+            "https://caseytrees.org/2026/09/navigating-whats-next-a-recap-of-the-2026-urban-tree-summit/"
+          ],
+          "fit_score": 5,
+          "fit_reason": "Directly relevant Maryland agency leader with documented experience in urban forestry, underserved-community canopy work, public health, and a recent regional summit presentation."
+        },
+        {
+          "name": "Leslie Berckes",
+          "job_title": "Executive Director",
+          "organization": "Urban and Community Forestry Society",
+          "location": "Des Moines, Iowa, USA",
+          "level": "established",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "experienced",
+          "could_speak_on": "The workforce and operational realities of urban forestry that shape cities’ ability to sustain tree-care and canopy programs.",
+          "talk_ideas": [
+            "The people and systems needed to manage urban forests",
+            "Building the next generation of urban foresters",
+            "Practical challenges in municipal tree planting and care"
+          ],
+          "topic_tags": [
+            "municipal forestry",
+            "urban forestry workforce",
+            "tree care",
+            "community forestry",
+            "forestry education"
+          ],
+          "bio": "Leslie Berckes is Executive Director of the Urban and Community Forestry Society. Her work and public appearances address the professional community that makes daily tree planting and care decisions, including workforce development and the varied demands of urban forestry.",
+          "credentials": [],
+          "why_fit": "Offers a practitioner and workforce-systems angle relevant to putting urban forestry into practice, but is based outside the requested DC/Maryland region and has less direct evidence on tree equity or nature prescriptions.",
+          "past_speaking": [
+            {
+              "event": "2024 Urban Tree Summit",
+              "year": 2024,
+              "url": "https://caseytrees.org/2024/09/2024-urban-tree-summit-a-successful-day-of-learning-and-collaboration/"
+            },
+            {
+              "event": "The Municipal Arborist podcast: Leslie Berckes and the Urban & Community Forestry Society",
+              "year": 2023,
+              "url": "https://themunicipalarborist.buzzsprout.com/1751598/episodes/14137955-44-leslie-berckes-urban-community-forestry-society"
+            },
+            {
+              "event": "Internet of Nature podcast: Where have all the young urban foresters gone, and how to get them back?",
+              "year": null,
+              "url": "https://www.nadinagalle.com/podcasts/s5e6-where-have-all-the-young-urban-foresters-gone-and-how-to-get-them-back-with-leslie-berckes-of-society-of-municipal-arborists"
+            }
+          ],
+          "notable_work": [],
+          "profile_url": "https://ucfsmembers.org/contact",
+          "links": [
+            {
+              "label": "UCFS team page",
+              "url": "https://ucfsmembers.org/contact",
+              "kind": "profile"
+            },
+            {
+              "label": "2024 Urban Tree Summit recap",
+              "url": "https://caseytrees.org/2024/09/2024-urban-tree-summit-a-successful-day-of-learning-and-collaboration/",
+              "kind": "talk"
+            },
+            {
+              "label": "The Municipal Arborist podcast episode",
+              "url": "https://themunicipalarborist.buzzsprout.com/1751598/episodes/14137955-44-leslie-berckes-urban-community-forestry-society",
+              "kind": "talk"
+            },
+            {
+              "label": "Internet of Nature podcast episode",
+              "url": "https://www.nadinagalle.com/podcasts/s5e6-where-have-all-the-young-urban-foresters-gone-and-how-to-get-them-back-with-leslie-berckes-of-society-of-municipal-arborists",
+              "kind": "talk"
+            }
+          ],
+          "photo_url": "https://ucfsmembers.org/uploads/ucfsociety/customization/Leslie_Headshot_Website.jpg",
+          "evidence_urls": [
+            "https://ucfsmembers.org/contact",
+            "https://caseytrees.org/2024/09/2024-urban-tree-summit-a-successful-day-of-learning-and-collaboration/",
+            "https://themunicipalarborist.buzzsprout.com/1751598/episodes/14137955-44-leslie-berckes-urban-community-forestry-society",
+            "https://www.nadinagalle.com/podcasts/s5e6-where-have-all-the-young-urban-foresters-gone-and-how-to-get-them-back-with-leslie-berckes-of-society-of-municipal-arborists"
+          ],
+          "fit_score": 3,
+          "fit_reason": "Confirmed practitioner leader with multiple relevant speaking appearances; lower regional fit and limited direct evidence linking her work to health or equity."
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Dan Coy",
+          "reason": "Removed by a code check (see removals): dropped_no_work_proof"
+        }
+      ],
+      "candidates_found": 3,
+      "error": null,
+      "usage": {
+        "model_calls": 5,
+        "input_tokens": 77468,
+        "cached_input_tokens": 46817,
+        "output_tokens": 3051,
+        "reasoning_tokens": 186,
+        "web_searches": 9,
+        "page_reads": 0,
+        "cost_usd": null
+      },
+      "seconds": 47.3
+    },
+    {
+      "category": "policy",
+      "label": "Policy & Government",
+      "cards": [
+        {
+          "name": "Earl Eutsler",
+          "job_title": "Associate Director for Urban Forestry Division",
+          "organization": "District Department of Transportation (DDOT)",
+          "location": "Washington, DC",
+          "level": "established",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "some",
+          "could_speak_on": "How data-driven public-tree management can target resources across neighborhoods and sustain urban canopy as public infrastructure.",
+          "talk_ideas": [
+            "Using tree-service data to direct resources where they are most needed",
+            "Building community engagement into city tree-planting programs",
+            "Managing urban tree canopy for resilient, healthier neighborhoods"
+          ],
+          "topic_tags": [
+            "urban forestry",
+            "tree canopy data",
+            "street-tree management",
+            "tree planting",
+            "community engagement"
+          ],
+          "bio": "Earl Eutsler is Associate Director for DDOT’s Urban Forestry Division, where he has served since 2004. His work has included developing data-driven approaches to protecting and increasing Washington, DC’s tree canopy and improving the division’s service delivery.",
+          "credentials": [
+            "Master’s degree in environmental science and policy, Johns Hopkins University",
+            "Bachelor’s degree, St. Mary’s College"
+          ],
+          "why_fit": "A directly relevant regional government practitioner who can explain how public agencies manage street trees, prioritize service and planting, and engage communities. His documented 2021 practitioner lecture also meets the brief’s preference for prior speakers.",
+          "past_speaking": [
+            {
+              "event": "Wetmore Visiting Practitioner Lecture: “Urban Forestry in DC: The Simple Act of Keeping Track,” University of Illinois Department of Urban and Regional Planning",
+              "year": 2021,
+              "url": "https://urban.illinois.edu/about-us/news/planning-for-sustainability-visiting-practitioner-lecture/"
+            }
+          ],
+          "notable_work": [
+            "Led DDOT Urban Forestry Division work on data-driven tree-canopy protection and growth.",
+            "DDOT’s urban forestry program has focused on expanding community engagement and installing thousands of trees annually, according to his American Planning Association profile."
+          ],
+          "profile_url": "https://ddot.dc.gov/biography/earl-eutsler",
+          "links": [
+            {
+              "label": "DDOT biography",
+              "url": "https://ddot.dc.gov/biography/earl-eutsler",
+              "kind": "profile"
+            },
+            {
+              "label": "American Planning Association profile",
+              "url": "https://learn.planning.org/page/view.php?id=441",
+              "kind": "profile"
+            },
+            {
+              "label": "Wetmore Visiting Practitioner Lecture",
+              "url": "https://urban.illinois.edu/about-us/news/planning-for-sustainability-visiting-practitioner-lecture/",
+              "kind": "talk"
+            }
+          ],
+          "photo_url": "https://ddot.dc.gov/sites/default/files/styles/medium/public/dc/sites/ddot/biography_content/images/IMG_8931%20A.jpg?itok=DqAMAoye",
+          "evidence_urls": [
+            "https://ddot.dc.gov/biography/earl-eutsler",
+            "https://learn.planning.org/page/view.php?id=441",
+            "https://urban.illinois.edu/about-us/news/planning-for-sustainability-visiting-practitioner-lecture/"
+          ],
+          "fit_score": 5,
+          "fit_reason": "Current DC urban-forestry leadership, strong regional relevance, and a confirmed prior practitioner lecture."
+        }
+      ],
+      "dropped": [],
+      "candidates_found": 1,
+      "error": null,
+      "usage": {
+        "model_calls": 4,
+        "input_tokens": 50258,
+        "cached_input_tokens": 28133,
+        "output_tokens": 1486,
+        "reasoning_tokens": 153,
+        "web_searches": 7,
+        "page_reads": 0,
+        "cost_usd": null
+      },
+      "seconds": 22.2
+    },
+    {
+      "category": "founder",
+      "label": "Founders & Industry",
+      "cards": [
+        {
+          "name": "Abel Olivo",
+          "job_title": "Co-Founder & Executive Director",
+          "organization": "Defensores de la Cuenca",
+          "location": null,
+          "level": "established",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "experienced",
+          "could_speak_on": "How community-led tree planting and environmental education can expand access to urban nature and connect tree equity with healthier communities.",
+          "talk_ideas": [
+            "Building community capacity for equitable urban tree programs",
+            "Engaging Latino and Spanish-speaking communities in watershed and tree initiatives",
+            "Training local ambassadors to support tree planting and stewardship"
+          ],
+          "topic_tags": [
+            "community tree planting",
+            "Latino communities",
+            "watershed engagement",
+            "tree ambassadors",
+            "environmental education"
+          ],
+          "bio": "Abel Olivo is Co-Founder and Executive Director of Defensores de la Cuenca, which engages Latino and Spanish-speaking communities in watershed-related issues. The organization has received support for tree planting and training community tree ambassadors in Prince George’s County and surrounding areas.",
+          "credentials": [
+            "Serves on the Stakeholders Advisory Committee of the Chesapeake Executive Council",
+            "Board member of Nature Forward"
+          ],
+          "why_fit": "His leadership connects regional tree planting with community engagement, environmental education, and access to nature—an especially relevant perspective for a practitioner audience discussing tree equity as public-health infrastructure.",
+          "past_speaking": [
+            {
+              "event": "Maryland Outdoor Recreation Summit",
+              "year": null,
+              "url": "https://dnr.maryland.gov/Pages/summit/speaker-list/abel-olivo.aspx"
+            },
+            {
+              "event": "The Climate Divide podcast interview",
+              "year": 2023,
+              "url": "https://holacultura.com/on-the-climate-divide-co-founder-of-defensores-de-la-cuenca/"
+            }
+          ],
+          "notable_work": [
+            "Defensores de la Cuenca’s urban tree planting and community tree ambassador work in Prince George’s County and surrounding areas"
+          ],
+          "profile_url": "https://www.tucuenca.org/meet-the-team",
+          "links": [
+            {
+              "label": "Defensores de la Cuenca team profile",
+              "url": "https://www.tucuenca.org/meet-the-team",
+              "kind": "profile"
+            },
+            {
+              "label": "Chesapeake Bay Trust feature on urban tree work",
+              "url": "https://cbtrust.org/empowering-people-to-restore-nature-more-urban-trees-please/",
+              "kind": "work"
+            },
+            {
+              "label": "Maryland Outdoor Recreation Summit speaker profile",
+              "url": "https://dnr.maryland.gov/Pages/summit/speaker-list/abel-olivo.aspx",
+              "kind": "talk"
+            },
+            {
+              "label": "The Climate Divide interview",
+              "url": "https://holacultura.com/on-the-climate-divide-co-founder-of-defensores-de-la-cuenca/",
+              "kind": "talk"
+            }
+          ],
+          "photo_url": null,
+          "evidence_urls": [
+            "https://www.tucuenca.org/meet-the-team",
+            "https://dnr.maryland.gov/Pages/summit/speaker-list/abel-olivo.aspx",
+            "https://cbtrust.org/empowering-people-to-restore-nature-more-urban-trees-please/",
+            "https://holacultura.com/on-the-climate-divide-co-founder-of-defensores-de-la-cuenca/"
+          ],
+          "fit_score": 5,
+          "fit_reason": "Regional nonprofit co-founder with verified tree-planting work and public appearances, bringing a direct community-engagement perspective to the panel."
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Andrew Schichtel",
+          "reason": "Current executive director of Casey Trees is confirmed, but the supplied evidence identifies him as an organizational leader, not a founder or industry founder; therefore he does not fit this category."
+        }
+      ],
+      "candidates_found": 2,
+      "error": null,
+      "usage": {
+        "model_calls": 4,
+        "input_tokens": 58673,
+        "cached_input_tokens": 28820,
+        "output_tokens": 2115,
+        "reasoning_tokens": 421,
+        "web_searches": 9,
+        "page_reads": 0,
+        "cost_usd": null
+      },
+      "seconds": 35.1
+    },
+    {
+      "category": "advocate",
+      "label": "Advocates & Community",
+      "cards": [],
+      "dropped": [],
+      "candidates_found": 3,
+      "error": "Stopped at a safety limit: The next request would exceed the request_limit of 8. Consider raising the limit, or see the docs on usage limits for budget-aware patterns: https://pydantic.dev/docs/ai/core-concepts/agent/#usage-limits",
+      "usage": {
+        "model_calls": 1,
+        "input_tokens": 31474,
+        "cached_input_tokens": 5655,
+        "output_tokens": 1009,
+        "reasoning_tokens": 241,
+        "web_searches": 12,
+        "page_reads": 0,
+        "cost_usd": null
+      },
+      "seconds": 45.2
+    },
+    {
+      "category": "journalist",
+      "label": "Journalists & Communicators",
+      "cards": [
+        {
+          "name": "Aman Azhar",
+          "job_title": "Reporter",
+          "organization": "Inside Climate News",
+          "location": "Washington, D.C.",
+          "level": "established",
+          "best_for": [
+            "panelist",
+            "moderator"
+          ],
+          "speaking_badge": "experienced",
+          "could_speak_on": "He can bring a Maryland-focused environmental-justice reporting lens to discussion of how urban tree access, neighborhood conditions, and community health intersect.",
+          "talk_ideas": [
+            "Covering environmental justice and health across Baltimore and Maryland",
+            "How local reporting surfaces unequal environmental conditions",
+            "Connecting heat, neighborhood infrastructure, and community impacts"
+          ],
+          "topic_tags": [
+            "environmental justice",
+            "Baltimore-Maryland",
+            "environmental health",
+            "climate reporting",
+            "community impacts"
+          ],
+          "bio": "Aman Azhar is a Washington, D.C.-based reporter for Inside Climate News whose coverage focuses on environmental justice in the Baltimore-Maryland area. He previously worked as a broadcast journalist and multimedia producer for the BBC World Service and VOA News.",
+          "credentials": [],
+          "why_fit": "His regional environmental-justice coverage is directly relevant to a practitioner conversation about equitable access to trees and community health, and documented moderation experience supports his panel contribution.",
+          "past_speaking": [
+            {
+              "event": "Moderator, Montgomery County Energy Summit panel",
+              "year": 2023,
+              "url": "https://content.govdelivery.com/accounts/MDMONTGOMERY/bulletins/34f29e7"
+            },
+            {
+              "event": "Caulfield Lecture panel, Loyola University Maryland",
+              "year": 2023,
+              "url": "https://www.loyola.edu/news/2023/0307-caulfield-lecture.html"
+            }
+          ],
+          "notable_work": [
+            "Reporting on environmental justice and health issues in the Baltimore-Maryland area"
+          ],
+          "profile_url": "https://insideclimatenews.org/profile/aman-azhar/",
+          "links": [
+            {
+              "label": "Inside Climate News profile",
+              "url": "https://insideclimatenews.org/profile/aman-azhar/",
+              "kind": "profile"
+            },
+            {
+              "label": "Montgomery County Energy Summit panel",
+              "url": "https://content.govdelivery.com/accounts/MDMONTGOMERY/bulletins/34f29e7",
+              "kind": "talk"
+            },
+            {
+              "label": "Loyola Caulfield Lecture panel",
+              "url": "https://www.loyola.edu/news/2023/0307-caulfield-lecture.html",
+              "kind": "talk"
+            }
+          ],
+          "photo_url": "https://insideclimatenews.org/wp-content/uploads/2025/09/Aman-Azhar-300x300.jpg",
+          "evidence_urls": [
+            "https://insideclimatenews.org/profile/aman-azhar/",
+            "https://content.govdelivery.com/accounts/MDMONTGOMERY/bulletins/34f29e7",
+            "https://www.loyola.edu/news/2023/0307-caulfield-lecture.html"
+          ],
+          "fit_score": 5,
+          "fit_reason": "Strong regional fit through Maryland environmental-justice reporting, with confirmed prior panel and moderation experience."
+        },
+        {
+          "name": "Erin Douglas",
+          "job_title": "Freelance climate, energy, and environment journalist",
+          "organization": "Independent journalist",
+          "location": "Washington, D.C.",
+          "level": "rising",
+          "best_for": [
+            "panelist",
+            "moderator"
+          ],
+          "speaking_badge": "experienced",
+          "could_speak_on": "She can connect environmental-health reporting and climate resilience to practical questions about trees as neighborhood health infrastructure.",
+          "talk_ideas": [
+            "Environmental-health reporting and neighborhood conditions",
+            "Communicating climate adaptation and resilience for local audiences",
+            "What field reporting can reveal about community health and the environment"
+          ],
+          "topic_tags": [
+            "environmental health",
+            "climate adaptation",
+            "climate resilience",
+            "environmental journalism",
+            "Washington, D.C."
+          ],
+          "bio": "Erin Douglas is a Washington, D.C.-based freelance climate, energy, and environment journalist who most often writes about environmental health issues. She has reported for outlets including The Boston Globe, The Washington Post, and Inside Climate News, and has moderated panels and guest-lectured at universities and journalism events.",
+          "credentials": [],
+          "why_fit": "Her environmental-health focus and documented public-speaking and panel-moderation experience align with the panel’s public-health framing and the planner’s preference for experienced speakers.",
+          "past_speaking": [
+            {
+              "event": "Guest lecturer and panel moderator at universities and journalism events, including Harvard University, University of Massachusetts, TribFest, and the Society of Environmental Journalists conference",
+              "year": null,
+              "url": "https://erindouglasportfolio.com/bio/"
+            }
+          ],
+          "notable_work": [],
+          "profile_url": "https://erindouglasportfolio.com/bio/",
+          "links": [
+            {
+              "label": "Erin Douglas bio",
+              "url": "https://erindouglasportfolio.com/bio/",
+              "kind": "profile"
+            },
+            {
+              "label": "Portfolio",
+              "url": "https://erindouglasportfolio.com/",
+              "kind": "profile"
+            }
+          ],
+          "photo_url": "https://erindouglasportfolio.com/wp-content/uploads/2024/02/erin-headshot.jpg",
+          "evidence_urls": [
+            "https://erindouglasportfolio.com/bio/",
+            "https://erindouglasportfolio.com/"
+          ],
+          "fit_score": 4,
+          "fit_reason": "Relevant environmental-health reporting and substantial public-speaking experience, though her confirmed work is less specifically tied to urban forestry or the DC/Maryland region."
+        },
+        {
+          "name": "Sarah Kaplan",
+          "job_title": "Climate journalist",
+          "organization": "The Washington Post",
+          "location": "Washington, D.C.",
+          "level": "established",
+          "best_for": [
+            "panelist",
+            "moderator"
+          ],
+          "speaking_badge": "experienced",
+          "could_speak_on": "She can help frame how climate impacts affect communities and moderate a cross-disciplinary discussion about trees, heat, and health.",
+          "talk_ideas": [
+            "Reporting on human responses to a warming world",
+            "Communicating climate science and community impacts",
+            "Moderating a conversation on urban heat, trees, and public health"
+          ],
+          "topic_tags": [
+            "climate journalism",
+            "climate science",
+            "community impacts",
+            "climate communication",
+            "Washington Post"
+          ],
+          "bio": "Sarah Kaplan is a climate journalist at The Washington Post covering humanity’s response to a warming world. Her work has received recognition from science-writing and science-journalism organizations, and she has moderated climate discussions and served as a festival moderator.",
+          "credentials": [],
+          "why_fit": "She brings strong climate-communication and moderation experience, although the verified sources show less direct connection to urban forestry or the DC/Maryland practitioner community.",
+          "past_speaking": [
+            {
+              "event": "Moderator, Brookings discussion on the IPCC Sixth Assessment Report",
+              "year": null,
+              "url": "https://www.brookings.edu/events/what-comes-after-the-ipccs-sixth-assessment-report/"
+            },
+            {
+              "event": "Moderator, DCEFF 2024",
+              "year": 2024,
+              "url": "https://dceff.org/filmmaker/kaplan-sarah/"
+            }
+          ],
+          "notable_work": [],
+          "profile_url": "https://dceff.org/filmmaker/kaplan-sarah/",
+          "links": [
+            {
+              "label": "DCEFF profile",
+              "url": "https://dceff.org/filmmaker/kaplan-sarah/",
+              "kind": "profile"
+            },
+            {
+              "label": "Brookings discussion",
+              "url": "https://www.brookings.edu/events/what-comes-after-the-ipccs-sixth-assessment-report/",
+              "kind": "talk"
+            }
+          ],
+          "photo_url": "https://dceff.org/wp-content/uploads/2024/03/Sarah-Kaplan-headshot-480x480.jpg",
+          "evidence_urls": [
+            "https://dceff.org/filmmaker/kaplan-sarah/",
+            "https://www.brookings.edu/events/what-comes-after-the-ipccs-sixth-assessment-report/"
+          ],
+          "fit_score": 3,
+          "fit_reason": "Confirmed climate journalist with moderation experience, but weaker regional and tree-equity specificity than the other candidates."
+        }
+      ],
+      "dropped": [],
+      "candidates_found": 3,
+      "error": null,
+      "usage": {
+        "model_calls": 4,
+        "input_tokens": 56788,
+        "cached_input_tokens": 32408,
+        "output_tokens": 2661,
+        "reasoning_tokens": 142,
+        "web_searches": 7,
+        "page_reads": 0,
+        "cost_usd": null
+      },
+      "seconds": 49.9
+    }
+  ],
+  "removals": [
+    {
+      "category": "practitioner",
+      "name": "J.T. Bowers",
+      "what": "photo_removed",
+      "detail": "photo came from a page that is not their profile (https://www.urbantreesummit.org/)"
+    },
+    {
+      "category": "practitioner",
+      "name": "Dan Coy",
+      "what": "dropped_no_work_proof",
+      "detail": "only event listings found; no profile page or page about their work"
+    }
+  ],
+  "injection_flags": [],
+  "events": [
+    {
+      "ts": "2026-10-26T05:10:13+00:00",
+      "seconds": 0.0,
+      "agent": "Scout Lead",
+      "category": null,
+      "message": "Reading your brief and planning the search…"
+    },
+    {
+      "ts": "2026-10-26T05:10:18+00:00",
+      "seconds": 5.0,
+      "agent": "Scout Lead",
+      "category": null,
+      "message": "Plan ready: Find regional, budget-conscious panelists for a practitioner-focused discussion of tree equity and nature prescriptions as public health infrastructure in Washington, DC and Maryland. Favor rising and established speakers with evidence of prior presentations, and assemble complementary health, forestry, equity, and policy perspectives."
+    },
+    {
+      "ts": "2026-10-26T05:10:18+00:00",
+      "seconds": 5.0,
+      "agent": "Academics & Researchers searcher",
+      "category": "academic",
+      "message": "Searching the web…"
+    },
+    {
+      "ts": "2026-10-26T05:10:18+00:00",
+      "seconds": 5.0,
+      "agent": "Practitioners searcher",
+      "category": "practitioner",
+      "message": "Searching the web…"
+    },
+    {
+      "ts": "2026-10-26T05:10:18+00:00",
+      "seconds": 5.0,
+      "agent": "Policy & Government searcher",
+      "category": "policy",
+      "message": "Searching the web…"
+    },
+    {
+      "ts": "2026-10-26T05:10:18+00:00",
+      "seconds": 5.0,
+      "agent": "Founders & Industry searcher",
+      "category": "founder",
+      "message": "Searching the web…"
+    },
+    {
+      "ts": "2026-10-26T05:10:18+00:00",
+      "seconds": 5.0,
+      "agent": "Advocates & Community searcher",
+      "category": "advocate",
+      "message": "Searching the web…"
+    },
+    {
+      "ts": "2026-10-26T05:10:18+00:00",
+      "seconds": 5.0,
+      "agent": "Journalists & Communicators searcher",
+      "category": "journalist",
+      "message": "Searching the web…"
+    },
+    {
+      "ts": "2026-10-26T05:10:28+00:00",
+      "seconds": 14.8,
+      "agent": "Policy & Government searcher",
+      "category": "policy",
+      "message": "Found 1 candidates (7 web searches): Earl Eutsler"
+    },
+    {
+      "ts": "2026-10-26T05:10:28+00:00",
+      "seconds": 14.8,
+      "agent": "Policy & Government verifier",
+      "category": "policy",
+      "message": "Checking 1 people against their sources…"
+    },
+    {
+      "ts": "2026-10-26T05:10:32+00:00",
+      "seconds": 18.8,
+      "agent": "Practitioners searcher",
+      "category": "practitioner",
+      "message": "Found 3 candidates (6 web searches): J.T. Bowers, Dan Coy, Leslie Berkes"
+    },
+    {
+      "ts": "2026-10-26T05:10:32+00:00",
+      "seconds": 18.8,
+      "agent": "Practitioners verifier",
+      "category": "practitioner",
+      "message": "Checking 3 people against their sources…"
+    },
+    {
+      "ts": "2026-10-26T05:10:33+00:00",
+      "seconds": 20.1,
+      "agent": "Journalists & Communicators searcher",
+      "category": "journalist",
+      "message": "Found 3 candidates (7 web searches): Aman Azhar, Sarah Kaplan, Erin Douglas"
+    },
+    {
+      "ts": "2026-10-26T05:10:33+00:00",
+      "seconds": 20.1,
+      "agent": "Journalists & Communicators verifier",
+      "category": "journalist",
+      "message": "Checking 3 people against their sources…"
+    },
+    {
+      "ts": "2026-10-26T05:10:35+00:00",
+      "seconds": 21.6,
+      "agent": "Advocates & Community searcher",
+      "category": "advocate",
+      "message": "Found 3 candidates (12 web searches): Dr. Robert Zarr, Andrew Schichtel, Elliot Weidow"
+    },
+    {
+      "ts": "2026-10-26T05:10:35+00:00",
+      "seconds": 21.6,
+      "agent": "Advocates & Community verifier",
+      "category": "advocate",
+      "message": "Checking 3 people against their sources…"
+    },
+    {
+      "ts": "2026-10-26T05:10:40+00:00",
+      "seconds": 27.0,
+      "agent": "Founders & Industry searcher",
+      "category": "founder",
+      "message": "Found 2 candidates (9 web searches): Andrew Schichtel, Abel Olivo"
+    },
+    {
+      "ts": "2026-10-26T05:10:40+00:00",
+      "seconds": 27.0,
+      "agent": "Founders & Industry verifier",
+      "category": "founder",
+      "message": "Checking 2 people against their sources…"
+    },
+    {
+      "ts": "2026-10-26T05:10:40+00:00",
+      "seconds": 27.2,
+      "agent": "Policy & Government verifier",
+      "category": "policy",
+      "message": "1 confirmed, 0 dropped"
+    },
+    {
+      "ts": "2026-10-26T05:10:43+00:00",
+      "seconds": 30.0,
+      "agent": "Academics & Researchers searcher",
+      "category": "academic",
+      "message": "Found 3 candidates (9 web searches): Jennifer D. Roberts, Michelle C. Kondo, Meghan Avolio"
+    },
+    {
+      "ts": "2026-10-26T05:10:43+00:00",
+      "seconds": 30.0,
+      "agent": "Academics & Researchers verifier",
+      "category": "academic",
+      "message": "Checking 3 people against their sources…"
+    },
+    {
+      "ts": "2026-10-26T05:10:53+00:00",
+      "seconds": 40.2,
+      "agent": "Founders & Industry verifier",
+      "category": "founder",
+      "message": "1 confirmed, 1 dropped"
+    },
+    {
+      "ts": "2026-10-26T05:11:03+00:00",
+      "seconds": 50.2,
+      "agent": "Advocates & Community",
+      "category": "advocate",
+      "message": "Stopped at a safety limit: The next request would exceed the request_limit of 8. Consider raising the limit, or see the docs on usage limits for budget-aware patterns: https://pydantic.dev/docs/ai/core-concepts/agent/#usage-limits"
+    },
+    {
+      "ts": "2026-10-26T05:11:06+00:00",
+      "seconds": 52.3,
+      "agent": "Practitioners verifier",
+      "category": "practitioner",
+      "message": "2 confirmed, 1 dropped"
+    },
+    {
+      "ts": "2026-10-26T05:11:07+00:00",
+      "seconds": 53.9,
+      "agent": "Academics & Researchers verifier",
+      "category": "academic",
+      "message": "3 confirmed, 0 dropped"
+    },
+    {
+      "ts": "2026-10-26T05:11:08+00:00",
+      "seconds": 54.9,
+      "agent": "Journalists & Communicators verifier",
+      "category": "journalist",
+      "message": "3 confirmed, 0 dropped"
+    },
+    {
+      "ts": "2026-10-26T05:11:08+00:00",
+      "seconds": 54.9,
+      "agent": "Panel Architect",
+      "category": null,
+      "message": "Looking for people who would make great panels together…"
+    },
+    {
+      "ts": "2026-10-26T05:11:18+00:00",
+      "seconds": 64.7,
+      "agent": "Panel Architect",
+      "category": null,
+      "message": "Suggested 2 panel(s): Can Trees Be Prescribed?; From Canopy Gaps to Health Gains"
+    },
+    {
+      "ts": "2026-10-26T05:11:18+00:00",
+      "seconds": 64.7,
+      "agent": "Scout",
+      "category": null,
+      "message": "Done: 10 verified speakers across 6 categories."
+    }
+  ],
+  "panels": [
+    {
+      "title": "Can Trees Be Prescribed?",
+      "question": "How can cities turn evidence on nature, health, and unequal tree access into practical public-health infrastructure?",
+      "members": [
+        {
+          "name": "Jennifer D. Roberts",
+          "category": "academic",
+          "angle": "Connects green-space access, structural inequities, and public-health research to nature-prescription programs."
+        },
+        {
+          "name": "J.T. Bowers",
+          "category": "practitioner",
+          "angle": "Brings Maryland’s urban-forestry programs and state partnerships into the discussion of canopy expansion, health, and environmental justice."
+        },
+        {
+          "name": "Earl Eutsler",
+          "category": "policy",
+          "angle": "Offers a city-management perspective on using public-tree data to target neighborhood resources and sustain canopy."
+        },
+        {
+          "name": "Abel Olivo",
+          "category": "founder",
+          "angle": "Brings community-led tree planting and environmental education experience focused on expanding access to urban nature."
+        }
+      ],
+      "moderator": {
+        "name": "Aman Azhar",
+        "category": "journalist",
+        "angle": "Adds a Maryland-focused environmental-justice reporting lens and experience moderating public discussions."
+      },
+      "why_together": [
+        "Brings research, state and city implementation, and community-led stewardship to one practical question.",
+        "Their perspectives span the health case for nature prescriptions, the systems for delivering trees, and how communities participate.",
+        "The local and regional focus fits the Washington, DC/Maryland audience."
+      ],
+      "tension": "How can public agencies use data and health evidence to direct investment while ensuring community priorities and stewardship shape where and how tree programs are delivered?",
+      "balance_note": "A regional mix of academic, state and city policy, and community-based leadership; all members are established, with a journalist moderator.",
+      "shared_stage": []
+    },
+    {
+      "title": "From Canopy Gaps to Health Gains",
+      "question": "What does it take to turn evidence about unequal tree cover and public health into lasting, equitable urban-forestry programs?",
+      "members": [
+        {
+          "name": "Michelle C. Kondo",
+          "category": "academic",
+          "angle": "Brings research on links among urban trees, community-led greening, nature prescriptions, and public health."
+        },
+        {
+          "name": "Meghan Avolio",
+          "category": "academic",
+          "angle": "Uses Baltimore street-tree patterns and urban plant ecology to show how neighborhood environments reflect inequity."
+        },
+        {
+          "name": "Leslie Berckes",
+          "category": "practitioner",
+          "angle": "Highlights the workforce and operational systems cities need to sustain tree care and canopy programs."
+        },
+        {
+          "name": "J.T. Bowers",
+          "category": "practitioner",
+          "angle": "Offers a Maryland program and partnership perspective on expanding urban forestry in underserved communities."
+        }
+      ],
+      "moderator": {
+        "name": "Sarah Kaplan",
+        "category": "journalist",
+        "angle": "Can frame the discussion around climate impacts on communities and moderate a cross-disciplinary conversation about trees, heat, and health."
+      },
+      "why_together": [
+        "Pairs evidence on health and neighborhood tree patterns with the practical challenge of maintaining trees over time.",
+        "Connects regional equity questions to workforce capacity and state-level partnership approaches.",
+        "The panel can move from identifying canopy gaps to discussing what it takes to close them sustainably."
+      ],
+      "tension": "Research can identify health benefits and inequities, but durable improvements also depend on workforce, maintenance capacity, and choices about how public programs allocate resources.",
+      "balance_note": "Two academic researchers and two forestry practitioners bring complementary evidence and implementation perspectives; the moderator adds climate communication experience.",
+      "shared_stage": []
+    }
+  ],
+  "panel_usage": {
+    "model_calls": 1,
+    "input_tokens": 3663,
+    "cached_input_tokens": 1389,
+    "output_tokens": 678,
+    "reasoning_tokens": 0,
+    "web_searches": 0,
+    "page_reads": 0,
+    "cost_usd": null
+  },
+  "usage": {
+    "model_calls": 25,
+    "input_tokens": 362794,
+    "cached_input_tokens": 188639,
+    "output_tokens": 14274,
+    "reasoning_tokens": 1391,
+    "web_searches": 55,
+    "page_reads": 44,
+    "cost_usd": null
+  },
+  "seconds": 64.7,
+  "error": null,
+  "created_at": "2026-10-26T05:10:13+00:00",
+  "model": "gpt-6-luna"
+}

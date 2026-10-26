@@ -1,0 +1,1079 @@
+{
+  "id": "370be78406",
+  "status": "done",
+  "brief": {
+    "conference_theme": "Environmental and social regeneration: beyond sustainability",
+    "looking_for": "panel",
+    "panel_theme": "Circularity at scale: regenerative sourcing and supply chains",
+    "panel_size": 3,
+    "conference_name": "Yale Business & the Environment Conference",
+    "conference_type": "business",
+    "location": "New Haven, CT",
+    "reach": "national",
+    "budget": "small",
+    "level": "auto",
+    "categories": [
+      "academic",
+      "practitioner",
+      "policy",
+      "founder",
+      "advocate",
+      "journalist"
+    ],
+    "prioritize": [
+      "has_spoken",
+      "range_of_perspectives"
+    ],
+    "skip_names": [],
+    "notes": null,
+    "per_category": 3
+  },
+  "plan": {
+    "summary": "Build a three-person panel on circularity at scale, focusing on regenerative sourcing and supply chains in business. Favor rising or established, budget-conscious candidates with prior conference or presentation experience, and balance sectors, career stages, places, and organization types; national reach allows searches beyond New Haven.",
+    "target_level": "rising",
+    "target_roles": [
+      "panelist"
+    ],
+    "location_focus": "National; include New Haven and the Northeast where useful",
+    "angles": [
+      {
+        "category": "academic",
+        "angles": [
+          "Business-school and supply-chain researchers studying circular procurement, regenerative agriculture, and scaling reuse",
+          "Researchers presenting at circular economy and sustainable business conferences"
+        ]
+      },
+      {
+        "category": "practitioner",
+        "angles": [
+          "Corporate sourcing, procurement, and supply-chain leaders implementing circular or regenerative practices",
+          "Circular-economy consultants and nonprofit program leaders with practical case studies and conference presentations"
+        ]
+      },
+      {
+        "category": "policy",
+        "angles": [
+          "State or federal circular-economy, sustainable materials, and responsible-sourcing policy specialists",
+          "Think-tank policy experts on producer responsibility and circular supply chains who present to business audiences"
+        ]
+      },
+      {
+        "category": "founder",
+        "angles": [
+          "Founders of early-stage circular materials, reuse, and regenerative sourcing businesses with demonstrated scale-up work",
+          "Small and mid-sized company leaders presenting supply-chain circularity case studies at industry events"
+        ]
+      },
+      {
+        "category": "advocate",
+        "angles": [
+          "Nonprofit and coalition leaders advancing just, regenerative supply chains and circular sourcing",
+          "Community or worker-centered advocates connecting materials circularity with equitable sourcing, with public speaking experience"
+        ]
+      },
+      {
+        "category": "journalist",
+        "angles": [
+          "Business or sustainability reporters covering circular supply chains, regenerative sourcing, and materials innovation",
+          "Trade-publication editors or podcast hosts who moderate circular economy and sustainable business discussions"
+        ]
+      }
+    ]
+  },
+  "categories": [
+    {
+      "category": "academic",
+      "label": "Academics & Researchers",
+      "cards": [
+        {
+          "name": "Michele Sarazen",
+          "job_title": "Assistant Professor of Chemical and Biological Engineering",
+          "organization": "Princeton University",
+          "level": "rising",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "some",
+          "could_speak_on": "How recovering and reusing carbon, metals, and minerals can extend circularity beyond plastics and support more regenerative supply chains.",
+          "talk_ideas": [
+            "Closed-loop approaches to reclaiming carbon, metals, and minerals",
+            "Energy-efficient processes that enable circular material flows",
+            "Where circularity strategies encounter practical challenges"
+          ],
+          "topic_tags": [
+            "circular economy",
+            "materials recovery",
+            "sustainable processes",
+            "closed-loop systems"
+          ],
+          "bio": "Michele Sarazen is an assistant professor of chemical and biological engineering at Princeton University and a co-organizer of the 2025 Andlinger Center annual meeting on circularity. She moderated a panel on innovative approaches in energy-efficient and sustainable processes that emphasize closed loops.",
+          "credentials": [],
+          "why_fit": "Her research and panel experience provide an academic perspective on the processes and materials recovery that can help circular supply chains scale.",
+          "past_speaking": [
+            {
+              "event": "Andlinger Center Annual Meeting: “Strategies for Circularity: Prospects and Challenges” — moderated the “New Frontiers in Circularity” panel",
+              "year": 2025,
+              "url": "https://acee.princeton.edu/acee-news/conference-spotlights-the-obvious-benefits-and-hidden-challenges-of-a-circular-economy/"
+            }
+          ],
+          "notable_work": [],
+          "links": [
+            {
+              "label": "Andlinger Center conference report",
+              "url": "https://acee.princeton.edu/acee-news/conference-spotlights-the-obvious-benefits-and-hidden-challenges-of-a-circular-economy/"
+            }
+          ],
+          "photo_url": "https://acee.princeton.edu/wp-content/uploads/2026/03/103025-AndlingerAnnualMeeting-26665_sarazen-500x375-1.jpg",
+          "evidence_urls": [
+            "https://acee.princeton.edu/acee-news/conference-spotlights-the-obvious-benefits-and-hidden-challenges-of-a-circular-economy/"
+          ],
+          "fit_score": 4,
+          "fit_reason": "Verified academic with directly relevant circularity expertise and documented experience moderating a circularity panel."
+        },
+        {
+          "name": "Heather Liddell",
+          "job_title": "Presenter; Purdue University affiliation listed in conference agenda",
+          "organization": "Purdue University",
+          "level": "rising",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "some",
+          "could_speak_on": "Using material-efficiency assessment of U.S. manufacturing supply chains to identify where circularity can be scaled.",
+          "talk_ideas": [
+            "Material-efficiency measurement across manufacturing supply chains",
+            "What supply-chain assessment reveals about circularity opportunities",
+            "Connecting systems analysis with business decisions on resource use"
+          ],
+          "topic_tags": [
+            "supply chains",
+            "material efficiency",
+            "systems analysis",
+            "manufacturing"
+          ],
+          "bio": "Heather Liddell presented research on a physically extended EEIO framework for material-efficiency assessment in U.S. manufacturing supply chains at the 2025 REMADE conference. The agenda lists Purdue as her affiliation and identifies her as a co-author with Purdue University researchers.",
+          "credentials": [],
+          "why_fit": "Her conference research directly examines material efficiency in manufacturing supply chains, a close match for a panel on circularity at scale.",
+          "past_speaking": [
+            {
+              "event": "REMADE Circular Economy Technology Summit & Conference",
+              "year": 2025,
+              "url": "https://remadeinstitute.org/2025-conference/2025-agenda/"
+            }
+          ],
+          "notable_work": [],
+          "links": [
+            {
+              "label": "REMADE 2025 agenda",
+              "url": "https://remadeinstitute.org/2025-conference/2025-agenda/"
+            }
+          ],
+          "photo_url": null,
+          "evidence_urls": [
+            "https://remadeinstitute.org/2025-conference/2025-agenda/"
+          ],
+          "fit_score": 4,
+          "fit_reason": "Her verified research presentation directly addresses material efficiency in U.S. manufacturing supply chains."
+        },
+        {
+          "name": "David Hinks",
+          "job_title": "Dean, Wilson College of Textiles",
+          "organization": "NC State University",
+          "level": "established",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "some",
+          "could_speak_on": "How textile circularity and material sourcing intersect with U.S. manufacturing and supply-chain resilience.",
+          "talk_ideas": [
+            "Textile circularity and the future of U.S. manufacturing",
+            "Sourcing materials with circularity and resilience in view",
+            "Connecting textile innovation with business supply-chain decisions"
+          ],
+          "topic_tags": [
+            "textiles",
+            "circularity",
+            "manufacturing",
+            "supply chains"
+          ],
+          "bio": "David Hinks is listed as dean of NC State University’s Wilson College of Textiles. The 2025 REMADE conference agenda lists him as a keynote speaker on the future of American textiles.",
+          "credentials": [],
+          "why_fit": "His academic leadership in textiles and documented keynote at a circular-economy conference offer a sector-specific perspective on circular sourcing and supply chains.",
+          "past_speaking": [
+            {
+              "event": "REMADE Circular Economy Technology Summit & Conference — keynote address, “The Future of American Textiles: A Homeland Security Imperative”",
+              "year": 2025,
+              "url": "https://remadeinstitute.org/2025-conference/2025-agenda/"
+            }
+          ],
+          "notable_work": [],
+          "links": [
+            {
+              "label": "REMADE 2025 agenda",
+              "url": "https://remadeinstitute.org/2025-conference/2025-agenda/"
+            }
+          ],
+          "photo_url": null,
+          "evidence_urls": [
+            "https://remadeinstitute.org/2025-conference/2025-agenda/"
+          ],
+          "fit_score": 4,
+          "fit_reason": "Verified textile-sector academic leader with a relevant conference keynote; brings a distinct supply-chain sector perspective."
+        }
+      ],
+      "dropped": [],
+      "candidates_found": 5,
+      "error": null,
+      "usage": {
+        "model_calls": 3,
+        "input_tokens": 41194,
+        "cached_input_tokens": 18404,
+        "output_tokens": 2923,
+        "reasoning_tokens": 137,
+        "web_searches": 6,
+        "page_reads": 0,
+        "cost_usd": null
+      },
+      "seconds": 29.7
+    },
+    {
+      "category": "practitioner",
+      "label": "Practitioners",
+      "cards": [
+        {
+          "name": "John Holm",
+          "job_title": "Senior Vice President",
+          "organization": "Pyxera Global",
+          "level": "established",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "some",
+          "could_speak_on": "How reverse logistics and reuse coalitions can help businesses scale circular sourcing and supply chains.",
+          "talk_ideas": [
+            "Designing material reverse-logistics systems for circularity",
+            "Building coalitions to scale reuse economies",
+            "Lessons from circular logistics and city circularity strategy"
+          ],
+          "topic_tags": [
+            "circular economy",
+            "reverse logistics",
+            "reuse",
+            "supply chains"
+          ],
+          "bio": "John Holm is Senior Vice President at Pyxera Global, where he leads circular economy and climate strategy. His work includes material reverse logistics, city circularity strategy, and large-scale reuse-economy coalition-building.",
+          "credentials": [
+            "15+ years’ experience designing and executing circular-economy strategies"
+          ],
+          "why_fit": "He brings hands-on experience with reverse logistics and reuse systems directly relevant to scaling regenerative sourcing and supply chains.",
+          "past_speaking": [
+            {
+              "event": "The Circular Supply Chain Coalition: Optimizing Circular Logistics (SPLC webinar)",
+              "year": 2026,
+              "url": "https://www.sustainablepurchasing.org/events/optimizing-circular-logistics"
+            }
+          ],
+          "notable_work": [
+            "Circular logistics case study with FedEx and Pyxera Global, recognized with the 2025 SPLC Leadership Award for Circular Economy"
+          ],
+          "links": [
+            {
+              "label": "SPLC webinar and presenter profile",
+              "url": "https://www.sustainablepurchasing.org/events/optimizing-circular-logistics"
+            }
+          ],
+          "photo_url": "https://assets-002.noviams.com/novi-file-uploads/splc/headshots/John_Holm_300x300.png",
+          "evidence_urls": [
+            "https://www.sustainablepurchasing.org/events/optimizing-circular-logistics"
+          ],
+          "fit_score": 5,
+          "fit_reason": "Strong practitioner match with directly relevant reverse-logistics and reuse experience, plus a verified public presentation."
+        },
+        {
+          "name": "Deborah Dull",
+          "job_title": "Founder",
+          "organization": "Circular Supply Chain Network",
+          "level": "established",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "some",
+          "could_speak_on": "Practical levers for embedding circularity into supply-chain design, operations, and sourcing.",
+          "talk_ideas": [
+            "Four actionable levers for circular supply chains",
+            "Scaling circularity through business operations",
+            "Turning supply-chain circularity concepts into implementation plans"
+          ],
+          "topic_tags": [
+            "circular supply chains",
+            "operations",
+            "circularity",
+            "business strategy"
+          ],
+          "bio": "Deborah Dull is the Founder of Circular Supply Chain Network. The Climate Week NYC event agenda identifies her as presenting a technical foundation on circular supply-chain levers.",
+          "credentials": [],
+          "why_fit": "Her network and focus on practical circular-supply-chain frameworks align closely with a business audience seeking actionable approaches to scaling circularity.",
+          "past_speaking": [
+            {
+              "event": "Circular Supply Chain Summit",
+              "year": 2026,
+              "url": "https://www.climateweeknyc.org/event-search/circular-supply-chain-summit"
+            }
+          ],
+          "notable_work": [],
+          "links": [
+            {
+              "label": "Circular Supply Chain Summit agenda",
+              "url": "https://www.climateweeknyc.org/event-search/circular-supply-chain-summit"
+            }
+          ],
+          "photo_url": null,
+          "evidence_urls": [
+            "https://www.climateweeknyc.org/event-search/circular-supply-chain-summit"
+          ],
+          "fit_score": 5,
+          "fit_reason": "Direct topic alignment and a scheduled technical-foundation presentation, though the listed summit date is in the future."
+        },
+        {
+          "name": "Virginie Le Barbu",
+          "job_title": "Executive Director, Global Sustainability",
+          "organization": "Lenovo",
+          "level": "established",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "some",
+          "could_speak_on": "Corporate implementation lessons from Lenovo’s Circle 360 and regional circularity networks.",
+          "talk_ideas": [
+            "Scaling circularity through corporate programs such as Circle 360",
+            "Connecting regional service, manufacturing, and reuse networks",
+            "Operational challenges in moving circularity from pilots to systems"
+          ],
+          "topic_tags": [
+            "corporate sustainability",
+            "circularity",
+            "electronics",
+            "supply chains"
+          ],
+          "bio": "Virginie Le Barbu is Executive Director, Global Sustainability at Lenovo. The Climate Week NYC agenda lists her presenting a Lenovo Circle 360 example of networked, regional circularity in operation.",
+          "credentials": [],
+          "why_fit": "She offers a corporate operating perspective on implementing circularity within a global technology company and supply network.",
+          "past_speaking": [
+            {
+              "event": "Circular Supply Chain Summit",
+              "year": 2026,
+              "url": "https://www.climateweeknyc.org/event-search/circular-supply-chain-summit"
+            }
+          ],
+          "notable_work": [],
+          "links": [
+            {
+              "label": "Circular Supply Chain Summit agenda",
+              "url": "https://www.climateweeknyc.org/event-search/circular-supply-chain-summit"
+            }
+          ],
+          "photo_url": null,
+          "evidence_urls": [
+            "https://www.climateweeknyc.org/event-search/circular-supply-chain-summit"
+          ],
+          "fit_score": 5,
+          "fit_reason": "Strong corporate implementation fit with a relevant scheduled case presentation; the event date is in the future."
+        }
+      ],
+      "dropped": [],
+      "candidates_found": 5,
+      "error": null,
+      "usage": {
+        "model_calls": 3,
+        "input_tokens": 35657,
+        "cached_input_tokens": 18324,
+        "output_tokens": 2752,
+        "reasoning_tokens": 265,
+        "web_searches": 3,
+        "page_reads": 0,
+        "cost_usd": null
+      },
+      "seconds": 31.2
+    },
+    {
+      "category": "policy",
+      "label": "Policy & Government",
+      "cards": [
+        {
+          "name": "Mallory Anderson",
+          "job_title": "Project Manager",
+          "organization": "Minnesota Pollution Control Agency",
+          "level": "rising",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "experienced",
+          "could_speak_on": "How Minnesota’s packaging EPR law can shift producer responsibility and reshape the systems that supply, collect, and recover packaging.",
+          "talk_ideas": [
+            "Putting packaging extended producer responsibility into practice",
+            "Producer fees and the economics of reuse, recycling, and composting",
+            "What businesses should prepare for in state packaging EPR programs"
+          ],
+          "topic_tags": [
+            "packaging EPR",
+            "producer responsibility",
+            "recycling policy",
+            "Minnesota"
+          ],
+          "bio": "Mallory Anderson is a project manager at the Minnesota Pollution Control Agency. She has presented on Minnesota’s packaging extended producer responsibility law and discussed the program with an audience.",
+          "credentials": [],
+          "why_fit": "She brings a state implementation perspective directly relevant to producer accountability and circular packaging systems, and her prior presentations meet the brief’s preference for experienced speakers.",
+          "past_speaking": [
+            {
+              "event": "EPR Think Tank 2025",
+              "year": 2025,
+              "url": "https://www.americanconference.com/eprthinktank/2025-conference/"
+            },
+            {
+              "event": "Project Optimist presentation on Minnesota’s Extended Producer Responsibility law",
+              "year": 2025,
+              "url": "https://www.projectoptimist.us/experts-dive-into-minnesotas-extended-producer-responsibility-law/"
+            }
+          ],
+          "notable_work": [],
+          "links": [
+            {
+              "label": "Minnesota Pollution Control Agency listing",
+              "url": "https://comment.pca.state.mn.us/minnesota-packaging-waste-and-cost-reduction-act-2026-needs-assessment/widgets/121534/team_members"
+            },
+            {
+              "label": "Project Optimist presentation coverage",
+              "url": "https://www.projectoptimist.us/experts-dive-into-minnesotas-extended-producer-responsibility-law/"
+            },
+            {
+              "label": "EPR Think Tank 2025 speakers",
+              "url": "https://www.americanconference.com/eprthinktank/2025-conference/"
+            }
+          ],
+          "photo_url": null,
+          "evidence_urls": [
+            "https://comment.pca.state.mn.us/minnesota-packaging-waste-and-cost-reduction-act-2026-needs-assessment/widgets/121534/team_members",
+            "https://www.projectoptimist.us/experts-dive-into-minnesotas-extended-producer-responsibility-law/",
+            "https://www.americanconference.com/eprthinktank/2025-conference/"
+          ],
+          "fit_score": 5,
+          "fit_reason": "Strong topical match with verified state agency role and two documented public speaking appearances."
+        },
+        {
+          "name": "Kara Steward",
+          "job_title": "Recycling Market Development Center Coordinator, Solid Waste Management Program",
+          "organization": "Washington State Department of Ecology",
+          "level": "established",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "some",
+          "could_speak_on": "How state market-development programs and public-private partnerships can expand demand for recycled feedstocks and make circular material flows viable at scale.",
+          "talk_ideas": [
+            "Building domestic markets for recycled materials",
+            "Connecting recycled feedstocks with product and supply-chain demand",
+            "State policy and business collaboration for circular materials"
+          ],
+          "topic_tags": [
+            "recycled markets",
+            "circular materials",
+            "state policy",
+            "Washington"
+          ],
+          "bio": "Kara Steward is the Recycling Market Development Center Coordinator in the Solid Waste Management Program at the Washington State Department of Ecology. The center supports domestic markets for recyclable materials and works with businesses, public agencies, and other partners on circular materials initiatives.",
+          "credentials": [],
+          "why_fit": "She offers a government market-development perspective that complements producer responsibility by focusing on the demand, infrastructure, and partnerships needed to use recovered materials at scale.",
+          "past_speaking": [
+            {
+              "event": "EPR Think Tank 2025",
+              "year": 2025,
+              "url": "https://www.americanconference.com/eprthinktank/2025-conference/"
+            }
+          ],
+          "notable_work": [],
+          "links": [
+            {
+              "label": "Washington Recycling Market Development Center",
+              "url": "https://ecology.wa.gov/waste-toxics/reducing-recycling-waste/waste-reduction-programs/recycling-market-development-center"
+            },
+            {
+              "label": "EPR Think Tank 2025 speakers",
+              "url": "https://www.americanconference.com/eprthinktank/2025-conference/"
+            }
+          ],
+          "photo_url": null,
+          "evidence_urls": [
+            "https://ecology.wa.gov/waste-toxics/reducing-recycling-waste/waste-reduction-programs/recycling-market-development-center",
+            "https://www.americanconference.com/eprthinktank/2025-conference/"
+          ],
+          "fit_score": 4,
+          "fit_reason": "Good government-side fit on circular-material market development, with one verified conference speaking appearance."
+        },
+        {
+          "name": "Nicole Portley",
+          "job_title": "Materials Management PRO Program Plan Lead",
+          "organization": "Oregon Department of Environmental Quality",
+          "level": "rising",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "some",
+          "could_speak_on": "What state review and oversight of producer-responsibility plans can teach businesses about implementing circular packaging systems and meeting producer obligations.",
+          "talk_ideas": [
+            "Reviewing producer responsibility organization plans",
+            "State oversight and producer accountability in packaging EPR",
+            "Implementation lessons from Oregon’s Recycling Modernization Act"
+          ],
+          "topic_tags": [
+            "producer responsibility",
+            "packaging EPR",
+            "recycling modernization",
+            "Oregon"
+          ],
+          "bio": "Nicole Portley is the Materials Management PRO Program Plan Lead at the Oregon Department of Environmental Quality. She has represented DEQ in public discussion of the agency’s review and approval of a producer responsibility organization program plan under Oregon’s Recycling Modernization Act.",
+          "credentials": [],
+          "why_fit": "She brings a directly relevant state regulatory perspective on producer responsibility plan review and implementation, useful for a business audience navigating circular supply-chain requirements.",
+          "past_speaking": [
+            {
+              "event": "EPR Think Tank 2025",
+              "year": 2025,
+              "url": "https://www.americanconference.com/eprthinktank/2025-conference/"
+            }
+          ],
+          "notable_work": [],
+          "links": [
+            {
+              "label": "Oregon DEQ announcement on program-plan approval",
+              "url": "https://apps.oregon.gov/oregon-newsroom/OR/DEQ/Posts/Post/DEQ-approves-Producer-Responsibility-Organization-program-plan-advances-Plastic-Pollution-and-Recycling-Modernization-Act"
+            },
+            {
+              "label": "EPR Think Tank 2025 speakers",
+              "url": "https://www.americanconference.com/eprthinktank/2025-conference/"
+            }
+          ],
+          "photo_url": null,
+          "evidence_urls": [
+            "https://apps.oregon.gov/oregon-newsroom/OR/DEQ/Posts/Post/DEQ-approves-Producer-Responsibility-Organization-program-plan-advances-Plastic-Pollution-and-Recycling-Modernization-Act",
+            "https://www.americanconference.com/eprthinktank/2025-conference/"
+          ],
+          "fit_score": 4,
+          "fit_reason": "Highly relevant state policy and program-oversight expertise, with one verified conference speaking appearance."
+        }
+      ],
+      "dropped": [],
+      "candidates_found": 3,
+      "error": null,
+      "usage": {
+        "model_calls": 4,
+        "input_tokens": 50195,
+        "cached_input_tokens": 22247,
+        "output_tokens": 2814,
+        "reasoning_tokens": 384,
+        "web_searches": 7,
+        "page_reads": 0,
+        "cost_usd": null
+      },
+      "seconds": 36.8
+    },
+    {
+      "category": "founder",
+      "label": "Founders & Industry",
+      "cards": [
+        {
+          "name": "Alysia Garmulewicz",
+          "job_title": "Co-CEO and Founder",
+          "organization": "Materiom",
+          "level": "established",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "some",
+          "could_speak_on": "How businesses can scale circular and regenerative material sourcing through new materials and supply-chain practices.",
+          "talk_ideas": [
+            "Scaling circular materials through business supply chains",
+            "Building commercial pathways for regenerative material sourcing"
+          ],
+          "topic_tags": [
+            "circular materials",
+            "sourcing",
+            "supply chains",
+            "business"
+          ],
+          "bio": "Alysia Garmulewicz is listed as Co-CEO and Founder of Materiom on the Circularity 25 speaker page. The page lists her among the event’s speakers.",
+          "credentials": [],
+          "why_fit": "Her founder role at a circular-materials organization aligns closely with the panel’s focus on sourcing and supply chains.",
+          "past_speaking": [
+            {
+              "event": "Circularity 25",
+              "year": 2025,
+              "url": "https://trellis.net/events/circularity/speakers/"
+            }
+          ],
+          "notable_work": [],
+          "links": [
+            {
+              "label": "Circularity 25 speaker listing",
+              "url": "https://trellis.net/events/circularity/speakers/"
+            }
+          ],
+          "photo_url": null,
+          "evidence_urls": [
+            "https://trellis.net/events/circularity/speakers/"
+          ],
+          "fit_score": 5,
+          "fit_reason": "Strong theme match through a founder role at a circular materials organization, plus a confirmed conference appearance."
+        },
+        {
+          "name": "Adam Hill",
+          "job_title": "Founder & CEO",
+          "organization": "Direct Polymers",
+          "level": "rising",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "some",
+          "could_speak_on": "How circular polymer solutions can be developed and scaled across business supply chains.",
+          "talk_ideas": [
+            "Scaling circular polymer materials in supply chains",
+            "Commercial opportunities and barriers for circular plastics"
+          ],
+          "topic_tags": [
+            "circular economy",
+            "polymers",
+            "materials",
+            "supply chains"
+          ],
+          "bio": "Adam Hill is listed as Founder & CEO of Direct Polymers on the Circularity 25 speaker page. The page lists him among the event’s speakers.",
+          "credentials": [],
+          "why_fit": "His listed founder role at a polymers company offers an industry perspective relevant to scaling circular materials.",
+          "past_speaking": [
+            {
+              "event": "Circularity 25",
+              "year": 2025,
+              "url": "https://trellis.net/events/circularity/speakers/"
+            }
+          ],
+          "notable_work": [],
+          "links": [
+            {
+              "label": "Circularity 25 speaker listing",
+              "url": "https://trellis.net/events/circularity/speakers/"
+            }
+          ],
+          "photo_url": null,
+          "evidence_urls": [
+            "https://trellis.net/events/circularity/speakers/"
+          ],
+          "fit_score": 4,
+          "fit_reason": "Directly relevant founder role in polymers and a confirmed conference speaker appearance."
+        },
+        {
+          "name": "Andy Ruben",
+          "job_title": "Founder & Executive Chairman",
+          "organization": "Trove",
+          "level": "established",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "some",
+          "could_speak_on": "What it takes to scale circular business models and embed reuse and resale into company supply chains.",
+          "talk_ideas": [
+            "Scaling circular business models in retail",
+            "Integrating reuse and resale into supply-chain strategy"
+          ],
+          "topic_tags": [
+            "circular business",
+            "reuse",
+            "resale",
+            "supply chains"
+          ],
+          "bio": "Andy Ruben is listed as Founder & Executive Chairman of Trove on the Circularity 25 speaker page. The page lists him among the event’s speakers.",
+          "credentials": [],
+          "why_fit": "His listed leadership role at a circular business makes him relevant to a business-focused discussion of scaling circularity.",
+          "past_speaking": [
+            {
+              "event": "Circularity 25",
+              "year": 2025,
+              "url": "https://trellis.net/events/circularity/speakers/"
+            }
+          ],
+          "notable_work": [],
+          "links": [
+            {
+              "label": "Circularity 25 speaker listing",
+              "url": "https://trellis.net/events/circularity/speakers/"
+            }
+          ],
+          "photo_url": null,
+          "evidence_urls": [
+            "https://trellis.net/events/circularity/speakers/"
+          ],
+          "fit_score": 4,
+          "fit_reason": "Relevant founder and executive perspective on circular business models, with a confirmed conference appearance."
+        }
+      ],
+      "dropped": [],
+      "candidates_found": 5,
+      "error": null,
+      "usage": {
+        "model_calls": 3,
+        "input_tokens": 34666,
+        "cached_input_tokens": 18214,
+        "output_tokens": 2305,
+        "reasoning_tokens": 227,
+        "web_searches": 3,
+        "page_reads": 0,
+        "cost_usd": null
+      },
+      "seconds": 29.8
+    },
+    {
+      "category": "advocate",
+      "label": "Advocates & Community",
+      "cards": [
+        {
+          "name": "Adolfo Alzuphar",
+          "job_title": "Field Organizing Director",
+          "organization": "National Young Farmers Coalition",
+          "level": "rising",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "some",
+          "could_speak_on": "How farmer-led advocacy can help make regenerative sourcing and supply chains more equitable for the next generation of U.S. farmers.",
+          "talk_ideas": [
+            "Building farmer-advocate networks to shape agricultural supply chains",
+            "Connecting agricultural equity with regenerative sourcing",
+            "What farmers need from buyers and policymakers to support resilient food systems"
+          ],
+          "topic_tags": [
+            "farmer advocacy",
+            "regenerative agriculture",
+            "agricultural equity",
+            "food systems"
+          ],
+          "bio": "Adolfo Alzuphar is the Field Organizing Director at the National Young Farmers Coalition, where he leads efforts to resource and empower the next generation of farmers. He directs the Farmer-Advocate program, building networks of local leaders advancing agricultural equity and sustainability.",
+          "credentials": [],
+          "why_fit": "His farmer-led organizing perspective can bring community and equity considerations into a business-focused discussion of regenerative supply chains.",
+          "past_speaking": [
+            {
+              "event": "Regenerative Agriculture USA 2027 speaker",
+              "year": 2027,
+              "url": "https://www.regenerative-agriculture-summit.com/speaker/adolfo-alzuphar"
+            }
+          ],
+          "notable_work": [],
+          "links": [
+            {
+              "label": "Regenerative Agriculture USA speaker profile",
+              "url": "https://www.regenerative-agriculture-summit.com/speaker/adolfo-alzuphar"
+            },
+            {
+              "label": "National Young Farmers Coalition",
+              "url": "https://youngfarmers.org/"
+            }
+          ],
+          "photo_url": null,
+          "evidence_urls": [
+            "https://www.regenerative-agriculture-summit.com/speaker/adolfo-alzuphar"
+          ],
+          "fit_score": 4,
+          "fit_reason": "Strong advocate fit with direct relevance to farmer networks and agricultural equity; the profile lists one speaking appearance, though it is for a future 2027 program."
+        }
+      ],
+      "dropped": [],
+      "candidates_found": 1,
+      "error": null,
+      "usage": {
+        "model_calls": 4,
+        "input_tokens": 43905,
+        "cached_input_tokens": 24501,
+        "output_tokens": 786,
+        "reasoning_tokens": 132,
+        "web_searches": 6,
+        "page_reads": 0,
+        "cost_usd": null
+      },
+      "seconds": 24.9
+    },
+    {
+      "category": "journalist",
+      "label": "Journalists & Communicators",
+      "cards": [
+        {
+          "name": "Catherine Weetman",
+          "job_title": "Author, speaker, and podcaster",
+          "organization": "Rethink Global",
+          "level": "established",
+          "best_for": [
+            "panelist",
+            "moderator",
+            "workshop"
+          ],
+          "speaking_badge": "some",
+          "could_speak_on": "How regenerative circular strategies can reshape sourcing and supply chains while creating value with fewer resources and less harm.",
+          "talk_ideas": [
+            "Building circular and regenerative strategies into supply chains",
+            "Using circularity to create business value while reducing resource use",
+            "Lessons from circular-economy implementation across industries"
+          ],
+          "topic_tags": [
+            "circular economy",
+            "regenerative business",
+            "supply chains",
+            "business"
+          ],
+          "bio": "Catherine Weetman is an author, speaker, and podcaster focused on circular and regenerative strategies. Her Rethink Global site describes her work helping organizations develop approaches that create value with fewer resources, less pollution, and less harm.",
+          "credentials": [
+            "Author of A Circular Economy Handbook"
+          ],
+          "why_fit": "Her circular-economy focus and business-facing communication experience offer a strong fit for a panel on scaling regenerative sourcing and supply chains. Her podcasting background may also support a moderator role.",
+          "past_speaking": [
+            {
+              "event": "Workshops and talks (listed on Rethink Global)",
+              "year": null,
+              "url": "https://www.rethinkglobal.info/"
+            }
+          ],
+          "notable_work": [
+            "The Circular Economy Podcast",
+            "A Circular Economy Handbook"
+          ],
+          "links": [
+            {
+              "label": "Rethink Global profile",
+              "url": "https://www.rethinkglobal.info/"
+            }
+          ],
+          "photo_url": "https://www.rethinkglobal.info/wp-content/uploads/2019/03/C-Weetman-5-7x5-300x215.jpg",
+          "evidence_urls": [
+            "https://www.rethinkglobal.info/"
+          ],
+          "fit_score": 4,
+          "fit_reason": "Directly relevant circular and regenerative business expertise, with speaking and podcast credentials; the available page confirms the profile but gives limited detail on specific past appearances."
+        }
+      ],
+      "dropped": [],
+      "candidates_found": 1,
+      "error": null,
+      "usage": {
+        "model_calls": 3,
+        "input_tokens": 39282,
+        "cached_input_tokens": 17706,
+        "output_tokens": 984,
+        "reasoning_tokens": 260,
+        "web_searches": 6,
+        "page_reads": 0,
+        "cost_usd": null
+      },
+      "seconds": 16.5
+    }
+  ],
+  "removals": [],
+  "injection_flags": [],
+  "events": [
+    {
+      "ts": "2026-10-26T02:44:21+00:00",
+      "seconds": 0.0,
+      "agent": "Scout Lead",
+      "category": null,
+      "message": "Reading your brief and planning the search…"
+    },
+    {
+      "ts": "2026-10-26T02:44:23+00:00",
+      "seconds": 1.3,
+      "agent": "Scout Lead",
+      "category": null,
+      "message": "Plan ready: Build a three-person panel on circularity at scale, focusing on regenerative sourcing and supply chains in business. Favor rising or established, budget-conscious candidates with prior conference or presentation experience, and balance sectors, career stages, places, and organization types; national reach allows searches beyond New Haven."
+    },
+    {
+      "ts": "2026-10-26T02:44:23+00:00",
+      "seconds": 1.3,
+      "agent": "Academics & Researchers searcher",
+      "category": "academic",
+      "message": "Searching the web…"
+    },
+    {
+      "ts": "2026-10-26T02:44:23+00:00",
+      "seconds": 1.3,
+      "agent": "Practitioners searcher",
+      "category": "practitioner",
+      "message": "Searching the web…"
+    },
+    {
+      "ts": "2026-10-26T02:44:23+00:00",
+      "seconds": 1.3,
+      "agent": "Policy & Government searcher",
+      "category": "policy",
+      "message": "Searching the web…"
+    },
+    {
+      "ts": "2026-10-26T02:44:23+00:00",
+      "seconds": 1.3,
+      "agent": "Founders & Industry searcher",
+      "category": "founder",
+      "message": "Searching the web…"
+    },
+    {
+      "ts": "2026-10-26T02:44:23+00:00",
+      "seconds": 1.3,
+      "agent": "Advocates & Community searcher",
+      "category": "advocate",
+      "message": "Searching the web…"
+    },
+    {
+      "ts": "2026-10-26T02:44:23+00:00",
+      "seconds": 1.3,
+      "agent": "Journalists & Communicators searcher",
+      "category": "journalist",
+      "message": "Searching the web…"
+    },
+    {
+      "ts": "2026-10-26T02:44:33+00:00",
+      "seconds": 12.0,
+      "agent": "Journalists & Communicators searcher",
+      "category": "journalist",
+      "message": "Found 1 candidates (6 web searches): Catherine Weetman"
+    },
+    {
+      "ts": "2026-10-26T02:44:33+00:00",
+      "seconds": 12.0,
+      "agent": "Journalists & Communicators verifier",
+      "category": "journalist",
+      "message": "Checking 1 people against their sources…"
+    },
+    {
+      "ts": "2026-10-26T02:44:34+00:00",
+      "seconds": 13.0,
+      "agent": "Advocates & Community searcher",
+      "category": "advocate",
+      "message": "Found 1 candidates (6 web searches): Adolfo Alzuphar"
+    },
+    {
+      "ts": "2026-10-26T02:44:34+00:00",
+      "seconds": 13.0,
+      "agent": "Advocates & Community verifier",
+      "category": "advocate",
+      "message": "Checking 1 people against their sources…"
+    },
+    {
+      "ts": "2026-10-26T02:44:35+00:00",
+      "seconds": 13.2,
+      "agent": "Founders & Industry searcher",
+      "category": "founder",
+      "message": "Found 5 candidates (3 web searches): Adam Hill, Alysia Garmulewicz, Andy Ruben, Amanda Smith, Brad Stevenson"
+    },
+    {
+      "ts": "2026-10-26T02:44:35+00:00",
+      "seconds": 13.2,
+      "agent": "Founders & Industry verifier",
+      "category": "founder",
+      "message": "Checking 5 people against their sources…"
+    },
+    {
+      "ts": "2026-10-26T02:44:35+00:00",
+      "seconds": 13.5,
+      "agent": "Policy & Government searcher",
+      "category": "policy",
+      "message": "Found 3 candidates (7 web searches): Mallory Anderson, Kara Steward, Nicole Portley"
+    },
+    {
+      "ts": "2026-10-26T02:44:35+00:00",
+      "seconds": 13.5,
+      "agent": "Policy & Government verifier",
+      "category": "policy",
+      "message": "Checking 3 people against their sources…"
+    },
+    {
+      "ts": "2026-10-26T02:44:38+00:00",
+      "seconds": 16.6,
+      "agent": "Academics & Researchers searcher",
+      "category": "academic",
+      "message": "Found 5 candidates (6 web searches): Heather Liddell, Marina Tsianou, Michele Sarazen, David Hinks, Tim McAloone"
+    },
+    {
+      "ts": "2026-10-26T02:44:38+00:00",
+      "seconds": 16.6,
+      "agent": "Academics & Researchers verifier",
+      "category": "academic",
+      "message": "Checking 5 people against their sources…"
+    },
+    {
+      "ts": "2026-10-26T02:44:39+00:00",
+      "seconds": 17.2,
+      "agent": "Practitioners searcher",
+      "category": "practitioner",
+      "message": "Found 5 candidates (3 web searches): John Holm, Deborah Dull, James George, Virginie Le Barbu, Monica Becker"
+    },
+    {
+      "ts": "2026-10-26T02:44:39+00:00",
+      "seconds": 17.2,
+      "agent": "Practitioners verifier",
+      "category": "practitioner",
+      "message": "Checking 5 people against their sources…"
+    },
+    {
+      "ts": "2026-10-26T02:44:39+00:00",
+      "seconds": 17.8,
+      "agent": "Journalists & Communicators verifier",
+      "category": "journalist",
+      "message": "1 confirmed, 0 dropped"
+    },
+    {
+      "ts": "2026-10-26T02:44:48+00:00",
+      "seconds": 26.2,
+      "agent": "Advocates & Community verifier",
+      "category": "advocate",
+      "message": "1 confirmed, 0 dropped"
+    },
+    {
+      "ts": "2026-10-26T02:44:52+00:00",
+      "seconds": 31.0,
+      "agent": "Academics & Researchers verifier",
+      "category": "academic",
+      "message": "5 confirmed, 0 dropped"
+    },
+    {
+      "ts": "2026-10-26T02:44:52+00:00",
+      "seconds": 31.1,
+      "agent": "Founders & Industry verifier",
+      "category": "founder",
+      "message": "5 confirmed, 0 dropped"
+    },
+    {
+      "ts": "2026-10-26T02:44:54+00:00",
+      "seconds": 32.5,
+      "agent": "Practitioners verifier",
+      "category": "practitioner",
+      "message": "5 confirmed, 0 dropped"
+    },
+    {
+      "ts": "2026-10-26T02:44:59+00:00",
+      "seconds": 38.1,
+      "agent": "Policy & Government verifier",
+      "category": "policy",
+      "message": "3 confirmed, 0 dropped"
+    },
+    {
+      "ts": "2026-10-26T02:44:59+00:00",
+      "seconds": 38.2,
+      "agent": "Scout",
+      "category": null,
+      "message": "Done: 14 verified speakers across 6 categories."
+    }
+  ],
+  "usage": {
+    "model_calls": 21,
+    "input_tokens": 246267,
+    "cached_input_tokens": 120519,
+    "output_tokens": 12912,
+    "reasoning_tokens": 1405,
+    "web_searches": 31,
+    "page_reads": 23,
+    "cost_usd": null
+  },
+  "seconds": 38.2,
+  "error": null,
+  "created_at": "2026-10-26T02:44:21+00:00",
+  "model": "gpt-6-luna"
+}

@@ -1,0 +1,1119 @@
+{
+  "id": "0b39462742",
+  "status": "done",
+  "brief": {
+    "conference_theme": "Environmental and social regeneration: beyond sustainability",
+    "looking_for": "panel",
+    "panel_theme": "Circularity at scale: regenerative sourcing and supply chains",
+    "panel_size": 3,
+    "conference_name": "Yale Business & the Environment Conference",
+    "conference_type": "business",
+    "location": "New Haven, CT",
+    "reach": "national",
+    "budget": "small",
+    "level": "auto",
+    "categories": [
+      "academic",
+      "practitioner",
+      "policy",
+      "founder",
+      "advocate",
+      "journalist"
+    ],
+    "prioritize": [
+      "has_spoken",
+      "range_of_perspectives"
+    ],
+    "skip_names": [],
+    "notes": null,
+    "per_category": 3
+  },
+  "plan": {
+    "summary": "Build a three-person panel on circularity at scale, focusing on regenerative sourcing and supply chains in business. Favor rising or established, budget-conscious candidates with prior conference or presentation experience, and balance sectors, career stages, places, and organization types; national reach allows searches beyond New Haven.",
+    "target_level": "rising",
+    "target_roles": [
+      "panelist"
+    ],
+    "location_focus": "National; include New Haven and the Northeast where useful",
+    "angles": [
+      {
+        "category": "academic",
+        "angles": [
+          "Business-school and supply-chain researchers studying circular procurement, regenerative agriculture, and scaling reuse",
+          "Researchers presenting at circular economy and sustainable business conferences"
+        ]
+      },
+      {
+        "category": "practitioner",
+        "angles": [
+          "Corporate sourcing, procurement, and supply-chain leaders implementing circular or regenerative practices",
+          "Circular-economy consultants and nonprofit program leaders with practical case studies and conference presentations"
+        ]
+      },
+      {
+        "category": "policy",
+        "angles": [
+          "State or federal circular-economy, sustainable materials, and responsible-sourcing policy specialists",
+          "Think-tank policy experts on producer responsibility and circular supply chains who present to business audiences"
+        ]
+      },
+      {
+        "category": "founder",
+        "angles": [
+          "Founders of early-stage circular materials, reuse, and regenerative sourcing businesses with demonstrated scale-up work",
+          "Small and mid-sized company leaders presenting supply-chain circularity case studies at industry events"
+        ]
+      },
+      {
+        "category": "advocate",
+        "angles": [
+          "Nonprofit and coalition leaders advancing just, regenerative supply chains and circular sourcing",
+          "Community or worker-centered advocates connecting materials circularity with equitable sourcing, with public speaking experience"
+        ]
+      },
+      {
+        "category": "journalist",
+        "angles": [
+          "Business or sustainability reporters covering circular supply chains, regenerative sourcing, and materials innovation",
+          "Trade-publication editors or podcast hosts who moderate circular economy and sustainable business discussions"
+        ]
+      }
+    ]
+  },
+  "categories": [
+    {
+      "category": "academic",
+      "label": "Academics & Researchers",
+      "cards": [
+        {
+          "name": "Vishal Agrawal",
+          "job_title": "Professor",
+          "organization": "Georgetown University, McDonough School of Business",
+          "level": "established",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "none_found",
+          "could_speak_on": "How businesses can scale circular business models and sustainable operations through supply-chain decisions.",
+          "talk_ideas": [
+            "Circular economy models in business operations",
+            "Designing sustainable supply chains",
+            "Scaling sustainable product development"
+          ],
+          "topic_tags": [
+            "circular economy",
+            "supply chains",
+            "sustainable operations",
+            "business models"
+          ],
+          "bio": "Vishal Agrawal is a Georgetown McDonough faculty member whose listed research areas include sustainable operations and supply chains, sustainable business models, and circular economy.",
+          "credentials": [],
+          "why_fit": "His research directly connects business operations and supply chains with circularity, making him a strong academic fit for the panel.",
+          "past_speaking": [],
+          "notable_work": [],
+          "links": [
+            {
+              "label": "Georgetown Business of Sustainability faculty",
+              "url": "https://businessofsustainability.georgetown.edu/faculty/"
+            }
+          ],
+          "photo_url": "https://businessofsustainability.georgetown.edu/wp-content/uploads/sites/334/2021/08/200x200circle-Vishal-Agrawal.png",
+          "evidence_urls": [
+            "https://businessofsustainability.georgetown.edu/faculty/"
+          ],
+          "fit_score": 5,
+          "fit_reason": "A direct match to circular economy, sustainable operations, and supply-chain research in a business-school context."
+        },
+        {
+          "name": "Julia Novy",
+          "job_title": "Professor of the Practice; Founder and CEO of Resilience in Action",
+          "organization": "Stanford University; Resilience in Action",
+          "level": "established",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "some",
+          "could_speak_on": "How organizations can integrate circular-economy approaches into core business strategies and move from linear to regenerative resource use.",
+          "talk_ideas": [
+            "Circularity approaches businesses are using",
+            "Integrating circularity into business strategy",
+            "National and global trends in circular business models"
+          ],
+          "topic_tags": [
+            "circular economy",
+            "business strategy",
+            "sustainability",
+            "resource use"
+          ],
+          "bio": "Julia Novy is Professor of the Practice at Stanford University and Founder and CEO of Resilience in Action. The Stanford webinar page describes her discussing circular-economy approaches businesses can integrate into core strategies.",
+          "credentials": [],
+          "why_fit": "She offers a business-facing perspective on circularity and has a documented Stanford webinar on the subject.",
+          "past_speaking": [
+            {
+              "event": "Stanford Online webinar, “Closing the Loop: The Circular Economy, Business & Sustainability”",
+              "year": null,
+              "url": "https://learn.stanford.edu/circular-economy-webinar.html"
+            }
+          ],
+          "notable_work": [],
+          "links": [
+            {
+              "label": "Stanford circular economy webinar",
+              "url": "https://learn.stanford.edu/circular-economy-webinar.html"
+            }
+          ],
+          "photo_url": "https://learn.stanford.edu/rs/194-OCQ-487/images/Julia-Novy-Hildesley-headshot.png",
+          "evidence_urls": [
+            "https://learn.stanford.edu/circular-economy-webinar.html"
+          ],
+          "fit_score": 5,
+          "fit_reason": "The verified webinar directly addresses business circularity and strategy, closely matching the panel theme."
+        },
+        {
+          "name": "Jordan Suter",
+          "job_title": "Professor and Graduate Program Chair, Department of Agricultural and Resource Economics",
+          "organization": "Colorado State University",
+          "level": "established",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "some",
+          "could_speak_on": "Economic incentives and water-use tradeoffs shaping regenerative agricultural sourcing.",
+          "talk_ideas": [
+            "Economic incentives influencing land and water use",
+            "Water economics in regenerative agriculture",
+            "Resource-use tradeoffs in agricultural systems"
+          ],
+          "topic_tags": [
+            "agricultural economics",
+            "regenerative agriculture",
+            "water use",
+            "incentives"
+          ],
+          "bio": "Jordan Suter is a Professor and Graduate Program Chair in Colorado State University’s Department of Agricultural and Resource Economics. His research examines economic incentives affecting land and water-use decisions, and the university page lists a presentation on regenerative-agriculture water economics.",
+          "credentials": [],
+          "why_fit": "He brings an agricultural and resource-economics perspective on the incentives and resource impacts relevant to regenerative sourcing.",
+          "past_speaking": [
+            {
+              "event": "Advancing the Science of Regenerative Agricultural Systems seminar",
+              "year": 2022,
+              "url": "https://agsci.colostate.edu/about/strategic-roadmap/seminar-series/seminar-advancing-the-science-of-regenerative-agricultural-systems/"
+            }
+          ],
+          "notable_work": [],
+          "links": [
+            {
+              "label": "CSU regenerative agriculture seminar",
+              "url": "https://agsci.colostate.edu/about/strategic-roadmap/seminar-series/seminar-advancing-the-science-of-regenerative-agricultural-systems/"
+            }
+          ],
+          "photo_url": null,
+          "evidence_urls": [
+            "https://agsci.colostate.edu/about/strategic-roadmap/seminar-series/seminar-advancing-the-science-of-regenerative-agricultural-systems/"
+          ],
+          "fit_score": 4,
+          "fit_reason": "A relevant academic perspective on the economics of regenerative agriculture and the land and water decisions behind sourcing."
+        }
+      ],
+      "dropped": [],
+      "candidates_found": 4,
+      "error": null,
+      "usage": {
+        "model_calls": 3,
+        "input_tokens": 31128,
+        "cached_input_tokens": 6836,
+        "output_tokens": 2206,
+        "reasoning_tokens": 61,
+        "web_searches": 3,
+        "page_reads": 0,
+        "cost_usd": null
+      },
+      "seconds": 22.0
+    },
+    {
+      "category": "practitioner",
+      "label": "Practitioners",
+      "cards": [
+        {
+          "name": "Katie O’Hare",
+          "job_title": "Vice President, Sustainability",
+          "organization": "J.Crew Group",
+          "level": "established",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "some",
+          "could_speak_on": "How apparel companies can scale regenerative sourcing by aligning material choices, farmer livelihoods, and internal operations.",
+          "talk_ideas": [
+            "Embedding sustainable materials and responsible sourcing into apparel operations",
+            "Building farmer partnerships and shared incentives for regenerative sourcing",
+            "Connecting supply-chain resilience with long-term business value"
+          ],
+          "topic_tags": [
+            "apparel",
+            "regenerative sourcing",
+            "supply chains",
+            "sustainability"
+          ],
+          "bio": "Katie O’Hare is Vice President of Sustainability at J.Crew Group, where she leads sustainability strategy and execution across J.Crew, Madewell, and J.Crew Factory. Her remit includes sustainable materials, greenhouse gas reduction, responsible packaging, and Fair Trade commitments.",
+          "credentials": [],
+          "why_fit": "Her apparel-company perspective connects sourcing decisions and supply-chain practices with the panel’s focus on regeneration at scale.",
+          "past_speaking": [
+            {
+              "event": "Innovation Forum webinar: “Regenerative sourcing: building resilient supply chains through system-level thinking”",
+              "year": 2026,
+              "url": "https://innovationforum.co.uk/insight/regenerative-sourcing-resilient-supply-chains-webinar/"
+            }
+          ],
+          "notable_work": [],
+          "links": [
+            {
+              "label": "Innovation Forum webinar and speaker profile",
+              "url": "https://innovationforum.co.uk/insight/regenerative-sourcing-resilient-supply-chains-webinar/"
+            }
+          ],
+          "photo_url": "https://innovationforum.co.uk/wp-content/uploads/2025/10/Katie-OHare-296x275.jpg",
+          "evidence_urls": [
+            "https://innovationforum.co.uk/insight/regenerative-sourcing-resilient-supply-chains-webinar/"
+          ],
+          "fit_score": 5,
+          "fit_reason": "Directly relevant apparel sourcing experience and a verified prior speaking appearance on regenerative sourcing."
+        },
+        {
+          "name": "Sandra Leyva Martinez",
+          "job_title": "Head of Sustainability, CHEP Americas",
+          "organization": "Brambles",
+          "level": "established",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "some",
+          "could_speak_on": "How circular distribution infrastructure and asset pooling can support regenerative outcomes across complex business networks.",
+          "talk_ideas": [
+            "Scaling reusable asset-pooling models across supply chains",
+            "Linking circular logistics infrastructure to ecosystem and community outcomes",
+            "Making circular systems operationally practical and financially compelling"
+          ],
+          "topic_tags": [
+            "circular logistics",
+            "asset pooling",
+            "regeneration",
+            "supply chains"
+          ],
+          "bio": "Sandra Leyva Martinez is Head of Sustainability for CHEP Americas at Brambles. The page describes prior sustainability leadership at Amazon, Dematic, and KION Group, including work across supplier networks and sustainability programs.",
+          "credentials": [],
+          "why_fit": "Her current role and experience with circular distribution infrastructure offer a practical operations perspective on scaling circularity beyond individual products.",
+          "past_speaking": [
+            {
+              "event": "Supply Chain Revolution podcast: “Circular Distribution Infrastructure—The Invisible Backbone of Regenerative Communities”",
+              "year": null,
+              "url": "https://www.supplychainqueen.com/watch-now-circular-distribution-infrastructure-the-invisible-backbone-of-regenerative-communities/"
+            }
+          ],
+          "notable_work": [],
+          "links": [
+            {
+              "label": "Podcast episode and speaker profile",
+              "url": "https://www.supplychainqueen.com/watch-now-circular-distribution-infrastructure-the-invisible-backbone-of-regenerative-communities/"
+            }
+          ],
+          "photo_url": null,
+          "evidence_urls": [
+            "https://www.supplychainqueen.com/watch-now-circular-distribution-infrastructure-the-invisible-backbone-of-regenerative-communities/"
+          ],
+          "fit_score": 5,
+          "fit_reason": "Strong practitioner fit at the intersection of circular distribution, supply-chain operations, and regenerative outcomes."
+        },
+        {
+          "name": "Deborah Dull",
+          "job_title": "Founder and Managing Partner",
+          "organization": "Circular Supply Chain Network",
+          "level": "established",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "some",
+          "could_speak_on": "Practical levers for moving circular supply chains from concepts to implementation across industries.",
+          "talk_ideas": [
+            "The core levers for designing circular supply chains",
+            "Turning circularity frameworks into operational decisions",
+            "How cross-sector supply-chain collaboration can enable regenerative outcomes"
+          ],
+          "topic_tags": [
+            "circular supply chains",
+            "implementation",
+            "cross-sector",
+            "regeneration"
+          ],
+          "bio": "Deborah Dull is Founder and Managing Partner of the Circular Supply Chain Network. The network’s speaker page describes her work developing the circular supply-chain field and lists her as a technical-foundation speaker at the Circular Supply Chain Summit.",
+          "credentials": [],
+          "why_fit": "Her work is closely aligned with the panel’s practical focus on achieving circularity at scale and provides a cross-sector framework perspective.",
+          "past_speaking": [
+            {
+              "event": "Circular Supply Chain Summit, Climate Week NYC",
+              "year": 2026,
+              "url": "https://www.climateweeknyc.org/event-search/circular-supply-chain-summit"
+            }
+          ],
+          "notable_work": [],
+          "links": [
+            {
+              "label": "Circular Supply Chain Network speaker profile",
+              "url": "https://members.circularsupplychain.network/speakers"
+            },
+            {
+              "label": "Circular Supply Chain Summit",
+              "url": "https://www.climateweeknyc.org/event-search/circular-supply-chain-summit"
+            }
+          ],
+          "photo_url": null,
+          "evidence_urls": [
+            "https://members.circularsupplychain.network/speakers",
+            "https://www.climateweeknyc.org/event-search/circular-supply-chain-summit"
+          ],
+          "fit_score": 5,
+          "fit_reason": "Direct subject-matter fit with a confirmed leadership role and a listed summit presentation."
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Sushma Kittali-Weidner",
+          "reason": "The pages reviewed confirm her name and circularity-related role, but do not establish her as a practitioner in the requested category under the available evidence; the summit page lists her among speakers without enough detail to verify her fit."
+        }
+      ],
+      "candidates_found": 5,
+      "error": null,
+      "usage": {
+        "model_calls": 3,
+        "input_tokens": 32324,
+        "cached_input_tokens": 18364,
+        "output_tokens": 2398,
+        "reasoning_tokens": 59,
+        "web_searches": 3,
+        "page_reads": 0,
+        "cost_usd": null
+      },
+      "seconds": 24.6
+    },
+    {
+      "category": "policy",
+      "label": "Policy & Government",
+      "cards": [
+        {
+          "name": "Ashima Sukhdev",
+          "job_title": "Climate & Circular Economy Policy Advisor",
+          "organization": "City of Seattle (Seattle Public Utilities)",
+          "level": "established",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "some",
+          "could_speak_on": "How city policy and procurement can help move circular sourcing and materials systems from strategy to implementation.",
+          "talk_ideas": [
+            "Municipal policy levers for scaling circular economy systems",
+            "Connecting city climate strategies with circular sourcing",
+            "What cities can learn from cross-sector circular-economy partnerships"
+          ],
+          "topic_tags": [
+            "circular economy",
+            "city policy",
+            "climate mitigation",
+            "materials"
+          ],
+          "bio": "Ashima Sukhdev is the Climate Mitigation and Circular Economy Policy Advisor at Seattle Public Utilities, City of Seattle. Her work includes developing Seattle’s circular economy and managing the utility’s climate mitigation strategy; she previously worked at the Ellen MacArthur Foundation on programs in the U.S. and Canada and its work with cities.",
+          "credentials": [
+            "B.A. in Economics focused on Sustainability & Environmental Management, University of Pennsylvania"
+          ],
+          "why_fit": "She offers a municipal policy perspective on translating circular-economy goals into citywide strategies, with experience engaging local governments and other sectors.",
+          "past_speaking": [
+            {
+              "event": "Rebrand Reuse: A Symbol and Standards to Catalyze Reuse",
+              "year": 2025,
+              "url": "https://trellis.net/speaker/ashima-sukhdev/"
+            }
+          ],
+          "notable_work": [],
+          "links": [
+            {
+              "label": "Trellis speaker profile",
+              "url": "https://trellis.net/speaker/ashima-sukhdev/"
+            }
+          ],
+          "photo_url": "https://trellis.net/wp-content/uploads/2025/04/Ashima-Sukhdev-Photo-e1744230081994.png",
+          "evidence_urls": [
+            "https://trellis.net/speaker/ashima-sukhdev/"
+          ],
+          "fit_score": 5,
+          "fit_reason": "Strong match for a business-facing panel on scaling circularity, with a current city policy role and a documented conference session."
+        },
+        {
+          "name": "Scott Cassel",
+          "job_title": "Chief Executive Officer and Founder",
+          "organization": "Product Stewardship Institute",
+          "level": "established",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "some",
+          "could_speak_on": "How extended producer responsibility policy can shift product design, sourcing, and end-of-life obligations across supply chains.",
+          "talk_ideas": [
+            "EPR as a policy framework for circular supply chains",
+            "Designing producer responsibility programs that work across jurisdictions",
+            "What businesses should know about the connection between product stewardship and circularity"
+          ],
+          "topic_tags": [
+            "EPR",
+            "product stewardship",
+            "circular economy",
+            "policy"
+          ],
+          "bio": "Scott Cassel is the Chief Executive Officer and Founder of the Product Stewardship Institute, a policy advocate and consulting nonprofit. The organization has worked with governments, academia, nonprofits, and businesses on extended producer responsibility laws and programs in the United States.",
+          "credentials": [
+            "MCP"
+          ],
+          "why_fit": "His organization’s national policy work on producer responsibility is directly relevant to business accountability and materials flows in circular supply chains.",
+          "past_speaking": [
+            {
+              "event": "U.S. Product Stewardship Forum",
+              "year": 2023,
+              "url": "https://productstewardship.us/highlights-from-the-2023-u-s-product-stewardship-forum/"
+            }
+          ],
+          "notable_work": [
+            "Product Stewardship Institute’s work supporting extended producer responsibility laws and programs nationwide"
+          ],
+          "links": [
+            {
+              "label": "Product Stewardship Institute profile",
+              "url": "https://productstewardship.us/people/scott-cassel/"
+            }
+          ],
+          "photo_url": "https://productstewardship.us/wp-content/uploads/2022/10/scott_headshot-130px.jpg",
+          "evidence_urls": [
+            "https://productstewardship.us/people/scott-cassel/"
+          ],
+          "fit_score": 5,
+          "fit_reason": "National policy and producer-responsibility expertise offers a strong systems-level complement to company and practitioner perspectives."
+        },
+        {
+          "name": "Mallory Anderson",
+          "job_title": "Packaging EPR Coordinator, Safer & Sustainable Products",
+          "organization": "Minnesota Pollution Control Agency",
+          "level": "rising",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "some",
+          "could_speak_on": "State implementation of packaging extended producer responsibility and its implications for producers and supply-chain reporting.",
+          "talk_ideas": [
+            "Implementing packaging EPR at the state level",
+            "Producer obligations, compliance, and supply-chain data",
+            "How state packaging policy can support circular material flows"
+          ],
+          "topic_tags": [
+            "packaging",
+            "EPR",
+            "state policy",
+            "producer responsibility"
+          ],
+          "bio": "Mallory Anderson is identified as Packaging EPR Coordinator in Safer & Sustainable Products at the Minnesota Pollution Control Agency. She was listed as a featured speaker for the 2025 EPR Think Tank conference.",
+          "credentials": [],
+          "why_fit": "She can bring an implementation-focused state agency perspective to a business audience navigating packaging producer-responsibility requirements.",
+          "past_speaking": [
+            {
+              "event": "EPR Think Tank",
+              "year": 2025,
+              "url": "https://www.americanconference.com/eprthinktank/2025-conference/"
+            }
+          ],
+          "notable_work": [],
+          "links": [
+            {
+              "label": "EPR Think Tank 2025 past conference page",
+              "url": "https://www.americanconference.com/eprthinktank/2025-conference/"
+            }
+          ],
+          "photo_url": "https://www.americanconference.com/wp-content/uploads/sites/2213/2025/04/mallory-anderson.png",
+          "evidence_urls": [
+            "https://www.americanconference.com/eprthinktank/2025-conference/"
+          ],
+          "fit_score": 4,
+          "fit_reason": "Directly relevant state implementation expertise and a documented conference speaker listing, though the source gives limited detail about her broader record."
+        }
+      ],
+      "dropped": [],
+      "candidates_found": 4,
+      "error": null,
+      "usage": {
+        "model_calls": 3,
+        "input_tokens": 40482,
+        "cached_input_tokens": 13093,
+        "output_tokens": 2608,
+        "reasoning_tokens": 144,
+        "web_searches": 6,
+        "page_reads": 0,
+        "cost_usd": null
+      },
+      "seconds": 25.4
+    },
+    {
+      "category": "founder",
+      "label": "Founders & Industry",
+      "cards": [
+        {
+          "name": "Ben Christensen",
+          "job_title": "Founder & CEO",
+          "organization": "Cambium",
+          "level": "rising",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "some",
+          "could_speak_on": "How circular and regenerative feedstocks can replace virgin inputs and support scalable, climate-resilient supply chains.",
+          "talk_ideas": [
+            "Scaling circular and regenerative feedstocks for industrial use",
+            "Building partnerships and financing pathways for next-generation materials"
+          ],
+          "topic_tags": [
+            "circular materials",
+            "regenerative sourcing",
+            "industrial supply chains",
+            "feedstocks"
+          ],
+          "bio": "Ben Christensen is Founder & CEO of Cambium. He presented at Trellis Impact 25 in a session on circular and regenerative feedstocks for industry.",
+          "credentials": [],
+          "why_fit": "His role at Cambium and the documented session focus align directly with circular sourcing and supply-chain scale-up.",
+          "past_speaking": [
+            {
+              "event": "Trellis Impact 25, “Advancing Circular and Regenerative Feedstocks for Industry”",
+              "year": 2025,
+              "url": "https://trellis.net/session/advancing-circular-and-regenerative-feedstocks-for-industry/"
+            }
+          ],
+          "notable_work": [],
+          "links": [
+            {
+              "label": "Trellis Impact 25 session",
+              "url": "https://trellis.net/session/advancing-circular-and-regenerative-feedstocks-for-industry/"
+            }
+          ],
+          "photo_url": "https://trellis.net/wp-content/uploads/2025/06/Ben-Christensen-Cambium.jpeg",
+          "evidence_urls": [
+            "https://trellis.net/session/advancing-circular-and-regenerative-feedstocks-for-industry/"
+          ],
+          "fit_score": 5,
+          "fit_reason": "Directly relevant founder and documented presenter on regenerative feedstocks and scalable industrial supply chains."
+        },
+        {
+          "name": "Jo Marini",
+          "job_title": "CEO & Co-founder",
+          "organization": "Mothership Materials",
+          "level": "rising",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "some",
+          "could_speak_on": "How companies can integrate circular and regenerative material alternatives into real-world supply chains.",
+          "talk_ideas": [
+            "Commercializing circular raw-material alternatives",
+            "Creating regional, resilient supply chains with lower dependence on virgin resources"
+          ],
+          "topic_tags": [
+            "circular materials",
+            "regenerative sourcing",
+            "raw materials",
+            "supply chains"
+          ],
+          "bio": "Jo Marini is CEO & Co-founder of Mothership Materials. She presented at Trellis Impact 25 in a session focused on circular and regenerative feedstocks for industry.",
+          "credentials": [],
+          "why_fit": "Her company-building perspective and documented appearance in a directly relevant industry session suit a business-audience panel.",
+          "past_speaking": [
+            {
+              "event": "Trellis Impact 25, “Advancing Circular and Regenerative Feedstocks for Industry”",
+              "year": 2025,
+              "url": "https://trellis.net/session/advancing-circular-and-regenerative-feedstocks-for-industry/"
+            }
+          ],
+          "notable_work": [],
+          "links": [
+            {
+              "label": "Trellis Impact 25 session",
+              "url": "https://trellis.net/session/advancing-circular-and-regenerative-feedstocks-for-industry/"
+            }
+          ],
+          "photo_url": "https://trellis.net/wp-content/uploads/2025/06/Jo-Marini-Mothership-Materials.jpeg",
+          "evidence_urls": [
+            "https://trellis.net/session/advancing-circular-and-regenerative-feedstocks-for-industry/"
+          ],
+          "fit_score": 5,
+          "fit_reason": "Directly aligned founder/operator with a documented speaking appearance on circular and regenerative materials."
+        },
+        {
+          "name": "Ahmad Ghahreman",
+          "job_title": "CEO and co-founder",
+          "organization": "Cyclic Materials",
+          "level": "established",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "some",
+          "could_speak_on": "How recycling end-of-life products can build circular supply chains for critical materials and strengthen sourcing resilience.",
+          "talk_ideas": [
+            "Recovering rare-earth elements from end-of-life products",
+            "Circular sourcing and supply security for critical materials"
+          ],
+          "topic_tags": [
+            "critical materials",
+            "recycling",
+            "circular supply chains",
+            "sourcing resilience"
+          ],
+          "bio": "Ahmad Ghahreman is identified with Cyclic Materials in a 2025 episode of CIBC’s The Sustainability Agenda. The discussion covers rare-earth recycling and circular supply chains for critical materials.",
+          "credentials": [],
+          "why_fit": "Offers a distinct industrial and critical-minerals perspective on circular sourcing, with a verified public discussion relevant to supply-chain transformation.",
+          "past_speaking": [
+            {
+              "event": "The Sustainability Agenda podcast, “Cyclic Materials: Meet the innovator building a circular supply chain for rare earth elements”",
+              "year": 2025,
+              "url": "https://cibccm.com/en/insights/podcasts/cyclic-materials-meet-the-innovator-building-a-circular-supply-chain-for-rare-earth-elements/"
+            }
+          ],
+          "notable_work": [],
+          "links": [
+            {
+              "label": "CIBC Sustainability Agenda episode",
+              "url": "https://cibccm.com/en/insights/podcasts/cyclic-materials-meet-the-innovator-building-a-circular-supply-chain-for-rare-earth-elements/"
+            }
+          ],
+          "photo_url": null,
+          "evidence_urls": [
+            "https://cibccm.com/en/insights/podcasts/cyclic-materials-meet-the-innovator-building-a-circular-supply-chain-for-rare-earth-elements/"
+          ],
+          "fit_score": 5,
+          "fit_reason": "Strong fit for circular critical-materials sourcing; contributes a distinct recycling and supply-security angle."
+        }
+      ],
+      "dropped": [],
+      "candidates_found": 4,
+      "error": null,
+      "usage": {
+        "model_calls": 4,
+        "input_tokens": 47493,
+        "cached_input_tokens": 28016,
+        "output_tokens": 2449,
+        "reasoning_tokens": 119,
+        "web_searches": 3,
+        "page_reads": 0,
+        "cost_usd": null
+      },
+      "seconds": 28.3
+    },
+    {
+      "category": "advocate",
+      "label": "Advocates & Community",
+      "cards": [
+        {
+          "name": "Shahid Mustafa",
+          "job_title": "Farmer, educator, and land steward",
+          "organization": "New Mexico Agrarian Commons / Taylor Hood Farms",
+          "level": "established",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "experienced",
+          "could_speak_on": "How community-held agricultural land and secure, affordable tenure can support regenerative farming and more inclusive sourcing systems.",
+          "talk_ideas": [
+            "Land access and long-term tenure for next-generation farmers",
+            "Community governance and regenerative agriculture",
+            "Connecting local food systems, farmer education, and land stewardship"
+          ],
+          "topic_tags": [
+            "Regenerative agriculture",
+            "Land access",
+            "Community governance",
+            "Local food systems"
+          ],
+          "bio": "Shahid Mustafa is a farmer, educator, and land steward in Southern New Mexico. Through Taylor Hood Farms and the New Mexico Agrarian Commons, he works on community food education and land access, including long-term, affordable tenure for next-generation and underserved farmers.",
+          "credentials": [],
+          "why_fit": "Offers a grounded practitioner and community-land perspective on the conditions regenerative supply chains need, complementing policy and corporate viewpoints.",
+          "past_speaking": [
+            {
+              "event": "REGENERATE Conference 2025 plenary: “Regenerative Agriculture and Somatic Healing”",
+              "year": 2025,
+              "url": "https://regenerateconference.com/category/2025-speakers/"
+            },
+            {
+              "event": "KSFR’s “Garden Journal: Food, Farms, and Friends” radio appearance",
+              "year": 2024,
+              "url": "https://regenerateconference.com/category/2025-speakers/"
+            },
+            {
+              "event": "“Think Again” radio appearances",
+              "year": null,
+              "url": "https://regenerateconference.com/category/2025-speakers/"
+            }
+          ],
+          "notable_work": [
+            "Taylor Hood Farms",
+            "New Mexico Agrarian Commons"
+          ],
+          "links": [
+            {
+              "label": "REGENERATE Conference 2025 speaker archive",
+              "url": "https://regenerateconference.com/category/2025-speakers/"
+            }
+          ],
+          "photo_url": "https://regenerateconference.com/wp-content/uploads/2025/07/Shahid-Farm-Photo.jpeg",
+          "evidence_urls": [
+            "https://regenerateconference.com/category/2025-speakers/"
+          ],
+          "fit_score": 5,
+          "fit_reason": "Directly works on regenerative agriculture and community land access, and has documented conference and media appearances."
+        },
+        {
+          "name": "Sarah Hackney",
+          "job_title": "Coalition Director",
+          "organization": "National Sustainable Agriculture Coalition",
+          "level": "established",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "some",
+          "could_speak_on": "How farmer-centered advocacy and grassroots power-building can shape more equitable, regenerative food and farm supply systems.",
+          "talk_ideas": [
+            "Building grassroots influence in national farm and food policy",
+            "Making farmer knowledge part of supply-chain and policy decisions",
+            "Community-led food systems infrastructure in New England and the Pacific Northwest"
+          ],
+          "topic_tags": [
+            "Farm policy",
+            "Grassroots advocacy",
+            "Food systems",
+            "Farmer-centered policy"
+          ],
+          "bio": "Sarah Hackney has served as Coalition Director of the National Sustainable Agriculture Coalition since 2019, leading strategic direction and governance for its 170-member policy advocacy coalition. Her work includes nationally coordinated campaigns, farmer and rural-leader communities of practice, and community-led food systems infrastructure.",
+          "credentials": [],
+          "why_fit": "Brings a national coalition and grassroots policy perspective to a business audience considering how regenerative sourcing can become more equitable and work at scale.",
+          "past_speaking": [
+            {
+              "event": "REGENERATE Conference 2026 plenary: “Grassroots Agricultural Policy”",
+              "year": 2026,
+              "url": "https://regenerateconference.com/sarah-hackney/"
+            }
+          ],
+          "notable_work": [],
+          "links": [
+            {
+              "label": "REGENERATE Conference speaker profile and plenary",
+              "url": "https://regenerateconference.com/sarah-hackney/"
+            }
+          ],
+          "photo_url": "https://regenerateconference.com/wp-content/uploads/2026/08/Sarah-Hackney-headshot.png",
+          "evidence_urls": [
+            "https://regenerateconference.com/sarah-hackney/"
+          ],
+          "fit_score": 4,
+          "fit_reason": "Strong alignment on farmer-centered policy and grassroots advocacy, with a national coalition perspective and a documented conference plenary."
+        }
+      ],
+      "dropped": [],
+      "candidates_found": 2,
+      "error": null,
+      "usage": {
+        "model_calls": 3,
+        "input_tokens": 39594,
+        "cached_input_tokens": 17851,
+        "output_tokens": 1594,
+        "reasoning_tokens": 372,
+        "web_searches": 6,
+        "page_reads": 0,
+        "cost_usd": null
+      },
+      "seconds": 26.3
+    },
+    {
+      "category": "journalist",
+      "label": "Journalists & Communicators",
+      "cards": [
+        {
+          "name": "Catherine Weetman",
+          "job_title": "Author, speaker, and podcaster",
+          "organization": "Rethink Global",
+          "level": "established",
+          "best_for": [
+            "panelist",
+            "moderator",
+            "workshop"
+          ],
+          "speaking_badge": "some",
+          "could_speak_on": "How businesses can scale circular and regenerative strategies across sourcing and supply chains while creating value with fewer resources and less harm.",
+          "talk_ideas": [
+            "Scaling circular strategies across business supply chains",
+            "Regenerative models that benefit people, planet, and prosperity",
+            "Avoiding false solutions in the transition to circularity"
+          ],
+          "topic_tags": [
+            "circular economy",
+            "regenerative business",
+            "supply chains",
+            "business strategy"
+          ],
+          "bio": "Catherine Weetman is an author, speaker, and podcaster who helps organizations explore circular and regenerative strategies. Her work focuses on creating more value with fewer resources, less pollution, and less harm.",
+          "credentials": [
+            "Author of A Circular Economy Handbook: How to Build a More Resilient, Competitive and Sustainable Business"
+          ],
+          "why_fit": "She communicates circular-economy concepts for business audiences and can bring a practical, cross-sector perspective to a discussion about scaling regenerative sourcing and supply chains.",
+          "past_speaking": [
+            {
+              "event": "Talks and workshops on circular economy (listed on professional site)",
+              "year": null,
+              "url": "https://www.rethinkglobal.info/"
+            }
+          ],
+          "notable_work": [
+            "A Circular Economy Handbook: How to Build a More Resilient, Competitive and Sustainable Business",
+            "Circular Economy Podcast"
+          ],
+          "links": [
+            {
+              "label": "Rethink Global profile and talks",
+              "url": "https://www.rethinkglobal.info/"
+            }
+          ],
+          "photo_url": "https://www.rethinkglobal.info/wp-content/uploads/2019/03/C-Weetman-5-7x5-300x215.jpg",
+          "evidence_urls": [
+            "https://www.rethinkglobal.info/"
+          ],
+          "fit_score": 4,
+          "fit_reason": "Strong topic alignment and a communicator’s perspective on circular and regenerative business; the verified page identifies her as a speaker and lists talks and workshops, though it does not document specific past event appearances."
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Deonna Anderson",
+          "reason": "The provided profile page could not be loaded, and no other accessible page confirmed her identity, current role, or journalism credentials."
+        }
+      ],
+      "candidates_found": 2,
+      "error": null,
+      "usage": {
+        "model_calls": 5,
+        "input_tokens": 51881,
+        "cached_input_tokens": 31943,
+        "output_tokens": 1283,
+        "reasoning_tokens": 271,
+        "web_searches": 6,
+        "page_reads": 0,
+        "cost_usd": null
+      },
+      "seconds": 29.7
+    }
+  ],
+  "removals": [],
+  "injection_flags": [],
+  "events": [
+    {
+      "ts": "2026-10-26T02:38:03+00:00",
+      "seconds": 0.0,
+      "agent": "Scout Lead",
+      "category": null,
+      "message": "Reading your brief and planning the search…"
+    },
+    {
+      "ts": "2026-10-26T02:38:09+00:00",
+      "seconds": 5.9,
+      "agent": "Scout Lead",
+      "category": null,
+      "message": "Plan ready: Build a three-person panel on circularity at scale, focusing on regenerative sourcing and supply chains in business. Favor rising or established, budget-conscious candidates with prior conference or presentation experience, and balance sectors, career stages, places, and organization types; national reach allows searches beyond New Haven."
+    },
+    {
+      "ts": "2026-10-26T02:38:09+00:00",
+      "seconds": 5.9,
+      "agent": "Academics & Researchers searcher",
+      "category": "academic",
+      "message": "Searching the web…"
+    },
+    {
+      "ts": "2026-10-26T02:38:09+00:00",
+      "seconds": 5.9,
+      "agent": "Practitioners searcher",
+      "category": "practitioner",
+      "message": "Searching the web…"
+    },
+    {
+      "ts": "2026-10-26T02:38:09+00:00",
+      "seconds": 5.9,
+      "agent": "Policy & Government searcher",
+      "category": "policy",
+      "message": "Searching the web…"
+    },
+    {
+      "ts": "2026-10-26T02:38:09+00:00",
+      "seconds": 5.9,
+      "agent": "Founders & Industry searcher",
+      "category": "founder",
+      "message": "Searching the web…"
+    },
+    {
+      "ts": "2026-10-26T02:38:09+00:00",
+      "seconds": 5.9,
+      "agent": "Advocates & Community searcher",
+      "category": "advocate",
+      "message": "Searching the web…"
+    },
+    {
+      "ts": "2026-10-26T02:38:09+00:00",
+      "seconds": 5.9,
+      "agent": "Journalists & Communicators searcher",
+      "category": "journalist",
+      "message": "Searching the web…"
+    },
+    {
+      "ts": "2026-10-26T02:38:17+00:00",
+      "seconds": 14.0,
+      "agent": "Academics & Researchers searcher",
+      "category": "academic",
+      "message": "Found 4 candidates (3 web searches): Vishal Agrawal, Julia Novy, Jordan Suter, Steven Fonte"
+    },
+    {
+      "ts": "2026-10-26T02:38:17+00:00",
+      "seconds": 14.0,
+      "agent": "Academics & Researchers verifier",
+      "category": "academic",
+      "message": "Checking 4 people against their sources…"
+    },
+    {
+      "ts": "2026-10-26T02:38:20+00:00",
+      "seconds": 16.7,
+      "agent": "Practitioners searcher",
+      "category": "practitioner",
+      "message": "Found 5 candidates (3 web searches): Katie O’Hare, Sandra Leyva Martinez, Deborah Dull, Sushma Kittali-Weidner, Ken Alston"
+    },
+    {
+      "ts": "2026-10-26T02:38:20+00:00",
+      "seconds": 16.7,
+      "agent": "Practitioners verifier",
+      "category": "practitioner",
+      "message": "Checking 5 people against their sources…"
+    },
+    {
+      "ts": "2026-10-26T02:38:20+00:00",
+      "seconds": 17.4,
+      "agent": "Founders & Industry searcher",
+      "category": "founder",
+      "message": "Found 4 candidates (3 web searches): Ben Christensen, Jo Marini, Ahmad Ghahreman, James George"
+    },
+    {
+      "ts": "2026-10-26T02:38:20+00:00",
+      "seconds": 17.4,
+      "agent": "Founders & Industry verifier",
+      "category": "founder",
+      "message": "Checking 4 people against their sources…"
+    },
+    {
+      "ts": "2026-10-26T02:38:22+00:00",
+      "seconds": 18.6,
+      "agent": "Journalists & Communicators searcher",
+      "category": "journalist",
+      "message": "Found 2 candidates (6 web searches): Deonna Anderson, Catherine Weetman"
+    },
+    {
+      "ts": "2026-10-26T02:38:22+00:00",
+      "seconds": 18.6,
+      "agent": "Journalists & Communicators verifier",
+      "category": "journalist",
+      "message": "Checking 2 people against their sources…"
+    },
+    {
+      "ts": "2026-10-26T02:38:22+00:00",
+      "seconds": 18.8,
+      "agent": "Policy & Government searcher",
+      "category": "policy",
+      "message": "Found 4 candidates (6 web searches): Ashima Sukhdev, Scott Cassel, Mallory Anderson, Kara Steward"
+    },
+    {
+      "ts": "2026-10-26T02:38:22+00:00",
+      "seconds": 18.8,
+      "agent": "Policy & Government verifier",
+      "category": "policy",
+      "message": "Checking 4 people against their sources…"
+    },
+    {
+      "ts": "2026-10-26T02:38:24+00:00",
+      "seconds": 20.8,
+      "agent": "Advocates & Community searcher",
+      "category": "advocate",
+      "message": "Found 2 candidates (6 web searches): Sarah Hackney, Shahid Mustafa"
+    },
+    {
+      "ts": "2026-10-26T02:38:24+00:00",
+      "seconds": 20.8,
+      "agent": "Advocates & Community verifier",
+      "category": "advocate",
+      "message": "Checking 2 people against their sources…"
+    },
+    {
+      "ts": "2026-10-26T02:38:31+00:00",
+      "seconds": 27.8,
+      "agent": "Academics & Researchers verifier",
+      "category": "academic",
+      "message": "4 confirmed, 0 dropped"
+    },
+    {
+      "ts": "2026-10-26T02:38:33+00:00",
+      "seconds": 30.5,
+      "agent": "Practitioners verifier",
+      "category": "practitioner",
+      "message": "4 confirmed, 1 dropped"
+    },
+    {
+      "ts": "2026-10-26T02:38:34+00:00",
+      "seconds": 31.3,
+      "agent": "Policy & Government verifier",
+      "category": "policy",
+      "message": "4 confirmed, 0 dropped"
+    },
+    {
+      "ts": "2026-10-26T02:38:35+00:00",
+      "seconds": 32.2,
+      "agent": "Advocates & Community verifier",
+      "category": "advocate",
+      "message": "2 confirmed, 0 dropped"
+    },
+    {
+      "ts": "2026-10-26T02:38:37+00:00",
+      "seconds": 34.2,
+      "agent": "Founders & Industry verifier",
+      "category": "founder",
+      "message": "4 confirmed, 0 dropped"
+    },
+    {
+      "ts": "2026-10-26T02:38:39+00:00",
+      "seconds": 35.6,
+      "agent": "Journalists & Communicators verifier",
+      "category": "journalist",
+      "message": "1 confirmed, 1 dropped"
+    },
+    {
+      "ts": "2026-10-26T02:38:39+00:00",
+      "seconds": 35.6,
+      "agent": "Scout",
+      "category": null,
+      "message": "Done: 15 verified speakers across 6 categories."
+    }
+  ],
+  "usage": {
+    "model_calls": 22,
+    "input_tokens": 244270,
+    "cached_input_tokens": 117226,
+    "output_tokens": 12886,
+    "reasoning_tokens": 1026,
+    "web_searches": 27,
+    "page_reads": 25,
+    "cost_usd": null
+  },
+  "seconds": 35.6,
+  "error": null,
+  "created_at": "2026-10-26T02:38:03+00:00",
+  "model": "gpt-6-luna"
+}

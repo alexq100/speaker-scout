@@ -1,0 +1,465 @@
+{
+  "id": "df320a2f23",
+  "status": "done",
+  "brief": {
+    "conference_theme": "Environmental and social regeneration: beyond sustainability",
+    "looking_for": "panel",
+    "panel_theme": "Circularity at scale: regenerative sourcing and supply chains",
+    "panel_size": 3,
+    "conference_name": "Yale Business & the Environment Conference",
+    "conference_type": "business",
+    "location": "New Haven, CT",
+    "reach": "national",
+    "budget": "small",
+    "level": "auto",
+    "categories": [
+      "academic",
+      "journalist"
+    ],
+    "prioritize": [
+      "has_spoken",
+      "range_of_perspectives"
+    ],
+    "skip_names": [],
+    "notes": null,
+    "per_category": 3
+  },
+  "plan": {
+    "summary": "Find three panelists for a business audience discussing how regenerative sourcing and circular supply chains can scale, prioritizing people with prior speaking or presentation experience. Keep the slate nationally sourced and varied in sector, career stage, place, and organization type; the small budget favors rising or established experts.",
+    "target_level": "mix",
+    "target_roles": [
+      "panelist"
+    ],
+    "location_focus": "National search; New Haven-area candidates are welcome but not required.",
+    "angles": [
+      {
+        "category": "academic",
+        "angles": [
+          "Researchers in circular economy, industrial ecology, and sustainable supply chains at business schools and engineering or environment programs",
+          "Faculty and research-center staff studying regenerative agriculture, sourcing, and supply-chain scale; prioritize documented conference speakers or presenters",
+          "Early- and mid-career scholars with applied business collaborations on circular materials, procurement, or value chains"
+        ]
+      },
+      {
+        "category": "journalist",
+        "angles": [
+          "Business and sustainability reporters covering circular supply chains, regenerative sourcing, and corporate implementation at national outlets",
+          "Trade-publication editors or correspondents covering sourcing, materials, packaging, and supply-chain transformation; look for panel moderators or conference presenters",
+          "Journalists and podcast hosts who have interviewed business leaders about circularity at scale, including voices based outside the Northeast"
+        ]
+      }
+    ]
+  },
+  "categories": [
+    {
+      "category": "academic",
+      "label": "Academics & Researchers",
+      "cards": [
+        {
+          "name": "Aditya Vedantam",
+          "job_title": "Associate Professor of Operations Management and Strategy",
+          "organization": "University at Buffalo School of Management",
+          "level": "rising",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "some",
+          "could_speak_on": "How cradle-to-cradle supply-chain design—from raw-material sourcing through reuse and recycling—can bring environmental and social considerations into business operations.",
+          "talk_ideas": [
+            "Designing sustainable supply chains from sourcing through end-of-life",
+            "Recycling and reuse as supply-chain strategies",
+            "Balancing environmental, energy, and labor considerations in global supply chains"
+          ],
+          "topic_tags": [
+            "supply chains",
+            "circularity",
+            "recycling",
+            "operations"
+          ],
+          "bio": "Aditya Vedantam is an associate professor of operations management and strategy at the University at Buffalo School of Management. His research focuses on sustainable and socially relevant operations, including clean-energy technology development, recycling, and reuse in supply chains.",
+          "credentials": [
+            "Doctorate in management, Purdue University",
+            "Master’s in engineering, University of Michigan"
+          ],
+          "why_fit": "His research and the documented 2023 expert webinar closely match the panel’s focus on scaling circular supply-chain practices, with a U.S. academic perspective.",
+          "past_speaking": [
+            {
+              "event": "University at Buffalo School of Management Faculty and Expert Webinar: Building Sustainable Supply Chains",
+              "year": 2023,
+              "url": "https://management.buffalo.edu/faculty/research/faculty-expert-webinars.host.html/content/shared/mgt/academic-departments/faculty-expert-webinars/building-sustainable-supply-chains.detail.html"
+            }
+          ],
+          "notable_work": [],
+          "links": [
+            {
+              "label": "Faculty expert webinar: Building Sustainable Supply Chains",
+              "url": "https://management.buffalo.edu/faculty/research/faculty-expert-webinars.host.html/content/shared/mgt/academic-departments/faculty-expert-webinars/building-sustainable-supply-chains.detail.html"
+            }
+          ],
+          "photo_url": null,
+          "evidence_urls": [
+            "https://management.buffalo.edu/faculty/research/faculty-expert-webinars.host.html/content/shared/mgt/academic-departments/faculty-expert-webinars/building-sustainable-supply-chains.detail.html"
+          ],
+          "fit_score": 5,
+          "fit_reason": "Strong topic match, U.S. business-school affiliation, and a documented public expert webinar."
+        },
+        {
+          "name": "Yu Amy Xia",
+          "job_title": "Floyd Dewey Gottwald Professor; Professor of Business Analytics",
+          "organization": "William & Mary School of Business",
+          "level": "established",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "experienced",
+          "could_speak_on": "How sustainability, sourcing planning, and supply-chain risk intersect in business decisions and supply systems.",
+          "talk_ideas": [
+            "Sourcing models at the interface of operations and sustainability",
+            "Supply-chain risk and supplier flexibility",
+            "Using business analytics to inform sustainable sourcing"
+          ],
+          "topic_tags": [
+            "sourcing",
+            "supply chains",
+            "sustainability",
+            "risk management"
+          ],
+          "bio": "Yu Amy Xia is the Floyd Dewey Gottwald Professor and a professor of Business Analytics at William & Mary. Her research interests include supply-chain management, sustainability, sourcing planning, and risk management.",
+          "credentials": [
+            "PhD in Business Administration, Washington State University"
+          ],
+          "why_fit": "Her research directly connects sourcing, sustainability, and supply-chain risk; her profile also lists multiple conference presentations, offering documented experience presenting scholarly work.",
+          "past_speaking": [
+            {
+              "event": "Decision Sciences Institute Annual Conference, Orlando, FL",
+              "year": 2025,
+              "url": "https://mason.wm.edu/faculty/directory/xia-y.php"
+            },
+            {
+              "event": "Decision Sciences Institute Annual Conference, Atlanta, GA",
+              "year": null,
+              "url": "https://mason.wm.edu/faculty/directory/xia-y.php"
+            },
+            {
+              "event": "Northeast Decision Sciences Institute Annual Conference, Newark, NJ",
+              "year": 2022,
+              "url": "https://mason.wm.edu/faculty/directory/xia-y.php"
+            }
+          ],
+          "notable_work": [
+            "A Supply Chain Sourcing Model at the Interface of Operations and Sustainability (2023), listed as a featured article on IISE Transactions."
+          ],
+          "links": [
+            {
+              "label": "Faculty profile",
+              "url": "https://mason.wm.edu/faculty/directory/xia-y.php"
+            }
+          ],
+          "photo_url": null,
+          "evidence_urls": [
+            "https://mason.wm.edu/faculty/directory/xia-y.php"
+          ],
+          "fit_score": 5,
+          "fit_reason": "Excellent fit for regenerative sourcing and supply-chain risk, with multiple listed conference presentations and a U.S. business-school perspective."
+        },
+        {
+          "name": "Martin Geissdoerfer",
+          "job_title": "Associate Professor (Research), Sustainability Transitions Lab; Associate Professor at Monash Sustainable Development Institute and lead of Circular Economy Labs",
+          "organization": "Monash University",
+          "level": "established",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "none_found",
+          "could_speak_on": "How companies and policymakers can move circular-economy research into business transitions and practical supply-chain change.",
+          "talk_ideas": [
+            "Scaling circular-economy transitions in business",
+            "Circular business models and resource efficiency",
+            "Connecting corporate practice with circular-economy policy"
+          ],
+          "topic_tags": [
+            "circular economy",
+            "business transitions",
+            "sustainability",
+            "policy"
+          ],
+          "bio": "Martin Geissdoerfer is an associate professor at Monash University’s Sustainability Transitions Lab and Monash Sustainable Development Institute, where he leads Circular Economy Labs. His profile describes his research and work with businesses and governments on circular-economy and sustainability strategy.",
+          "credentials": [
+            "PhD, University of Cambridge"
+          ],
+          "why_fit": "He brings a strong international academic and business-strategy perspective on circular-economy transitions; the submitted workshop page could not be read to verify the claimed speaking appearance.",
+          "past_speaking": [],
+          "notable_work": [],
+          "links": [
+            {
+              "label": "Monash University research profile",
+              "url": "https://research.monash.edu/en/persons/martin-geissdoerfer/"
+            }
+          ],
+          "photo_url": null,
+          "evidence_urls": [
+            "https://research.monash.edu/en/persons/martin-geissdoerfer/"
+          ],
+          "fit_score": 4,
+          "fit_reason": "Direct circular-economy expertise and leadership, though no past speaking appearance was verified from accessible pages."
+        }
+      ],
+      "dropped": [],
+      "candidates_found": 4,
+      "error": null,
+      "usage": {
+        "model_calls": 4,
+        "input_tokens": 44834,
+        "cached_input_tokens": 18507,
+        "output_tokens": 2813,
+        "reasoning_tokens": 64,
+        "web_searches": 3,
+        "page_reads": 0,
+        "cost_usd": null
+      },
+      "seconds": 25.6
+    },
+    {
+      "category": "journalist",
+      "label": "Journalists & Communicators",
+      "cards": [
+        {
+          "name": "Deonna Anderson",
+          "job_title": "Senior Editor",
+          "organization": "GreenBiz Group",
+          "level": "rising",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "none_found",
+          "could_speak_on": "How circular-economy reporting reveals the business models, materials, and community choices involved in scaling regenerative supply chains.",
+          "talk_ideas": [
+            "What it takes to scale circular-economy business models",
+            "Corporate circularity and the realities of implementation",
+            "How community voices shape a just circular economy"
+          ],
+          "topic_tags": [
+            "circular economy",
+            "supply chains",
+            "sustainability journalism",
+            "business"
+          ],
+          "bio": "Deonna Anderson is an award-winning journalist and senior editor at GreenBiz Group. Her reporting has covered circular-economy initiatives, supply chains, and corporate sustainability.",
+          "credentials": [
+            "Alumna of UC Davis and the Craig Newmark Graduate School of Journalism at CUNY",
+            "Previously a Surdna reporting fellow at YES! Magazine"
+          ],
+          "why_fit": "Her reporting directly covers circularity, supply chains, and corporate efforts, making her a strong journalist perspective for a business audience.",
+          "past_speaking": [],
+          "notable_work": [],
+          "links": [
+            {
+              "label": "Trellis author profile",
+              "url": "https://trellis.net/article/author/deonna-anderson/"
+            }
+          ],
+          "photo_url": null,
+          "evidence_urls": [
+            "https://trellis.net/article/author/deonna-anderson/"
+          ],
+          "fit_score": 5,
+          "fit_reason": "Direct alignment with circularity and supply-chain reporting; current profile confirms her editorial role."
+        },
+        {
+          "name": "Katie Pyzyk",
+          "job_title": "Lead Reporter",
+          "organization": "Packaging Dive",
+          "level": "established",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "none_found",
+          "could_speak_on": "How packaging materials, recycling, regulation, and commercial innovation influence circularity and regenerative sourcing at scale.",
+          "talk_ideas": [
+            "Packaging supply chains and the economics of circularity",
+            "How recycling and materials innovation affect business decisions",
+            "What regulation and extended producer responsibility mean for packaging markets"
+          ],
+          "topic_tags": [
+            "packaging",
+            "recycling",
+            "supply chains",
+            "materials innovation"
+          ],
+          "bio": "Katie Pyzyk is lead reporter at Packaging Dive, where she covers fiber, flexible plastics, mergers and acquisitions, and innovation. Her work focuses on science, sustainability, and economics, and has appeared in publications including National Geographic and Bloomberg CityLab.",
+          "credentials": [
+            "Recipient of multiple Society of Professional Journalists, Edward R. Murrow, Azbee, and Jesse H. Neal awards"
+          ],
+          "why_fit": "Her beat brings a practical trade-journalism perspective on the materials, market dynamics, and innovations central to circular packaging supply chains.",
+          "past_speaking": [],
+          "notable_work": [],
+          "links": [
+            {
+              "label": "Packaging Dive profile",
+              "url": "https://www.packagingdive.com/editors/kpyzyk/"
+            }
+          ],
+          "photo_url": "https://d1b6lhn2ymmy1x.cloudfront.net/journalist-headshots/pyzyk-katie-square-600x600.jpg",
+          "evidence_urls": [
+            "https://www.packagingdive.com/editors/kpyzyk/"
+          ],
+          "fit_score": 4,
+          "fit_reason": "Strong fit on packaging materials and circularity-relevant business coverage; profile confirms current role."
+        },
+        {
+          "name": "Emily Chasan",
+          "job_title": "Director of Communications",
+          "organization": "Generate Capital",
+          "level": "established",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "none_found",
+          "could_speak_on": "How ESG reporting and sustainable-finance perspectives can connect corporate accountability with circular and regenerative supply-chain decisions.",
+          "talk_ideas": [
+            "How investors assess corporate sustainability and ESG claims",
+            "Circularity as a business-efficiency and finance question",
+            "What corporate accountability means for supply-chain transitions"
+          ],
+          "topic_tags": [
+            "ESG",
+            "sustainable finance",
+            "corporate accountability",
+            "circular economy"
+          ],
+          "bio": "Emily Chasan is director of communications at Generate Capital, where she leads internal and external communications and works on ESG strategy. Previously, she was sustainable finance editor at Bloomberg News and contributed to Trellis on ESG issues.",
+          "credentials": [],
+          "why_fit": "Her background in sustainable-finance journalism and current ESG strategy work offers a useful business and accountability lens for the panel, though she is no longer primarily in a journalism role.",
+          "past_speaking": [],
+          "notable_work": [],
+          "links": [
+            {
+              "label": "Trellis author profile",
+              "url": "https://trellis.net/article/author/emily-chasan/"
+            }
+          ],
+          "photo_url": null,
+          "evidence_urls": [
+            "https://trellis.net/article/author/emily-chasan/"
+          ],
+          "fit_score": 3,
+          "fit_reason": "Relevant ESG and circular-economy expertise, but her confirmed current role is communications rather than journalism."
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Agnieszka de Sousa",
+          "reason": "The page provided is a third-party reporter roundup and does not independently confirm her current Bloomberg role; no direct profile page was supplied or verified."
+        }
+      ],
+      "candidates_found": 4,
+      "error": null,
+      "usage": {
+        "model_calls": 3,
+        "input_tokens": 39275,
+        "cached_input_tokens": 17882,
+        "output_tokens": 1683,
+        "reasoning_tokens": 128,
+        "web_searches": 6,
+        "page_reads": 0,
+        "cost_usd": null
+      },
+      "seconds": 31.4
+    }
+  ],
+  "removals": [],
+  "injection_flags": [],
+  "events": [
+    {
+      "ts": "2026-10-26T02:37:12+00:00",
+      "seconds": 0.0,
+      "agent": "Scout Lead",
+      "category": null,
+      "message": "Reading your brief and planning the search…"
+    },
+    {
+      "ts": "2026-10-26T02:37:16+00:00",
+      "seconds": 4.3,
+      "agent": "Scout Lead",
+      "category": null,
+      "message": "Plan ready: Find three panelists for a business audience discussing how regenerative sourcing and circular supply chains can scale, prioritizing people with prior speaking or presentation experience. Keep the slate nationally sourced and varied in sector, career stage, place, and organization type; the small budget favors rising or established experts."
+    },
+    {
+      "ts": "2026-10-26T02:37:16+00:00",
+      "seconds": 4.3,
+      "agent": "Academics & Researchers searcher",
+      "category": "academic",
+      "message": "Searching the web…"
+    },
+    {
+      "ts": "2026-10-26T02:37:16+00:00",
+      "seconds": 4.4,
+      "agent": "Journalists & Communicators searcher",
+      "category": "journalist",
+      "message": "Searching the web…"
+    },
+    {
+      "ts": "2026-10-26T02:37:23+00:00",
+      "seconds": 11.8,
+      "agent": "Academics & Researchers searcher",
+      "category": "academic",
+      "message": "Found 4 candidates (3 web searches): Sachin Kamble, Martin Geissdoerfer, Yu Amy Xia, Aditya Vedantam"
+    },
+    {
+      "ts": "2026-10-26T02:37:23+00:00",
+      "seconds": 11.8,
+      "agent": "Academics & Researchers verifier",
+      "category": "academic",
+      "message": "Checking 4 people against their sources…"
+    },
+    {
+      "ts": "2026-10-26T02:37:36+00:00",
+      "seconds": 24.3,
+      "agent": "Journalists & Communicators searcher",
+      "category": "journalist",
+      "message": "Found 4 candidates (6 web searches): Katie Pyzyk, Deonna Anderson, Emily Chasan, Agnieszka de Sousa"
+    },
+    {
+      "ts": "2026-10-26T02:37:36+00:00",
+      "seconds": 24.3,
+      "agent": "Journalists & Communicators verifier",
+      "category": "journalist",
+      "message": "Checking 4 people against their sources…"
+    },
+    {
+      "ts": "2026-10-26T02:37:41+00:00",
+      "seconds": 30.0,
+      "agent": "Academics & Researchers verifier",
+      "category": "academic",
+      "message": "4 confirmed, 0 dropped"
+    },
+    {
+      "ts": "2026-10-26T02:37:47+00:00",
+      "seconds": 35.7,
+      "agent": "Journalists & Communicators verifier",
+      "category": "journalist",
+      "message": "3 confirmed, 1 dropped"
+    },
+    {
+      "ts": "2026-10-26T02:37:47+00:00",
+      "seconds": 35.7,
+      "agent": "Scout",
+      "category": null,
+      "message": "Done: 6 verified speakers across 2 categories."
+    }
+  ],
+  "usage": {
+    "model_calls": 8,
+    "input_tokens": 85469,
+    "cached_input_tokens": 36389,
+    "output_tokens": 4750,
+    "reasoning_tokens": 192,
+    "web_searches": 9,
+    "page_reads": 8,
+    "cost_usd": null
+  },
+  "seconds": 35.7,
+  "error": null,
+  "created_at": "2026-10-26T02:37:12+00:00",
+  "model": "gpt-6-luna"
+}

@@ -1,0 +1,1732 @@
+{
+  "id": "fa7a94541e",
+  "status": "done",
+  "brief": {
+    "conference_theme": "Environmental and social regeneration: beyond sustainability",
+    "looking_for": "panel",
+    "panel_theme": "Circularity at scale: regenerative sourcing and supply chains",
+    "panel_size": 3,
+    "conference_name": "Yale Business & the Environment Conference",
+    "conference_type": "business",
+    "location": "New Haven, CT",
+    "reach": "national",
+    "budget": "small",
+    "level": "auto",
+    "categories": [
+      "academic",
+      "practitioner",
+      "policy",
+      "founder",
+      "advocate",
+      "journalist"
+    ],
+    "prioritize": [
+      "has_spoken",
+      "range_of_perspectives"
+    ],
+    "skip_names": [],
+    "notes": null,
+    "per_category": 5
+  },
+  "plan": {
+    "summary": "Find a three-person panel on circularity at scale, regenerative sourcing, and supply chains for a business audience. Favor rising and established speakers suited to a small budget, with prior conference or presentation experience; diversify sectors, career stages, places, and organization types, with national reach and no New Haven-only constraint.",
+    "target_level": "mix",
+    "target_roles": [
+      "panelist"
+    ],
+    "location_focus": null,
+    "angles": [
+      {
+        "category": "academic",
+        "angles": [
+          "Researchers on circular supply chains and regenerative sourcing at Yale School of the Environment and Yale School of Management; identify faculty who present at Academy of Management or Sustainable Supply Chain conferences",
+          "Business-school scholars studying industrial ecology, circular economy, or supply-chain sustainability at universities such as MIT Sloan and University of Michigan Ross; prioritize conference presenters"
+        ]
+      },
+      {
+        "category": "practitioner",
+        "angles": [
+          "Corporate circularity and responsible-sourcing directors at companies featured in Ellen MacArthur Foundation case studies or the World Business Council for Sustainable Development; look for speakers at Circularity or GreenBiz events",
+          "Supply-chain sustainability and regenerative agriculture practitioners at B Corps, major food and apparel companies, or certification organizations such as Textile Exchange; prioritize public conference presenters"
+        ]
+      },
+      {
+        "category": "policy",
+        "angles": [
+          "Circular-economy and sustainable procurement officials at US EPA, state environmental agencies, and the US Department of Agriculture; seek presenters at National Recycling Coalition or sustainable procurement conferences",
+          "Trade and supply-chain policy experts at Resources for the Future, World Resources Institute, or the OECD working on circular materials and regenerative sourcing; prioritize public event speakers"
+        ]
+      },
+      {
+        "category": "founder",
+        "angles": [
+          "Founders of circular materials, reuse, and supply-chain traceability businesses appearing in Circularity conference programs or Ellen MacArthur Foundation network profiles",
+          "Regenerative agriculture and sustainable-sourcing startup founders in Food System 6, New York Climate Week, or Climate Collective event programs; favor emerging speakers"
+        ]
+      },
+      {
+        "category": "advocate",
+        "angles": [
+          "Sourcing and labor-rights advocates at As You Sow, Oxfam America, and the Responsible Business Alliance addressing supply-chain accountability; look for conference presenters",
+          "Regenerative agriculture and circular-economy nonprofit leaders at Regenerative Organic Alliance, National Farm to School Network, or US Green Building Council events; prioritize practitioners with speaking experience"
+        ]
+      },
+      {
+        "category": "journalist",
+        "angles": [
+          "Business and supply-chain reporters covering circularity and sourcing at GreenBiz, Trellis, and Bloomberg; identify journalists who moderate or speak at Circularity events",
+          "Sustainability editors and authors at Supply Chain Dive, Just Food, and Textile Exchange conference programs covering regenerative sourcing and circular supply chains"
+        ]
+      }
+    ]
+  },
+  "categories": [
+    {
+      "category": "academic",
+      "label": "Academics & Researchers",
+      "cards": [
+        {
+          "name": "Yuan Yao",
+          "job_title": "Manufacturer’s Association Professor of Industrial Ecology and Sustainable Systems; Director, Center for Industrial Ecology",
+          "organization": "Yale School of the Environment, Yale University",
+          "location": "New Haven, Connecticut, USA",
+          "level": "established",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "experienced",
+          "could_speak_on": "How circular-economy strategies, biomass-based materials, and systems analysis can help businesses scale regenerative sourcing and production.",
+          "talk_ideas": [
+            "Circular economy pathways in the forest and bioeconomy sectors",
+            "Life-cycle assessment for circular sourcing decisions",
+            "Modeling the environmental and societal effects of sustainable production"
+          ],
+          "topic_tags": [
+            "industrial ecology",
+            "circular economy",
+            "bio-based materials",
+            "life-cycle assessment",
+            "sustainable production"
+          ],
+          "bio": "Yuan Yao is the Manufacturer’s Association Professor of Industrial Ecology and Sustainable Systems at Yale School of the Environment and directs Yale’s Center for Industrial Ecology. Her research develops systems-analysis methods for industrial systems, with current projects focused on the bioeconomy and sustainable production.",
+          "credentials": [
+            "PhD in Chemical Engineering, Northwestern University",
+            "U.S. National Science Foundation CAREER Award",
+            "Laudise Medal, International Society of Industrial Ecology"
+          ],
+          "why_fit": "A strong match for a business-facing panel on circularity at scale: she connects industrial systems research and modeling with sustainable production and biomass-based materials, and has presented on circular economy in the forest sector.",
+          "past_speaking": [
+            {
+              "event": "Yale Forest Forum: “Planted Forests and Circular Economy”",
+              "year": 2022,
+              "url": "https://yff.yale.edu/speaker/yuan-yao-0"
+            },
+            {
+              "event": "Yale Alumni Academy: “Bioeconomy, Forests, and Climate Change”",
+              "year": 2023,
+              "url": "https://alumniacademy.yale.edu/bioeconomy-forests-and-climate-change"
+            }
+          ],
+          "notable_work": [
+            "Research projects on the bioeconomy and sustainable production",
+            "Systems-analysis tools and integrated modeling frameworks for industrial systems"
+          ],
+          "profile_url": "https://environment.yale.edu/directory/faculty/yuan-yao",
+          "links": [
+            {
+              "label": "Yale School of the Environment profile",
+              "url": "https://environment.yale.edu/directory/faculty/yuan-yao",
+              "kind": "profile"
+            },
+            {
+              "label": "Yale Forest Forum talk",
+              "url": "https://yff.yale.edu/speaker/yuan-yao-0",
+              "kind": "talk"
+            },
+            {
+              "label": "Yale Alumni Academy webinar",
+              "url": "https://alumniacademy.yale.edu/bioeconomy-forests-and-climate-change",
+              "kind": "talk"
+            }
+          ],
+          "photo_url": "https://environment.yale.edu/sites/default/files/styles/4x5z3_small/public/content/images/5555/Yao_Yuan_2022_web.jpg.webp?h=ffb0798d&itok=n27vN7Vj",
+          "evidence_urls": [
+            "https://environment.yale.edu/directory/faculty/yuan-yao",
+            "https://yff.yale.edu/speaker/yuan-yao-0",
+            "https://alumniacademy.yale.edu/bioeconomy-forests-and-climate-change"
+          ],
+          "fit_score": 5,
+          "fit_reason": "Direct subject fit on circular economy and sustainable production, with specific public presentations and strong relevance to Yale’s business-and-environment audience."
+        },
+        {
+          "name": "Marian Chertow",
+          "job_title": "Manufacturer’s Association Professor Emeritus of Industrial Ecology",
+          "organization": "Yale School of the Environment, Yale University",
+          "location": "New Haven, Connecticut, USA",
+          "level": "established",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "some",
+          "could_speak_on": "What industrial symbiosis can teach companies about organizing material, energy, and by-product exchanges across business networks.",
+          "talk_ideas": [
+            "Industrial symbiosis as a practical model for circular business networks",
+            "Building material and by-product exchanges across companies and communities",
+            "Measuring business and environmental benefits of industrial ecology"
+          ],
+          "topic_tags": [
+            "industrial symbiosis",
+            "business networks",
+            "industrial ecology",
+            "waste management",
+            "circular economy"
+          ],
+          "bio": "Marian Chertow is Manufacturer’s Association Professor Emeritus of Industrial Ecology at Yale University and former director of Yale’s Center for Industrial Ecology. Her work examines industrial ecology, circular economy, waste management, and geographically based exchanges of materials, energy, water, and by-products among businesses.",
+          "credentials": [
+            "PhD, Yale University",
+            "MPPM, Yale School of Management",
+            "International Society for Industrial Ecology Society Prize, 2019"
+          ],
+          "why_fit": "Her industrial-symbiosis research offers a concrete business-network perspective on circularity beyond individual-company initiatives, closely matching the panel’s focus on scale and implementation.",
+          "past_speaking": [
+            {
+              "event": "Yale Alumni Academy: “Increasing Business Efficiency and Community through Industrial Symbiosis”",
+              "year": null,
+              "url": "https://alumniacademy.yale.edu/increasing-business-efficiency-and-community-through-industrial-symbiosis"
+            }
+          ],
+          "notable_work": [
+            "Research on geographically based exchanges among business networks",
+            "Studies of industrial ecology in China and India"
+          ],
+          "profile_url": "https://environment.yale.edu/directory/faculty/marian-chertow",
+          "links": [
+            {
+              "label": "Yale School of the Environment profile",
+              "url": "https://environment.yale.edu/directory/faculty/marian-chertow",
+              "kind": "profile"
+            },
+            {
+              "label": "Yale Alumni Academy program",
+              "url": "https://alumniacademy.yale.edu/increasing-business-efficiency-and-community-through-industrial-symbiosis",
+              "kind": "talk"
+            }
+          ],
+          "photo_url": "https://environment.yale.edu/sites/default/files/styles/4x5z3_small/public/content/images/5620/Chertow_Marian_2022_web.jpg.webp?itok=fQl-YaGx",
+          "evidence_urls": [
+            "https://environment.yale.edu/directory/faculty/marian-chertow",
+            "https://alumniacademy.yale.edu/increasing-business-efficiency-and-community-through-industrial-symbiosis"
+          ],
+          "fit_score": 5,
+          "fit_reason": "Exceptional match for circularity through business-to-business material exchanges; her Yale affiliation and public lecture also fit the conference location and brief."
+        },
+        {
+          "name": "Reid Lifset",
+          "job_title": "Research Scholar, Resident Fellow in Industrial Ecology, and Founding Editor of the Journal of Industrial Ecology",
+          "organization": "Yale School of the Environment, Yale University",
+          "location": "New Haven, Connecticut, USA",
+          "level": "established",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "some",
+          "could_speak_on": "How extended producer responsibility and resource-efficiency policy can shape circular product and supply-chain systems.",
+          "talk_ideas": [
+            "Extended producer responsibility and circular-economy policy",
+            "Resource and material efficiency in product systems",
+            "Lessons from packaging recycling and EPR practices"
+          ],
+          "topic_tags": [
+            "extended producer responsibility",
+            "material efficiency",
+            "packaging recycling",
+            "circular economy",
+            "industrial ecology"
+          ],
+          "bio": "Reid Lifset is a research scholar and resident fellow in industrial ecology at Yale School of the Environment and founding editor of the Journal of Industrial Ecology. His research addresses extended producer responsibility, resource and material efficiency, the environmental impacts of the digital economy, and the circular economy.",
+          "credentials": [
+            "M.S., MIT",
+            "MPPM, Yale School of Management",
+            "International Society for Industrial Ecology Society Prize, 2015"
+          ],
+          "why_fit": "He can bring a systems and product-policy perspective to the panel, complementing operational and sourcing perspectives with discussion of EPR and resource efficiency.",
+          "past_speaking": [
+            {
+              "event": "Packaging Recycling Summit 2024: “Understanding the Fundamentals: Insights from EPR Practices & Policies”",
+              "year": 2024,
+              "url": "https://www.packagingrecyclingsummit.com/2024/speaker/1189590/reid-lifset"
+            }
+          ],
+          "notable_work": [
+            "Founding editor of the Journal of Industrial Ecology",
+            "Lead author on the International Resource Panel’s Resource Efficiency & Climate Change study"
+          ],
+          "profile_url": "https://environment.yale.edu/directory/faculty/reid-lifset",
+          "links": [
+            {
+              "label": "Yale School of the Environment profile",
+              "url": "https://environment.yale.edu/directory/faculty/reid-lifset",
+              "kind": "profile"
+            },
+            {
+              "label": "Packaging Recycling Summit speaker page",
+              "url": "https://www.packagingrecyclingsummit.com/2024/speaker/1189590/reid-lifset",
+              "kind": "talk"
+            }
+          ],
+          "photo_url": "https://environment.yale.edu/sites/default/files/styles/4x5z3_small/public/content/images/6472/Lifset_Reid_2023.jpg.webp?h=f3e05f82&itok=BJm_d8jS",
+          "evidence_urls": [
+            "https://environment.yale.edu/directory/faculty/reid-lifset",
+            "https://www.packagingrecyclingsummit.com/2024/speaker/1189590/reid-lifset"
+          ],
+          "fit_score": 4,
+          "fit_reason": "Strong expertise in circular economy, EPR, and material efficiency with a confirmed summit appearance; slightly less direct on regenerative sourcing than the top-ranked candidates."
+        },
+        {
+          "name": "Sreedevi Rajagopalan",
+          "job_title": "Director, MIT Sustainable Supply Chain Lab; Research Scientist",
+          "organization": "MIT Center for Transportation and Logistics",
+          "location": "Cambridge, Massachusetts, USA",
+          "level": "established",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "none_found",
+          "could_speak_on": "How companies can operationalize sustainable sourcing and manage supply-chain Scope 3 emissions using data-driven approaches.",
+          "talk_ideas": [
+            "Turning Scope 3 measurement into supplier engagement and sourcing decisions",
+            "Sustainable sourcing with large corporations and smaller firms",
+            "Using AI and technology to support small and micro firms in supply chains"
+          ],
+          "topic_tags": [
+            "Scope 3 emissions",
+            "sustainable sourcing",
+            "supply-chain risk",
+            "small firms",
+            "AI applications"
+          ],
+          "bio": "Sreedevi Rajagopalan is a research scientist at MIT’s Center for Transportation and Logistics and director of the MIT Sustainable Supply Chain Lab. Her work includes corporate collaboration on Scope 3 emissions measurement and sustainable sourcing, as well as research on technology-enabled supply-chain practices among small and micro firms in emerging markets.",
+          "credentials": [
+            "PhD in Production and Operations Management, Indian Institute of Management Bangalore",
+            "More than 15 years of combined industry, academic, and research experience"
+          ],
+          "why_fit": "She offers a direct corporate supply-chain and sourcing perspective, balancing the Yale industrial-ecology researchers with applied work on emissions measurement and supplier practices. The checked pages confirmed her current role and expertise, but did not establish a qualifying public speaking appearance.",
+          "past_speaking": [],
+          "notable_work": [
+            "MIT Sustainable Supply Chain Lab’s State of Supply Chain Sustainability Reports",
+            "Research with the LIFT Lab on business and supply-chain practices among small and micro firms"
+          ],
+          "profile_url": "https://scm.mit.edu/people/sreedevi-rajagopalan/",
+          "links": [
+            {
+              "label": "MIT profile",
+              "url": "https://scm.mit.edu/people/sreedevi-rajagopalan/",
+              "kind": "profile"
+            },
+            {
+              "label": "MIT appointment announcement",
+              "url": "https://ctl.mit.edu/news/dr-sreedevi-rajagopalan-appointed-director-sustainable-supply-chain-lab",
+              "kind": "work"
+            }
+          ],
+          "photo_url": "https://scm.mit.edu/wp-content/uploads/2023/10/sreedevi_square.png",
+          "evidence_urls": [
+            "https://scm.mit.edu/people/sreedevi-rajagopalan/",
+            "https://ctl.mit.edu/news/dr-sreedevi-rajagopalan-appointed-director-sustainable-supply-chain-lab"
+          ],
+          "fit_score": 4,
+          "fit_reason": "Highly relevant applied supply-chain expertise and a useful organizational perspective, though no past public speaking was confirmed in the checked pages."
+        }
+      ],
+      "dropped": [],
+      "candidates_found": 4,
+      "error": null,
+      "usage": {
+        "model_calls": 5,
+        "input_tokens": 80256,
+        "cached_input_tokens": 45894,
+        "output_tokens": 4018,
+        "reasoning_tokens": 193,
+        "web_searches": 9,
+        "page_reads": 0,
+        "cost_usd": null
+      },
+      "seconds": 47.1
+    },
+    {
+      "category": "practitioner",
+      "label": "Practitioners",
+      "cards": [
+        {
+          "name": "Amy Lee",
+          "job_title": "Senior Sustainability Leader – Circular Economy Solutions",
+          "organization": "Owens Corning",
+          "location": null,
+          "level": "established",
+          "best_for": [
+            "panelist",
+            "workshop"
+          ],
+          "speaking_badge": "some",
+          "could_speak_on": "How manufacturers can design circular products and build customer and partner models that return materials to productive use.",
+          "talk_ideas": [
+            "Circular product design and end-of-life systems",
+            "Building customer and partner models for material recovery",
+            "Applying circular-economy standards across manufacturing supply chains"
+          ],
+          "topic_tags": [
+            "manufacturing circularity",
+            "product lifecycle design",
+            "second-life materials",
+            "ISO circular economy",
+            "materials recovery"
+          ],
+          "bio": "Amy Lee leads circular-economy strategy at Owens Corning, working with customers and partners on business models and solutions across product lifecycles. Her prior roles include circularity-focused work at DuPont and manufacturing work with Saint-Gobain, GE, and NIST.",
+          "credentials": [
+            "Vice Chair of ISO Technical Committee 323",
+            "Mechanical engineering bachelor's degree and MBA",
+            "Six Sigma Black Belt and Green Belt programs"
+          ],
+          "why_fit": "Offers a hands-on manufacturing perspective on designing products and supply-chain relationships for circularity at scale.",
+          "past_speaking": [
+            {
+              "event": "Circularity 25: “EPR Essentials: Best Practices for Implementation”",
+              "year": 2025,
+              "url": "https://trellis.net/speaker/amy-lee/"
+            }
+          ],
+          "notable_work": [
+            "Circular-economy strategy at Owens Corning",
+            "Second Life Materials business venture at DuPont",
+            "Vice Chair, ISO Technical Committee 323"
+          ],
+          "profile_url": "https://trellis.net/speaker/amy-lee/",
+          "links": [
+            {
+              "label": "Trellis speaker profile",
+              "url": "https://trellis.net/speaker/amy-lee/",
+              "kind": "profile"
+            }
+          ],
+          "photo_url": "https://trellis.net/wp-content/uploads/2025/03/Amy-Lee-2a-e1743107610515.jpg",
+          "evidence_urls": [
+            "https://trellis.net/speaker/amy-lee/"
+          ],
+          "fit_score": 5,
+          "fit_reason": "Direct manufacturing and product-lifecycle circularity experience, with a verified prior conference session."
+        },
+        {
+          "name": "Allison Lin",
+          "job_title": "Global VP of Healthy Planet and Chief Circularity Officer",
+          "organization": "Mars, Inc.",
+          "location": null,
+          "level": "established",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "experienced",
+          "could_speak_on": "How a global food company coordinates circularity and environmental targets across business segments and ecosystem partnerships.",
+          "talk_ideas": [
+            "Embedding circularity within a global food company",
+            "Packaging targets and extended producer responsibility",
+            "Partnerships for climate, water, land-use, and deforestation goals"
+          ],
+          "topic_tags": [
+            "food supply chains",
+            "packaging circularity",
+            "EPR policy",
+            "ecosystem partnerships",
+            "land use"
+          ],
+          "bio": "Allison Lin is Global VP of Healthy Planet and Chief Circularity Officer at Mars, Inc., where she leads cross-segment strategy and targets spanning climate, deforestation, water, land use, and packaging. Her career has included sustainability and partnership work at P&G, Starbucks, and Coca-Cola.",
+          "credentials": [
+            "BS in Business Administration, Carnegie Mellon University",
+            "MBA, Duke University Fuqua School of Business"
+          ],
+          "why_fit": "Can speak to the coordination challenges of advancing packaging and environmental goals across a large, multi-segment business and its partnerships.",
+          "past_speaking": [
+            {
+              "event": "Trellis session: “Adapting to the Uncertainty of Global Plastics Policy”",
+              "year": 2025,
+              "url": "https://trellis.net/speaker/allison-lin/"
+            },
+            {
+              "event": "Trellis session: “The New EPR Era: Leading Through Regulatory Change”",
+              "year": 2026,
+              "url": "https://trellis.net/speaker/allison-lin/"
+            },
+            {
+              "event": "Trellis session: “The Mass Balance Question: Where It Delivers and Where It Distracts”",
+              "year": 2026,
+              "url": "https://trellis.net/speaker/allison-lin/"
+            }
+          ],
+          "notable_work": [
+            "Cross-segment environmental strategy and targets at Mars, Inc.",
+            "Ecosystem partnership experience at P&G, Starbucks, and Coca-Cola"
+          ],
+          "profile_url": "https://trellis.net/speaker/allison-lin/",
+          "links": [
+            {
+              "label": "Trellis speaker profile",
+              "url": "https://trellis.net/speaker/allison-lin/",
+              "kind": "profile"
+            }
+          ],
+          "photo_url": "https://trellis.net/wp-content/uploads/2024/08/Allison-Lin-GreenBiz-e1729095570163.jpeg",
+          "evidence_urls": [
+            "https://trellis.net/speaker/allison-lin/"
+          ],
+          "fit_score": 4,
+          "fit_reason": "Strong practitioner perspective from global food and consumer businesses, supported by multiple confirmed Trellis appearances."
+        },
+        {
+          "name": "Alessandra Pistoia",
+          "job_title": "Circular Economy Lead",
+          "organization": "Microsoft",
+          "location": null,
+          "level": "established",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "some",
+          "could_speak_on": "How a global technology company can translate circular-economy goals into operational, product, and packaging targets with partners and customers.",
+          "talk_ideas": [
+            "Roadmapping corporate circular-economy goals",
+            "Circularity in operations, products, and packaging",
+            "Working across company teams and supply-chain partners to implement circularity"
+          ],
+          "topic_tags": [
+            "corporate circularity",
+            "zero-waste strategy",
+            "technology supply chains",
+            "product targets",
+            "packaging targets"
+          ],
+          "bio": "Alessandra Pistoia leads Microsoft’s zero-waste and circular-economy agenda. Her work includes corporate strategy for operations, product, and packaging targets, and collaboration with internal stakeholders, customers, partners, and organizations.",
+          "credentials": [],
+          "why_fit": "Brings a large-company implementation perspective on turning circularity goals into cross-functional programs and partner action.",
+          "past_speaking": [
+            {
+              "event": "Circularity 25: “From Vision to Action: How to Build Your Circular Economy Roadmap”",
+              "year": 2025,
+              "url": "https://trellis.net/speaker/alessandra-pistoia/"
+            }
+          ],
+          "notable_work": [],
+          "profile_url": "https://trellis.net/speaker/alessandra-pistoia/",
+          "links": [
+            {
+              "label": "Trellis speaker profile",
+              "url": "https://trellis.net/speaker/alessandra-pistoia/",
+              "kind": "profile"
+            }
+          ],
+          "photo_url": "https://trellis.net/wp-content/uploads/2025/01/Alessandra-Pistoia-Microsoft.jpeg",
+          "evidence_urls": [
+            "https://trellis.net/speaker/alessandra-pistoia/"
+          ],
+          "fit_score": 4,
+          "fit_reason": "Relevant enterprise-scale circularity roadmap and implementation experience; one prior conference appearance is confirmed."
+        }
+      ],
+      "dropped": [],
+      "candidates_found": 3,
+      "error": null,
+      "usage": {
+        "model_calls": 3,
+        "input_tokens": 47867,
+        "cached_input_tokens": 20118,
+        "output_tokens": 2890,
+        "reasoning_tokens": 674,
+        "web_searches": 12,
+        "page_reads": 0,
+        "cost_usd": null
+      },
+      "seconds": 35.1
+    },
+    {
+      "category": "policy",
+      "label": "Policy & Government",
+      "cards": [
+        {
+          "name": "Ashima Sukhdev",
+          "job_title": "Climate Mitigation and Circular Economy Policy Advisor",
+          "organization": "Seattle Public Utilities, City of Seattle",
+          "location": "Seattle, Washington",
+          "level": "established",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "experienced",
+          "could_speak_on": "How city policy and public-private reuse systems can help move circular supply chains from pilots toward citywide scale.",
+          "talk_ideas": [
+            "Citywide reuse systems for food and beverage containers",
+            "Local government policy as a lever for circular-economy adoption",
+            "Designing public-private partnerships to scale reuse",
+            "Connecting circularity policy with municipal climate strategies"
+          ],
+          "topic_tags": [
+            "circular economy policy",
+            "citywide reuse",
+            "food containers",
+            "municipal climate",
+            "public-private partnerships"
+          ],
+          "bio": "Ashima Sukhdev is the Climate Mitigation and Circular Economy Policy Advisor at Seattle Public Utilities, City of Seattle. She previously managed U.S. and Canada programs and global cities work at the Ellen MacArthur Foundation, and supported a circular-economy initiative at the World Economic Forum.",
+          "credentials": [
+            "B.A. in Economics focused on Sustainability & Environmental Management, University of Pennsylvania"
+          ],
+          "why_fit": "Offers a directly relevant municipal policy perspective on circularity and reuse, with experience spanning city government, an international circular-economy foundation, and business consulting.",
+          "past_speaking": [
+            {
+              "event": "NextCycle Washington Pitch Showcase",
+              "year": 2023,
+              "url": "https://www.nextcyclewashington.com/news-collection/2023-nextcycle-washington-pitch-showcase-recap"
+            },
+            {
+              "event": "Rebrand Reuse: A Symbol and Standards to Catalyze Reuse, Trellis",
+              "year": 2025,
+              "url": "https://trellis.net/speaker/ashima-sukhdev/"
+            }
+          ],
+          "notable_work": [
+            "Led the Ellen MacArthur Foundation’s work on cities globally, engaging local governments in the transition to a circular economy.",
+            "Manages Seattle Public Utilities’ climate mitigation strategy, internally and city-wide."
+          ],
+          "profile_url": "https://trellis.net/speaker/ashima-sukhdev/",
+          "links": [
+            {
+              "label": "Trellis speaker profile",
+              "url": "https://trellis.net/speaker/ashima-sukhdev/",
+              "kind": "profile"
+            },
+            {
+              "label": "Rational Middle expert profile",
+              "url": "https://rationalmiddle.com/experts/ashima-sukhdev/",
+              "kind": "profile"
+            },
+            {
+              "label": "NextCycle Washington Pitch Showcase recap",
+              "url": "https://www.nextcyclewashington.com/news-collection/2023-nextcycle-washington-pitch-showcase-recap",
+              "kind": "talk"
+            }
+          ],
+          "photo_url": "https://trellis.net/wp-content/uploads/2025/04/Ashima-Sukhdev-Photo-e1744230081994.png",
+          "evidence_urls": [
+            "https://trellis.net/speaker/ashima-sukhdev/",
+            "https://rationalmiddle.com/experts/ashima-sukhdev/",
+            "https://www.nextcyclewashington.com/news-collection/2023-nextcycle-washington-pitch-showcase-recap"
+          ],
+          "fit_score": 5,
+          "fit_reason": "Strong match for a business-facing circularity panel: current city policy work, relevant reuse programs, and documented presentations."
+        },
+        {
+          "name": "Michel Cavigelli",
+          "job_title": "Soil Scientist",
+          "organization": "USDA Agricultural Research Service",
+          "location": "Beltsville, Maryland",
+          "level": "established",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "experienced",
+          "could_speak_on": "How farm-level soil and nutrient-management evidence can inform regenerative sourcing requirements and agricultural supply-chain decisions.",
+          "talk_ideas": [
+            "What long-term cropping-systems research shows about regenerative practices",
+            "Cover-crop management, soil health, and carbon storage",
+            "Nutrient cycling and the environmental performance of farming systems",
+            "How buyers can interpret evidence on regenerative agriculture"
+          ],
+          "topic_tags": [
+            "cropping systems",
+            "soil health",
+            "nutrient cycling",
+            "cover crops",
+            "agricultural sourcing"
+          ],
+          "bio": "Michel Cavigelli is a soil scientist at USDA-ARS in Beltsville, Maryland, and lead scientist of the Farming Systems Project, a long-term study of cropping systems. His research addresses nutrient management and the agronomic, economic, and environmental performance of diverse cropping systems.",
+          "credentials": [
+            "PhD in Crop and Soil Science, Michigan State University",
+            "2015 American Society of Agronomy Organic Management Systems Organic Research and Education Award"
+          ],
+          "why_fit": "Adds an evidence-based agricultural sourcing perspective to a panel otherwise centered on circular-economy policy, connecting regenerative claims to soil and cropping-system research.",
+          "past_speaking": [
+            {
+              "event": "Cover Crops for Soil Health: Beyond the Basics, Northeast Workshop",
+              "year": 2016,
+              "url": "https://www.sare.org/resources/managing-soil-health-with-cover-crops-beyond-the-basics/"
+            },
+            {
+              "event": "The Economics of Regenerative Agriculture, USDA-ARS Under the Microscope",
+              "year": null,
+              "url": "https://www.ars.usda.gov/oc/utm/the-economics-of-regenerative-agriculture/"
+            }
+          ],
+          "notable_work": [
+            "Leads the USDA-ARS Farming Systems Project, a long-term comparison of cropping systems.",
+            "Researches nutrient cycling and agronomic, economic, and environmental performance of diverse cropping systems."
+          ],
+          "profile_url": "https://www.organic-center.org/michelle-cavigelli",
+          "links": [
+            {
+              "label": "The Organic Center scientist profile",
+              "url": "https://www.organic-center.org/michelle-cavigelli",
+              "kind": "profile"
+            },
+            {
+              "label": "USDA-ARS interview on regenerative agriculture economics",
+              "url": "https://www.ars.usda.gov/oc/utm/the-economics-of-regenerative-agriculture/",
+              "kind": "work"
+            },
+            {
+              "label": "SARE cover-crops workshop resource",
+              "url": "https://www.sare.org/resources/managing-soil-health-with-cover-crops-beyond-the-basics/",
+              "kind": "talk"
+            }
+          ],
+          "photo_url": "https://organic-center.org/sites/default/files/styles/apb_feature_box_2/public/people/photo_cavigelli.jpg?itok=B9Kspw0b",
+          "evidence_urls": [
+            "https://www.organic-center.org/michelle-cavigelli",
+            "https://www.ars.usda.gov/oc/utm/the-economics-of-regenerative-agriculture/",
+            "https://www.sare.org/resources/managing-soil-health-with-cover-crops-beyond-the-basics/"
+          ],
+          "fit_score": 4,
+          "fit_reason": "Brings credible farm-system research and public-sector expertise that can ground regenerative sourcing discussions in practical evidence."
+        },
+        {
+          "name": "Becky Goyton",
+          "job_title": "Circular Economy Specialist",
+          "organization": "Denver’s Office of Climate Action, Sustainability and Resiliency",
+          "location": "Denver, Colorado",
+          "level": "rising",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "some",
+          "could_speak_on": "How municipal policy and practical business assistance can reduce waste and build circular systems at the local level.",
+          "talk_ideas": [
+            "Restaurant waste-prevention assistance and cost reduction",
+            "Municipal policy for sharing, repairing, and reuse",
+            "Building circular-economy programs that benefit communities",
+            "Lessons from city government on reducing waste and pollution"
+          ],
+          "topic_tags": [
+            "municipal circularity",
+            "restaurant waste",
+            "waste prevention",
+            "reuse programs",
+            "local government"
+          ],
+          "bio": "Becky Goyton is a Circular Economy Specialist with Denver’s Office of Climate Action, Sustainability and Resiliency. Her work includes policy and program development to minimize waste and pollution through sharing, repairing, reusing, and recycling; she has also worked with San Francisco’s Department of the Environment and Denver’s Solid Waste Management Division.",
+          "credentials": [],
+          "why_fit": "Offers a practical city-government case on circular-economy programs and business waste prevention. Her documented restaurant-assistance presentation makes her especially relevant to a business audience.",
+          "past_speaking": [
+            {
+              "event": "National Zero Waste Conference 2026 — “Prevention Meets Payoff: Practical Waste Reduction Assistance for Restaurants”",
+              "year": 2026,
+              "url": "https://zwconference.org/speaker/becky-goyton/"
+            }
+          ],
+          "notable_work": [],
+          "profile_url": "https://zwconference.org/speaker/becky-goyton/",
+          "links": [
+            {
+              "label": "National Zero Waste Conference speaker profile",
+              "url": "https://zwconference.org/speaker/becky-goyton/",
+              "kind": "profile"
+            }
+          ],
+          "photo_url": "https://zwconference.org/wp-content/uploads/2026/07/becky_goyton_nzwc_2026-scaled-e1784730278148-300x300.jpg",
+          "evidence_urls": [
+            "https://zwconference.org/speaker/becky-goyton/"
+          ],
+          "fit_score": 4,
+          "fit_reason": "A strong practitioner-policy fit with direct experience developing local circular-economy programs and a documented conference presentation."
+        }
+      ],
+      "dropped": [],
+      "candidates_found": 3,
+      "error": null,
+      "usage": {
+        "model_calls": 4,
+        "input_tokens": 56588,
+        "cached_input_tokens": 29874,
+        "output_tokens": 3038,
+        "reasoning_tokens": 292,
+        "web_searches": 7,
+        "page_reads": 0,
+        "cost_usd": null
+      },
+      "seconds": 42.8
+    },
+    {
+      "category": "founder",
+      "label": "Founders & Industry",
+      "cards": [
+        {
+          "name": "Alysia Garmulewicz",
+          "job_title": "Co-CEO and Founder",
+          "organization": "Materiom",
+          "location": "Oxford, UK",
+          "level": "established",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "experienced",
+          "could_speak_on": "How open data, AI, and regional biomaterials research can help businesses develop scalable regenerative feedstocks and circular materials.",
+          "talk_ideas": [
+            "Using open data and AI to accelerate bio-based materials R&D",
+            "Connecting regional biomass resources with materials innovation",
+            "Making regenerative biomaterials research more accessible to industry"
+          ],
+          "topic_tags": [
+            "bio-based materials",
+            "biomaterials R&D",
+            "open materials data",
+            "AI for materials",
+            "circular economy"
+          ],
+          "bio": "Alysia Garmulewicz is co-CEO and founder of Materiom, a platform focused on open data and AI for bio-based materials. She is also an associate professor of the circular economy at Universidad de Santiago de Chile and an associate fellow at Oxford’s CABDyN Complexity Centre.",
+          "credentials": [
+            "Rhodes Scholar",
+            "Doctorate from the Saïd Business School, University of Oxford"
+          ],
+          "why_fit": "She offers a founder and research perspective on the data, regional feedstocks, and materials development needed to move regenerative sourcing toward commercial scale.",
+          "past_speaking": [
+            {
+              "event": "Green Chemistry as a Driver of Innovation",
+              "year": 2025,
+              "url": "https://trellis.net/speaker/alysia-garmulewicz/"
+            },
+            {
+              "event": "AI 2.0: Practical Tools for Circular Economy Leaders",
+              "year": 2025,
+              "url": "https://trellis.net/speaker/alysia-garmulewicz/"
+            }
+          ],
+          "notable_work": [],
+          "profile_url": "https://www.materiom.org/team/alysia-garmulewicz",
+          "links": [
+            {
+              "label": "Materiom team profile",
+              "url": "https://www.materiom.org/team/alysia-garmulewicz",
+              "kind": "profile"
+            },
+            {
+              "label": "Trellis speaker profile",
+              "url": "https://trellis.net/speaker/alysia-garmulewicz/",
+              "kind": "talk"
+            }
+          ],
+          "photo_url": "https://cdn.prod.website-files.com/675070b3c14640fcab98f3f4/6a732f65a2b65cf91a5f3e92_Alysia_New.jpeg",
+          "evidence_urls": [
+            "https://trellis.net/speaker/alysia-garmulewicz/",
+            "https://www.materiom.org/team/alysia-garmulewicz"
+          ],
+          "fit_score": 5,
+          "fit_reason": "Strongly matches the regenerative-materials theme and brings both startup and academic perspectives, with two documented conference sessions."
+        },
+        {
+          "name": "Ben Christensen",
+          "job_title": "Co-Founder and CEO",
+          "organization": "Cambium",
+          "location": "United States",
+          "level": "rising",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "experienced",
+          "could_speak_on": "How traceable domestic wood supply chains and technology can connect regenerative feedstocks to large-scale buyers and product manufacturers.",
+          "talk_ideas": [
+            "Building traceability into domestic wood supply chains",
+            "Scaling regenerative wood feedstocks from suppliers to major buyers",
+            "Moving circularity startups from pilots to purchase orders"
+          ],
+          "topic_tags": [
+            "wood supply chains",
+            "traceable sourcing",
+            "domestic manufacturing",
+            "regenerative feedstocks",
+            "supply-chain technology"
+          ],
+          "bio": "Ben Christensen is co-founder and CEO of Cambium, which uses AI and supply-chain technology to connect and modernize the wood economy. Cambium’s profile describes a network of more than 500 suppliers and customers and partners across major industries.",
+          "credentials": [
+            "Master’s from the Yale School of the Environment",
+            "Forbes 30 Under 30 (2021)"
+          ],
+          "why_fit": "His company’s focus on traceable, made-in-the-U.S. wood products provides a concrete industry case for scaling regenerative feedstocks through supply chains.",
+          "past_speaking": [
+            {
+              "event": "Advancing Circular and Regenerative Feedstocks for Industry",
+              "year": 2025,
+              "url": "https://trellis.net/speaker/ben-christensen/"
+            },
+            {
+              "event": "From Pilots to Purchase Orders: How to Engage Circularity Startups in Your Supply Chain",
+              "year": 2026,
+              "url": "https://trellis.net/speaker/ben-christensen/"
+            }
+          ],
+          "notable_work": [],
+          "profile_url": "https://trellis.net/speaker/ben-christensen/",
+          "links": [
+            {
+              "label": "Trellis speaker profile",
+              "url": "https://trellis.net/speaker/ben-christensen/",
+              "kind": "profile"
+            }
+          ],
+          "photo_url": "https://trellis.net/wp-content/uploads/2025/06/Ben-Christensen-Cambium.jpeg",
+          "evidence_urls": [
+            "https://trellis.net/speaker/ben-christensen/"
+          ],
+          "fit_score": 5,
+          "fit_reason": "Direct fit for regenerative feedstocks and supply-chain scale, with a Yale connection and two documented industry sessions."
+        },
+        {
+          "name": "Julia Marsh",
+          "job_title": "Co-Founder & CEO",
+          "organization": "Sway",
+          "location": "California Bay Area, USA",
+          "level": "established",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "some",
+          "could_speak_on": "How seaweed-based packaging and partnerships across farms, manufacturers, and distributors can scale regenerative material sourcing and biological circularity.",
+          "talk_ideas": [
+            "Scaling seaweed-based compostable packaging through existing supply chains",
+            "Building regenerative sourcing partnerships from ocean farms to manufacturers",
+            "Designing packaging systems for biological circularity"
+          ],
+          "topic_tags": [
+            "seaweed packaging",
+            "regenerative sourcing",
+            "biological circularity",
+            "materials design",
+            "packaging supply chains"
+          ],
+          "bio": "Julia Marsh is co-founder and CEO of Sway, which develops compostable packaging made with seaweed. Her background includes more than a decade designing brand and packaging systems for consumer goods companies, technology startups, and design studios.",
+          "credentials": [
+            "Sway was named a Fast Company World-Changing Idea in 2024."
+          ],
+          "why_fit": "She brings a founder’s account of connecting regenerative feedstocks, packaging manufacturers, distributors, and consumer brands to scale a circular material.",
+          "past_speaking": [
+            {
+              "event": "Innovative Materials for Biodiversity Benefits",
+              "year": 2025,
+              "url": "https://trellis.net/speaker/julia-marsh/"
+            }
+          ],
+          "notable_work": [
+            "Sway’s seaweed-based compostable packaging"
+          ],
+          "profile_url": "https://trellis.net/speaker/julia-marsh/",
+          "links": [
+            {
+              "label": "Trellis speaker profile",
+              "url": "https://trellis.net/speaker/julia-marsh/",
+              "kind": "profile"
+            },
+            {
+              "label": "Sway team and company overview",
+              "url": "https://swaythefuture.com/about",
+              "kind": "work"
+            }
+          ],
+          "photo_url": "https://trellis.net/wp-content/uploads/2025/04/Julia-Marsh_1x1_2024-e1743609237929.jpg",
+          "evidence_urls": [
+            "https://trellis.net/speaker/julia-marsh/",
+            "https://swaythefuture.com/about"
+          ],
+          "fit_score": 5,
+          "fit_reason": "Directly aligned with regenerative sourcing and scaling circular packaging, with demonstrated participation in a relevant industry session."
+        },
+        {
+          "name": "Aditya Siroya",
+          "job_title": "Co-Founder and Chief Impact Officer",
+          "organization": "rePurpose Global",
+          "location": "Bangalore, India",
+          "level": "established",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "some",
+          "could_speak_on": "How companies can scale plastic recovery systems while incorporating frontline worker livelihoods into circular supply-chain models.",
+          "talk_ideas": [
+            "Scaling business-linked plastic recovery and waste systems",
+            "Including informal-sector workers in circular supply chains",
+            "Connecting measurable plastic recovery with resource-efficient business models"
+          ],
+          "topic_tags": [
+            "plastic recovery",
+            "waste systems",
+            "informal-sector workers",
+            "circular economy",
+            "social impact"
+          ],
+          "bio": "Aditya Siroya is co-founder and chief impact officer at rePurpose Global, a platform focused on plastic pollution and recovery. His prior ventures included work on employment opportunities and medical-waste reduction.",
+          "credentials": [
+            "Forbes 30 Under 30 honoree",
+            "Graduate of The Wharton School, University of Pennsylvania"
+          ],
+          "why_fit": "He adds a social-impact and recovery-system perspective, broadening a sourcing-and-supply-chain discussion to include waste workers and livelihoods.",
+          "past_speaking": [
+            {
+              "event": "Global Waste Management and the Informal Sector",
+              "year": 2025,
+              "url": "https://trellis.net/speaker/aditya-siroya/"
+            }
+          ],
+          "notable_work": [
+            "Co-founded rePurpose Global, a plastic recovery platform"
+          ],
+          "profile_url": "https://halcyonaccelerator.org/founder/aditya-siroya/",
+          "links": [
+            {
+              "label": "Halcyon founder profile",
+              "url": "https://halcyonaccelerator.org/founder/aditya-siroya/",
+              "kind": "profile"
+            },
+            {
+              "label": "Trellis speaker profile",
+              "url": "https://trellis.net/speaker/aditya-siroya/",
+              "kind": "talk"
+            }
+          ],
+          "photo_url": "https://halcyonaccelerator.org/wp-content/uploads/2021/02/Aditya-Siroya.jpg",
+          "evidence_urls": [
+            "https://trellis.net/speaker/aditya-siroya/",
+            "https://halcyonaccelerator.org/founder/aditya-siroya/"
+          ],
+          "fit_score": 4,
+          "fit_reason": "Offers a relevant circular-waste and worker-livelihood angle, though his core emphasis is recovery systems rather than regenerative sourcing."
+        }
+      ],
+      "dropped": [],
+      "candidates_found": 4,
+      "error": null,
+      "usage": {
+        "model_calls": 4,
+        "input_tokens": 63511,
+        "cached_input_tokens": 30978,
+        "output_tokens": 3253,
+        "reasoning_tokens": 248,
+        "web_searches": 10,
+        "page_reads": 0,
+        "cost_usd": null
+      },
+      "seconds": 37.5
+    },
+    {
+      "category": "advocate",
+      "label": "Advocates & Community",
+      "cards": [
+        {
+          "name": "Kelly McBee",
+          "job_title": "Circular Economy Manager",
+          "organization": "As You Sow",
+          "location": "El Cerrito, California, USA",
+          "level": "established",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "some",
+          "could_speak_on": "How corporate engagement and investor advocacy can reduce plastic packaging, limit virgin-material extraction, and scale reuse, repair, and recycling.",
+          "talk_ideas": [
+            "Turning corporate plastic commitments into measurable action",
+            "Designing packaging systems for reuse, repair, and recycling",
+            "Investor coalitions and corporate accountability for plastic pollution"
+          ],
+          "topic_tags": [
+            "plastic packaging",
+            "corporate engagement",
+            "investor advocacy",
+            "reuse and repair",
+            "plastic scorecards"
+          ],
+          "bio": "Kelly McBee is Circular Economy Manager at As You Sow, where she leads corporate research and engagement on circular economy operations and plastic pollution prevention. She authored the organization’s 2024 Plastic Promises Scorecard and manages its Plastic Solutions Investor Alliance.",
+          "credentials": [
+            "BA in global and environmental health, University of California Davis"
+          ],
+          "why_fit": "Offers a direct corporate and investor-accountability perspective on scaling circular material systems, with experience communicating about company measurement and packaging waste.",
+          "past_speaking": [
+            {
+              "event": "As You Sow Q&A, “How Companies Can Measure Plastic Waste Packaging”",
+              "year": 2022,
+              "url": "https://www.asyousow.org/press-hits-posts/how-companies-can-measure-plastic-waste-packaging"
+            }
+          ],
+          "notable_work": [
+            "2024 Plastic Promises Scorecard: Are Corporations Following Through on Commitments to Act?"
+          ],
+          "profile_url": "https://www.asyousow.org/staff/kelly-mcbee",
+          "links": [
+            {
+              "label": "As You Sow staff profile",
+              "url": "https://www.asyousow.org/staff/kelly-mcbee",
+              "kind": "profile"
+            },
+            {
+              "label": "Plastic packaging measurement Q&A",
+              "url": "https://www.asyousow.org/press-hits-posts/how-companies-can-measure-plastic-waste-packaging",
+              "kind": "work"
+            }
+          ],
+          "photo_url": "https://images.squarespace-cdn.com/content/v1/59a706d4f5e2319b70240ef9/d0e88776-467e-448a-8e27-12ddad378fb9/Kelly+McBee.png",
+          "evidence_urls": [
+            "https://www.asyousow.org/staff/kelly-mcbee",
+            "https://www.asyousow.org/press-hits-posts/how-companies-can-measure-plastic-waste-packaging"
+          ],
+          "fit_score": 5,
+          "fit_reason": "Her current role and documented corporate and investor work map directly to circularity at scale and business supply-chain practices."
+        },
+        {
+          "name": "James Gyenes",
+          "job_title": "Director of Americas Public Policy",
+          "organization": "Responsible Business Alliance",
+          "location": null,
+          "level": "established",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "some",
+          "could_speak_on": "How supply-chain due diligence and labor-rights policy can help make regenerative sourcing socially accountable across global value chains.",
+          "talk_ideas": [
+            "Embedding labor rights in responsible sourcing",
+            "Supply-chain due diligence and worker protections",
+            "Responsible recruitment in global supply chains"
+          ],
+          "topic_tags": [
+            "supply-chain due diligence",
+            "labor rights",
+            "responsible recruitment",
+            "trade policy",
+            "migrant workers"
+          ],
+          "bio": "James Gyenes is Director of Americas Public Policy at the Responsible Business Alliance. His previous work at the U.S. Department of Labor’s Bureau of International Labor Affairs included stakeholder engagement and policy work on labor rights, trade, and supply-chain due diligence.",
+          "credentials": [
+            "MBA, Johns Hopkins University",
+            "BA in political science, Kenyon College"
+          ],
+          "why_fit": "Brings a distinct social-accountability perspective to a sourcing discussion, connecting business supply chains with labor protections and due diligence.",
+          "past_speaking": [
+            {
+              "event": "2025 UN Forum on Business and Human Rights, informal dialogue on responsible recruitment of migrant workers",
+              "year": 2025,
+              "url": "https://forumbhr2025.sched.com/speaker/james_gyenes.290mhn5h"
+            }
+          ],
+          "notable_work": [],
+          "profile_url": "https://www.responsiblebusiness.org/about/staff/",
+          "links": [
+            {
+              "label": "Responsible Business Alliance staff",
+              "url": "https://www.responsiblebusiness.org/about/staff/",
+              "kind": "profile"
+            },
+            {
+              "label": "UN Forum speaker page and session",
+              "url": "https://forumbhr2025.sched.com/speaker/james_gyenes.290mhn5h",
+              "kind": "talk"
+            }
+          ],
+          "photo_url": "https://www.responsiblebusiness.org/assets/components/phpthumbof/cache/JamesGyenes.daef25e635bfd6b9001a148c6b614e25.jpg",
+          "evidence_urls": [
+            "https://www.responsiblebusiness.org/about/staff/",
+            "https://forumbhr2025.sched.com/speaker/james_gyenes.290mhn5h"
+          ],
+          "fit_score": 4,
+          "fit_reason": "Verified policy leader with direct experience in labor rights and supply-chain due diligence, complementing environmental sourcing perspectives with the social dimension."
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Eric Garfias",
+          "reason": "The REGENERATE page names Eric Boatti—not Eric Garfias—as ASPCA Senior Manager, Farmer Advocacy. Could not confirm the candidate’s claimed name and role."
+        },
+        {
+          "name": "Morgan McMaster Neely",
+          "reason": "Removed by a code check (see removals): dropped_no_work_proof"
+        },
+        {
+          "name": "Sarah Hackney",
+          "reason": "Removed by a code check (see removals): dropped_no_work_proof"
+        }
+      ],
+      "candidates_found": 5,
+      "error": null,
+      "usage": {
+        "model_calls": 4,
+        "input_tokens": 60929,
+        "cached_input_tokens": 27063,
+        "output_tokens": 3222,
+        "reasoning_tokens": 217,
+        "web_searches": 8,
+        "page_reads": 0,
+        "cost_usd": null
+      },
+      "seconds": 52.8
+    },
+    {
+      "category": "journalist",
+      "label": "Journalists & Communicators",
+      "cards": [
+        {
+          "name": "Heather Clancy",
+          "job_title": "VP, Editor at Large",
+          "organization": "Trellis Group",
+          "location": null,
+          "level": "established",
+          "best_for": [
+            "panelist",
+            "moderator"
+          ],
+          "speaking_badge": "experienced",
+          "could_speak_on": "How business-model innovation and technology are changing corporate approaches to regenerative supply chains and circularity.",
+          "talk_ideas": [
+            "Business-model innovation for circular supply chains",
+            "Technology’s role in regenerative sourcing",
+            "What corporate sustainability leaders are learning about business transformation"
+          ],
+          "topic_tags": [
+            "business-model innovation",
+            "climate technology",
+            "regenerative economy",
+            "corporate sustainability",
+            "circular economy"
+          ],
+          "bio": "Heather Clancy is an award-winning journalist and Trellis Group’s VP, Editor at Large. Her reporting covers transformative technology and how business-model innovation can help move companies toward a clean, inclusive and regenerative economy.",
+          "credentials": [
+            "Co-author of Niche Down: How to Become Legendary By Being Different"
+          ],
+          "why_fit": "Her reporting on business innovation and the regenerative economy aligns with a business-focused discussion of circularity, and her Trellis profile documents repeated event participation.",
+          "past_speaking": [
+            {
+              "event": "Trellis sessions, including “The State of 2030 Climate Targets: Lessons Learned from the Chasing Net Zero Series”",
+              "year": 2025,
+              "url": "https://trellis.net/speaker/heather-clancy/"
+            }
+          ],
+          "notable_work": [
+            "Co-authored Niche Down: How to Become Legendary By Being Different"
+          ],
+          "profile_url": "https://trellis.net/speaker/heather-clancy/",
+          "links": [
+            {
+              "label": "Trellis speaker profile",
+              "url": "https://trellis.net/speaker/heather-clancy/",
+              "kind": "profile"
+            },
+            {
+              "label": "Personal website and bio",
+              "url": "https://www.heatherclancy.com/",
+              "kind": "profile"
+            },
+            {
+              "label": "What we overheard at Circularity 25",
+              "url": "https://trellis.net/article/overheard-at-circularity-25/",
+              "kind": "work"
+            }
+          ],
+          "photo_url": "https://trellis.net/wp-content/uploads/2024/08/Heather-Clancy-Headshot.jpeg",
+          "evidence_urls": [
+            "https://trellis.net/speaker/heather-clancy/",
+            "https://www.heatherclancy.com/",
+            "https://trellis.net/article/overheard-at-circularity-25/"
+          ],
+          "fit_score": 5,
+          "fit_reason": "Strong thematic fit and extensive documented Trellis event participation; suited to a panel or moderation role."
+        },
+        {
+          "name": "Richard Martin",
+          "job_title": "Executive Editor",
+          "organization": "Trellis Group",
+          "location": null,
+          "level": "established",
+          "best_for": [
+            "panelist",
+            "moderator"
+          ],
+          "speaking_badge": "experienced",
+          "could_speak_on": "Circular product development and the business transition away from linear models, informed by his climate and energy reporting.",
+          "talk_ideas": [
+            "Designing out linearity in product development",
+            "What circular-economy practitioners say about scaling change",
+            "Climate and energy reporting as a lens on business transition"
+          ],
+          "topic_tags": [
+            "circular product design",
+            "climate reporting",
+            "energy journalism",
+            "linear business models",
+            "circular economy"
+          ],
+          "bio": "Richard Martin is Executive Editor at Trellis Group and has reported on climate and energy for more than 20 years. He previously held editorial roles at S&P Global and MIT Technology Review and has authored two books on energy.",
+          "credentials": [
+            "Author of SuperFuel: Thorium, the Green Energy Source for the Future",
+            "Author of Coal Wars: The Future of Energy and the Fate of the Planet"
+          ],
+          "why_fit": "His reporting and event participation around circular economy and product development provide an editorial perspective relevant to scaling circularity across business supply chains.",
+          "past_speaking": [
+            {
+              "event": "Designing out Linearity in New Product Development, Trellis session",
+              "year": 2025,
+              "url": "https://trellis.net/speaker/richard-martin/"
+            },
+            {
+              "event": "Disruptive Perspectives on Scope 3: Is It Worth It?, Trellis session",
+              "year": 2025,
+              "url": "https://trellis.net/speaker/richard-martin/"
+            }
+          ],
+          "notable_work": [
+            "Co-authored “13 wise remarks overheard at Circularity 25”"
+          ],
+          "profile_url": "https://trellis.net/speaker/richard-martin/",
+          "links": [
+            {
+              "label": "Trellis speaker profile",
+              "url": "https://trellis.net/speaker/richard-martin/",
+              "kind": "profile"
+            },
+            {
+              "label": "Trellis author profile",
+              "url": "https://trellis.net/article/author/richard-martin/",
+              "kind": "profile"
+            },
+            {
+              "label": "Circularity 25 reporting",
+              "url": "https://trellis.net/article/overheard-at-circularity-25/",
+              "kind": "work"
+            }
+          ],
+          "photo_url": null,
+          "evidence_urls": [
+            "https://trellis.net/speaker/richard-martin/",
+            "https://trellis.net/article/overheard-at-circularity-25/"
+          ],
+          "fit_score": 4,
+          "fit_reason": "Direct circularity and product-development coverage, plus multiple documented Trellis session appearances."
+        },
+        {
+          "name": "Agnieszka de Sousa",
+          "job_title": "Senior Reporter",
+          "organization": "Bloomberg News",
+          "location": "London, United Kingdom",
+          "level": "established",
+          "best_for": [
+            "panelist"
+          ],
+          "speaking_badge": "some",
+          "could_speak_on": "Food sourcing and supply-chain pressures through the lens of global food markets and food security.",
+          "talk_ideas": [
+            "How climate and geopolitical shocks affect food supply chains",
+            "Food security and the commercial pressures shaping sourcing",
+            "What global food-market reporting reveals about supply-chain resilience"
+          ],
+          "topic_tags": [
+            "food markets",
+            "food security",
+            "food supply chains",
+            "agriculture reporting",
+            "London"
+          ],
+          "bio": "Agnieszka de Sousa is a senior reporter for Bloomberg News in London and runs the Business of Food newsletter. Her reporting focuses on how the world feeds itself and on developments affecting food markets.",
+          "credentials": [],
+          "why_fit": "Her food-systems reporting brings a global market and supply-chain perspective that can complement corporate and circular-economy voices on a business panel.",
+          "past_speaking": [
+            {
+              "event": "Bloomberg Big Take podcast: “A Race to Track Billions of Dollars of Trade”",
+              "year": 2024,
+              "url": "https://www.bloomberg.com/news/audio/2024-05-31/big-take-a-race-to-track-billions-of-dollars-of-trade-podcast"
+            }
+          ],
+          "notable_work": [
+            "Business of Food weekly newsletter"
+          ],
+          "profile_url": "https://www.bloomberg.com/authors/AQXs0gZcgok/agnieszka-de-sousa",
+          "links": [
+            {
+              "label": "Bloomberg author profile",
+              "url": "https://www.bloomberg.com/authors/AQXs0gZcgok/agnieszka-de-sousa",
+              "kind": "profile"
+            },
+            {
+              "label": "Bloomberg Big Take podcast episode",
+              "url": "https://www.bloomberg.com/news/audio/2024-05-31/big-take-a-race-to-track-billions-of-dollars-of-trade-podcast",
+              "kind": "talk"
+            }
+          ],
+          "photo_url": null,
+          "evidence_urls": [
+            "https://www.bloomberg.com/authors/AQXs0gZcgok/agnieszka-de-sousa",
+            "https://www.bloomberg.com/news/audio/2024-05-31/big-take-a-race-to-track-billions-of-dollars-of-trade-podcast"
+          ],
+          "fit_score": 4,
+          "fit_reason": "Current Bloomberg role and food-supply reporting verified; adds international food-market perspective, though direct circularity speaking evidence is limited."
+        }
+      ],
+      "dropped": [],
+      "candidates_found": 3,
+      "error": null,
+      "usage": {
+        "model_calls": 6,
+        "input_tokens": 82634,
+        "cached_input_tokens": 49441,
+        "output_tokens": 2575,
+        "reasoning_tokens": 345,
+        "web_searches": 12,
+        "page_reads": 0,
+        "cost_usd": null
+      },
+      "seconds": 61.7
+    }
+  ],
+  "removals": [
+    {
+      "category": "advocate",
+      "name": "Morgan McMaster Neely",
+      "what": "dropped_no_work_proof",
+      "detail": "only event listings found; no profile page or page about their work"
+    },
+    {
+      "category": "advocate",
+      "name": "Sarah Hackney",
+      "what": "dropped_no_work_proof",
+      "detail": "only event listings found; no profile page or page about their work"
+    }
+  ],
+  "injection_flags": [],
+  "events": [
+    {
+      "ts": "2026-10-26T05:06:44+00:00",
+      "seconds": 0.0,
+      "agent": "Scout Lead",
+      "category": null,
+      "message": "Reading your brief and planning the search…"
+    },
+    {
+      "ts": "2026-10-26T05:08:00+00:00",
+      "seconds": 76.0,
+      "agent": "Scout Lead",
+      "category": null,
+      "message": "Plan ready: Find a three-person panel on circularity at scale, regenerative sourcing, and supply chains for a business audience. Favor rising and established speakers suited to a small budget, with prior conference or presentation experience; diversify sectors, career stages, places, and organization types, with national reach and no New Haven-only constraint."
+    },
+    {
+      "ts": "2026-10-26T05:08:00+00:00",
+      "seconds": 76.0,
+      "agent": "Academics & Researchers searcher",
+      "category": "academic",
+      "message": "Searching the web…"
+    },
+    {
+      "ts": "2026-10-26T05:08:00+00:00",
+      "seconds": 76.0,
+      "agent": "Practitioners searcher",
+      "category": "practitioner",
+      "message": "Searching the web…"
+    },
+    {
+      "ts": "2026-10-26T05:08:00+00:00",
+      "seconds": 76.0,
+      "agent": "Policy & Government searcher",
+      "category": "policy",
+      "message": "Searching the web…"
+    },
+    {
+      "ts": "2026-10-26T05:08:00+00:00",
+      "seconds": 76.0,
+      "agent": "Founders & Industry searcher",
+      "category": "founder",
+      "message": "Searching the web…"
+    },
+    {
+      "ts": "2026-10-26T05:08:00+00:00",
+      "seconds": 76.0,
+      "agent": "Advocates & Community searcher",
+      "category": "advocate",
+      "message": "Searching the web…"
+    },
+    {
+      "ts": "2026-10-26T05:08:00+00:00",
+      "seconds": 76.0,
+      "agent": "Journalists & Communicators searcher",
+      "category": "journalist",
+      "message": "Searching the web…"
+    },
+    {
+      "ts": "2026-10-26T05:08:17+00:00",
+      "seconds": 92.9,
+      "agent": "Journalists & Communicators searcher",
+      "category": "journalist",
+      "message": "Found 3 candidates (9 web searches): Heather Clancy, Richard Martin, Agnieszka de Sousa"
+    },
+    {
+      "ts": "2026-10-26T05:08:17+00:00",
+      "seconds": 92.9,
+      "agent": "Journalists & Communicators verifier",
+      "category": "journalist",
+      "message": "Checking 3 people against their sources…"
+    },
+    {
+      "ts": "2026-10-26T05:08:17+00:00",
+      "seconds": 92.9,
+      "agent": "Practitioners searcher",
+      "category": "practitioner",
+      "message": "Found 3 candidates (9 web searches): Amy Lee, Alessandra Pistoia, Allison Lin"
+    },
+    {
+      "ts": "2026-10-26T05:08:17+00:00",
+      "seconds": 92.9,
+      "agent": "Practitioners verifier",
+      "category": "practitioner",
+      "message": "Checking 3 people against their sources…"
+    },
+    {
+      "ts": "2026-10-26T05:08:18+00:00",
+      "seconds": 93.8,
+      "agent": "Founders & Industry searcher",
+      "category": "founder",
+      "message": "Found 4 candidates (10 web searches): Julia Marsh, Alysia Garmulewicz, Aditya Siroya, Ben Christensen"
+    },
+    {
+      "ts": "2026-10-26T05:08:18+00:00",
+      "seconds": 93.8,
+      "agent": "Founders & Industry verifier",
+      "category": "founder",
+      "message": "Checking 4 people against their sources…"
+    },
+    {
+      "ts": "2026-10-26T05:08:20+00:00",
+      "seconds": 95.5,
+      "agent": "Advocates & Community searcher",
+      "category": "advocate",
+      "message": "Found 5 candidates (8 web searches): Sarah Hackney, Eric Garfias, Morgan McMaster Neely, James Gyenes, Kelly McBee"
+    },
+    {
+      "ts": "2026-10-26T05:08:20+00:00",
+      "seconds": 95.5,
+      "agent": "Advocates & Community verifier",
+      "category": "advocate",
+      "message": "Checking 5 people against their sources…"
+    },
+    {
+      "ts": "2026-10-26T05:08:21+00:00",
+      "seconds": 97.3,
+      "agent": "Academics & Researchers searcher",
+      "category": "academic",
+      "message": "Found 4 candidates (9 web searches): Sreedevi Rajagopalan, Yuan Yao, Marian Chertow, Reid Lifset"
+    },
+    {
+      "ts": "2026-10-26T05:08:21+00:00",
+      "seconds": 97.3,
+      "agent": "Academics & Researchers verifier",
+      "category": "academic",
+      "message": "Checking 4 people against their sources…"
+    },
+    {
+      "ts": "2026-10-26T05:08:22+00:00",
+      "seconds": 98.4,
+      "agent": "Policy & Government searcher",
+      "category": "policy",
+      "message": "Found 3 candidates (7 web searches): Becky Goyton, Ashima Sukhdev, Michel Cavigelli"
+    },
+    {
+      "ts": "2026-10-26T05:08:22+00:00",
+      "seconds": 98.4,
+      "agent": "Policy & Government verifier",
+      "category": "policy",
+      "message": "Checking 3 people against their sources…"
+    },
+    {
+      "ts": "2026-10-26T05:08:35+00:00",
+      "seconds": 111.1,
+      "agent": "Practitioners verifier",
+      "category": "practitioner",
+      "message": "3 confirmed, 0 dropped"
+    },
+    {
+      "ts": "2026-10-26T05:08:38+00:00",
+      "seconds": 113.5,
+      "agent": "Founders & Industry verifier",
+      "category": "founder",
+      "message": "4 confirmed, 0 dropped"
+    },
+    {
+      "ts": "2026-10-26T05:08:43+00:00",
+      "seconds": 118.8,
+      "agent": "Policy & Government verifier",
+      "category": "policy",
+      "message": "3 confirmed, 0 dropped"
+    },
+    {
+      "ts": "2026-10-26T05:08:47+00:00",
+      "seconds": 123.1,
+      "agent": "Academics & Researchers verifier",
+      "category": "academic",
+      "message": "4 confirmed, 0 dropped"
+    },
+    {
+      "ts": "2026-10-26T05:08:53+00:00",
+      "seconds": 128.9,
+      "agent": "Advocates & Community verifier",
+      "category": "advocate",
+      "message": "2 confirmed, 3 dropped"
+    },
+    {
+      "ts": "2026-10-26T05:09:02+00:00",
+      "seconds": 137.7,
+      "agent": "Journalists & Communicators verifier",
+      "category": "journalist",
+      "message": "3 confirmed, 0 dropped"
+    },
+    {
+      "ts": "2026-10-26T05:09:02+00:00",
+      "seconds": 137.7,
+      "agent": "Panel Architect",
+      "category": null,
+      "message": "Looking for people who would make great panels together…"
+    },
+    {
+      "ts": "2026-10-26T05:09:11+00:00",
+      "seconds": 146.9,
+      "agent": "Panel Architect",
+      "category": null,
+      "message": "Suggested 3 panel(s): From Feedstock to Factory: Scaling Regenerative Materials; Circularity in the Real Economy; Making Sourcing Accountable"
+    },
+    {
+      "ts": "2026-10-26T05:09:11+00:00",
+      "seconds": 146.9,
+      "agent": "Scout",
+      "category": null,
+      "message": "Done: 19 verified speakers across 6 categories."
+    }
+  ],
+  "panels": [
+    {
+      "title": "From Feedstock to Factory: Scaling Regenerative Materials",
+      "question": "How can businesses scale circular supply chains that source regenerative materials while delivering credible environmental and business value?",
+      "members": [
+        {
+          "name": "Alysia Garmulewicz",
+          "category": "founder",
+          "angle": "She brings a startup perspective on using open data, AI, and regional biomaterials research to develop scalable regenerative feedstocks."
+        },
+        {
+          "name": "Yuan Yao",
+          "category": "academic",
+          "angle": "She brings systems analysis and life-cycle assessment to evaluate circular-economy pathways and bio-based materials."
+        },
+        {
+          "name": "Ben Christensen",
+          "category": "founder",
+          "angle": "He brings experience connecting traceable domestic wood supply chains and regenerative feedstocks with large-scale buyers."
+        }
+      ],
+      "moderator": {
+        "name": "Heather Clancy",
+        "category": "journalist",
+        "angle": "She can guide a business-focused discussion of how innovation and technology are changing corporate approaches to regenerative supply chains."
+      },
+      "why_together": [
+        "The panel spans materials innovation, systems-level evaluation, and the path from feedstock suppliers to industrial buyers.",
+        "Their different vantage points make it possible to examine both the promise of regenerative materials and the practical work of scaling procurement."
+      ],
+      "tension": "The founders focus on getting new feedstocks and supply-chain models to market; Yao’s systems perspective can probe whether scale delivers robust environmental benefits.",
+      "balance_note": "A mix of startup and academic perspectives, with a national business audience in mind; all are established or rising voices, and the panelists have prior speaking experience.",
+      "shared_stage": []
+    },
+    {
+      "title": "Circularity in the Real Economy",
+      "question": "What does it take to turn circularity from a corporate ambition into a durable supply-chain system?",
+      "members": [
+        {
+          "name": "Allison Lin",
+          "category": "practitioner",
+          "angle": "She brings a global food-company perspective on coordinating circularity, packaging, and ecosystem goals across business segments and partners."
+        },
+        {
+          "name": "Amy Lee",
+          "category": "practitioner",
+          "angle": "She brings a manufacturing perspective on circular product design and building partner and customer models to return materials to productive use."
+        },
+        {
+          "name": "Marian Chertow",
+          "category": "academic",
+          "angle": "She brings research on industrial symbiosis as a way to organize material, energy, and by-product exchanges across companies and communities."
+        }
+      ],
+      "moderator": {
+        "name": "Richard Martin",
+        "category": "journalist",
+        "angle": "He can moderate through the lens of circular product development and the business transition away from linear models."
+      },
+      "why_together": [
+        "They connect corporate strategy and product design with the broader networks needed to circulate materials.",
+        "Their examples span food and manufacturing, while Chertow’s industrial-symbiosis lens widens the discussion beyond a single company."
+      ],
+      "tension": "Corporate programs and product-level recovery may move at a different pace from the cross-company coordination and community infrastructure required for industrial symbiosis.",
+      "balance_note": "Two corporate practitioners and a Yale academic offer complementary organizational and systems perspectives; all have prior speaking experience.",
+      "shared_stage": []
+    },
+    {
+      "title": "Making Sourcing Accountable",
+      "question": "How can businesses scale circular and regenerative sourcing while accounting for both material impacts and people across the supply chain?",
+      "members": [
+        {
+          "name": "Sreedevi Rajagopalan",
+          "category": "academic",
+          "angle": "She brings research on data-driven sustainable sourcing, Scope 3 emissions, supplier engagement, and the role of smaller firms."
+        },
+        {
+          "name": "James Gyenes",
+          "category": "advocate",
+          "angle": "He brings a responsible-business perspective on supply-chain due diligence, labor rights, and worker protections in global value chains."
+        },
+        {
+          "name": "Kelly McBee",
+          "category": "advocate",
+          "angle": "She brings investor-advocacy experience pressing companies to reduce virgin-material use and make packaging commitments measurable."
+        }
+      ],
+      "moderator": {
+        "name": "Agnieszka de Sousa",
+        "category": "journalist",
+        "angle": "She can connect supply-chain choices to global food markets, sourcing pressures, and resilience."
+      },
+      "why_together": [
+        "The discussion links environmental measurement and supplier engagement with labor accountability and corporate oversight.",
+        "The panel can test whether circular sourcing commitments translate into measurable, responsible changes across value chains."
+      ],
+      "tension": "Measurement and corporate targets can create momentum, while advocates may press on whether commitments deliver accountability for workers and reductions in virgin-material extraction.",
+      "balance_note": "The panel combines academic, advocacy, and business-accountability perspectives with experience relevant to national supply chains; all panelists have prior speaking or presenting experience.",
+      "shared_stage": []
+    }
+  ],
+  "panel_usage": {
+    "model_calls": 1,
+    "input_tokens": 5497,
+    "cached_input_tokens": 0,
+    "output_tokens": 898,
+    "reasoning_tokens": 0,
+    "web_searches": 0,
+    "page_reads": 0,
+    "cost_usd": null
+  },
+  "usage": {
+    "model_calls": 28,
+    "input_tokens": 398697,
+    "cached_input_tokens": 203368,
+    "output_tokens": 20421,
+    "reasoning_tokens": 1969,
+    "web_searches": 58,
+    "page_reads": 41,
+    "cost_usd": null
+  },
+  "seconds": 146.9,
+  "error": null,
+  "created_at": "2026-10-26T05:06:44+00:00",
+  "model": "gpt-6-luna"
+}

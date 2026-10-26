@@ -1,0 +1,1681 @@
+{
+  "id": "e2b6c3e7a5",
+  "status": "done",
+  "brief": {
+    "conference_theme": "The future we fund: who is shaping the new era of philanthropy",
+    "looking_for": "keynote",
+    "panel_theme": null,
+    "panel_size": 3,
+    "conference_name": "Yale Philanthropy Conference",
+    "conference_type": "philanthropy",
+    "location": "New Haven, CT",
+    "reach": "national",
+    "budget": "medium",
+    "level": "auto",
+    "categories": [
+      "academic",
+      "practitioner",
+      "policy",
+      "founder",
+      "advocate",
+      "journalist"
+    ],
+    "prioritize": [
+      "has_spoken"
+    ],
+    "skip_names": [],
+    "notes": null,
+    "per_category": 5
+  },
+  "plan": {
+    "summary": "Find nationally recognized philanthropy leaders suited to a keynote on who is shaping philanthropy’s future, prioritizing people with documented conference or public presentation experience. Medium budget favors established experts and select headliners; New Haven is the event location, but the search can be national.",
+    "target_level": "established",
+    "target_roles": [
+      "keynote"
+    ],
+    "location_focus": null,
+    "angles": [
+      {
+        "category": "academic",
+        "angles": [
+          "Yale philanthropy faculty and researchers at Yale School of Management’s Program on Social Enterprise and Innovation",
+          "Philanthropy scholars who have presented at Association for Research on Nonprofit Organizations and Voluntary Action (ARNOVA) conferences"
+        ]
+      },
+      {
+        "category": "practitioner",
+        "angles": [
+          "CEOs and program leaders at national foundations such as Ford Foundation, MacArthur Foundation, and Hewlett Foundation with conference keynote records",
+          "Philanthropy leaders featured as speakers at Council on Foundations conferences or the GEO National Conference"
+        ]
+      },
+      {
+        "category": "policy",
+        "angles": [
+          "Researchers and policy leaders at Urban Institute’s Center on Nonprofits and Philanthropy who present at national philanthropy convenings",
+          "Philanthropy policy experts at Independent Sector and the National Committee for Responsive Philanthropy with documented speaking appearances"
+        ]
+      },
+      {
+        "category": "founder",
+        "angles": [
+          "Founders of major philanthropic initiatives and giving platforms featured at the Skoll World Forum or Aspen Ideas Festival",
+          "Leaders of donor-advised fund and impact-investing organizations who speak at SOCAP or the Milken Institute Global Conference"
+        ]
+      },
+      {
+        "category": "advocate",
+        "angles": [
+          "Leaders of community-centered philanthropy and grassroots grantmaking organizations speaking at the Grantmakers for Effective Organizations National Conference",
+          "Foundation and philanthropy equity advocates at the Philanthropic Initiative for Racial Equity and the United Philanthropy Forum conference"
+        ]
+      },
+      {
+        "category": "journalist",
+        "angles": [
+          "National philanthropy reporters and editors at The Chronicle of Philanthropy and Inside Philanthropy who moderate public events",
+          "Authors and podcast hosts covering philanthropy who have presented at Aspen Ideas Festival or the Council on Foundations conference"
+        ]
+      }
+    ]
+  },
+  "categories": [
+    {
+      "category": "academic",
+      "label": "Academics & Researchers",
+      "cards": [
+        {
+          "name": "Una Osili",
+          "job_title": "Efroymson Chair in Philanthropy; Associate Dean for Research and International Programs",
+          "organization": "Indiana University Lilly Family School of Philanthropy",
+          "location": "Indianapolis, Indiana, USA",
+          "level": "headliner",
+          "best_for": [
+            "keynote",
+            "panelist"
+          ],
+          "speaking_badge": "experienced",
+          "could_speak_on": "How demographic shifts, changing social norms, and global giving patterns are reshaping the philanthropic landscape and its next era.",
+          "talk_ideas": [
+            "What current giving trends reveal about philanthropy’s future",
+            "How demographic and social changes are altering charitable giving",
+            "Global philanthropy and the institutions shaping it"
+          ],
+          "topic_tags": [
+            "U.S. charitable giving",
+            "global philanthropy",
+            "giving trends",
+            "social innovation",
+            "philanthropy data"
+          ],
+          "bio": "Una Osili is a global philanthropy and social innovation expert at Indiana University’s Lilly Family School of Philanthropy, where she holds the Efroymson Chair and serves as Associate Dean for Research and International Programs. Her work includes research on Giving USA and global philanthropy indexes and tracking.",
+          "credentials": [
+            "PhD; the profile describes her as an internationally recognized expert in philanthropy, economics, and international development"
+          ],
+          "why_fit": "Her research and public-facing work on U.S. and global giving trends directly support a keynote about who is shaping philanthropy’s next era.",
+          "past_speaking": [
+            {
+              "event": "CGP Conference 2024 closing keynote",
+              "year": 2024,
+              "url": "https://charitablegiftplanners.org/news/una-osili-phd-named-cgp-conference-2024-closing-keynote-speaker"
+            },
+            {
+              "event": "Giving USA 2024 presentation and panel",
+              "year": 2024,
+              "url": "https://www.ccsfundraising.com/insights/perspectives-on-philanthropy-giving-usa-2024/"
+            },
+            {
+              "event": "The Fund Raising School First Day podcast on philanthropy during crises",
+              "year": 2020,
+              "url": "https://blog.philanthropy.indianapolis.iu.edu/2020/04/10/role-of-philanthropy-during-times-of-crises/"
+            }
+          ],
+          "notable_work": [
+            "Research and publication of Giving USA, the annual report on American philanthropy",
+            "Global Philanthropy Environment Index and Global Philanthropy Tracker",
+            "Generosity for Life digital philanthropy data platform"
+          ],
+          "profile_url": "https://philanthropy.indianapolis.iu.edu/people-directory/osili-una.html",
+          "links": [
+            {
+              "label": "IU faculty profile",
+              "url": "https://philanthropy.indianapolis.iu.edu/people-directory/osili-una.html",
+              "kind": "profile"
+            },
+            {
+              "label": "Philanthropy during crises podcast",
+              "url": "https://blog.philanthropy.indianapolis.iu.edu/2020/04/10/role-of-philanthropy-during-times-of-crises/",
+              "kind": "work"
+            },
+            {
+              "label": "CGP keynote announcement",
+              "url": "https://charitablegiftplanners.org/news/una-osili-phd-named-cgp-conference-2024-closing-keynote-speaker",
+              "kind": "talk"
+            },
+            {
+              "label": "Giving USA 2024 presentation",
+              "url": "https://www.ccsfundraising.com/insights/perspectives-on-philanthropy-giving-usa-2024/",
+              "kind": "talk"
+            }
+          ],
+          "photo_url": "https://philanthropy.indianapolis.iu.edu/images/people-directory/osili2019.jpg",
+          "evidence_urls": [
+            "https://philanthropy.indianapolis.iu.edu/people-directory/osili-una.html",
+            "https://charitablegiftplanners.org/news/una-osili-phd-named-cgp-conference-2024-closing-keynote-speaker",
+            "https://www.ccsfundraising.com/insights/perspectives-on-philanthropy-giving-usa-2024/"
+          ],
+          "fit_score": 5,
+          "fit_reason": "Strong theme match, prominent philanthropy research role, and verified keynote and presentation experience."
+        },
+        {
+          "name": "Pamala Wiepking",
+          "job_title": "Associate Professor of Philanthropic Studies; Stead Family Chair in International Philanthropy",
+          "organization": "Indiana University Lilly Family School of Philanthropy",
+          "location": "Indianapolis, Indiana, USA",
+          "level": "established",
+          "best_for": [
+            "keynote",
+            "panelist",
+            "workshop"
+          ],
+          "speaking_badge": "experienced",
+          "could_speak_on": "How cross-national evidence and broader definitions of giving can inform the next era of philanthropic practice and funding.",
+          "talk_ideas": [
+            "Understanding global generosity across contexts",
+            "How definitions and measurement shape global philanthropy research",
+            "What comparative research can teach funders about giving"
+          ],
+          "topic_tags": [
+            "global generosity",
+            "cross-national giving",
+            "philanthropy research",
+            "charitable behavior",
+            "fundraising"
+          ],
+          "bio": "Pamala Wiepking is an Associate Professor of Philanthropic Studies and the Stead Family Chair in International Philanthropy at Indiana University’s Lilly Family School of Philanthropy. Her research examines cross-national and interdisciplinary explanations of philanthropy, and her professional site describes keynote and workshop presentation offerings.",
+          "credentials": [
+            "PhD"
+          ],
+          "why_fit": "She brings a comparative research lens to questions about how philanthropic practices and institutions may evolve, and her own site identifies her as available for keynote presentations.",
+          "past_speaking": [
+            {
+              "event": "European Research Network of Philanthropy conference keynote lecture, Basel",
+              "year": 2019,
+              "url": "https://www.wiepking.com/papers/Keynote_ERNOP_Basel_Wiepking.pdf"
+            },
+            {
+              "event": "Science of Philanthropy Initiative Conference 2026",
+              "year": 2026,
+              "url": "https://philanthropy.indianapolis.iu.edu/news-events/news/_news/2026/spi-conference-2026.html"
+            },
+            {
+              "event": "Philanthropisms interview on understanding global generosity",
+              "year": null,
+              "url": "https://www.youtube.com/watch?v=zRGNcZNNO7w"
+            }
+          ],
+          "notable_work": [
+            "The Global Study of Philanthropy",
+            "Research on cross-national giving and volunteering"
+          ],
+          "profile_url": "https://philanthropy.indianapolis.iu.edu/people-directory/wiepking-pamala.html",
+          "links": [
+            {
+              "label": "IU faculty profile",
+              "url": "https://philanthropy.indianapolis.iu.edu/people-directory/wiepking-pamala.html",
+              "kind": "profile"
+            },
+            {
+              "label": "Personal presentations and training site",
+              "url": "https://www.wiepking.com/",
+              "kind": "profile"
+            },
+            {
+              "label": "Global generosity interview",
+              "url": "https://www.youtube.com/watch?v=zRGNcZNNO7w",
+              "kind": "work"
+            },
+            {
+              "label": "ERNOP keynote paper",
+              "url": "https://www.wiepking.com/papers/Keynote_ERNOP_Basel_Wiepking.pdf",
+              "kind": "talk"
+            }
+          ],
+          "photo_url": "https://philanthropy.indianapolis.iu.edu/images/people-directory/wiepking20181.jpg",
+          "evidence_urls": [
+            "https://philanthropy.indianapolis.iu.edu/people-directory/wiepking-pamala.html",
+            "https://www.wiepking.com/",
+            "https://www.wiepking.com/papers/Keynote_ERNOP_Basel_Wiepking.pdf"
+          ],
+          "fit_score": 4,
+          "fit_reason": "Direct philanthropy scholarship and confirmed keynote experience; particularly strong for an evidence-based, global perspective."
+        },
+        {
+          "name": "Alan J. Abramson",
+          "job_title": "Professor of Government and Politics; Founding Director, Center on Nonprofits, Philanthropy, and Social Enterprise",
+          "organization": "George Mason University, Schar School of Policy and Government",
+          "location": "Fairfax, Virginia, USA",
+          "level": "established",
+          "best_for": [
+            "keynote",
+            "panelist"
+          ],
+          "speaking_badge": "some",
+          "could_speak_on": "How nonprofit-government relationships, philanthropic institutions, and social enterprise shape the future of funding and public problem-solving.",
+          "talk_ideas": [
+            "The changing relationship between nonprofits and government",
+            "Philanthropy and nonprofit-sector research: implications for funders",
+            "Social enterprise and collaborative governance"
+          ],
+          "topic_tags": [
+            "nonprofit policy",
+            "philanthropy research",
+            "nonprofit-government relations",
+            "social enterprise",
+            "public administration"
+          ],
+          "bio": "Alan J. Abramson is a professor at George Mason University’s Schar School of Policy and Government and founding director of its Center on Nonprofits, Philanthropy, and Social Enterprise. His work includes nonprofit and philanthropic issues, and his background includes nonprofit-sector research and public policy.",
+          "credentials": [
+            "PhD in Political Science, Yale University"
+          ],
+          "why_fit": "A senior scholar of nonprofits and philanthropy who can connect research with government and institutional perspectives relevant to the future of funding.",
+          "past_speaking": [
+            {
+              "event": "ARNOVA Annual Conference 2025 sessions",
+              "year": 2025,
+              "url": "https://nonprofitcenter.schar.gmu.edu/2025/11/14/center-faculty-participating-in-arnovas-annual-conference-from-november-20-22/"
+            }
+          ],
+          "notable_work": [
+            "Founding director of George Mason’s Center on Nonprofits, Philanthropy, and Social Enterprise",
+            "Research and work with leaders on nonprofit and philanthropic issues"
+          ],
+          "profile_url": "https://nonprofitcenter.schar.gmu.edu/home/staff/",
+          "links": [
+            {
+              "label": "George Mason Center staff profile",
+              "url": "https://nonprofitcenter.schar.gmu.edu/home/staff/",
+              "kind": "profile"
+            },
+            {
+              "label": "Independent Sector profile",
+              "url": "https://independentsector.org/people/alan-abramson/",
+              "kind": "work"
+            },
+            {
+              "label": "ARNOVA conference participation",
+              "url": "https://nonprofitcenter.schar.gmu.edu/2025/11/14/center-faculty-participating-in-arnovas-annual-conference-from-november-20-22/",
+              "kind": "talk"
+            }
+          ],
+          "photo_url": "https://nonprofitcenter.schar.gmu.edu/wp-content/uploads/2020/12/Picture2.png",
+          "evidence_urls": [
+            "https://nonprofitcenter.schar.gmu.edu/home/staff/",
+            "https://nonprofitcenter.schar.gmu.edu/2025/11/14/center-faculty-participating-in-arnovas-annual-conference-from-november-20-22/"
+          ],
+          "fit_score": 4,
+          "fit_reason": "Strong subject-matter alignment and confirmed current academic role, though the verified speaking record is less extensive than the top-ranked candidates."
+        },
+        {
+          "name": "Mirae Kim",
+          "job_title": "Professor, Schar School of Policy and Government",
+          "organization": "George Mason University",
+          "location": "Arlington, Virginia, USA",
+          "level": "established",
+          "best_for": [
+            "panelist",
+            "workshop"
+          ],
+          "speaking_badge": "experienced",
+          "could_speak_on": "How nonprofit financial conditions, advocacy, and government engagement affect which organizations and communities philanthropy can support.",
+          "talk_ideas": [
+            "What nonprofit trend data can tell funders about sector needs",
+            "Nonprofit advocacy and civic engagement in changing funding environments",
+            "Nonprofit financial management and philanthropic support"
+          ],
+          "topic_tags": [
+            "nonprofit finances",
+            "nonprofit advocacy",
+            "civic engagement",
+            "nonprofit data",
+            "arts management"
+          ],
+          "bio": "Mirae Kim is a professor at George Mason University’s Schar School of Policy and Government. Her research includes nonprofit financial management, advocacy and lobbying, arts management, and nonprofit contributions to racial and ethnic diversity; she leads the Nonprofit Organization Research Panel.",
+          "credentials": [
+            "PhD in Public Affairs, Rutgers University"
+          ],
+          "why_fit": "Her research offers an empirical view of nonprofit finances, advocacy, and government engagement—the organizational conditions that shape philanthropy’s impact.",
+          "past_speaking": [
+            {
+              "event": "ARNOVA Annual Conference panel: Engaged Nonprofit Scholarship",
+              "year": 2025,
+              "url": "https://nonprofitcenter.schar.gmu.edu/2025/11/14/center-faculty-participating-in-arnovas-annual-conference-from-november-20-22/"
+            },
+            {
+              "event": "ARNOVA Annual Conference panel: Translating “Nonprofit”",
+              "year": 2025,
+              "url": "https://nonprofitcenter.schar.gmu.edu/2025/11/14/center-faculty-participating-in-arnovas-annual-conference-from-november-20-22/"
+            },
+            {
+              "event": "ARNOVA Annual Conference panel: Nonprofits in the Crosshairs",
+              "year": 2025,
+              "url": "https://nonprofitcenter.schar.gmu.edu/2025/11/14/center-faculty-participating-in-arnovas-annual-conference-from-november-20-22/"
+            }
+          ],
+          "notable_work": [
+            "Leads the Nonprofit Organization Research Panel",
+            "National Survey of Nonprofit Trends and Impacts",
+            "Research on nonprofit advocacy and civic engagement"
+          ],
+          "profile_url": "https://miraekim.net/",
+          "links": [
+            {
+              "label": "Mirae Kim personal and research profile",
+              "url": "https://miraekim.net/",
+              "kind": "profile"
+            },
+            {
+              "label": "ARNOVA conference participation",
+              "url": "https://nonprofitcenter.schar.gmu.edu/2025/11/14/center-faculty-participating-in-arnovas-annual-conference-from-november-20-22/",
+              "kind": "talk"
+            }
+          ],
+          "photo_url": "https://miraekim.net/wp-content/uploads/2021/10/mirae-kim-1.jpg?w=291",
+          "evidence_urls": [
+            "https://miraekim.net/",
+            "https://nonprofitcenter.schar.gmu.edu/2025/11/14/center-faculty-participating-in-arnovas-annual-conference-from-november-20-22/"
+          ],
+          "fit_score": 3,
+          "fit_reason": "A strong research fit for panels on nonprofit capacity and funding conditions, but less clearly established as a solo keynote draw."
+        }
+      ],
+      "dropped": [],
+      "candidates_found": 4,
+      "error": null,
+      "usage": {
+        "model_calls": 3,
+        "input_tokens": 60803,
+        "cached_input_tokens": 20542,
+        "output_tokens": 4490,
+        "reasoning_tokens": 286,
+        "web_searches": 13,
+        "page_reads": 0,
+        "cost_usd": null
+      },
+      "seconds": 46.1
+    },
+    {
+      "category": "practitioner",
+      "label": "Practitioners",
+      "cards": [
+        {
+          "name": "John Palfrey",
+          "job_title": "President",
+          "organization": "John D. and Catherine T. MacArthur Foundation",
+          "location": "Chicago, IL",
+          "level": "established",
+          "best_for": [
+            "keynote",
+            "panelist"
+          ],
+          "speaking_badge": "experienced",
+          "could_speak_on": "How major foundations can use long-term grantmaking and collaborative initiatives to shape the next era of philanthropy.",
+          "talk_ideas": [
+            "Philanthropy for what’s next: funding social change amid uncertainty",
+            "Building cross-sector initiatives to strengthen local journalism",
+            "Technology, information access, and the future of philanthropy"
+          ],
+          "topic_tags": [
+            "philanthropic strategy",
+            "local journalism",
+            "impact investing",
+            "technology and society",
+            "grantmaking"
+          ],
+          "bio": "John Palfrey is president of the John D. and Catherine T. MacArthur Foundation, which supports work across areas including climate solutions, criminal justice, and local news. He is an educator, author, legal scholar, and innovator with experience across education, nonprofit, and philanthropic sectors.",
+          "credentials": [
+            "Author of 10 books, as author, co-author, or editor"
+          ],
+          "why_fit": "A current leader of a major national foundation with directly relevant experience and a documented record of public talks on philanthropy; a strong fit for a national keynote audience.",
+          "past_speaking": [
+            {
+              "event": "Morton-Kenney Public Affairs Lecture, Southern Illinois University",
+              "year": 2024,
+              "url": "https://news.siu.edu/2024/10/101624-sius-morton-kenney-lecture-hosts-macarthur-foundation-president-philanthropy-leader.php"
+            },
+            {
+              "event": "Milken Institute Global Conference 2026 speaker",
+              "year": 2026,
+              "url": "https://milkeninstitute.org/events/global-conference-2026/speakers/john-palfrey"
+            },
+            {
+              "event": "Philanthropy Massachusetts 57th Annual Conference keynote announcement",
+              "year": 2026,
+              "url": "https://philanthropyma.org/news/pma-announces-annualconference-keynote-speaker/"
+            }
+          ],
+          "notable_work": [
+            "Leads the MacArthur Foundation",
+            "Leads Press Forward, an initiative to strengthen local news organizations across the U.S."
+          ],
+          "profile_url": "https://milkeninstitute.org/events/global-conference-2026/speakers/john-palfrey",
+          "links": [
+            {
+              "label": "Milken Institute profile",
+              "url": "https://milkeninstitute.org/events/global-conference-2026/speakers/john-palfrey",
+              "kind": "profile"
+            },
+            {
+              "label": "Morton-Kenney Lecture announcement",
+              "url": "https://news.siu.edu/2024/10/101624-sius-morton-kenney-lecture-hosts-macarthur-foundation-president-philanthropy-leader.php",
+              "kind": "talk"
+            },
+            {
+              "label": "Philanthropy Massachusetts keynote announcement",
+              "url": "https://philanthropyma.org/news/pma-announces-annualconference-keynote-speaker/",
+              "kind": "talk"
+            }
+          ],
+          "photo_url": "https://milkeninstitute.org/sites/default/files/styles/og_thumbnail/public/grid/speakers/0031U00002D3nu0QAB-26802db14a6c1e3080b05c6f0a4b5221.png?itok=OoDclEZX",
+          "evidence_urls": [
+            "https://milkeninstitute.org/events/global-conference-2026/speakers/john-palfrey",
+            "https://news.siu.edu/2024/10/101624-sius-morton-kenney-lecture-hosts-macarthur-foundation-president-philanthropy-leader.php",
+            "https://philanthropyma.org/news/pma-announces-annualconference-keynote-speaker/"
+          ],
+          "fit_score": 5,
+          "fit_reason": "He leads a major philanthropy and has publicly addressed philanthropic challenges and sector-wide initiatives, with multiple speaking appearances confirmed."
+        },
+        {
+          "name": "Amber D. Miller",
+          "job_title": "President",
+          "organization": "William and Flora Hewlett Foundation",
+          "location": "California",
+          "level": "established",
+          "best_for": [
+            "keynote",
+            "panelist"
+          ],
+          "speaking_badge": "none_found",
+          "could_speak_on": "How a large foundation can connect grantmaking with partners addressing climate change and the future of democratic, economic, and educational systems.",
+          "talk_ideas": [
+            "Leading a foundation through complex, interconnected challenges",
+            "Bringing academic expertise into partnership with civic and business leaders",
+            "Funding responses to climate and democratic challenges"
+          ],
+          "topic_tags": [
+            "foundation grantmaking",
+            "climate change",
+            "democratic systems",
+            "civic-academic partnerships",
+            "physics"
+          ],
+          "bio": "Amber D. Miller is president of the William and Flora Hewlett Foundation, overseeing its grantmaking and work with grantee organizations. Before joining the foundation, she was dean of USC Dornsife College and the inaugural dean of science at Columbia University.",
+          "credentials": [
+            "Ph.D. in physics, Princeton University",
+            "Fellow of the American Physical Society"
+          ],
+          "why_fit": "As the head of a major grantmaking foundation, she offers a relevant practitioner perspective on how funders work with partners across complex societal issues. The pages checked confirmed her role but did not establish prior speaking appearances.",
+          "past_speaking": [],
+          "notable_work": [],
+          "profile_url": "https://hewlett.org/people/amber-d-miller/",
+          "links": [
+            {
+              "label": "Hewlett Foundation profile",
+              "url": "https://hewlett.org/people/amber-d-miller/",
+              "kind": "profile"
+            }
+          ],
+          "photo_url": "https://hewlett.org/wp-content/uploads/2024/09/20241217-Hewlett-Amber_Miller-4859-RT-scaled-e1779898349571-1024x1014.jpg",
+          "evidence_urls": [
+            "https://hewlett.org/people/amber-d-miller/"
+          ],
+          "fit_score": 4,
+          "fit_reason": "A current foundation president with substantial organizational leadership experience; confirmed speaking history was not found in the pages checked."
+        }
+      ],
+      "dropped": [
+        {
+          "name": "Heather Gerken",
+          "reason": "The evidence confirms she became Ford Foundation president in November 2025, but her professional background is primarily as a constitutional law scholar and academic. Under this practitioner-only category, she is better suited to the academic or policy category."
+        }
+      ],
+      "candidates_found": 3,
+      "error": null,
+      "usage": {
+        "model_calls": 4,
+        "input_tokens": 59942,
+        "cached_input_tokens": 33934,
+        "output_tokens": 2376,
+        "reasoning_tokens": 146,
+        "web_searches": 7,
+        "page_reads": 0,
+        "cost_usd": null
+      },
+      "seconds": 29.5
+    },
+    {
+      "category": "policy",
+      "label": "Policy & Government",
+      "cards": [
+        {
+          "name": "Aaron Dorfman",
+          "job_title": "President & CEO",
+          "organization": "National Committee for Responsive Philanthropy (NCRP)",
+          "location": "Washington, D.C.",
+          "level": "established",
+          "best_for": [
+            "keynote",
+            "panelist"
+          ],
+          "speaking_badge": "experienced",
+          "could_speak_on": "How philanthropy can be more accountable and responsive to communities with less wealth, opportunity, and power.",
+          "talk_ideas": [
+            "Who philanthropy serves: accountability to communities with less wealth and power",
+            "The role of grantmakers in supporting movements and civic engagement",
+            "Putting equity and responsiveness into philanthropic practice"
+          ],
+          "topic_tags": [
+            "responsive philanthropy",
+            "grantmaker accountability",
+            "movement funding",
+            "civic engagement",
+            "philanthropic equity"
+          ],
+          "bio": "Aaron Dorfman is president and CEO of NCRP, a research and advocacy organization focused on making grantmakers and wealthy donors more responsive to communities with less wealth, opportunity, and power. He frequently speaks and writes about philanthropy and equity, and serves on Georgetown University's Executive Certificate in Philanthropic Leadership faculty.",
+          "credentials": [
+            "Philanthropic studies, Lilly Family School of Philanthropy at Indiana University"
+          ],
+          "why_fit": "He has led a national philanthropy accountability organization and has delivered a commencement address as well as remarks at the Yale Philanthropy Conference, making his perspective directly relevant to the conference theme.",
+          "past_speaking": [
+            {
+              "event": "Yale Philanthropy Conference",
+              "year": 2018,
+              "url": "https://ncrp.org/wp-content/uploads/2018/03/Aaron-Dorfman_Yale-Philanthropy-Conference.pdf"
+            },
+            {
+              "event": "Commencement address, Lilly Family School of Philanthropy, Indiana University",
+              "year": 2015,
+              "url": "https://ncrp.org/2015/05/making-a-difference-with-a-career-in-philanthropy/"
+            }
+          ],
+          "notable_work": [
+            "NCRP work on philanthropic responsiveness and accountability"
+          ],
+          "profile_url": "https://ncrp.org/our-team/",
+          "links": [
+            {
+              "label": "NCRP team profile",
+              "url": "https://ncrp.org/our-team/",
+              "kind": "profile"
+            },
+            {
+              "label": "Yale Philanthropy Conference remarks",
+              "url": "https://ncrp.org/wp-content/uploads/2018/03/Aaron-Dorfman_Yale-Philanthropy-Conference.pdf",
+              "kind": "talk"
+            },
+            {
+              "label": "Indiana University commencement address",
+              "url": "https://ncrp.org/2015/05/making-a-difference-with-a-career-in-philanthropy/",
+              "kind": "talk"
+            }
+          ],
+          "photo_url": "https://ncrp.org/wp-content/uploads/2024/01/Aaron_Website-Bio-Photo.png",
+          "evidence_urls": [
+            "https://ncrp.org/our-team/",
+            "https://ncrp.org/2015/05/making-a-difference-with-a-career-in-philanthropy/"
+          ],
+          "fit_score": 5,
+          "fit_reason": "Directly aligned with philanthropic accountability and has prior speaking experience at Yale’s conference."
+        },
+        {
+          "name": "Laura Tomasko",
+          "job_title": "Senior Policy Program Manager; Center on Nonprofits and Philanthropy Practice Area Lead",
+          "organization": "Urban Institute",
+          "location": "Washington, D.C.",
+          "level": "established",
+          "best_for": [
+            "keynote",
+            "panelist",
+            "moderator"
+          ],
+          "speaking_badge": "some",
+          "could_speak_on": "How public policy, charitable giving, and impact investing are shaping the changing philanthropic landscape.",
+          "talk_ideas": [
+            "Philanthropy and policy capacity: what data can reveal about sector change",
+            "Charitable giving during turbulent times",
+            "Impact investing and the evolving philanthropic toolkit"
+          ],
+          "topic_tags": [
+            "charitable giving",
+            "impact investing",
+            "philanthropy policy",
+            "sector data",
+            "federal social innovation"
+          ],
+          "bio": "Laura Tomasko is a senior policy program manager and practice area lead at the Urban Institute’s Center on Nonprofits and Philanthropy. Her work focuses on charitable giving, the philanthropic sector, and impact investing; she previously served in federal policy roles and worked with national philanthropy associations and community-based organizations.",
+          "credentials": [
+            "MPA, Maxwell School"
+          ],
+          "why_fit": "Her experience spans philanthropy, public policy, and federal government, and she moderated an Urban Institute summit session on charitable giving and philanthropy during turbulent times.",
+          "past_speaking": [
+            {
+              "event": "Giving Innovation Summit 2026: Charitable Giving and Philanthropy in Turbulent Times",
+              "year": 2026,
+              "url": "https://www.urban.org/events/giving-innovation-summit-2026-charitable-giving-and-philanthropy-turbulent-times"
+            }
+          ],
+          "notable_work": [],
+          "profile_url": "https://www.urban.org/author/laura-tomasko",
+          "links": [
+            {
+              "label": "Urban Institute profile",
+              "url": "https://www.urban.org/author/laura-tomasko",
+              "kind": "profile"
+            },
+            {
+              "label": "Giving Innovation Summit 2026",
+              "url": "https://www.urban.org/events/giving-innovation-summit-2026-charitable-giving-and-philanthropy-turbulent-times",
+              "kind": "talk"
+            }
+          ],
+          "photo_url": "https://www.urban.org/sites/default/files/styles/square_large_252x252/public/author/101137/laura-tomasko.jpg?itok=hD2lE-zZ",
+          "evidence_urls": [
+            "https://www.urban.org/author/laura-tomasko",
+            "https://www.urban.org/events/giving-innovation-summit-2026-charitable-giving-and-philanthropy-turbulent-times"
+          ],
+          "fit_score": 4,
+          "fit_reason": "Offers a strong policy-and-sector perspective and demonstrated event moderation, though the verified speaking record here is limited to one event."
+        },
+        {
+          "name": "Benjamin Soskis",
+          "job_title": "Senior Research Associate",
+          "organization": "Urban Institute, Center on Nonprofits and Philanthropy",
+          "location": "Washington, D.C.",
+          "level": "established",
+          "best_for": [
+            "keynote",
+            "panelist"
+          ],
+          "speaking_badge": "none_found",
+          "could_speak_on": "How philanthropy’s history can illuminate its present relationship to democratic norms and future practice.",
+          "talk_ideas": [
+            "What philanthropy’s history can teach the sector about its future",
+            "Philanthropy, associational life, and democratic norms",
+            "Historical perspectives on charitable causes and donor priorities"
+          ],
+          "topic_tags": [
+            "philanthropy history",
+            "nonprofit sector",
+            "associational life",
+            "democratic norms",
+            "charitable causes"
+          ],
+          "bio": "Benjamin Soskis is a senior research associate in the Urban Institute’s Center on Nonprofits and Philanthropy. His work explores how historical inquiry can inform contemporary philanthropic practice, and he holds a PhD in American history from Columbia University.",
+          "credentials": [
+            "PhD in American history, Columbia University"
+          ],
+          "why_fit": "He brings a distinctive historical lens to questions about philanthropy’s evolving role and its relationship to democratic life; the reviewed sources confirmed his expertise but did not verify a prior speaking appearance.",
+          "past_speaking": [],
+          "notable_work": [],
+          "profile_url": "https://www.urban.org/author/benjamin-soskis",
+          "links": [
+            {
+              "label": "Urban Institute profile",
+              "url": "https://www.urban.org/author/benjamin-soskis",
+              "kind": "profile"
+            }
+          ],
+          "photo_url": "https://www.urban.org/sites/default/files/styles/square_large_252x252/public/author/87486/soskis-ben.jpg?h=48d3f7c2&itok=zBmSky2Z",
+          "evidence_urls": [
+            "https://www.urban.org/author/benjamin-soskis"
+          ],
+          "fit_score": 4,
+          "fit_reason": "A strong intellectual fit for the future-of-philanthropy theme, but no past speaking event was verified in the pages reviewed."
+        }
+      ],
+      "dropped": [],
+      "candidates_found": 3,
+      "error": null,
+      "usage": {
+        "model_calls": 4,
+        "input_tokens": 59560,
+        "cached_input_tokens": 31087,
+        "output_tokens": 2828,
+        "reasoning_tokens": 203,
+        "web_searches": 9,
+        "page_reads": 0,
+        "cost_usd": null
+      },
+      "seconds": 36.4
+    },
+    {
+      "category": "founder",
+      "label": "Founders & Industry",
+      "cards": [
+        {
+          "name": "Jeff Skoll",
+          "job_title": "Founder and Chairman",
+          "organization": "Skoll Foundation; Participant Media; Capricorn Investment Group; Skoll Global Threats Fund",
+          "location": null,
+          "level": "headliner",
+          "best_for": [
+            "keynote"
+          ],
+          "speaking_badge": "experienced",
+          "could_speak_on": "How entrepreneurs and philanthropic capital can combine grants, investment, storytelling, and partnerships to drive large-scale social change.",
+          "talk_ideas": [
+            "Building a portfolio of philanthropic and commercial enterprises for social impact",
+            "Using catalytic capital to back social entrepreneurs",
+            "Storytelling and media as tools for philanthropic change"
+          ],
+          "topic_tags": [
+            "social entrepreneurship",
+            "impact investing",
+            "philanthropic capital",
+            "social-impact media",
+            "Skoll World Forum"
+          ],
+          "bio": "Jeff Skoll is an entrepreneur and founder of the Skoll Foundation, as well as other philanthropic and commercial enterprises. His work has focused on using capital, technology, storytelling, and partnerships to support social change.",
+          "credentials": [
+            "MBA, Stanford Graduate School of Business",
+            "Bachelor’s degree in electrical engineering, University of Toronto",
+            "Officer of the Order of Canada, 2012"
+          ],
+          "why_fit": "A high-profile founder whose philanthropic portfolio and support for social entrepreneurs directly connect to the conference’s question of who is shaping philanthropy’s next era.",
+          "past_speaking": [
+            {
+              "event": "TED Talk: “My journey into movies that matter”",
+              "year": 2007,
+              "url": "https://www.ted.com/speakers/jeff_skoll"
+            },
+            {
+              "event": "World Bank Live featured speaker",
+              "year": null,
+              "url": "https://live.worldbank.org/en/experts/j/jeff-skoll"
+            }
+          ],
+          "notable_work": [
+            "Created the Skoll Foundation in 1999",
+            "Created a portfolio of philanthropic and commercial enterprises under the Jeff Skoll Group"
+          ],
+          "profile_url": "https://live.worldbank.org/en/experts/j/jeff-skoll",
+          "links": [
+            {
+              "label": "World Bank Live profile",
+              "url": "https://live.worldbank.org/en/experts/j/jeff-skoll",
+              "kind": "profile"
+            },
+            {
+              "label": "Skoll Foundation overview",
+              "url": "https://skoll.org/about/",
+              "kind": "work"
+            },
+            {
+              "label": "TED speaker profile and talk",
+              "url": "https://www.ted.com/speakers/jeff_skoll",
+              "kind": "talk"
+            }
+          ],
+          "photo_url": null,
+          "evidence_urls": [
+            "https://live.worldbank.org/en/experts/j/jeff-skoll",
+            "https://www.ted.com/speakers/jeff_skoll",
+            "https://skoll.org/about/"
+          ],
+          "fit_score": 5,
+          "fit_reason": "Nationally prominent founder with a substantial philanthropic portfolio and verified public speaking experience."
+        },
+        {
+          "name": "Alex Wilson",
+          "job_title": "Executive Advisor; Co-Founder & Co-CEO, Cyclops; Co-Founder, The Giving Block",
+          "organization": "Cyclops; The Giving Block",
+          "location": null,
+          "level": "established",
+          "best_for": [
+            "keynote",
+            "panelist"
+          ],
+          "speaking_badge": "some",
+          "could_speak_on": "How crypto philanthropy and emerging payment infrastructure may change fundraising options for nonprofits and donor participation.",
+          "talk_ideas": [
+            "Crypto philanthropy: practical opportunities and challenges for nonprofits",
+            "What new payment rails mean for charitable giving",
+            "Building fundraising platforms around emerging technologies"
+          ],
+          "topic_tags": [
+            "crypto philanthropy",
+            "nonprofit fundraising",
+            "digital assets",
+            "stablecoin payments",
+            "donor technology"
+          ],
+          "bio": "Alex Wilson is Co-Founder and Co-CEO of Cyclops and co-founded The Giving Block, a cryptocurrency fundraising platform for nonprofits. He advises the Wake Forest Center for the Study of Capitalism and was recognized in Forbes 30 Under 30 for Social Impact in 2021.",
+          "credentials": [
+            "Bachelor’s degree in Business and Enterprise Management, Wake Forest University School of Business",
+            "Forbes 30 Under 30 for Social Impact, 2021"
+          ],
+          "why_fit": "Offers a founder’s perspective on a fast-changing fundraising technology, with a verified keynote appearance at a nonprofit and corporate citizenship event.",
+          "past_speaking": [
+            {
+              "event": "Los Angeles Business Journal Nonprofit & Corporate Citizenship Awards keynote",
+              "year": 2022,
+              "url": "https://labusinessjournal.com/business-journal-events/nonprofit-corporate-citizenship-awards-keynote-speaker-alex-wilson/"
+            }
+          ],
+          "notable_work": [
+            "Co-founded The Giving Block, a crypto fundraising platform for nonprofits",
+            "Co-founded Cyclops, a stablecoin infrastructure company"
+          ],
+          "profile_url": "https://capitalism.wfu.edu/authors/alex-wilson/",
+          "links": [
+            {
+              "label": "Wake Forest profile",
+              "url": "https://capitalism.wfu.edu/authors/alex-wilson/",
+              "kind": "profile"
+            },
+            {
+              "label": "Cyclops founders feature",
+              "url": "https://www.cyclops.io/post/meet-the-founders",
+              "kind": "work"
+            },
+            {
+              "label": "Los Angeles Business Journal keynote listing",
+              "url": "https://labusinessjournal.com/business-journal-events/nonprofit-corporate-citizenship-awards-keynote-speaker-alex-wilson/",
+              "kind": "talk"
+            }
+          ],
+          "photo_url": "https://capitalism.wfu.edu/wp-content/uploads/2022/08/Alex-Wilson_fall-22_headshot_website.png",
+          "evidence_urls": [
+            "https://capitalism.wfu.edu/authors/alex-wilson/",
+            "https://labusinessjournal.com/business-journal-events/nonprofit-corporate-citizenship-awards-keynote-speaker-alex-wilson/",
+            "https://www.cyclops.io/post/meet-the-founders"
+          ],
+          "fit_score": 4,
+          "fit_reason": "Strong fit for a session on digital giving and fundraising innovation; confirmed founder role and one keynote appearance."
+        },
+        {
+          "name": "Pat Duffy",
+          "job_title": "Co-Founder & Co-CEO, Cyclops; Co-Founder, The Giving Block",
+          "organization": "Cyclops; The Giving Block",
+          "location": null,
+          "level": "established",
+          "best_for": [
+            "panelist",
+            "workshop"
+          ],
+          "speaking_badge": "some",
+          "could_speak_on": "How crypto fundraising tools and modern donor platforms are changing nonprofit revenue strategies.",
+          "talk_ideas": [
+            "Crypto donations and nonprofit fundraising readiness",
+            "Recession-proofing nonprofit revenue through donor stewardship",
+            "Building a new fundraising category around emerging technology"
+          ],
+          "topic_tags": [
+            "crypto philanthropy",
+            "nonprofit fundraising",
+            "donor stewardship",
+            "stablecoin infrastructure",
+            "digital giving"
+          ],
+          "bio": "Pat Duffy is Co-Founder and Co-CEO of Cyclops and co-founded The Giving Block, where he helped develop a cryptocurrency fundraising platform for nonprofits. He has been recognized for his work in social impact and has appeared in media outlets covering technology and philanthropy.",
+          "credentials": [
+            "Forbes 30 Under 30 for Social Impact, 2022"
+          ],
+          "why_fit": "Brings direct founder experience in philanthropic fundraising technology and verified conference presentation experience; best suited to a focused panel or practical session rather than a broad keynote.",
+          "past_speaking": [
+            {
+              "event": "Planet Philanthropy Conference: “Recession Proofing Your Nonprofit”",
+              "year": 2023,
+              "url": "https://thegivingblock.com/events/conference-speaker-at-the-planet-philanthropy-conference-recession-proofing-your-nonprofit/"
+            }
+          ],
+          "notable_work": [
+            "Co-founded The Giving Block, a nonprofit crypto fundraising platform",
+            "Co-founded Cyclops, a stablecoin infrastructure platform"
+          ],
+          "profile_url": "https://mftn.vaynerx.com/speakers/pat-duffy/",
+          "links": [
+            {
+              "label": "Marketing for the Now speaker profile",
+              "url": "https://mftn.vaynerx.com/speakers/pat-duffy/",
+              "kind": "profile"
+            },
+            {
+              "label": "Cyclops founders feature",
+              "url": "https://www.cyclops.io/post/meet-the-founders",
+              "kind": "work"
+            },
+            {
+              "label": "Planet Philanthropy conference session",
+              "url": "https://thegivingblock.com/events/conference-speaker-at-the-planet-philanthropy-conference-recession-proofing-your-nonprofit/",
+              "kind": "talk"
+            }
+          ],
+          "photo_url": "https://mftn.vaynerx.com/wp-content/uploads/Pat-Duffy.jpg",
+          "evidence_urls": [
+            "https://mftn.vaynerx.com/speakers/pat-duffy/",
+            "https://thegivingblock.com/events/conference-speaker-at-the-planet-philanthropy-conference-recession-proofing-your-nonprofit/",
+            "https://www.cyclops.io/post/meet-the-founders"
+          ],
+          "fit_score": 3,
+          "fit_reason": "Credible founder and philanthropy-tech practitioner with verified speaking, though the strongest fit is a focused panel or workshop."
+        }
+      ],
+      "dropped": [],
+      "candidates_found": 3,
+      "error": null,
+      "usage": {
+        "model_calls": 6,
+        "input_tokens": 91602,
+        "cached_input_tokens": 57255,
+        "output_tokens": 3080,
+        "reasoning_tokens": 279,
+        "web_searches": 10,
+        "page_reads": 0,
+        "cost_usd": null
+      },
+      "seconds": 48.6
+    },
+    {
+      "category": "advocate",
+      "label": "Advocates & Community",
+      "cards": [
+        {
+          "name": "Lori Villarosa",
+          "job_title": "Founder and Executive Director",
+          "organization": "Philanthropic Initiative for Racial Equity (PRE)",
+          "location": null,
+          "level": "established",
+          "best_for": [
+            "keynote",
+            "panelist",
+            "workshop"
+          ],
+          "speaking_badge": "experienced",
+          "could_speak_on": "How philanthropy can shift resources and institutional practices toward racial justice while remaining accountable to the communities and movements it funds.",
+          "talk_ideas": [
+            "Funding racial justice: moving from stated commitments to grantmaking practice",
+            "Community accountability and power-sharing in philanthropy",
+            "What funders can learn from movement-led approaches to systems change"
+          ],
+          "topic_tags": [
+            "racial justice grantmaking",
+            "community accountability",
+            "movement funding",
+            "structural racism",
+            "foundation practice",
+            "activist philanthropy"
+          ],
+          "bio": "Lori Villarosa founded and leads the Philanthropic Initiative for Racial Equity, working with funders and movement leaders to increase resources addressing systemic racism. PRE describes her as having worked at the intersection of racial justice and philanthropy for nearly 30 years; previously, she was a program officer at the Mott Foundation.",
+          "credentials": [
+            "Founded the Philanthropic Initiative for Racial Equity (PRE) in 2002",
+            "Previously served as a program officer at the Mott Foundation"
+          ],
+          "why_fit": "Her work directly addresses how philanthropic institutions allocate resources, change grantmaking practice, and respond to community-led racial justice movements—an apt lens on who is shaping philanthropy’s future.",
+          "past_speaking": [
+            {
+              "event": "Facing Race: A National Conference — presentations and sessions",
+              "year": null,
+              "url": "https://facingrace.raceforward.org/speaker/lori-villarosa"
+            },
+            {
+              "event": "ABFE Membership Monday Spotlight conversation",
+              "year": 2026,
+              "url": "https://www.abfe.org/events/membership-monday-spotlight-series-presents-philanthropic-initiative-racial-equity-conversation-lori-villarosa"
+            }
+          ],
+          "notable_work": [
+            "Grantmaking with a Racial Justice Lens",
+            "Mismatched: Philanthropy’s Response to the Call for Racial Justice",
+            "Derailed: Rising Attacks and Retreating Resources for Racial Justice"
+          ],
+          "profile_url": "https://racialequity.org/about/staff/",
+          "links": [
+            {
+              "label": "PRE staff profile",
+              "url": "https://racialequity.org/about/staff/",
+              "kind": "profile"
+            },
+            {
+              "label": "NDN Collective profile",
+              "url": "https://ndncollective.org/team/lori-villarosa/",
+              "kind": "work"
+            },
+            {
+              "label": "Facing Race speaker profile and presentations",
+              "url": "https://facingrace.raceforward.org/speaker/lori-villarosa",
+              "kind": "talk"
+            },
+            {
+              "label": "ABFE conversation listing",
+              "url": "https://www.abfe.org/events/membership-monday-spotlight-series-presents-philanthropic-initiative-racial-equity-conversation-lori-villarosa",
+              "kind": "talk"
+            }
+          ],
+          "photo_url": "https://racialequity.org/wp-content/uploads/2018/12/LV2018.png",
+          "evidence_urls": [
+            "https://racialequity.org/about/staff/",
+            "https://facingrace.raceforward.org/speaker/lori-villarosa",
+            "https://ndncollective.org/team/lori-villarosa/"
+          ],
+          "fit_score": 5,
+          "fit_reason": "Strong thematic match: her current PRE leadership and extensive public presentations center racial justice, grantmaking, and accountability in philanthropy."
+        }
+      ],
+      "dropped": [],
+      "candidates_found": 1,
+      "error": null,
+      "usage": {
+        "model_calls": 3,
+        "input_tokens": 40306,
+        "cached_input_tokens": 19637,
+        "output_tokens": 1318,
+        "reasoning_tokens": 142,
+        "web_searches": 6,
+        "page_reads": 0,
+        "cost_usd": null
+      },
+      "seconds": 26.1
+    },
+    {
+      "category": "journalist",
+      "label": "Journalists & Communicators",
+      "cards": [
+        {
+          "name": "Stacy Palmer",
+          "job_title": "Chief Executive Officer",
+          "organization": "The Chronicle of Philanthropy",
+          "location": null,
+          "level": "established",
+          "best_for": [
+            "keynote",
+            "moderator",
+            "panelist"
+          ],
+          "speaking_badge": "experienced",
+          "could_speak_on": "How the media’s scrutiny of donors, foundations, and nonprofits can shape trust and accountability in philanthropy.",
+          "talk_ideas": [
+            "What decades of reporting reveal about changing donor priorities",
+            "Building public trust amid skepticism about large-scale philanthropy",
+            "The media’s role in making philanthropy’s impact and accountability visible"
+          ],
+          "topic_tags": [
+            "philanthropy reporting",
+            "donor accountability",
+            "public trust",
+            "nonprofit journalism",
+            "foundation giving"
+          ],
+          "bio": "Stacy Palmer is chief executive of The Chronicle of Philanthropy and has served as a top editor there since its founding in 1988. Her work has included the publication’s website, daily newsletter, and webinar programming.",
+          "credentials": [],
+          "why_fit": "Her long-running leadership at a national philanthropy publication offers a strong perspective on donor influence, public understanding, and accountability.",
+          "past_speaking": [
+            {
+              "event": "2018 Presidential Sites Summit",
+              "year": 2018,
+              "url": "https://www.whitehousehistory.org/presidential-sites-summit/presidential-sites-summit-speakers/stacy-palmer"
+            },
+            {
+              "event": "“From Stories to Solutions: Media’s Role in Philanthropy”",
+              "year": null,
+              "url": "https://mediaimpactfunders.org/events/from-stories-to-solutions-medias-role-in-philanthropy/"
+            },
+            {
+              "event": "The Optimism Institute podcast interview",
+              "year": null,
+              "url": "https://www.theoptimisminstitute.com/episodes/stacy-palmer"
+            }
+          ],
+          "notable_work": [
+            "Led editorial development of The Chronicle of Philanthropy’s website and Philanthropy Today newsletter",
+            "Edited *Challenges for Philanthropy and Nonprofits*"
+          ],
+          "profile_url": "https://www.philanthropy.com/author/stacy-palmer/",
+          "links": [
+            {
+              "label": "Chronicle of Philanthropy author profile",
+              "url": "https://www.philanthropy.com/author/stacy-palmer/",
+              "kind": "profile"
+            },
+            {
+              "label": "White House Historical Association speaker biography",
+              "url": "https://www.whitehousehistory.org/presidential-sites-summit/presidential-sites-summit-speakers/stacy-palmer",
+              "kind": "work"
+            },
+            {
+              "label": "The Optimism Institute interview",
+              "url": "https://www.theoptimisminstitute.com/episodes/stacy-palmer",
+              "kind": "work"
+            },
+            {
+              "label": "Media Impact Funders philanthropy event",
+              "url": "https://mediaimpactfunders.org/events/from-stories-to-solutions-medias-role-in-philanthropy/",
+              "kind": "talk"
+            }
+          ],
+          "photo_url": null,
+          "evidence_urls": [
+            "https://www.philanthropy.com/author/stacy-palmer/",
+            "https://www.whitehousehistory.org/presidential-sites-summit/presidential-sites-summit-speakers/stacy-palmer"
+          ],
+          "fit_score": 5,
+          "fit_reason": "A highly relevant philanthropy-sector media leader with several documented public speaking and interview appearances."
+        },
+        {
+          "name": "David Callahan",
+          "job_title": "Founder and Editor",
+          "organization": "Inside Philanthropy",
+          "location": null,
+          "level": "established",
+          "best_for": [
+            "keynote",
+            "panelist"
+          ],
+          "speaking_badge": "experienced",
+          "could_speak_on": "How mega-donors and their heirs are changing philanthropic power, priorities, and the traditional foundation model.",
+          "talk_ideas": [
+            "The new mega-donor landscape and its influence on public priorities",
+            "What donor heirs may change about philanthropy",
+            "The tradeoffs between traditional foundations and newer giving models"
+          ],
+          "topic_tags": [
+            "mega-donors",
+            "donor power",
+            "foundation models",
+            "philanthropy trends",
+            "donor heirs"
+          ],
+          "bio": "David Callahan founded and edits Inside Philanthropy and writes about philanthropy, American culture, public policy, and business. He is the author of eight books, including *The Givers: Wealth, Power, and Philanthropy in a New Gilded Age*, and has appeared on television and radio programs as a philanthropy expert.",
+          "credentials": [
+            "Author of *The Givers: Wealth, Power, and Philanthropy in a New Gilded Age*",
+            "Author of eight books"
+          ],
+          "why_fit": "Directly addresses who is shaping philanthropy’s next era and offers a nationally relevant analysis of mega-donors and changing giving models.",
+          "past_speaking": [
+            {
+              "event": "Impact Audio podcast: “David Callahan on the rise of mega donors ‘parachuting in’ to reshape philanthropy”",
+              "year": null,
+              "url": "https://www.submittable.com/impact-audio/david-callahan"
+            }
+          ],
+          "notable_work": [
+            "Founded and edits Inside Philanthropy",
+            "*The Givers: Wealth, Power, and Philanthropy in a New Gilded Age*"
+          ],
+          "profile_url": "https://www.insidephilanthropy.com/david-callahan",
+          "links": [
+            {
+              "label": "Inside Philanthropy profile",
+              "url": "https://www.insidephilanthropy.com/david-callahan",
+              "kind": "profile"
+            },
+            {
+              "label": "Impact Audio episode featuring David Callahan",
+              "url": "https://www.submittable.com/impact-audio/david-callahan",
+              "kind": "work"
+            }
+          ],
+          "photo_url": null,
+          "evidence_urls": [
+            "https://www.submittable.com/impact-audio/david-callahan"
+          ],
+          "fit_score": 5,
+          "fit_reason": "Exceptionally direct subject-matter fit, with a public podcast appearance and substantial experience indicated on his speaking page."
+        },
+        {
+          "name": "Andrew Simon",
+          "job_title": "Editor-in-Chief",
+          "organization": "The Chronicle of Philanthropy",
+          "location": null,
+          "level": "established",
+          "best_for": [
+            "keynote",
+            "moderator",
+            "panelist"
+          ],
+          "speaking_badge": "some",
+          "could_speak_on": "How journalism and philanthropic funding intersect to influence which communities and issues receive attention and support.",
+          "talk_ideas": [
+            "Press Forward and the future of funding for news",
+            "Lessons from convening journalists and philanthropy leaders",
+            "How nonprofit journalism can surface emerging leaders and community priorities"
+          ],
+          "topic_tags": [
+            "philanthropy journalism",
+            "nonprofit news",
+            "Press Forward",
+            "climate journalism",
+            "editorial leadership"
+          ],
+          "bio": "Andrew Simon is editor-in-chief of The Chronicle of Philanthropy, joining in April 2024. Previously, he held editorial and programming roles at Grist, Fast Company, and other media organizations, including launching programs and a podcast at Grist.",
+          "credentials": [],
+          "why_fit": "His editorial leadership and work connecting philanthropy with news funding align with the conference’s focus on who shapes the next era of giving.",
+          "past_speaking": [
+            {
+              "event": "“From Stories to Solutions: Media’s Role in Philanthropy”",
+              "year": null,
+              "url": "https://mediaimpactfunders.org/events/from-stories-to-solutions-medias-role-in-philanthropy/"
+            },
+            {
+              "event": "Press Forward: What It Means for the Future of News, Institute for Nonprofit News",
+              "year": 2024,
+              "url": "https://inn.org/sessions/press-forward-what-it-means-for-the-future-of-news/"
+            }
+          ],
+          "notable_work": [
+            "Launched or co-launched the Grist 50, Fix, and Temperature Check",
+            "Founding leader of the Uproot Project"
+          ],
+          "profile_url": "https://www.philanthropy.com/author/andrew-simon/",
+          "links": [
+            {
+              "label": "Chronicle of Philanthropy author profile",
+              "url": "https://www.philanthropy.com/author/andrew-simon/",
+              "kind": "profile"
+            },
+            {
+              "label": "Institute for Nonprofit News speaker profile",
+              "url": "https://inn.org/speakers/andrew-simon/",
+              "kind": "work"
+            },
+            {
+              "label": "Media Impact Funders event",
+              "url": "https://mediaimpactfunders.org/events/from-stories-to-solutions-medias-role-in-philanthropy/",
+              "kind": "talk"
+            },
+            {
+              "label": "Press Forward session",
+              "url": "https://inn.org/sessions/press-forward-what-it-means-for-the-future-of-news/",
+              "kind": "talk"
+            }
+          ],
+          "photo_url": "https://www.philanthropy.com/wp-content/uploads/2025/10/avatar-Andrew-Simon.png",
+          "evidence_urls": [
+            "https://www.philanthropy.com/author/andrew-simon/"
+          ],
+          "fit_score": 4,
+          "fit_reason": "Strong sector fit and confirmed current role, though the available evidence shows fewer speaking appearances than the top candidates."
+        }
+      ],
+      "dropped": [],
+      "candidates_found": 3,
+      "error": null,
+      "usage": {
+        "model_calls": 6,
+        "input_tokens": 82928,
+        "cached_input_tokens": 54603,
+        "output_tokens": 3058,
+        "reasoning_tokens": 187,
+        "web_searches": 9,
+        "page_reads": 0,
+        "cost_usd": null
+      },
+      "seconds": 40.7
+    }
+  ],
+  "removals": [
+    {
+      "category": "journalist",
+      "name": "David Callahan",
+      "what": "photo_removed",
+      "detail": "photo came from a page that is not their profile (https://www.submittable.com/impact-audio/david-callahan)"
+    },
+    {
+      "category": "journalist",
+      "name": "Stacy Palmer",
+      "what": "photo_removed",
+      "detail": "photo came from a page that is not their profile (https://www.whitehousehistory.org/presidential-sites-summit/presidential-sites-summit-speakers/stacy-palmer)"
+    }
+  ],
+  "injection_flags": [],
+  "events": [
+    {
+      "ts": "2026-10-26T05:09:11+00:00",
+      "seconds": 0.0,
+      "agent": "Scout Lead",
+      "category": null,
+      "message": "Reading your brief and planning the search…"
+    },
+    {
+      "ts": "2026-10-26T05:09:17+00:00",
+      "seconds": 5.8,
+      "agent": "Scout Lead",
+      "category": null,
+      "message": "Plan ready: Find nationally recognized philanthropy leaders suited to a keynote on who is shaping philanthropy’s future, prioritizing people with documented conference or public presentation experience. Medium budget favors established experts and select headliners; New Haven is the event location, but the search can be national."
+    },
+    {
+      "ts": "2026-10-26T05:09:17+00:00",
+      "seconds": 5.8,
+      "agent": "Academics & Researchers searcher",
+      "category": "academic",
+      "message": "Searching the web…"
+    },
+    {
+      "ts": "2026-10-26T05:09:17+00:00",
+      "seconds": 5.8,
+      "agent": "Practitioners searcher",
+      "category": "practitioner",
+      "message": "Searching the web…"
+    },
+    {
+      "ts": "2026-10-26T05:09:17+00:00",
+      "seconds": 5.8,
+      "agent": "Policy & Government searcher",
+      "category": "policy",
+      "message": "Searching the web…"
+    },
+    {
+      "ts": "2026-10-26T05:09:17+00:00",
+      "seconds": 5.8,
+      "agent": "Founders & Industry searcher",
+      "category": "founder",
+      "message": "Searching the web…"
+    },
+    {
+      "ts": "2026-10-26T05:09:17+00:00",
+      "seconds": 5.8,
+      "agent": "Advocates & Community searcher",
+      "category": "advocate",
+      "message": "Searching the web…"
+    },
+    {
+      "ts": "2026-10-26T05:09:17+00:00",
+      "seconds": 5.8,
+      "agent": "Journalists & Communicators searcher",
+      "category": "journalist",
+      "message": "Searching the web…"
+    },
+    {
+      "ts": "2026-10-26T05:09:30+00:00",
+      "seconds": 19.4,
+      "agent": "Practitioners searcher",
+      "category": "practitioner",
+      "message": "Found 3 candidates (7 web searches): Heather Gerken, John Palfrey, Amber D. Miller"
+    },
+    {
+      "ts": "2026-10-26T05:09:30+00:00",
+      "seconds": 19.4,
+      "agent": "Practitioners verifier",
+      "category": "practitioner",
+      "message": "Checking 3 people against their sources…"
+    },
+    {
+      "ts": "2026-10-26T05:09:31+00:00",
+      "seconds": 20.5,
+      "agent": "Advocates & Community searcher",
+      "category": "advocate",
+      "message": "Found 1 candidates (6 web searches): Lori Villarosa"
+    },
+    {
+      "ts": "2026-10-26T05:09:31+00:00",
+      "seconds": 20.5,
+      "agent": "Advocates & Community verifier",
+      "category": "advocate",
+      "message": "Checking 1 people against their sources…"
+    },
+    {
+      "ts": "2026-10-26T05:09:33+00:00",
+      "seconds": 22.0,
+      "agent": "Journalists & Communicators searcher",
+      "category": "journalist",
+      "message": "Found 3 candidates (6 web searches): David Callahan, Stacy Palmer, Andrew Simon"
+    },
+    {
+      "ts": "2026-10-26T05:09:33+00:00",
+      "seconds": 22.0,
+      "agent": "Journalists & Communicators verifier",
+      "category": "journalist",
+      "message": "Checking 3 people against their sources…"
+    },
+    {
+      "ts": "2026-10-26T05:09:34+00:00",
+      "seconds": 23.0,
+      "agent": "Founders & Industry searcher",
+      "category": "founder",
+      "message": "Found 3 candidates (10 web searches): Jeff Skoll, Alex Wilson, Pat Duffy"
+    },
+    {
+      "ts": "2026-10-26T05:09:34+00:00",
+      "seconds": 23.0,
+      "agent": "Founders & Industry verifier",
+      "category": "founder",
+      "message": "Checking 3 people against their sources…"
+    },
+    {
+      "ts": "2026-10-26T05:09:36+00:00",
+      "seconds": 25.4,
+      "agent": "Policy & Government searcher",
+      "category": "policy",
+      "message": "Found 3 candidates (9 web searches): Aaron Dorfman, Benjamin Soskis, Laura Tomasko"
+    },
+    {
+      "ts": "2026-10-26T05:09:36+00:00",
+      "seconds": 25.4,
+      "agent": "Policy & Government verifier",
+      "category": "policy",
+      "message": "Checking 3 people against their sources…"
+    },
+    {
+      "ts": "2026-10-26T05:09:37+00:00",
+      "seconds": 26.0,
+      "agent": "Academics & Researchers searcher",
+      "category": "academic",
+      "message": "Found 4 candidates (9 web searches): Alan J. Abramson, Mirae Kim, Pamala Wiepking, Una Osili"
+    },
+    {
+      "ts": "2026-10-26T05:09:37+00:00",
+      "seconds": 26.0,
+      "agent": "Academics & Researchers verifier",
+      "category": "academic",
+      "message": "Checking 4 people against their sources…"
+    },
+    {
+      "ts": "2026-10-26T05:09:43+00:00",
+      "seconds": 31.9,
+      "agent": "Advocates & Community verifier",
+      "category": "advocate",
+      "message": "1 confirmed, 0 dropped"
+    },
+    {
+      "ts": "2026-10-26T05:09:46+00:00",
+      "seconds": 35.3,
+      "agent": "Practitioners verifier",
+      "category": "practitioner",
+      "message": "2 confirmed, 1 dropped"
+    },
+    {
+      "ts": "2026-10-26T05:09:53+00:00",
+      "seconds": 42.2,
+      "agent": "Policy & Government verifier",
+      "category": "policy",
+      "message": "3 confirmed, 0 dropped"
+    },
+    {
+      "ts": "2026-10-26T05:09:57+00:00",
+      "seconds": 46.5,
+      "agent": "Journalists & Communicators verifier",
+      "category": "journalist",
+      "message": "3 confirmed, 0 dropped"
+    },
+    {
+      "ts": "2026-10-26T05:10:03+00:00",
+      "seconds": 51.8,
+      "agent": "Academics & Researchers verifier",
+      "category": "academic",
+      "message": "4 confirmed, 0 dropped"
+    },
+    {
+      "ts": "2026-10-26T05:10:05+00:00",
+      "seconds": 54.3,
+      "agent": "Founders & Industry verifier",
+      "category": "founder",
+      "message": "3 confirmed, 0 dropped"
+    },
+    {
+      "ts": "2026-10-26T05:10:05+00:00",
+      "seconds": 54.3,
+      "agent": "Panel Architect",
+      "category": null,
+      "message": "Looking for people who would make great panels together…"
+    },
+    {
+      "ts": "2026-10-26T05:10:13+00:00",
+      "seconds": 62.2,
+      "agent": "Panel Architect",
+      "category": null,
+      "message": "Suggested 3 panel(s): The Future We Fund; Trust, Power, and the Donor Era; Giving’s Next Infrastructure"
+    },
+    {
+      "ts": "2026-10-26T05:10:13+00:00",
+      "seconds": 62.2,
+      "agent": "Scout",
+      "category": null,
+      "message": "Done: 16 verified speakers across 6 categories."
+    }
+  ],
+  "panels": [
+    {
+      "title": "The Future We Fund",
+      "question": "Who is shaping philanthropy’s next era, and how can funders respond to changing patterns of giving and public need?",
+      "members": [
+        {
+          "name": "Una Osili",
+          "category": "academic",
+          "angle": "She brings research on demographic shifts, social norms, and global giving patterns."
+        },
+        {
+          "name": "John Palfrey",
+          "category": "practitioner",
+          "angle": "He offers a major-foundation perspective on long-term grantmaking and collaborative initiatives."
+        },
+        {
+          "name": "Aaron Dorfman",
+          "category": "policy",
+          "angle": "He focuses on making philanthropy more accountable and responsive to communities with less wealth and power."
+        },
+        {
+          "name": "Jeff Skoll",
+          "category": "founder",
+          "angle": "He brings an entrepreneur-investor perspective on combining philanthropic capital, investment, and social enterprise."
+        }
+      ],
+      "moderator": {
+        "name": "Stacy Palmer",
+        "category": "journalist",
+        "angle": "She can guide a discussion of donor priorities, public trust, and accountability through her philanthropy reporting perspective."
+      },
+      "why_together": [
+        "They connect giving trends and research with the practical choices of major foundations, entrepreneurs, and accountability advocates.",
+        "Their approaches invite discussion of who sets philanthropic priorities and how funding can advance social change.",
+        "The group can weigh long-term institutional grantmaking alongside entrepreneurial and community-responsive approaches."
+      ],
+      "tension": "The panel can respectfully examine the balance between donor-led or entrepreneurial strategies and stronger accountability to the communities philanthropy aims to serve.",
+      "balance_note": "A cross-sector mix of academic, foundation, advocacy, and founder perspectives, moderated by a philanthropy journalist; all panelists have keynote or speaking experience reflected in their cards.",
+      "shared_stage": []
+    },
+    {
+      "title": "Trust, Power, and the Donor Era",
+      "question": "As philanthropic power and donor priorities change, what can make giving more trusted, accountable, and responsive?",
+      "members": [
+        {
+          "name": "David Callahan",
+          "category": "journalist",
+          "angle": "He covers how mega-donors and their heirs are changing philanthropic power, priorities, and foundation models."
+        },
+        {
+          "name": "Lori Villarosa",
+          "category": "advocate",
+          "angle": "She brings a movement-informed perspective on racial-justice grantmaking, community accountability, and power-sharing."
+        },
+        {
+          "name": "Alan J. Abramson",
+          "category": "academic",
+          "angle": "He connects philanthropy and nonprofit research with nonprofit-government relationships and public problem-solving."
+        },
+        {
+          "name": "Mirae Kim",
+          "category": "academic",
+          "angle": "She brings evidence on nonprofit finances, advocacy, and government engagement that can inform funding decisions."
+        }
+      ],
+      "moderator": {
+        "name": "Stacy Palmer",
+        "category": "journalist",
+        "angle": "She can steer the conversation toward public trust and accountability, drawing on her philanthropy reporting perspective."
+      },
+      "why_together": [
+        "The panel connects changing donor power with the organizations and communities affected by funding decisions.",
+        "Research on nonprofit finances and government ties can ground the discussion of accountability in sector conditions.",
+        "Lori Villarosa’s movement-led lens creates a useful counterpoint to donor-centered accounts of philanthropy’s future."
+      ],
+      "tension": "The group can explore the tension between concentrated donor discretion and calls for philanthropy to share power and respond to community priorities.",
+      "balance_note": "Journalism, advocacy, and academic research meet in a discussion grounded in both philanthropic power and nonprofit realities.",
+      "shared_stage": [
+        "Alan J. Abramson and Mirae Kim both appeared at: ARNOVA Annual Conference 2025 sessions"
+      ]
+    },
+    {
+      "title": "Giving’s Next Infrastructure",
+      "question": "What new funding models and evidence will shape how philanthropy works in a changing world?",
+      "members": [
+        {
+          "name": "Pamala Wiepking",
+          "category": "academic",
+          "angle": "She brings cross-national research on generosity and how definitions and measurement shape philanthropy."
+        },
+        {
+          "name": "Laura Tomasko",
+          "category": "policy",
+          "angle": "She connects policy, sector data, charitable giving, and impact investing."
+        },
+        {
+          "name": "Alex Wilson",
+          "category": "founder",
+          "angle": "He brings a platform-builder’s perspective on crypto philanthropy and emerging payment infrastructure."
+        },
+        {
+          "name": "Pat Duffy",
+          "category": "founder",
+          "angle": "He focuses on how crypto fundraising tools and donor platforms can affect nonprofit revenue strategies."
+        }
+      ],
+      "moderator": {
+        "name": "Andrew Simon",
+        "category": "journalist",
+        "angle": "He can moderate from a journalism perspective on how philanthropic funding intersects with news and community priorities."
+      },
+      "why_together": [
+        "The panel links evidence about giving across contexts with policy and emerging fundraising infrastructure.",
+        "It brings nonprofit revenue questions into a discussion of new payment tools and philanthropic practice.",
+        "The mix can test technological optimism against the need for reliable evidence and useful sector-wide approaches."
+      ],
+      "tension": "The conversation can weigh the potential of new payment rails against questions about whether they offer broadly useful, evidence-informed ways to fund nonprofits.",
+      "balance_note": "Comparative philanthropy research and policy analysis meet two founders focused on digital fundraising tools, with a journalist moderating.",
+      "shared_stage": []
+    }
+  ],
+  "panel_usage": {
+    "model_calls": 1,
+    "input_tokens": 5043,
+    "cached_input_tokens": 1389,
+    "output_tokens": 955,
+    "reasoning_tokens": 0,
+    "web_searches": 0,
+    "page_reads": 0,
+    "cost_usd": null
+  },
+  "usage": {
+    "model_calls": 28,
+    "input_tokens": 401571,
+    "cached_input_tokens": 219617,
+    "output_tokens": 18517,
+    "reasoning_tokens": 1243,
+    "web_searches": 54,
+    "page_reads": 39,
+    "cost_usd": null
+  },
+  "seconds": 62.2,
+  "error": null,
+  "created_at": "2026-10-26T05:09:11+00:00",
+  "model": "gpt-6-luna"
+}
