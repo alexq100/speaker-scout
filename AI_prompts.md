@@ -407,3 +407,23 @@ Following my HW5 rule, Claude never created an account in the real app. It teste
 > okay i submitted those files! what do you think of my grade potential
 
 **Why a follow-up was needed:** the files were submitted, and I wanted an updated grade estimate now that the fresh-clone test had passed.
+
+### Follow-up prompt
+
+> when i go for screen recording it doesnt let me use the microphone? how do i turn that on?
+
+**Why a follow-up was needed:** macOS screen recording wasn't offering the microphone for the voice-over.
+
+### Follow-up prompt
+
+> now my quicktime isnt alloing me to do a screen recording? irt was just a minute ago?
+
+(Attached: screenshot of QuickTime's File menu with "New Screen Recording" greyed out.)
+
+**Why a follow-up was needed:** after the microphone fix, QuickTime greyed out screen recording.
+
+### Follow-up prompt
+
+> okay i did it! i think everythign is alls et and i sent the report.html and slides.html and the demo video and the github repo is pulic so is everythign cool and good now?
+
+**Result:** Final check: the repo is public and can be cloned without logging in, the GitHub copy matches this folder, and the prompt log is pushed.
