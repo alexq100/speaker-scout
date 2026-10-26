@@ -253,3 +253,13 @@ All of it was tested in a temporary test conference that was then deleted. The d
 - The tokenomics and impact docs are written, and the app now shows cost.
 
 **Result (part 2):** Claude wrote the final README (run steps, features, safety, layout), added `backend/load_examples.py` so graders can explore the official runs without spending tokens, scanned for secrets (none found), and committed the repo. Fresh-clone check: a new clone with `.env` one folder up was running in 21 seconds, found the key, loaded the examples, and completed a real search. I chose a public GitHub repo named speaker-scout.
+
+## Step 17: Report Research: Motivation and What Is New
+
+### Prompt
+
+> awesome! okay before we build the report lets do some background work on the motivation and what is new here. please search the web about why this website we built is important. it can be hard to find good speakers and filter them into panels and find sources and also to keep the whole thing organized. please search online for other people who have this problem, we are trying to answer in a good way - 'Who has this problem? How do they deal with it today, and what does that cost them in money, time, or frustration? Why should anyone care?'. also, i want you to search on the internet for what is new here, what stuff like this already exists. claude yourslef or chatgpt can be an example, and also find if there are websites or products that are like this that exist already. Look around first. What already exists (apps, startups, ChatGPT itself)? we are trying to asnwer 'What does your project do that those don't? Be honest. If something close exists, say what you do differently and why that matters.'
+
+**Result:** Claude researched the problem and the competition and wrote `docs/motivation_and_whats_new.md`, with sources:
+- **The problem:** 70% of planners find keynoters by word of mouth; 72% call finding a right-fit speaker a major hurdle (a bureau survey); keynotes average about $10k with 20–30% bureau commissions; event coordinator ranks about #5 among the most stressful jobs; lineups skew male (about 69% of speakers in Bizzabo's data); ChatGPT has fabricated 18–55% of references in studies.
+- **Competitors:** Lessie AI speaker finder, SpeakUp, Speaker Discovery Engine, a "Speaker Finder" Claude Code skill, speaker bureaus, directories, Sessionize/Cvent, and ChatGPT/Claude/Perplexity, with an honest comparison of what Speaker Scout does differently.

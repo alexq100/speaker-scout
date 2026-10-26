@@ -11,6 +11,7 @@ The complete guide to how the app works: the one place to start. Each part has i
 | [design.md](design.md) | The look and feel (HW4 Yale style), layout decisions, and why | Look + feel |
 | [impact.md](impact.md) | The problem, competitors, real-user evidence, and impact numbers with sources | 2, 3, 7 |
 | [conference_research.md](conference_research.md) | Who real conferences book, and what that means for the Scout | 2, 7 |
+| [motivation_and_whats_new.md](motivation_and_whats_new.md) | Who has the problem, what it costs, and what exists already (with sources) | 2, 3 |
 
 ## How a search runs (overview)
 
