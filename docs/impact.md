@@ -23,7 +23,7 @@ The official runs used Alex's three real conferences as briefs. Several people t
 | Brief | Found by Speaker Scout | Real-world match |
 |---|---|---|
 | Urban Tree Summit | **J.T. Bowers**, Deputy Director, Maryland Forest Service | **Listed speaker at the 2026 Urban Tree Summit** |
-| Urban Tree Summit | **Leslie Berckes** | The 2024 Urban Tree Summit recap lists a speaker "Leslie Berkes", very likely the same person (the spelling differs; to confirm) |
+| Urban Tree Summit | **Leslie Berckes** | **Spoke at the 2024 Urban Tree Summit** (listed as "Leslie Berkes" in the Casey Trees recap; confirmed the same person by Alex, who worked on the Summit) |
 | Urban Tree Summit (test run) | **Dr. Robert Zarr** (Park Rx America), **Jamie King** (American Forests) | **Both listed 2026 Urban Tree Summit speakers** |
 | Yale Philanthropy | Stacy Palmer (Chronicle of Philanthropy), David Callahan (Inside Philanthropy), John Palfrey (MacArthur Foundation), Una Osili (IU Lilly School) | The leading voices in the field; the kind of people the conference books |
 | YBEC | Marian Chertow and Reid Lifset (Yale industrial ecology), Allison Lin (Mars, a GreenBiz 26 speaker) | Yale faculty and corporate sustainability leaders, the same profile as YBEC's 2026 keynote (Mars) |
@@ -33,7 +33,7 @@ Sources: Urban Tree Summit 2026 speaker page (urbantreesummit.org), Casey Trees 
 ## Time and cost (sourced estimates; measured where possible)
 
 - **Speaker Scout:** about **1.5 minutes and about $0.03** (tokens) for about **15 verified speakers across 6 sectors**, each with a profile link, speaking history and topic tags (measured, official runs).
-- **Manual research:** finding, checking and writing up one speaker typically takes about 15–30 minutes (search, open the profile, confirm the role is current, look for past talks). For 15 speakers that's **about 4–7 hours** of a planner's time. *(Alex's estimate from planning the Urban Tree Summit; to be confirmed with a teammate.)*
+- **Manual research:** finding, checking and writing up one speaker typically takes about 15–30 minutes (search, open the profile, confirm the role is current, look for past talks). For 15 speakers that's **about 4–7 hours** of a planner's time. *(Alex's estimate from planning the Urban Tree Summit at Casey Trees, confirmed Oct 26.)*
 - **That's roughly 160–280× faster.** The planner's time goes into judgment and outreach instead of tab-hunting.
 
 ## Real-user evidence (for Tier 3)

@@ -323,3 +323,17 @@ Following my HW5 rule, Claude never created an account in the real app. It teste
 > how can i share this with a teammate? is there a way to send it as a link?
 
 **Result:** Claude allowed temporary share-link hosts (Cloudflare quick tunnels and ngrok) in the Vite config and explained how to share a link from my laptop.
+
+## Step 22: Picking Back Up (Submission Day)
+
+### Prompt
+
+> okay hello! time to continue! please re send me the link and start up the page so i can open the page on my browser and then tell me what we should do next
+
+## Step 23: Report (report.html)
+
+### Prompt
+
+> yes leslie berckes and leslie berkes is the same person, and yes i would say that is a good time frame for finding speakers. lets start writing out the report! please review the report rubric under the report 10-15 pages here before you start https://zlisto.github.io/mgt_409_fa26/project_requirements.html the report will be an html file. when you are writing it act as if you are a professional report writer and you are explaining very clearly this app and how it works. you will go through each section carefully and make sure we have good explainations and evidence, as listed in the grading rubric under grading 100 points. for the evidence a lot of the time we need screen shots so please go ahead and take screenshots and add them in. be thoughtful about it and do a great job writing this. we have a great app! lets represent it well
+
+**Result:** Claude took 29 screenshots from a scratch copy of the app (the real database and accounts were never touched), wrote `submission/report_src.html` covering all eight rubric sections, and built `submission/report.html` with `submission/build_report.py`, which embeds the screenshots so the file works on its own. The printed report is 15 pages.
