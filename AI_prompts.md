@@ -381,3 +381,9 @@ Following my HW5 rule, Claude never created an account in the real app. It teste
 **Why a follow-up was needed:** the trust box took up the top of the profile, and Leah had one more feature idea for next steps. I also wanted a review against the rubric before submitting.
 
 **Result:** "Why you can trust this" moved to the bottom of the full profile, just above "How we checked". Leah's "input a specific speaker" idea (type a name, get a verified profile) was added to next steps in the report and slides and as a new "Future features" section in PLAN.md. The report is still 15 pages.
+
+## Step 27: Final Fixes and Fresh-Clone Test
+
+### Prompt
+
+> okay yes go ahead and make those changes and re run the fresh clone test to make sure the graders can see it. this is very important that the graders can clone it in the way it is listed on the course website.
