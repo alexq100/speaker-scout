@@ -40,6 +40,7 @@ export default function SpeakerCard({ card, category, searchId, index, onOpen }:
         <p className="card-speak-on">{card.could_speak_on}</p>
         <div className="card-badges">
           <SpeakingBadge badge={card.speaking_badge} />
+          {card.yale_connection && <span className="yale-chip" title={card.yale_connection}>Yale tie</span>}
           <RoleBadges roles={card.best_for} />
         </div>
         <div className="card-foot">

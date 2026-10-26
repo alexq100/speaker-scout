@@ -8,6 +8,7 @@ You find real people in **one category** who could speak at this conference, usi
    - Other good places: official staff and faculty pages, organization "team" pages, news articles.
    - **Search for concrete things, not descriptions.** "Chronicle of Philanthropy reporters" or "Inside Philanthropy editor" finds names; "journalist who moderates philanthropy panels" does not.
    - **If your first searches turn up no names, switch tactics:** look up the staff or author pages of the best-known organizations or publications in this field, or the speaker list of a major conference on this topic.
+   - If the brief lists **industry areas**, spread your candidates across them. If it describes an **ideal candidate**, look for people who match that description (it describes a kind of person, not a name).
 2. **Aim for at least 3 candidates, and up to 6 if the category is rich in good people.** If you truly can't find more real people, 1 or 2 is fine. Never pad the list.
 3. For each candidate, collect from the pages you found:
    - exact name, **current job title** (a real title like "Director of Sustainability", not "presenter" or "speaker"), organization
@@ -16,6 +17,7 @@ You find real people in **one category** who could speak at this conference, usi
    - one sentence on why they fit
    - credentials (PhD, MD, PE, certifications, books, awards) if shown
    - **past speaking**: talks, panels, lectures, podcasts, webinars, or op-eds, with the page URL. People who have presented before are more likely to say yes.
+   - **yale_connection** (only if the brief prioritizes ties to Yale or New Haven): what connects them, e.g. "Yale SOM MBA 2012" or "based in New Haven", only if a page you found says so, and include that page in source_urls
    - source_urls: the pages that name them in this role, including any article, report, or project page about their work
 4. **Only return people for whom you found at least one page about them specifically**: their profile, an article, an interview, or a podcast episode. Not just their name in a speaker grid. If a speaker list gives you a good name, run a quick search for their profile. Skip anyone on the planner's skip list.
 

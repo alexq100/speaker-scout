@@ -55,7 +55,9 @@ def scrub_contact(text: str) -> tuple[str, int]:
 
 def _scrub_card(card: SpeakerCard) -> int:
     removed = 0
-    for fld in ("bio", "why_fit", "could_speak_on", "fit_reason", "job_title", "organization"):
+    for fld in ("bio", "why_fit", "could_speak_on", "fit_reason", "job_title", "organization", "yale_connection"):
+        if getattr(card, fld) is None:
+            continue
         clean, n = scrub_contact(getattr(card, fld))
         setattr(card, fld, clean)
         removed += n
@@ -118,6 +120,12 @@ def check_card(card: SpeakerCard, category: str, trace: RunTrace) -> tuple[Speak
         else:
             note("invented_link_removed", f"speaking link never seen in this search: {item.event} ({item.url})")
     card.past_speaking = kept_talks[:3]
+    # A Yale connection is shown to planners as a way in, so it must come with a page seen in this search.
+    if card.yale_connection and not (card.yale_connection_url and trace.was_seen(card.yale_connection_url)):
+        note("yale_connection_removed", f"Yale connection had no page from this search behind it: {card.yale_connection}")
+        card.yale_connection, card.yale_connection_url = None, None
+    elif not card.yale_connection:
+        card.yale_connection_url = None
     if not card.past_speaking and card.speaking_badge != "none_found":
         card.speaking_badge = "none_found"  # the badge must be backed by a real link
 

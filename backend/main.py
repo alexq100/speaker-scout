@@ -179,7 +179,7 @@ def options() -> dict[str, Any]:
         "model": config.MODEL_NAME,
         "categories": [{"id": c, "label": CATEGORY_LABELS[c]} for c in ALL_CATEGORIES],
         "examples": {k: {"label": v.conference_name, "brief": v.model_dump()} for k, v in EXAMPLES.items()},
-        "limits": {"theme_chars": 200, "notes_chars": 300, "max_per_category": 5,
+        "limits": {"theme_chars": 200, "notes_chars": 8000, "max_per_category": 5,
                    "searches_per_day": config.MAX_SEARCHES_PER_DAY, "searches_today": store.searches_today()},
         "pricing_set": config.PRICE_INPUT_PER_M is not None,
     }

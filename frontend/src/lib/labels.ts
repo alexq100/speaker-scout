@@ -1,5 +1,5 @@
 // Human-friendly words for the codes the backend uses.
-import type { OutreachStatus, Budget, Category, ConferenceType, Level, LevelChoice, LookingFor, Priority, Reach, Role, SpeakingBadge } from './types'
+import type { OutreachStatus, Budget, Category, ConferenceType, Level, LookingFor, Priority, Reach, Role, SpeakingBadge } from './types'
 
 export const CATEGORY_LABEL: Record<Category, string> = {
   academic: 'Academics & Researchers',
@@ -63,12 +63,10 @@ export const BUDGET: { id: Budget; label: string }[] = [
   { id: 'large', label: 'Large' },
 ]
 
-export const LEVEL_CHOICES: { id: LevelChoice; label: string }[] = [
-  { id: 'auto', label: 'Decide for me' },
+export const LEVEL_CHOICES: { id: Level; label: string }[] = [
   { id: 'rising', label: 'Rising voices' },
   { id: 'established', label: 'Established experts' },
   { id: 'headliner', label: 'Headliners' },
-  { id: 'mix', label: 'A mix' },
 ]
 
 export const PRIORITIES: { id: Priority; label: string }[] = [

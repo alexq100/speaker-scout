@@ -3,7 +3,7 @@ import { useState, type ReactNode } from 'react'
 import {
   BUDGET, CATEGORIES, CATEGORY_LABEL, CONFERENCE_TYPES, LEVEL_CHOICES, LOOKING_FOR, PRIORITIES, REACH,
 } from '../lib/labels'
-import type { Category, Conference, LookingFor, Options, Priority, SearchBrief } from '../lib/types'
+import type { Category, Conference, Level, LookingFor, Options, Priority, SearchBrief } from '../lib/types'
 import { ArrowRight, Check, ChevronDown, Chat, Folder, Mic, Shield, Sparkle, Tool, Users } from './Icons'
 
 export const EMPTY_BRIEF: SearchBrief = {
@@ -16,7 +16,10 @@ export const EMPTY_BRIEF: SearchBrief = {
   location: null,
   reach: 'national',
   budget: null,
-  level: 'auto',
+  levels: [],
+  industries: [],
+  conference_goals: null,
+  ideal_candidate: null,
   categories: [...CATEGORIES],
   prioritize: ['has_spoken'],
   skip_names: [],
@@ -49,10 +52,11 @@ export default function BriefForm({ options, busy, onSubmit, initialTheme = '', 
     conference_theme: initialTheme.slice(0, 200),
     // A new search starts with the conference you're working on (unless it's the catch-all "General").
     conference_name: conference && conference.name !== 'General' ? conference.name.slice(0, 120) : null,
-    ...(initialNotes ? { notes: initialNotes.slice(0, 300) } : {}),
+    ...(initialNotes ? { notes: initialNotes } : {}),
     ...(initialCategories && initialCategories.length ? { categories: initialCategories } : {}),
   })
   const [skipText, setSkipText] = useState(initialSkip)
+  const [industriesText, setIndustriesText] = useState('')
   const [more, setMore] = useState(!!initialNotes)
   const [loadedExample, setLoadedExample] = useState<string | null>(null)
 
@@ -64,6 +68,7 @@ export default function BriefForm({ options, busy, onSubmit, initialTheme = '', 
     if (!ex) return
     setB({ ...EMPTY_BRIEF, ...ex.brief })
     setSkipText(ex.brief.skip_names.join(', '))
+    setIndustriesText((ex.brief.industries ?? []).join(', '))
     setLoadedExample(ex.label)
     setMore(true)
   }
@@ -78,12 +83,14 @@ export default function BriefForm({ options, busy, onSubmit, initialTheme = '', 
       conference_name: b.conference_name?.trim() || null,
       location: b.location?.trim() || null,
       notes: b.notes?.trim() || null,
+      conference_goals: b.conference_goals?.trim() || null,
+      ideal_candidate: b.ideal_candidate?.trim() || null,
+      industries: industriesText.split(/[,\n]/).map((s) => s.trim()).filter(Boolean),
       skip_names: skip,
     })
   }
 
   const themeMax = options?.limits.theme_chars ?? 200
-  const notesMax = options?.limits.notes_chars ?? 300
   const canSubmit = b.conference_theme.trim().length >= 3 && b.categories.length > 0 && !busy
 
   return (
@@ -129,6 +136,11 @@ export default function BriefForm({ options, busy, onSubmit, initialTheme = '', 
               required
             />
             <span className="char-count">{b.conference_theme.length}/{themeMax}</span>
+            <label className="field" style={{ marginTop: 14 }}>
+              <span className="field-label">Specific industry areas <small>(optional, comma separated)</small></span>
+              <input className="input" placeholder="e.g. Fashion and apparel, packaging, food and agriculture"
+                value={industriesText} onChange={(e) => setIndustriesText(e.target.value)} />
+            </label>
           </div>
         </div>
 
@@ -204,7 +216,7 @@ export default function BriefForm({ options, busy, onSubmit, initialTheme = '', 
         </div>
 
         <button type="button" className={`more-toggle ${more ? 'open' : ''}`} onClick={() => setMore(!more)} aria-expanded={more}>
-          <ChevronDown size={18} /> More options <small>location, budget, speaker level, priorities, people to skip</small>
+          <ChevronDown size={18} /> More options <small>goals, ideal candidate, location, budget, speaker level, priorities, people to skip</small>
         </button>
 
         {more && (
@@ -241,11 +253,26 @@ export default function BriefForm({ options, busy, onSubmit, initialTheme = '', 
                 ))}
               </div>
             </div>
-            <label className="field">
-              <span className="field-label">Speaker level</span>
-              <select className="select" value={b.level} onChange={(e) => set('level', e.target.value as SearchBrief['level'])}>
-                {LEVEL_CHOICES.map((l) => <option key={l.id} value={l.id}>{l.label}</option>)}
-              </select>
+            <div className="field">
+              <span className="field-label">Speaker level <small>(check any; none checked = decide for me)</small></span>
+              <div className="chips">
+                {LEVEL_CHOICES.map((l) => (
+                  <button type="button" key={l.id} role="checkbox" className={`chip-toggle ${b.levels.includes(l.id) ? 'on' : ''}`}
+                    aria-checked={b.levels.includes(l.id)} onClick={() => setB((prev) => ({ ...prev, levels: toggle<Level>(prev.levels, l.id) }))}>
+                    {b.levels.includes(l.id) && <Check size={14} />} {l.label}
+                  </button>
+                ))}
+              </div>
+            </div>
+            <label className="field span-2">
+              <span className="field-label">Goals of the conference</span>
+              <textarea className="textarea" placeholder="e.g. Help students see real career paths in sustainability, and connect them with people hiring."
+                value={b.conference_goals ?? ''} onChange={(e) => set('conference_goals', e.target.value)} />
+            </label>
+            <label className="field span-2">
+              <span className="field-label">Ideal candidate <small>(describe the kind of person, not a name)</small></span>
+              <textarea className="textarea" placeholder="e.g. Someone who has scaled a reuse or recycling business and can speak candidly about what didn't work."
+                value={b.ideal_candidate ?? ''} onChange={(e) => set('ideal_candidate', e.target.value)} />
             </label>
             <div className="field span-2">
               <span className="field-label">Prioritize</span>
@@ -257,6 +284,9 @@ export default function BriefForm({ options, busy, onSubmit, initialTheme = '', 
                   </button>
                 ))}
               </div>
+              {b.prioritize.includes('yale_ties') && (
+                <span className="field-hint">Each speaker's profile will show their connection to Yale or New Haven, with the page it came from.</span>
+              )}
             </div>
             <label className="field">
               <span className="field-label">Already booked / skip these people <small>(comma separated)</small></span>
@@ -265,8 +295,7 @@ export default function BriefForm({ options, busy, onSubmit, initialTheme = '', 
             <label className="field">
               <span className="field-label">Anything else the scouts should know?</span>
               <textarea className="textarea" placeholder="e.g. We'd love someone who works with students or young professionals."
-                value={b.notes ?? ''} maxLength={notesMax} onChange={(e) => set('notes', e.target.value)} />
-              <span className="char-count">{(b.notes ?? '').length}/{notesMax}</span>
+                value={b.notes ?? ''} onChange={(e) => set('notes', e.target.value)} />
             </label>
           </div>
         )}

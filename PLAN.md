@@ -54,11 +54,14 @@ Three main questions up front; everything else under **"More options"** with sen
 | Conference type / audience | Business · Academic · Practitioner · Philanthropy & nonprofit · Policy · Community · Student-led | Picks the search angles |
 | Location | City or region, plus reach: Local · Regional · National · Global · Virtual is fine | Leans searches toward nearby people. "Virtual is fine" removes the limit. |
 | Speaker budget | No fee / volunteer · Small · Medium · Large | Steers the speaker level only. We can't know real fees. |
-| Speaker level | Rising voice · Established expert · Headliner · Mix | Filled in automatically from role and budget, and can be changed |
+| Speaker level | Checkboxes: Rising voice · Established expert · Headliner (check several, or none = decide for me) | Added from Leah Towery's feedback; was a single dropdown |
+| Industry areas | Free text, comma separated | Searchers spread candidates across them (Leah's feedback) |
+| Goals of the conference | Free text | Shapes who would serve the event (Leah's feedback) |
+| Ideal candidate | Free text: the kind of person, not a name | Scout Lead turns it into concrete titles and places to look (Leah's feedback) |
 | Categories | The 6 checkboxes, all on | Unchecked categories are skipped, which saves tokens |
-| Prioritize | Has spoken before (on by default) · Ties to Yale / New Haven · Early-career voices · A range of perspectives | Ranking guidance |
+| Prioritize | Has spoken before (on by default) · Ties to Yale / New Haven · Early-career voices · A range of perspectives | Ranking guidance. With Yale ties on, each profile shows a sourced "Connection to Yale / New Haven" |
 | Already booked / skip | Names | Kept out of the results |
-| Anything else? | Free text, 300 characters max | Passed to the Scout Lead and labeled as the planner's notes |
+| Anything else? | Free text, no visible limit (was 300 characters) | Passed to the Scout Lead and labeled as the planner's notes |
 
 **Try an example** buttons fill the form with YBEC, Yale Philanthropy, and the Urban Tree Summit.
 

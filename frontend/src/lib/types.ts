@@ -6,7 +6,6 @@ export type ConferenceType = 'business' | 'academic' | 'practitioner' | 'philant
 export type Reach = 'local' | 'regional' | 'national' | 'global' | 'virtual'
 export type Budget = 'none' | 'small' | 'medium' | 'large'
 export type Level = 'rising' | 'established' | 'headliner'
-export type LevelChoice = Level | 'mix' | 'auto'
 export type Role = 'keynote' | 'panelist' | 'moderator' | 'workshop'
 export type SpeakingBadge = 'experienced' | 'some' | 'none_found'
 export type Priority = 'has_spoken' | 'yale_ties' | 'early_career' | 'range_of_perspectives'
@@ -21,7 +20,10 @@ export interface SearchBrief {
   location: string | null
   reach: Reach
   budget: Budget | null
-  level: LevelChoice
+  levels: Level[]
+  industries: string[]
+  conference_goals: string | null
+  ideal_candidate: string | null
   categories: Category[]
   prioritize: Priority[]
   skip_names: string[]
@@ -51,6 +53,8 @@ export interface SpeakerCard {
   profile_url: string | null
   links: Link[]
   photo_url: string | null
+  yale_connection?: string | null
+  yale_connection_url?: string | null
   evidence_urls: string[]
   fit_score: number
   fit_reason: string

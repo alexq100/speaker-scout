@@ -39,6 +39,10 @@ function findMoreLink(card: SpeakerCard, category: Category): string {
   return `/?theme=${encodeURIComponent(theme)}&notes=${encodeURIComponent(notes)}&cats=${cats}&skip=${encodeURIComponent(card.name)}`
 }
 
+function hostOf(url: string): string {
+  try { return new URL(url).hostname.replace(/^www\./, '') } catch { return url }
+}
+
 export default function SpeakerDrawer({ card, category, searchId, onClose, initialTab }: Props) {
   const { has } = useShortlist()
   const item = has(card.name, category)
@@ -118,6 +122,15 @@ export default function SpeakerDrawer({ card, category, searchId, onClose, initi
           </div>
         ) : (
         <div className="drawer-body">
+          {card.yale_connection && (
+            <div className="yale-box">
+              <h4>Connection to Yale / New Haven</h4>
+              <p>{card.yale_connection}</p>
+              {card.yale_connection_url && (
+                <a href={card.yale_connection_url} target="_blank" rel="noreferrer">Source: {hostOf(card.yale_connection_url)} ↗</a>
+              )}
+            </div>
+          )}
           {card.topic_tags.length > 0 && (
             <section className="d-section">
               <h3>Known for</h3>

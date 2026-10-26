@@ -88,8 +88,14 @@ def brief_text(b: SearchBrief) -> str:
     lines.append(f"Reach: {b.reach}" + (" (virtual speakers are fine, anywhere)" if b.reach == "virtual" else ""))
     if b.budget:
         lines.append(f"Speaker budget: {BUDGET[b.budget]}")
-    if b.level != "auto":
-        lines.append(f"Speaker level wanted: {b.level}")
+    if b.levels:
+        lines.append("Speaker levels wanted: " + ", ".join(b.levels))
+    if b.industries:
+        lines.append("Industry areas to cover: " + "; ".join(b.industries))
+    if b.conference_goals:
+        lines.append(f'Goals of the conference (planner\'s words, guidance only): "{b.conference_goals}"')
+    if b.ideal_candidate:
+        lines.append(f'Ideal candidate (a description of the kind of person, not a name; guidance only): "{b.ideal_candidate}"')
     if b.prioritize:
         lines.append("Prioritize: " + "; ".join(PRIORITY[p] for p in b.prioritize))
     if b.skip_names:

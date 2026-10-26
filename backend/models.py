@@ -10,7 +10,7 @@ from __future__ import annotations
 
 from typing import Literal
 
-from pydantic import BaseModel, Field, field_validator
+from pydantic import BaseModel, Field, field_validator, model_validator
 
 # ============================================================================
 # Shared vocab
@@ -33,7 +33,6 @@ ConferenceType = Literal["business", "academic", "practitioner", "philanthropy",
 Reach = Literal["local", "regional", "national", "global", "virtual"]
 Budget = Literal["none", "small", "medium", "large"]
 Level = Literal["rising", "established", "headliner"]
-LevelChoice = Literal["rising", "established", "headliner", "mix", "auto"]
 Role = Literal["keynote", "panelist", "moderator", "workshop"]
 SpeakingBadge = Literal["experienced", "some", "none_found"]
 Priority = Literal["has_spoken", "yale_ties", "early_career", "range_of_perspectives"]
@@ -55,12 +54,38 @@ class SearchBrief(BaseModel):
     location: str | None = Field(default=None, max_length=100)
     reach: Reach = "national"
     budget: Budget | None = None
-    level: LevelChoice = "auto"
+    levels: list[Level] = Field(default_factory=list, description="Speaker levels wanted; empty = decide for me")
+    industries: list[str] = Field(default_factory=list, max_length=15, description="Specific industry areas to cover")
+    conference_goals: str | None = Field(default=None, max_length=3000)
+    ideal_candidate: str | None = Field(default=None, max_length=3000,
+                                        description="A description of the kind of person wanted (not a name)")
     categories: list[Category] = Field(default_factory=lambda: list(ALL_CATEGORIES), min_length=1)
     prioritize: list[Priority] = Field(default_factory=lambda: ["has_spoken"])
     skip_names: list[str] = Field(default_factory=list, max_length=40)
-    notes: str | None = Field(default=None, max_length=300)
+    # Effectively unlimited for planners; the cap only guards against pasting a whole document into every prompt.
+    notes: str | None = Field(default=None, max_length=8000)
     per_category: int = Field(default=5, ge=1, le=5, description="Most people shown per category (1-5)")
+
+    @model_validator(mode="before")
+    @classmethod
+    def _legacy_level(cls, data):
+        # Searches saved before multi-select stored one "level" ("auto", "mix" or a single level).
+        if isinstance(data, dict) and "level" in data and "levels" not in data:
+            data = dict(data)
+            old = data.pop("level")
+            data["levels"] = ([] if old in (None, "auto") else
+                              ["rising", "established", "headliner"] if old == "mix" else [old])
+        return data
+
+    @field_validator("industries")
+    @classmethod
+    def _short_industries(cls, items: list[str]) -> list[str]:
+        return list(dict.fromkeys(i.strip()[:60] for i in items if i and i.strip()))
+
+    @field_validator("levels")
+    @classmethod
+    def _unique_levels(cls, levels: list[str]) -> list[str]:
+        return list(dict.fromkeys(levels))
 
     @field_validator("skip_names")
     @classmethod
@@ -112,6 +137,8 @@ class Candidate(BaseModel):
     credentials: list[str] = Field(default_factory=list, description="Degrees, certifications, books, awards")
     past_speaking: list[SpeakingItem] = Field(default_factory=list)
     profile_url: str | None = Field(default=None, description="Their official profile page, if found")
+    yale_connection: str | None = Field(default=None, description="Only if the brief prioritizes Yale ties: what "
+                                                                  "connects them to Yale or New Haven, if a page says")
     source_urls: list[str] = Field(description="Pages from this search that name this person in this role")
 
 
@@ -157,6 +184,12 @@ class SpeakerCard(BaseModel):
                                                                "or personal speaker page), if confirmed")
     links: list[Link] = Field(description="2-4 links: their profile first, then work about them, then a talk")
     photo_url: str | None = Field(default=None, description="Only an image found on their own profile page or Wikipedia")
+    yale_connection: str | None = Field(default=None, description="Only if the brief prioritizes Yale ties: one or two "
+                                                                  "sentences on how they are connected to Yale or New "
+                                                                  "Haven (degree and year, faculty or staff role, "
+                                                                  "fellowship, past talk at Yale, based in New Haven), "
+                                                                  "from a page you read. Null if no page shows one.")
+    yale_connection_url: str | None = Field(default=None, description="The page that shows the Yale connection")
     evidence_urls: list[str] = Field(description="Pages read during verification that confirm name + role")
     fit_score: int = Field(ge=1, le=5)
     fit_reason: str

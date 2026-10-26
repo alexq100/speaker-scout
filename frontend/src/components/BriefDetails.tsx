@@ -18,9 +18,12 @@ export default function BriefDetails({ brief: b }: { brief: SearchBrief }) {
   if (b.conference_type) rows.push(['Type / audience', CONFERENCE_TYPES.find((t) => t.id === b.conference_type)?.label])
   rows.push(['Location & reach', `${b.location ? b.location + ' · ' : ''}${REACH.find((r) => r.id === b.reach)?.label}`])
   if (b.budget) rows.push(['Speaker budget', BUDGET.find((x) => x.id === b.budget)?.label])
-  rows.push(['Speaker level', LEVEL_CHOICES.find((l) => l.id === b.level)?.label])
+  if (b.industries?.length) rows.push(['Industry areas', b.industries.join(' · ')])
+  rows.push(['Speaker level', b.levels?.length ? b.levels.map((l) => LEVEL_CHOICES.find((x) => x.id === l)?.label).join(' · ') : 'Decide for me'])
   if (b.prioritize.length) rows.push(['Prioritize', b.prioritize.map((p) => PRIORITIES.find((x) => x.id === p)?.label).join(' · ')])
   if (b.skip_names.length) rows.push(['Skipped', b.skip_names.join(', ')])
+  if (b.conference_goals) rows.push(['Conference goals', `“${b.conference_goals}”`])
+  if (b.ideal_candidate) rows.push(['Ideal candidate', `“${b.ideal_candidate}”`])
   if (b.notes) rows.push(['Notes', `“${b.notes}”`])
 
   const partial = b.categories.length < CATEGORIES.length

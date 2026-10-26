@@ -152,6 +152,26 @@ def test_contact_details_are_scrubbed():
 
 # ---- 5. Skip list, duplicates, panels ------------------------------------------------
 
+def test_yale_connection_needs_a_page_from_this_search():
+    t = seen("https://example.org/people/jane", "https://som.yale.edu/alumni/jane")
+    ok, _ = check_card(card(yale_connection="Yale SOM MBA 2012, call 203-555-0199",
+                            yale_connection_url="https://som.yale.edu/alumni/jane"), "practitioner", t)
+    assert ok.yale_connection.startswith("Yale SOM MBA 2012") and "555" not in ok.yale_connection
+    made_up, removals = check_card(card(yale_connection="Yale College 2005",
+                                        yale_connection_url="https://yale.edu/not-seen"), "practitioner", t)
+    assert made_up.yale_connection is None and made_up.yale_connection_url is None
+    assert any(r.what == "yale_connection_removed" for r in removals)
+
+
+def test_old_saved_briefs_still_load():
+    from models import SearchBrief
+    assert SearchBrief.model_validate({"conference_theme": "Circular economy", "level": "auto"}).levels == []
+    assert SearchBrief.model_validate({"conference_theme": "Circular economy", "level": "mix"}).levels == [
+        "rising", "established", "headliner"]
+    b = SearchBrief(conference_theme="Circular economy", industries=[" fashion", "fashion ", ""], notes="x" * 5000)
+    assert b.industries == ["fashion"]
+
+
 def test_skip_list_and_duplicates():
     a = CategoryResult(category="founder", label="F", cards=[card(name="Dr. Jane Roe", fit_score=5), card(name="Sam Lee")])
     b = CategoryResult(category="practitioner", label="P", cards=[card(name="Jane Roe, PhD", fit_score=3), card(name="Ann Bo")])

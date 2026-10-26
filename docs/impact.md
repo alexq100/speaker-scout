@@ -50,7 +50,7 @@ Sources: Urban Tree Summit 2026 speaker page (urbantreesummit.org), Casey Trees 
 
 ## Real user feedback: YBEC speaker outreach lead
 
-Leah, a second-year student who leads speaker outreach for the Yale Business & the Environment Conference, tried Speaker Scout. Her feedback, as relayed by Alex (paraphrased):
+Leah Towery, a second-year student who leads speaker outreach for the Yale Business & the Environment Conference, tried Speaker Scout. Her feedback, as relayed by Alex (paraphrased):
 
 - The site is awesome and would be a huge help to the conference.
 - Researching good speakers is the hardest part, and it takes a long time just to get started.
