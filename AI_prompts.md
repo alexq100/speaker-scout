@@ -389,3 +389,21 @@ Following my HW5 rule, Claude never created an account in the real app. It teste
 > okay yes go ahead and make those changes and re run the fresh clone test to make sure the graders can see it. this is very important that the graders can clone it in the way it is listed on the course website.
 
 **Result:** Slide 9 now shows the full "4–7.5 hrs → 1.5 min" range. Fresh-clone test, done the way the course website describes: the repo was cloned from GitHub into an empty `submissions/` folder with the `.env` one level above it, then `./start.sh` was run. The app was running in about 23 seconds, the key was found in the folder above, the database started empty, a scratch team account was created on the clone, `load_examples.py` loaded the 3 example conferences, and a live search found 2 verified speakers (including J.T. Bowers) in 36 s for $0.0045. With no accounts, the login screen opens on "Create team account". The clone and its `.env` copy were deleted afterwards, and the real database still has only the "alexkew" account.
+
+## Step 28: Demo Video
+
+### Prompt
+
+> now i want to do a demo video for back up, how should i do that? screen record and do a voice over? or is there a way you can do that and have captions to explain what is happening?
+
+### Follow-up prompt
+
+> okay great i will submit these files and then add the video after
+
+**Why a follow-up was needed:** to confirm the plan: submit the required files first, then the optional demo video.
+
+### Follow-up prompt
+
+> okay i submitted those files! what do you think of my grade potential
+
+**Why a follow-up was needed:** the files were submitted, and I wanted an updated grade estimate now that the fresh-clone test had passed.
