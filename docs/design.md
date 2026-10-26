@@ -117,6 +117,14 @@ Footer: what the app does, the four checks every speaker passes, links, and **St
 - **Conference one-pager** (button on the at-a-glance page → `/print/conference`): the whole program on one page, with keynotes and every panel, who's on each, X/Y confirmed, sessions, and unplaced people.
 - **Find more like [name]** (profile drawer): opens a prefilled search with their topic tags as the theme, all *other* sectors, a note "similar focus to [name] but from other sectors", and them on the skip list.
 
+## Step 19: team logins and "What's new"
+
+- **Login screen** (Yale Blue backdrop, white card): **Log in** or **Create team account** (team name, username, password of 8+ characters, and "Your name", which is shown to teammates). If no account exists yet it opens on Create, and explains that the first account adopts work already saved on the computer.
+- **One account per planning team, shared by teammates.** Each team's conferences, searches, shortlists and panels are separate. Each browser remembers its own display name, sent with every action.
+- **Header user menu:** team name and your name, a place to change your name, and **Log out**.
+- **"What's new" (nav, with a red count of new items):** a team activity feed for the current conference, e.g. "Jordan set Yuan Yao to reached out", "Alex added Yuan Yao to the shortlist", panels created or moved, searches run, balance checks. Items since your last visit are highlighted.
+- **Shortlist rows show "Added by [name]".**
+
 ## Design rules carried over from HW5
 
 - **One main button per screen** (Find speakers, Add to shortlist).

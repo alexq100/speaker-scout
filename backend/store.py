@@ -10,7 +10,9 @@ Older databases (from before conferences existed) are upgraded in place: everyth
 from __future__ import annotations
 
 import hashlib
+import hmac
 import json
+import secrets
 import sqlite3
 import threading
 from contextlib import contextmanager
@@ -151,6 +153,38 @@ def _migrate(conn: sqlite3.Connection) -> None:
 
     if "balance_json" not in _cols(conn, "conferences"):
         conn.execute("ALTER TABLE conferences ADD COLUMN balance_json TEXT")
+    if "workspace_id" not in _cols(conn, "conferences"):
+        conn.execute("ALTER TABLE conferences ADD COLUMN workspace_id INTEGER")   # NULL = not yet claimed
+    if "added_by" not in _cols(conn, "shortlist"):
+        conn.execute("ALTER TABLE shortlist ADD COLUMN added_by TEXT")
+    conn.executescript("""
+        CREATE TABLE IF NOT EXISTS accounts (
+            id            INTEGER PRIMARY KEY AUTOINCREMENT,
+            team_name     TEXT NOT NULL,
+            username      TEXT NOT NULL UNIQUE COLLATE NOCASE,
+            pw_hash       TEXT NOT NULL,
+            salt          TEXT NOT NULL,
+            created_at    TEXT NOT NULL,
+            failed        INTEGER NOT NULL DEFAULT 0,
+            locked_until  TEXT
+        );
+        CREATE TABLE IF NOT EXISTS sessions (
+            token_hash  TEXT PRIMARY KEY,
+            account_id  INTEGER NOT NULL,
+            created_at  TEXT NOT NULL,
+            expires_at  TEXT NOT NULL
+        );
+        CREATE TABLE IF NOT EXISTS activity (
+            id            INTEGER PRIMARY KEY AUTOINCREMENT,
+            workspace_id  INTEGER NOT NULL,
+            conference_id INTEGER,
+            ts            TEXT NOT NULL,
+            actor         TEXT NOT NULL DEFAULT '',
+            kind          TEXT NOT NULL,
+            text          TEXT NOT NULL
+        );
+        CREATE INDEX IF NOT EXISTS idx_activity_ws ON activity(workspace_id, ts);
+    """)
 
     # Anything without a conference goes to the first one.
     conn.execute("UPDATE searches SET conference_id = ? WHERE conference_id IS NULL", (default_id,))
@@ -191,15 +225,16 @@ def brief_hash(brief: SearchBrief) -> str:
 
 # ---- Conferences ----------------------------------------------------------------------
 
-def list_conferences() -> list[dict[str, Any]]:
+def list_conferences(workspace_id: int | None = None) -> list[dict[str, Any]]:
     with _db() as conn:
         rows = conn.execute("""
-            SELECT c.id, c.name, c.created_at,
+            SELECT c.id, c.name, c.created_at, c.workspace_id,
                    (SELECT COUNT(*) FROM searches s WHERE s.conference_id = c.id) AS searches,
                    (SELECT COUNT(*) FROM shortlist l WHERE l.conference_id = c.id) AS saved,
                    (SELECT COUNT(*) FROM groups g WHERE g.conference_id = c.id AND g.kind = 'panel') AS panels
             FROM conferences c ORDER BY c.id""").fetchall()
-    return [dict(r) for r in rows]
+    out = [dict(r) for r in rows]
+    return out if workspace_id is None else [c for c in out if c["workspace_id"] == workspace_id]
 
 
 def get_balance(conference_id: int) -> dict | None:
@@ -218,14 +253,17 @@ def conference_exists(conference_id: int) -> bool:
         return bool(conn.execute("SELECT 1 FROM conferences WHERE id = ?", (conference_id,)).fetchone())
 
 
-def default_conference_id() -> int:
+def default_conference_id(workspace_id: int | None = None) -> int:
     with _db() as conn:
-        return conn.execute("SELECT MIN(id) FROM conferences").fetchone()[0]
+        if workspace_id is None:
+            return conn.execute("SELECT MIN(id) FROM conferences").fetchone()[0]
+        return conn.execute("SELECT MIN(id) FROM conferences WHERE workspace_id = ?", (workspace_id,)).fetchone()[0]
 
 
-def create_conference(name: str) -> dict[str, Any]:
+def create_conference(name: str, workspace_id: int | None = None) -> dict[str, Any]:
     with _db() as conn:
-        cur = conn.execute("INSERT INTO conferences (name, created_at) VALUES (?, ?)", (name, _now()))
+        cur = conn.execute("INSERT INTO conferences (name, created_at, workspace_id) VALUES (?, ?, ?)",
+                           (name, _now(), workspace_id))
         cid = cur.lastrowid
         conn.execute("INSERT INTO groups (name, kind, position, created_at, conference_id) "
                      "VALUES ('Keynote speakers', 'keynote', 0, ?, ?)", (_now(), cid))
@@ -244,7 +282,8 @@ def delete_conference(conference_id: int) -> str:
     with _db() as conn:
         if not conn.execute("SELECT 1 FROM conferences WHERE id = ?", (conference_id,)).fetchone():
             return "missing"
-        if conn.execute("SELECT COUNT(*) FROM conferences").fetchone()[0] <= 1:
+        ws = conn.execute("SELECT workspace_id FROM conferences WHERE id = ?", (conference_id,)).fetchone()[0]
+        if conn.execute("SELECT COUNT(*) FROM conferences WHERE workspace_id IS ?", (ws,)).fetchone()[0] <= 1:
             return "last"
         for t in ("outreach_log", "speaker_notes"):
             conn.execute(f"DELETE FROM {t} WHERE item_id IN (SELECT id FROM shortlist WHERE conference_id = ?)",
@@ -364,7 +403,8 @@ def _row_to_item(row: sqlite3.Row) -> dict[str, Any]:
             "owner": row["owner"] or "", "follow_up_date": row["follow_up_date"], "fee": row["fee"] or "",
             "travel": row["travel"] or "", "checklist": json.loads(row["checklist_json"]) if row["checklist_json"] else {},
             "draft": json.loads(row["draft_json"]) if row["draft_json"] else None,
-            "last_outreach_at": row["last_outreach_at"], "card": json.loads(row["card_json"])}
+            "last_outreach_at": row["last_outreach_at"], "added_by": row["added_by"] or "",
+            "card": json.loads(row["card_json"])}
 
 
 def _log(conn: sqlite3.Connection, item_id: int, kind: str, status: str, text: str = "") -> None:
@@ -474,13 +514,13 @@ def update_outreach(item_id: int, status: str | None, notes: str | None) -> dict
 
 
 def add_to_shortlist(conference_id: int, search_id: str, category: str, card: SpeakerCard,
-                     note: str = "") -> dict[str, Any]:
+                     note: str = "", added_by: str = "") -> dict[str, Any]:
     with _db() as conn:
         conn.execute(
-            "INSERT INTO shortlist (conference_id, search_id, category, name, card_json, note, added_at) "
-            "VALUES (?, ?, ?, ?, ?, ?, ?) ON CONFLICT(conference_id, name, category) "
+            "INSERT INTO shortlist (conference_id, search_id, category, name, card_json, note, added_at, added_by) "
+            "VALUES (?, ?, ?, ?, ?, ?, ?, ?) ON CONFLICT(conference_id, name, category) "
             "DO UPDATE SET card_json = excluded.card_json, search_id = excluded.search_id",
-            (conference_id, search_id, category, card.name, card.model_dump_json(), note, _now()),
+            (conference_id, search_id, category, card.name, card.model_dump_json(), note, _now(), added_by or None),
         )
         row = conn.execute("SELECT * FROM shortlist WHERE conference_id = ? AND name = ? AND category = ?",
                            (conference_id, card.name, category)).fetchone()
@@ -627,8 +667,137 @@ def delete_group(group_id: int) -> str:
     return "deleted"
 
 
-def reset() -> None:
-    """Start over: remove every conference, search, shortlist entry and panel. A fresh 'General' is recreated."""
+def reset(workspace_id: int | None = None) -> None:
+    """Start over: remove this team's conferences, searches, shortlist and panels, then give it a fresh 'General'.
+    (Without a workspace, e.g. in tests, everything is cleared.)"""
     with _db() as conn:
-        for table in ("speaker_notes", "outreach_log", "shortlist", "groups", "searches", "conferences"):
-            conn.execute(f"DELETE FROM {table}")
+        if workspace_id is None:
+            for table in ("speaker_notes", "outreach_log", "shortlist", "groups", "searches", "conferences", "activity"):
+                conn.execute(f"DELETE FROM {table}")
+            return
+        confs = [r[0] for r in conn.execute("SELECT id FROM conferences WHERE workspace_id = ?", (workspace_id,))]
+        for cid in confs:
+            conn.execute("DELETE FROM speaker_notes WHERE item_id IN (SELECT id FROM shortlist WHERE conference_id = ?)", (cid,))
+            conn.execute("DELETE FROM outreach_log WHERE item_id IN (SELECT id FROM shortlist WHERE conference_id = ?)", (cid,))
+            for t in ("shortlist", "groups", "searches"):
+                conn.execute(f"DELETE FROM {t} WHERE conference_id = ?", (cid,))
+            conn.execute("DELETE FROM conferences WHERE id = ?", (cid,))
+        conn.execute("DELETE FROM activity WHERE workspace_id = ?", (workspace_id,))
+        c = conn.execute("INSERT INTO conferences (name, created_at, workspace_id) VALUES (?, ?, ?)",
+                         (DEFAULT_CONFERENCE, _now(), workspace_id))
+        conn.execute("INSERT INTO groups (name, kind, position, created_at, conference_id) "
+                     "VALUES ('Keynote speakers', 'keynote', 0, ?, ?)", (_now(), c.lastrowid))
+
+
+# ---- Team accounts, sessions, ownership, activity -----------------------------------
+# One account = one team workspace. Teammates can share the login; each browser also sends a display
+# name ("who's using this") so the activity feed can show who did what. Passwords are stored only as
+# salted PBKDF2 hashes and sessions only as SHA-256 hashes.
+
+PBKDF2_ROUNDS = 200_000
+SESSION_DAYS = 14
+MAX_FAILED = 5
+LOCK_MINUTES = 15
+
+
+def _hash_pw(password: str, salt: str) -> str:
+    return hashlib.pbkdf2_hmac("sha256", password.encode(), bytes.fromhex(salt), PBKDF2_ROUNDS).hex()
+
+
+def create_account(team_name: str, username: str, password: str) -> dict[str, Any]:
+    """Create a team account. The very first account adopts any data created before accounts existed."""
+    salt = secrets.token_hex(16)
+    with _db() as conn:
+        if conn.execute("SELECT 1 FROM accounts WHERE username = ?", (username,)).fetchone():
+            raise ValueError("That username is taken.")
+        first = conn.execute("SELECT COUNT(*) FROM accounts").fetchone()[0] == 0
+        cur = conn.execute("INSERT INTO accounts (team_name, username, pw_hash, salt, created_at) VALUES (?, ?, ?, ?, ?)",
+                           (team_name, username, _hash_pw(password, salt), salt, _now()))
+        aid = cur.lastrowid
+        adopted = 0
+        if first:
+            adopted = conn.execute("UPDATE conferences SET workspace_id = ? WHERE workspace_id IS NULL", (aid,)).rowcount
+        if adopted == 0:
+            c = conn.execute("INSERT INTO conferences (name, created_at, workspace_id) VALUES (?, ?, ?)",
+                             (DEFAULT_CONFERENCE, _now(), aid))
+            conn.execute("INSERT INTO groups (name, kind, position, created_at, conference_id) "
+                         "VALUES ('Keynote speakers', 'keynote', 0, ?, ?)", (_now(), c.lastrowid))
+    return {"id": aid, "team_name": team_name, "username": username, "adopted_conferences": adopted}
+
+
+def verify_login(username: str, password: str) -> tuple[dict[str, Any] | None, str]:
+    """Returns (account, '') or (None, reason). Locks the account for 15 minutes after 5 wrong passwords."""
+    with _db() as conn:
+        row = conn.execute("SELECT * FROM accounts WHERE username = ?", (username,)).fetchone()
+        if row is None:
+            return None, "Wrong username or password."
+        if row["locked_until"] and row["locked_until"] > _now():
+            return None, "Too many wrong passwords. Try again in 15 minutes."
+        if not hmac.compare_digest(_hash_pw(password, row["salt"]), row["pw_hash"]):
+            failed = row["failed"] + 1
+            locked = (datetime.now(timezone.utc) + timedelta(minutes=LOCK_MINUTES)).isoformat(timespec="seconds") \
+                if failed >= MAX_FAILED else None
+            conn.execute("UPDATE accounts SET failed = ?, locked_until = ? WHERE id = ?",
+                         (0 if locked else failed, locked, row["id"]))
+            return None, "Wrong username or password."
+        conn.execute("UPDATE accounts SET failed = 0, locked_until = NULL WHERE id = ?", (row["id"],))
+    return {"id": row["id"], "team_name": row["team_name"], "username": row["username"]}, ""
+
+
+def create_session(account_id: int) -> str:
+    token = secrets.token_urlsafe(32)
+    expires = (datetime.now(timezone.utc) + timedelta(days=SESSION_DAYS)).isoformat(timespec="seconds")
+    with _db() as conn:
+        conn.execute("INSERT INTO sessions (token_hash, account_id, created_at, expires_at) VALUES (?, ?, ?, ?)",
+                     (hashlib.sha256(token.encode()).hexdigest(), account_id, _now(), expires))
+    return token
+
+
+def session_account(token: str) -> dict[str, Any] | None:
+    if not token:
+        return None
+    with _db() as conn:
+        row = conn.execute(
+            "SELECT a.id, a.team_name, a.username FROM sessions s JOIN accounts a ON a.id = s.account_id "
+            "WHERE s.token_hash = ? AND s.expires_at > ?", (hashlib.sha256(token.encode()).hexdigest(), _now())).fetchone()
+    return dict(row) if row else None
+
+
+def delete_session(token: str) -> None:
+    with _db() as conn:
+        conn.execute("DELETE FROM sessions WHERE token_hash = ?", (hashlib.sha256(token.encode()).hexdigest(),))
+
+
+def account_count() -> int:
+    with _db() as conn:
+        return conn.execute("SELECT COUNT(*) FROM accounts").fetchone()[0]
+
+
+def workspace_of(kind: str, key: Any) -> int | None:
+    """Which team owns a conference / search / shortlist item / group / note (None if not found)."""
+    q = {
+        "conference": "SELECT workspace_id FROM conferences WHERE id = ?",
+        "search": "SELECT c.workspace_id FROM searches s JOIN conferences c ON c.id = s.conference_id WHERE s.id = ?",
+        "item": "SELECT c.workspace_id FROM shortlist l JOIN conferences c ON c.id = l.conference_id WHERE l.id = ?",
+        "group": "SELECT c.workspace_id FROM groups g JOIN conferences c ON c.id = g.conference_id WHERE g.id = ?",
+        "note": "SELECT c.workspace_id FROM speaker_notes n JOIN shortlist l ON l.id = n.item_id "
+                "JOIN conferences c ON c.id = l.conference_id WHERE n.id = ?",
+    }[kind]
+    with _db() as conn:
+        row = conn.execute(q, (key,)).fetchone()
+    return row[0] if row else None
+
+
+def log_activity(workspace_id: int, conference_id: int | None, actor: str, kind: str, text: str) -> None:
+    with _db() as conn:
+        conn.execute("INSERT INTO activity (workspace_id, conference_id, ts, actor, kind, text) VALUES (?, ?, ?, ?, ?, ?)",
+                     (workspace_id, conference_id, _now(), actor[:60], kind, text[:300]))
+
+
+def list_activity(workspace_id: int, conference_id: int | None, limit: int = 100) -> list[dict[str, Any]]:
+    with _db() as conn:
+        rows = conn.execute(
+            "SELECT a.*, c.name AS conference_name FROM activity a LEFT JOIN conferences c ON c.id = a.conference_id "
+            "WHERE a.workspace_id = ? AND (? IS NULL OR a.conference_id = ? OR a.conference_id IS NULL) "
+            "ORDER BY a.ts DESC, a.id DESC LIMIT ?", (workspace_id, conference_id, conference_id, limit)).fetchall()
+    return [dict(r) for r in rows]

@@ -19,7 +19,8 @@ You need **Python 3.11+** and **Node 18+** (with npm).
    ./start.sh
    ```
    The first run creates the Python environment and installs the website packages (about 2–4 minutes). Then open **http://localhost:5173**. Press Ctrl+C once to stop everything.
-3. **Optional: see real results without spending tokens.** In a second terminal, load the three official example searches:
+3. **Create a team account** on the first screen (team name, username, an 8+ character password, and your name). Teammates share this login, and each person's name appears in **What's new**. The first account on a computer also gets any work saved there before.
+4. **Optional: see real results without spending tokens.** In a second terminal, load the three official example searches:
    ```bash
    .venv/bin/python backend/load_examples.py
    ```
@@ -41,6 +42,7 @@ Other ways to run things:
 | **Panel Architect** | Suggests 2–3 cross-discipline panels per search (theme question, why they work together, where they'd differ, moderator, shared-stage history). Reviews any panel you build and suggests who's missing. |
 | **Conferences** | Each conference has its own searches, shortlist, keynote group and panels |
 | **Shortlist** | Tabs for Keynote and named panels, drag-and-drop, session date/time/room, **outreach status**, follow-up dates, owner, outreach log, confirmed-speaker checklist, notes. "At a glance" table, copy and CSV export. |
+| **Team accounts** | One login per planning team (shared by teammates), each team's work kept separate, a "What's new" feed showing who added which speakers and who updated outreach |
 | **Planning tab + chat** | Per-speaker planning: drafted invitation emails (**drafts only, never sent**) and an "Ask about this speaker" chat with sourced answers you can save to notes |
 
 ## How it's kept safe and cheap

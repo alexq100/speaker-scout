@@ -18,12 +18,19 @@ EXAMPLES = {  # search id -> conference
     "35e14ff0f8": "Urban Tree Summit (example)",
 }
 
+# If a team account already exists, give the examples to the first team; otherwise leave them unclaimed so
+# the first team account created on the website adopts them.
+with store._db() as conn:
+    row = conn.execute("SELECT MIN(id) FROM accounts").fetchone()
+team = row[0] if row and row[0] else None
+
 for search_id, conf_name in EXAMPLES.items():
     path = config.RUNS_DIR / f"{search_id}.json"
     if not path.exists():
         print(f"missing {path}")
         continue
-    conf = next((c for c in store.list_conferences() if c["name"] == conf_name), None) or store.create_conference(conf_name)
+    conf = next((c for c in store.list_conferences(team) if c["name"] == conf_name), None) \
+        or store.create_conference(conf_name, team)
     store.save_search(SearchResult.model_validate_json(path.read_text()), conf["id"])
     print(f"loaded {search_id} into '{conf_name}'")
-print("Done. Start the app (./start.sh) and pick a conference at the top right.")
+print("Done. Log in (or create your team account) and pick a conference from the Conference menu at the top right.")

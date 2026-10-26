@@ -439,6 +439,7 @@ export default function Shortlist() {
                       </div>
                       <div className="short-links">
                         <button onClick={() => openProfile(i.card, i.category, i.search_id)}>Full profile</button>
+                        {i.added_by && <span className="added-by">Added by {i.added_by}</span>}
                         <Link to={`/search/${i.search_id}`}>From this search</Link>
                         <button onClick={() => remove(i.id)} style={{ color: 'var(--bad)' }}><Trash size={13} /> Remove</button>
                       </div>

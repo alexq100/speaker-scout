@@ -1,6 +1,11 @@
 import { Link, NavLink, useLocation } from 'react-router-dom'
 import { useShortlist } from '../lib/shortlist'
 import ConferenceSwitcher from './ConferenceSwitcher'
+import UserMenu from './UserMenu'
+import { useEffect, useState } from 'react'
+import { api } from '../lib/api'
+import { useAuth } from '../lib/auth'
+import { lastSeenKey } from '../pages/Activity'
 import { Bookmark, Folder, Mic, Search, Table } from './Icons'
 import { useConference } from '../lib/conference'
 
@@ -8,6 +13,21 @@ export default function NavBar() {
   const { items } = useShortlist()
   const { current } = useConference()
   const onGlance = useLocation().pathname === '/at-a-glance'
+  const { team } = useAuth()
+  const [fresh, setFresh] = useState(0)
+  // Count team activity since this browser last opened "What's new" (checked every minute).
+  useEffect(() => {
+    if (!current) return
+    const check = () => api.activity(current.id).then((a) => {
+      const since = localStorage.getItem(lastSeenKey(team, current.id)) ?? ''
+      setFresh(since ? a.filter((i) => i.ts > since).length : Math.min(a.length, 9))
+    }).catch(() => {})
+    check()
+    const t = window.setInterval(check, 60_000)
+    const seen = () => setFresh(0)
+    window.addEventListener('speakerScout:seen', seen)
+    return () => { window.clearInterval(t); window.removeEventListener('speakerScout:seen', seen) }
+  }, [current, team])
   return (
     <header className="site-header">
       <div className="container header-inner">
@@ -24,11 +44,13 @@ export default function NavBar() {
             Shortlist {items.length > 0 && <span className="nav-count">{items.length}</span>}
           </NavLink>
           <NavLink to="/searches">Past searches</NavLink>
+          <NavLink to="/activity">What's new {fresh > 0 && <span className="nav-count nav-new">{fresh > 9 ? '9+' : fresh}</span>}</NavLink>
           <NavLink to="/how-it-works">How it works</NavLink>
         </nav>
         <span className="header-spacer" />
         <ConferenceSwitcher />
         <Link to="/" className="btn btn-primary btn-sm header-cta"><Search size={15} /> New search</Link>
+        <UserMenu />
       </div>
       <div className="conf-bar">
         <div className="container conf-bar-inner">

@@ -9,7 +9,7 @@ export default function SiteFooter() {
 
   async function startOver() {
     const typed = window.prompt(
-      'Start over clears every saved search and your whole shortlist.\n\nType "start over" to confirm.',
+      'Start over clears your team\'s conferences, saved searches, shortlists and panels.\n\nType "start over" to confirm.',
     )
     if (typed?.trim().toLowerCase() !== 'start over') return
     try {

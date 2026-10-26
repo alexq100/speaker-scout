@@ -5,6 +5,8 @@ or just the API:                cd backend && ../.venv/bin/uvicorn main:app --po
 
 Routes
   GET    /api/health                      is the API up, and is the key set?
+  POST   /api/auth/signup | login | logout, GET /api/auth/me, /api/auth/status   team accounts (see auth_guard)
+  GET    /api/activity                    what's new: who added which speakers, outreach updates, panel changes
   GET    /api/conferences                 conferences (the main buckets) with counts
   POST   /api/conferences                 new conference  {name}
   PATCH  /api/conferences/{id}            rename  {name}
@@ -68,7 +70,69 @@ from agents import SpeakerScout  # noqa: E402
 from examples import EXAMPLES  # noqa: E402
 from models import ALL_CATEGORIES, CATEGORY_LABELS, SearchBrief, SearchResult, SpeakerCard  # noqa: E402
 
-app = FastAPI(title="Speaker Scout API", version="1.0")
+# ============================================================================
+# Team accounts: every /api route except health, options and auth needs a logged-in team session.
+# The guard below also checks that any conference / search / shortlist item / panel / note named in the
+# URL belongs to the logged-in team, so one team can never see or change another team's work.
+# ============================================================================
+
+import contextvars  # noqa: E402
+
+from fastapi import Depends, Request  # noqa: E402
+
+_ws: contextvars.ContextVar[int | None] = contextvars.ContextVar("workspace", default=None)
+_actor: contextvars.ContextVar[str] = contextvars.ContextVar("actor", default="")
+PUBLIC_PATHS = {"/api/health", "/api/options", "/api/auth/signup", "/api/auth/login", "/api/auth/status"}
+PATH_OWNERS = {"conference_id": "conference", "search_id": "search", "item_id": "item", "group_id": "group", "note_id": "note"}
+
+
+def _token(request: Request) -> str:
+    auth = request.headers.get("authorization", "")
+    return auth[7:].strip() if auth.lower().startswith("bearer ") else ""
+
+
+async def auth_guard(request: Request) -> None:
+    path = request.url.path
+    if not path.startswith("/api/") or path in PUBLIC_PATHS:
+        return
+    account = store.session_account(_token(request))
+    if account is None:
+        raise HTTPException(401, "Please log in.")
+    _ws.set(account["id"])
+    actor = " ".join(request.headers.get("x-actor", "").split())[:60]
+    _actor.set(actor or account["username"])
+    for param, kind in PATH_OWNERS.items():
+        if param in request.path_params:
+            key = request.path_params[param]
+            if store.workspace_of(kind, int(key) if kind != "search" else key) != account["id"]:
+                raise HTTPException(404, "Not found.")
+
+
+def ws() -> int:
+    w = _ws.get()
+    if w is None:
+        raise HTTPException(401, "Please log in.")
+    return w
+
+
+def actor() -> str:
+    return _actor.get()
+
+
+def own(kind: str, key: Any) -> None:
+    """Raise 404 unless this team owns the thing (for ids that arrive in a request body)."""
+    if store.workspace_of(kind, key) != ws():
+        raise HTTPException(404, "Not found.")
+
+
+def activity(conference_id: int | None, kind: str, text: str) -> None:
+    try:
+        store.log_activity(ws(), conference_id, actor(), kind, text)
+    except HTTPException:
+        pass
+
+
+app = FastAPI(title="Speaker Scout API", version="1.0", dependencies=[Depends(auth_guard)])
 app.add_middleware(CORSMiddleware, allow_origins=config.CORS_ORIGINS, allow_methods=["*"], allow_headers=["*"])
 
 _scout: SpeakerScout | None = None
@@ -84,10 +148,13 @@ def scout() -> SpeakerScout:
 
 
 def conf_id(conference_id: int | None) -> int:
-    """The conference a request is about: the one given, or the default if none was given."""
+    """The conference a request is about: the one given (must belong to this team), or the team's first one."""
     if conference_id is None:
-        return store.default_conference_id()
-    if not store.conference_exists(conference_id):
+        cid = store.default_conference_id(ws())
+        if cid is None:
+            raise HTTPException(404, "No conference yet.")
+        return cid
+    if store.workspace_of("conference", conference_id) != ws():
         raise HTTPException(404, "No such conference.")
     return conference_id
 
@@ -123,6 +190,64 @@ def options() -> dict[str, Any]:
 # ============================================================================
 
 # ============================================================================
+# Auth
+# ============================================================================
+
+class SignUp(BaseModel):
+    team_name: str = Field(min_length=1, max_length=80)
+    username: str = Field(min_length=3, max_length=40, pattern=r"^[A-Za-z0-9._-]+$")
+    password: str = Field(min_length=8, max_length=200)
+
+
+class LogIn(BaseModel):
+    username: str = Field(max_length=40)
+    password: str = Field(max_length=200)
+
+
+@app.get("/api/auth/status")
+def auth_status() -> dict[str, Any]:
+    """Whether any team account exists yet (the first one adopts work saved before accounts existed)."""
+    return {"accounts": store.account_count()}
+
+
+@app.post("/api/auth/signup")
+def signup(req: SignUp) -> dict[str, Any]:
+    try:
+        acct = store.create_account(req.team_name.strip(), req.username.strip(), req.password)
+    except ValueError as e:
+        raise HTTPException(409, str(e))
+    return {"token": store.create_session(acct["id"]), "team_name": acct["team_name"], "username": acct["username"],
+            "adopted_conferences": acct["adopted_conferences"]}
+
+
+@app.post("/api/auth/login")
+def login(req: LogIn) -> dict[str, Any]:
+    acct, reason = store.verify_login(req.username.strip(), req.password)
+    if acct is None:
+        raise HTTPException(401, reason)
+    return {"token": store.create_session(acct["id"]), "team_name": acct["team_name"], "username": acct["username"]}
+
+
+@app.post("/api/auth/logout")
+def logout(request: Request) -> dict[str, Any]:
+    store.delete_session(_token(request))
+    return {"ok": True}
+
+
+@app.get("/api/auth/me")
+def me(request: Request) -> dict[str, Any]:
+    acct = store.session_account(_token(request))
+    return {"team_name": acct["team_name"], "username": acct["username"], "actor": actor()}
+
+
+@app.get("/api/activity")
+def get_activity(conference_id: int | None = None, limit: int = 100) -> list[dict[str, Any]]:
+    """What's new: searches run, speakers added, outreach updates, panels changed, and who did it."""
+    cid = conf_id(conference_id) if conference_id is not None else None
+    return store.list_activity(ws(), cid, min(limit, 300))
+
+
+# ============================================================================
 # Conferences: the main buckets (each has its own searches, shortlist and panels)
 # ============================================================================
 
@@ -132,12 +257,14 @@ class ConferenceName(BaseModel):
 
 @app.get("/api/conferences")
 def list_conferences() -> list[dict[str, Any]]:
-    return store.list_conferences()
+    return store.list_conferences(ws())
 
 
 @app.post("/api/conferences")
 def create_conference(req: ConferenceName) -> dict[str, Any]:
-    return store.create_conference(req.name.strip())
+    c = store.create_conference(req.name.strip(), ws())
+    activity(c["id"], "conference", f"created the conference \"{c['name']}\"")
+    return c
 
 
 @app.patch("/api/conferences/{conference_id}")
@@ -206,8 +333,9 @@ async def check_balance(conference_id: int) -> dict[str, Any]:
            "by_speaking": dict(Counter(k.speaking_badge for _, k in cards)),
            "by_location": dict(Counter((k.location or "unknown").split(",")[-1].strip() for _, k in cards).most_common(8))}
     pool = _candidate_pool(cid, {name_key(k.name) for _, k in cards}, items)
-    conference = next((c["name"] for c in store.list_conferences() if c["id"] == cid), "")
+    conference = next((c["name"] for c in store.list_conferences(ws()) if c["id"] == cid), "")
     review = await scout().review_program(conference, sessions, pool, mix)
+    activity(cid, "review", f"checked program balance: {review.verdict.replace('_', ' ')} ({review.score}/5)")
     store.set_balance(cid, review.model_dump_json())
     return review.model_dump()
 
@@ -270,6 +398,7 @@ async def start_search(req: StartSearch) -> dict[str, Any]:
     store.save_search(SearchResult(id=search_id, status="running", brief=req.brief, model=config.MODEL_NAME,
                                    created_at=store._now()), cid)
     _tasks[search_id] = asyncio.create_task(_run(search_id, req.brief))
+    activity(cid, "search", f"started a search: \"{(req.brief.panel_theme or req.brief.conference_theme)[:120]}\"")
     await asyncio.sleep(0)  # let the run start so the live object exists
     return {"id": search_id, "reused": False}
 
@@ -357,7 +486,7 @@ def save_panel(search_id: str, index: int) -> dict[str, Any]:
         raise HTTPException(404, "No such suggested panel.")
     panel = result.panels[index]
     cards = {(c.category, card.name): card for c in result.categories for card in c.cards}
-    cid = store.search_conference(search_id) or store.default_conference_id()
+    cid = store.search_conference(search_id) or store.default_conference_id(ws())
     group = store.create_group(cid, panel.title[:80], panel.question[:200])
     people = list(panel.members) + ([panel.moderator] if panel.moderator else [])
     for m in people:
@@ -365,10 +494,11 @@ def save_panel(search_id: str, index: int) -> dict[str, Any]:
         if card is None:
             continue
         note = "Suggested moderator. " + m.angle if panel.moderator and m is panel.moderator else m.angle
-        item = store.add_to_shortlist(cid, search_id, m.category, card)
+        item = store.add_to_shortlist(cid, search_id, m.category, card, added_by=actor())
         if not item["note"]:
             store.update_note(item["id"], note[:500])
         store.move_item(item["id"], group["id"])
+    activity(cid, "panel", f"saved the suggested panel \"{panel.title}\" ({len(people)} people)")
     return {"group": store.update_group(group["id"], None, None)}
 
 
@@ -395,6 +525,7 @@ def get_shortlist(conference_id: int | None = None) -> list[dict[str, Any]]:
 @app.post("/api/shortlist")
 def add_to_shortlist(req: AddToShortlist) -> dict[str, Any]:
     # The card always comes from a saved search, never from the request, so nobody can inject a fake card.
+    own("search", req.search_id)
     result = _live.get(req.search_id) or store.get_search(req.search_id)
     if result is None:
         raise HTTPException(404, "No search with that id.")
@@ -403,8 +534,10 @@ def add_to_shortlist(req: AddToShortlist) -> dict[str, Any]:
             for card in cr.cards:
                 if card.name == req.name:
                     # Saved into the conference the search belongs to.
-                    cid = store.search_conference(req.search_id) or store.default_conference_id()
-                    return store.add_to_shortlist(cid, req.search_id, req.category, card, req.note)
+                    cid = store.search_conference(req.search_id) or store.default_conference_id(ws())
+                    item = store.add_to_shortlist(cid, req.search_id, req.category, card, req.note, added_by=actor())
+                    activity(cid, "shortlist", f"added {card.name} ({card.job_title}, {card.organization}) to the shortlist")
+                    return item
     raise HTTPException(404, "That speaker isn't in that search.")
 
 
@@ -427,6 +560,8 @@ def update_outreach(item_id: int, req: OutreachUpdate) -> dict[str, Any]:
     item = store.update_outreach(item_id, req.status, req.notes)
     if item is None:
         raise HTTPException(404, "Not on the shortlist.")
+    if req.status:
+        activity(item["conference_id"], "outreach", f"set {item['name']} to {req.status.replace('_', ' ')}")
     return item
 
 
@@ -471,6 +606,7 @@ def add_log(item_id: int, req: LogNote) -> dict[str, Any]:
     item = store.add_log_note(item_id, req.text.strip())
     if item is None:
         raise HTTPException(404, "Not on the shortlist.")
+    activity(item["conference_id"], "outreach", f"logged outreach for {item['name']}: {req.text.strip()[:120]}")
     return item
 
 
@@ -485,7 +621,7 @@ async def draft_email(item_id: int, req: DraftRequest) -> dict[str, Any]:
     item = store.get_item(item_id)
     if item is None:
         raise HTTPException(404, "Not on the shortlist.")
-    conference = next((c["name"] for c in store.list_conferences() if c["id"] == item["conference_id"]), "")
+    conference = next((c["name"] for c in store.list_conferences(ws()) if c["id"] == item["conference_id"]), "")
     group = store.get_group(item["group_id"]) if item["group_id"] else None
     draft = await scout().draft_email(item, conference, group, req.sender_name.strip(), req.notes.strip())
     return store.update_planning(item_id, {"draft": draft.model_dump()})
@@ -513,6 +649,7 @@ _chat_busy: set[str] = set()
 async def speaker_chat(req: SpeakerChat) -> dict[str, Any]:
     """Ask a question about one speaker. The card is loaded from the saved search (never taken from the
     request), the agent may run up to 2 web searches, and every source is checked against pages it saw."""
+    own("search", req.search_id)
     result = _live.get(req.search_id) or store.get_search(req.search_id)
     card = next((c for cr in (result.categories if result else []) if cr.category == req.category
                  for c in cr.cards if c.name == req.name), None)
@@ -548,6 +685,8 @@ def add_speaker_note(item_id: int, req: NewNote) -> dict[str, Any]:
     note = store.add_speaker_note(item_id, req.text.strip(), req.origin, req.question.strip(), sources)
     if note is None:
         raise HTTPException(404, "Not on the shortlist.")
+    it = store.get_item(item_id)
+    activity(it["conference_id"], "notes", f"added a {'chat' if req.origin == 'chat' else ''} note on {it['name']}".replace("a  note", "a note"))
     return note
 
 
@@ -566,6 +705,9 @@ class MoveRequest(BaseModel):
 def move_item(item_id: int, req: MoveRequest) -> dict[str, Any]:
     try:
         item = store.move_item(item_id, req.group_id)
+        if item:
+            dest = store.get_group(req.group_id)["name"] if req.group_id else "Unsorted"
+            activity(item["conference_id"], "panel", f"moved {item['name']} to {dest}")
     except KeyError:
         raise HTTPException(404, "No such panel in this conference.")
     if item is None:
@@ -596,7 +738,9 @@ def list_groups(conference_id: int | None = None) -> list[dict[str, Any]]:
 
 @app.post("/api/groups")
 def create_group(req: NewGroup) -> dict[str, Any]:
-    return store.create_group(conf_id(req.conference_id), req.name.strip(), req.theme.strip())
+    g = store.create_group(conf_id(req.conference_id), req.name.strip(), req.theme.strip())
+    activity(g["conference_id"], "panel", f"created the panel \"{g['name']}\"")
+    return g
 
 
 @app.patch("/api/groups/{group_id}")
@@ -659,6 +803,7 @@ class MoveGroup(BaseModel):
 @app.post("/api/groups/{group_id}/move")
 def move_group(group_id: int, req: MoveGroup) -> dict[str, Any]:
     """Move a panel and its people to another conference."""
+    conf_id(req.conference_id)   # target conference must belong to this team
     outcome = store.move_group(group_id, req.conference_id)
     if outcome in ("missing", "no_conference"):
         raise HTTPException(404, "No such panel or conference.")
@@ -671,7 +816,10 @@ def move_group(group_id: int, req: MoveGroup) -> dict[str, Any]:
 
 @app.delete("/api/groups/{group_id}")
 def delete_group(group_id: int) -> dict[str, Any]:
+    g = store.get_group(group_id)
     outcome = store.delete_group(group_id)
+    if outcome == "deleted" and g:
+        activity(g["conference_id"], "panel", f"deleted the panel \"{g['name']}\"")
     if outcome == "missing":
         raise HTTPException(404, "No such panel.")
     if outcome == "protected":
@@ -681,6 +829,9 @@ def delete_group(group_id: int) -> dict[str, Any]:
 
 @app.delete("/api/shortlist/{item_id}")
 def remove_from_shortlist(item_id: int) -> dict[str, Any]:
+    it = store.get_item(item_id)
+    if it:
+        activity(it["conference_id"], "shortlist", f"removed {it['name']} from the shortlist")
     if not store.remove_from_shortlist(item_id):
         raise HTTPException(404, "Not on the shortlist.")
     return {"removed": True}
@@ -700,6 +851,6 @@ def reset(req: ResetRequest) -> dict[str, Any]:
         raise HTTPException(400, 'To clear everything, send {"confirm": "start over"}.')
     if running_id() is not None:
         raise HTTPException(409, "Stop the running search first.")
-    store.reset()
-    audit.write("reset")
+    store.reset(ws())
+    audit.write("reset", workspace=ws())
     return {"reset": True}

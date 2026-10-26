@@ -9,15 +9,28 @@ export class ApiError extends Error {
   }
 }
 
+export const TOKEN_KEY = 'speakerScout.token'
+export const ACTOR_KEY = 'speakerScout.actor'
+
 async function call<T>(path: string, init?: RequestInit): Promise<T> {
   let res: Response
+  const token = localStorage.getItem(TOKEN_KEY)
+  const actor = localStorage.getItem(ACTOR_KEY)
   try {
     res = await fetch(`/api${path}`, {
       ...init,
-      headers: { 'Content-Type': 'application/json', ...(init?.headers ?? {}) },
+      headers: {
+        'Content-Type': 'application/json',
+        ...(token ? { Authorization: `Bearer ${token}` } : {}),
+        ...(actor ? { 'X-Actor': actor } : {}),
+        ...(init?.headers ?? {}),
+      },
     })
   } catch {
     throw new ApiError(0, "Can't reach the Speaker Scout server. Is ./start.sh running?")
+  }
+  if (res.status === 401 && !path.startsWith('/auth/')) {
+    window.dispatchEvent(new Event('speakerScout:logged-out'))
   }
   if (!res.ok) {
     let message = `Something went wrong (${res.status}).`
@@ -33,7 +46,18 @@ async function call<T>(path: string, init?: RequestInit): Promise<T> {
   return res.json() as Promise<T>
 }
 
+export interface AuthResult { token: string; team_name: string; username: string; adopted_conferences?: number }
+export interface ActivityItem { id: number; ts: string; actor: string; kind: string; text: string; conference_id: number | null; conference_name: string | null }
+
 export const api = {
+  authStatus: () => call<{ accounts: number }>('/auth/status'),
+  signup: (team_name: string, username: string, password: string) =>
+    call<AuthResult>('/auth/signup', { method: 'POST', body: JSON.stringify({ team_name, username, password }) }),
+  login: (username: string, password: string) =>
+    call<AuthResult>('/auth/login', { method: 'POST', body: JSON.stringify({ username, password }) }),
+  logout: () => call<{ ok: boolean }>('/auth/logout', { method: 'POST' }),
+  me: () => call<{ team_name: string; username: string; actor: string }>('/auth/me'),
+  activity: (conferenceId: number | null) => call<ActivityItem[]>(`/activity${conferenceId ? `?conference_id=${conferenceId}` : ''}`),
   options: () => call<Options>('/options'),
   conferences: () => call<Conference[]>('/conferences'),
   createConference: (name: string) => call<Conference>('/conferences', { method: 'POST', body: JSON.stringify({ name }) }),

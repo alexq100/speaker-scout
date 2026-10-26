@@ -2,6 +2,7 @@ import { useEffect } from 'react'
 import { Route, Routes, useLocation } from 'react-router-dom'
 import NavBar from './components/NavBar'
 import SiteFooter from './components/SiteFooter'
+import Activity from './pages/Activity'
 import AtAGlance from './pages/AtAGlance'
 import History from './pages/History'
 import Home from './pages/Home'
@@ -36,6 +37,7 @@ export default function App() {
           <Route path="/print/conference" element={<PrintConference />} />
           <Route path="/searches" element={<History />} />
           <Route path="/how-it-works" element={<HowItWorks />} />
+          <Route path="/activity" element={<Activity />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>

@@ -294,3 +294,16 @@ All were tested: the program review on my General conference (about 6k tokens), 
 **Why a follow-up was needed:** The committee one-pager clipped each speaker's bio after four lines, so key details were missing from the printout.
 
 **Result:** Claude removed the four-line limit, so each speaker's full bio prints. It dropped the "Has spoken at" line (the speaking badge now appears in the details line instead), made the photo and text slightly smaller, and checked that every General panel still fits on one letter page (the longest uses 9.5 of 10 printable inches) with no text cut off.
+
+## Step 19: Team Logins and Activity Feed
+
+### Prompt
+
+> i also want this to be something that can be collaborative with other people on the team. can you make a log in creditentials at the top so people can log in and see their saved progress and speakers. this way multiple people could log in with one user name and see what is happening and what new people were added
+
+**Result:** Claude added team logins:
+- One account per planning team that teammates share (salted PBKDF2 passwords, 14-day sessions, lockout after 5 wrong tries), and each team's work kept separate by a guard on every API route.
+- A "your name" field per browser, a header user menu with log-out, "Added by" on shortlist cards, and a **What's new** activity feed (with a count of new items) showing who added speakers, updated outreach, changed panels or ran searches.
+- The first account created adopts the work already saved.
+
+Following my HW5 rule, Claude never created an account in the real app. It tested only in a scratch copy of the database on separate ports, then deleted it and confirmed the real database has 0 accounts. 21 safety tests pass, including new login and team-isolation tests. **I need to create our real team account myself on the login screen.**

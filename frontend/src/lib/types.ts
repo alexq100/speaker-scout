@@ -173,6 +173,7 @@ export interface ShortlistItem {
   checklist: Record<string, boolean>
   draft: EmailDraft | null
   last_outreach_at: string | null
+  added_by?: string
   card: SpeakerCard
 }
 

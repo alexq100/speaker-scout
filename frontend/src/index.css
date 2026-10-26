@@ -536,6 +536,245 @@ button {
   flex: 1;
 }
 
+/* Login */
+.login-page {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 40px 16px;
+  background:
+    radial-gradient(1000px 500px at 85% -10%, rgba(40, 109, 192, 0.5), transparent 60%),
+    linear-gradient(160deg, var(--yale-blue) 0%, var(--yale-blue-deep) 100%);
+}
+
+.login-card {
+  width: min(460px, 100%);
+  padding: 30px 32px 24px;
+  border-radius: 18px;
+  background: #fff;
+  box-shadow: var(--shadow-lg);
+}
+
+.login-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 22px;
+}
+
+.login-brand .brand-mark {
+  width: 46px;
+  height: 46px;
+}
+
+.login-brand .brand-name {
+  display: block;
+  color: var(--yale-blue);
+}
+
+.login-brand .brand-sub {
+  display: block !important;
+}
+
+.login-tabs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4px;
+  padding: 4px;
+  border-radius: 10px;
+  background: var(--panel);
+  margin-bottom: 18px;
+}
+
+.login-tabs button {
+  border: 0;
+  border-radius: 8px;
+  padding: 9px;
+  background: transparent;
+  font-weight: 700;
+  font-size: 0.88rem;
+  color: var(--muted);
+}
+
+.login-tabs button.on {
+  background: #fff;
+  color: var(--yale-blue);
+  box-shadow: var(--shadow-sm);
+}
+
+.login-form {
+  display: grid;
+  gap: 14px;
+}
+
+.login-note {
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+  margin: 0;
+  padding: 10px 12px;
+  border-radius: 9px;
+  background: var(--tint-2);
+  font-size: 0.84rem;
+  color: var(--yale-blue);
+}
+
+.login-note svg {
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.login-foot {
+  margin: 16px 0 0;
+  font-size: 0.76rem;
+  color: var(--faint);
+  text-align: center;
+}
+
+/* User menu */
+.user-menu {
+  position: relative;
+}
+
+.user-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 5px 10px 5px 6px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: #fff;
+  color: var(--text);
+}
+
+.user-btn:hover {
+  border-color: var(--yale-blue);
+}
+
+.user-avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--tint);
+  color: var(--yale-blue);
+  display: grid;
+  place-items: center;
+}
+
+.user-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 1.1;
+  max-width: 120px;
+}
+
+.user-text small {
+  font-size: 0.62rem;
+  color: var(--faint);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 120px;
+}
+
+.user-text strong {
+  font-size: 0.82rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 120px;
+}
+
+.user-pop {
+  width: 300px;
+}
+
+.user-team {
+  margin: 0 8px 12px;
+  font-size: 0.9rem;
+}
+
+.user-team small {
+  color: var(--faint);
+}
+
+.user-pop form {
+  padding: 0 8px;
+}
+
+.nav-new {
+  background: var(--bad);
+}
+
+.added-by {
+  color: var(--faint);
+  font-size: 0.8rem;
+}
+
+/* Activity feed */
+.activity-list {
+  list-style: none;
+  display: grid;
+  gap: 2px;
+  max-width: 860px;
+}
+
+.activity-list li {
+  display: flex;
+  gap: 14px;
+  padding: 12px 16px;
+  border-radius: 10px;
+  background: #fff;
+  border: 1px solid var(--line-soft);
+}
+
+.activity-list li.fresh {
+  background: var(--tint-2);
+  border-color: #c9d8eb;
+}
+
+.activity-list p {
+  margin: 0;
+  font-size: 0.93rem;
+}
+
+.activity-list small {
+  color: var(--faint);
+  font-size: 0.78rem;
+}
+
+.act-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
+  background: var(--tint);
+  color: var(--yale-blue);
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+}
+
+.act-outreach {
+  background: #efeafb;
+  color: #5b3fa0;
+}
+
+.act-shortlist {
+  background: var(--good-tint);
+  color: var(--good);
+}
+
+.act-new {
+  margin-left: 8px;
+  padding: 1px 7px;
+  border-radius: 999px;
+  background: var(--yale-blue);
+  color: #fff;
+  font-size: 0.68rem;
+  font-weight: 700;
+}
+
 /* Conference bar (under the header) */
 .conf-bar {
   background: var(--tint-2);
@@ -5104,6 +5343,9 @@ button.flag-chip {
 
 @media (max-width: 1320px) {
   .brand-sub {
+    display: none;
+  }
+  .user-text {
     display: none;
   }
   .header-inner {

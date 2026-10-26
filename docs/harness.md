@@ -58,6 +58,8 @@ The complete guide to how the app works: the one place to start. Each part has i
 | `POST /api/groups/{id}/move` `{conference_id}` | Moves a panel and its people (with notes) to another conference; people already saved there are reused, not duplicated. Keynote groups can't be moved (409). |
 | `POST /api/searches/{id}/move` `{conference_id}` | Files a saved search under another conference |
 | `GET /api/searches/{id}/conference` | Which conference a search belongs to |
+| `POST /api/auth/signup` `{team_name, username, password}` / `POST /api/auth/login` / `POST /api/auth/logout` / `GET /api/auth/me` / `GET /api/auth/status` | Team accounts. All other routes need `Authorization: Bearer <token>`; `X-Actor` carries the person's display name |
+| `GET /api/activity?conference_id=` | The team's activity feed (who did what) |
 | `GET /api/health` | Is the API up, is the key set, and is a search running? |
 | `GET /api/options` | Categories, the 3 example briefs, limits (for the form) |
 | `POST /api/searches` `{brief, force?}` | Starts a search in the background and returns `{id, reused}`. The same brief within 7 days returns the saved result **for free** (`reused: true`) unless `force`. |

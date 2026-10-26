@@ -184,11 +184,45 @@ def test_only_gpt6_luna_is_allowed():
 
 @pytest.fixture()
 def client(tmp_path, monkeypatch):
+    """A scratch database only: test accounts are never created in the real data/scout.db."""
     import store
     monkeypatch.setattr(store, "DB_PATH", tmp_path / "scout.db")
     import main
     from fastapi.testclient import TestClient
-    return TestClient(main.app), store
+    c = TestClient(main.app)
+    tok = c.post("/api/auth/signup", json={"team_name": "Test team", "username": "test-team-a",
+                                           "password": "correct horse battery"}).json()["token"]
+    c.headers.update({"Authorization": f"Bearer {tok}", "X-Actor": "Tester"})
+    return c, store
+
+
+def test_login_required_and_teams_are_isolated(tmp_path, monkeypatch):
+    import store
+    monkeypatch.setattr(store, "DB_PATH", tmp_path / "scout.db")
+    import main
+    from fastapi.testclient import TestClient
+    anon = TestClient(main.app)
+    assert anon.get("/api/conferences").status_code == 401                 # must log in
+    assert anon.get("/api/health").status_code == 200                      # health stays public
+    a = anon.post("/api/auth/signup", json={"team_name": "A", "username": "team-a", "password": "password-aaaa"}).json()
+    b = anon.post("/api/auth/signup", json={"team_name": "B", "username": "team-b", "password": "password-bbbb"}).json()
+    ta, tb = TestClient(main.app), TestClient(main.app)
+    ta.headers["Authorization"] = f"Bearer {a['token']}"
+    tb.headers["Authorization"] = f"Bearer {b['token']}"
+    conf_a = ta.get("/api/conferences").json()[0]["id"]
+    assert all(c["id"] != conf_a for c in tb.get("/api/conferences").json())  # B can't list A's conferences
+    assert tb.get(f"/api/groups?conference_id={conf_a}").status_code == 404   # ...or read them
+    assert tb.post(f"/api/conferences/{conf_a}/balance").status_code == 404
+    assert tb.delete(f"/api/conferences/{conf_a}").status_code == 404
+    # passwords are stored only as salted hashes
+    import sqlite3
+    row = sqlite3.connect(store.DB_PATH).execute("SELECT pw_hash, salt FROM accounts WHERE username='team-a'").fetchone()
+    assert "password-aaaa" not in row[0] and len(row[1]) == 32
+    # five wrong passwords lock the account
+    for _ in range(5):
+        anon.post("/api/auth/login", json={"username": "team-a", "password": "wrong"})
+    r = anon.post("/api/auth/login", json={"username": "team-a", "password": "password-aaaa"})
+    assert r.status_code == 401 and "Too many" in r.json()["detail"]
 
 
 def test_api_guards(client):
@@ -201,6 +235,7 @@ def test_api_guards(client):
     only = c.get("/api/conferences").json()[0]
     assert c.delete(f"/api/conferences/{only['id']}").status_code == 409          # can't delete the last one
     other = c.post("/api/conferences", json={"name": "Other"}).json()
+    assert c.get("/api/activity").json()[0]["actor"] == "Tester"            # activity records who did it
     panel = c.post("/api/groups", json={"name": "P", "conference_id": other["id"]}).json()
     from models import SearchBrief, SearchResult
     r = SearchResult(id="s1", status="done", brief=SearchBrief(conference_theme="test theme"), model="gpt-6-luna",
