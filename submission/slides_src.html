@@ -134,20 +134,13 @@
 <!-- 4 · Agents -->
 <section>
   <div class="eyebrow">How the agents work</div>
-  <h2>14 agents per search, in a fixed pipeline</h2>
+  <h2>14 agents per search, plus 5 on demand</h2>
   <div class="body">
-<div class="cols" style="grid-template-columns:1.75fr 1fr;gap:30px;align-items:center">
-    <div>{{svg:pipeline}}</div>
-    <div>
-      <ul class="clean small">
-        <li><b>Scout Lead</b> turns the brief into 2–3 search angles per sector</li>
-        <li><b>6 Searchers</b> search the web in parallel (max 4 searches each)</li>
-        <li><b>6 Verifiers</b> read each person's pages, confirm name and role, pick a real photo, flag injection</li>
-        <li><b>Code checks</b> drop invented links, weak titles and listing-only people</li>
-        <li><b>Panel Architect</b> designs panels from verified people only</li>
-      </ul>
-      <p class="small muted" style="margin-top:6px">All agents use <b>gpt-6-luna</b> (cheap, built-in web search). No agent can call another, so nothing loops.</p>
-    </div>
+  <div style="width:1010px;margin:0 auto">{{svg:pipeline}}</div>
+  <div class="cols c3" style="gap:26px;margin-top:18px">
+    <p class="small"><b>Search:</b> the Scout Lead plans, then 6 Searcher → Verifier pairs run in parallel. Verifiers read each person's pages and confirm name and role.</p>
+    <p class="small"><b>Code checks</b> drop invented links, weak titles and listing-only people. The Panel Architect designs panels from verified people only.</p>
+    <p class="small"><b>On demand:</b> reviewers, chat and the Email Writer use the saved shortlist. All agents use <b>gpt-6-luna</b>; no agent can call another.</p>
   </div>
 </div>
 </section>
@@ -266,6 +259,7 @@
       <ul class="clean small" style="margin-top:8px">
         <li><b>Host it</b> (Azure or Render) for the whole Yale team</li>
         <li><b>Timed study:</b> 5 planners, by hand vs. Scout</li>
+        <li><b>Marketing assets</b> from confirmed speakers: announcement cards, social posts, bios</li>
         <li><b>Calendar and email integration</b>, still sent by a human</li>
         <li><b>Speaker memory</b> across conferences, plus reuse of verified cards</li>
       </ul>

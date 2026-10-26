@@ -57,7 +57,7 @@
   .src { font-size: 8.5pt; color: var(--gray); }
   .toc { columns: 2; font-size: 10pt; margin: 10px 0 0; padding-left: 18px; }
   code { font-size: 9pt; background: #f2f4f7; padding: 1px 4px; border-radius: 4px; }
-  footer { margin-top: 30px; padding-top: 10px; border-top: 1px solid var(--line); font-size: 8.5pt; color: var(--gray); }
+  footer { margin-top: 10px; padding-top: 6px; border-top: 1px solid var(--line); font-size: 8.5pt; color: var(--gray); }
   @media print {
     body { background:#fff; }
     .page { box-shadow:none; max-width:none; padding: 0; }
@@ -154,7 +154,7 @@
 <h3>Organization</h3>
 <p>A search runs a fixed pipeline. The <b>Scout Lead</b> plans; then <b>six Category Searcher → Category Verifier pairs</b> run side by side (each Verifier starts as soon as its own Searcher finishes); then <b>code checks</b> clean the results; then the <b>Panel Architect</b> proposes panels. No agent can call another agent, so the team can't loop or hand work around endlessly. Four more agents support the planning workflow on demand.</p>
 <figure>
-<svg viewBox="0 0 760 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" style="width:100%;border:1px solid #dde3ea;border-radius:8px;background:#f3f7fc">
+<svg viewBox="0 0 990 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" style="width:100%;border:1px solid #dde3ea;border-radius:8px;background:#f3f7fc">
   <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#00356b"/></marker></defs>
   <rect x="280" y="12" width="200" height="40" rx="8" fill="#00356b"/><text x="380" y="30" fill="#fff" font-size="13" text-anchor="middle" font-weight="700">Planner's brief (form)</text><text x="380" y="45" fill="#cfe0f5" font-size="9.5" text-anchor="middle">theme · keynote/panel · location · budget</text>
   <line x1="380" y1="52" x2="380" y2="72" stroke="#00356b" stroke-width="2" marker-end="url(#a)"/>
@@ -176,8 +176,21 @@
   <rect x="150" y="316" width="220" height="36" rx="8" fill="#00356b"/><text x="260" y="338" fill="#fff" font-size="12" text-anchor="middle" font-weight="700">Verified speaker cards</text>
   <rect x="390" y="316" width="220" height="36" rx="8" fill="#fff" stroke="#00356b" stroke-width="1.5"/><text x="500" y="338" fill="#00356b" font-size="12" text-anchor="middle" font-weight="700">Panel Architect → panels</text>
   <line x1="370" y1="334" x2="388" y2="334" stroke="#00356b" stroke-width="2" marker-end="url(#a)"/>
+
+  <g font-family="Helvetica, Arial, sans-serif">
+  <rect x="790" y="10" width="190" height="342" rx="10" fill="#fff" stroke="#286dc0" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="885" y="30" fill="#286dc0" font-size="10.5" text-anchor="middle" font-weight="700" letter-spacing=".06em">ON DEMAND, IN PLANNING</text>
+  <text x="885" y="44" fill="#5a5a5a" font-size="9" text-anchor="middle">uses verified cards + shortlist</text>
+  <rect x="802" y="56" width="166" height="46" rx="7" fill="#eaf0f8" stroke="#00356b"/><text x="885" y="76" fill="#00356b" font-size="11.5" text-anchor="middle" font-weight="700">Panel Reviewer</text><text x="885" y="91" fill="#5a5a5a" font-size="8.8" text-anchor="middle">critiques one panel · no web</text>
+  <rect x="802" y="114" width="166" height="46" rx="7" fill="#eaf0f8" stroke="#00356b"/><text x="885" y="134" fill="#00356b" font-size="11.5" text-anchor="middle" font-weight="700">Program Reviewer</text><text x="885" y="149" fill="#5a5a5a" font-size="8.8" text-anchor="middle">checks the whole program · no web</text>
+  <rect x="802" y="172" width="166" height="46" rx="7" fill="#eaf0f8" stroke="#00356b"/><text x="885" y="192" fill="#00356b" font-size="11.5" text-anchor="middle" font-weight="700">Replacement Finder</text><text x="885" y="207" fill="#5a5a5a" font-size="8.8" text-anchor="middle">fills a declined slot · no web</text>
+  <rect x="802" y="230" width="166" height="46" rx="7" fill="#eaf0f8" stroke="#00356b"/><text x="885" y="250" fill="#00356b" font-size="11.5" text-anchor="middle" font-weight="700">Speaker Chat</text><text x="885" y="265" fill="#5a5a5a" font-size="8.8" text-anchor="middle">research with sources · web</text>
+  <rect x="802" y="288" width="166" height="46" rx="7" fill="#eaf0f8" stroke="#00356b"/><text x="885" y="308" fill="#00356b" font-size="11.5" text-anchor="middle" font-weight="700">Email Writer</text><text x="885" y="323" fill="#5a5a5a" font-size="8.8" text-anchor="middle">drafts invitations · never sends</text>
+  <line x1="610" y1="334" x2="786" y2="334" stroke="#286dc0" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#a)"/>
+  <text x="698" y="326" fill="#286dc0" font-size="9.5" text-anchor="middle" font-weight="700">saved to Shortlist</text>
+  </g>
 </svg>
-<figcaption><b>Figure 1.</b> The search pipeline. Every agent is gpt-6-luna. The six Searcher → Verifier pairs run in parallel. Code checks run on everything the agents return.</figcaption>
+<figcaption><b>Figure 1.</b> All agents in Speaker Scout, every one gpt-6-luna. Left: the search pipeline (the six Searcher → Verifier pairs run in parallel, and code checks run on everything they return). Right: five agents the planner calls on demand once speakers are saved to the Shortlist.</figcaption>
 </figure>
 
 <h3>Each agent and its tools</h3>
@@ -315,12 +328,13 @@
 <ol class="steps">
   <li><b>Host it</b> (Azure or Render) with persistent storage and invite-only sign-up, so the whole Yale team can use it.</li>
   <li><b>A timed user study:</b> 5 planners, manual vs. Speaker Scout on the same brief, measuring time, number of usable speakers and diversity of sectors.</li>
+  <li><b>Marketing assets from confirmed speakers:</b> once a speaker confirms and their title and bio are final, generate speaker announcement cards, social posts, website speaker pages and program-booklet bios, all reviewed by a person before publishing.</li>
   <li><b>Calendar and email integration</b> (still human-sent), with automatic follow-up reminders.</li>
   <li><b>A shared speaker memory across conferences</b>, so past outreach ("declined in 2025, open to 2026") informs future searches.</li>
   <li><b>Smarter cost control:</b> cache verified people across searches and reuse their cards instead of re-verifying.</li>
 </ol>
 
-<h3 style="margin-top:28px">Sources</h3>
+<h3 style="margin-top:16px">Sources</h3>
 <ol class="src" style="padding-left:18px;font-size:8pt;line-height:1.35">
   <li>Smart Meetings and Meetings &amp; Conventions coverage of CareerCast's "Most Stressful Jobs"; Eventflare, "Event Coordinator: Why it's one of the most stressful jobs."</li>
   <li>PCMA Convene, "Are You Finding the Best Speakers for Your Events?" pcmaconvene.org</li>

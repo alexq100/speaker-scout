@@ -345,3 +345,11 @@ Following my HW5 rule, Claude never created an account in the real app. It teste
 > great! lets build the slides! please call it slides.html and use reveal.js , loaded from a CDN. 10 slides max, following the outline in my report and on the final project webpage. put the screen shots and diagrams right inside the file so it still works when emailed to someone. use a clean design simmilar to my app with big text and not too wordy. make it nice and clear and good and act as a professional slide deck builder
 
 **Result:** Claude wrote `submission/slides_src.html`, a 10-slide reveal.js deck (loaded from a CDN) in the app's Yale colors: title, problem, what's new, agent diagram, two demo slides, cost, safety, impact, and limits and next steps. `submission/build_slides.py` embeds the screenshots and the pipeline diagram to produce `submission/slides.html`. Every slide was checked at 1280×720.
+
+### Follow-up prompt
+
+> okay great! can you update the diagram wiht the agents to have all the agents (including the panel reviewer, speaker chat, and email writer) they cna just be off to the side but i want them to be included in the diagram. also for next steps i agree with what you put. i would also like to build out the site to have even more conference plannign functionalilty, like building some marketing assets with the speakers once we confirm them and get their titles and bios. what are othert ideas to add functionality to the conference planners?
+
+**Why a follow-up was needed:** the diagram only showed the search pipeline, not the agents used on demand during planning, and I wanted marketing assets added to next steps.
+
+**Result:** The agent diagram (report Figure 1 and slide 4) now has an "On demand, in planning" column with the Panel Reviewer, Program Reviewer, Replacement Finder, Speaker Chat and Email Writer. Marketing assets from confirmed speakers were added to next steps in both files. The report still prints to 15 pages. Claude also suggested more planning features to consider.
