@@ -371,3 +371,13 @@ Following my HW5 rule, Claude never created an account in the real app. It teste
 (Attached: screenshots of the Speaker level dropdown and the "Anything else the scouts should know?" box.)
 
 **Result:** Claude built all six of Leah Towery's suggestions: a "Specific industry areas" field, speaker level as checkboxes (several allowed; none = decide for me), no visible character limit on notes, "Goals of the conference" and "Ideal candidate" boxes, and, when "Ties to Yale / New Haven" is checked, a "Connection to Yale / New Haven" box on each profile with its source page, plus a "Yale tie" chip on the card. Code removes any Yale connection that has no page from the search behind it, and older saved searches still load. There are 2 new safety tests (23 of 23 pass). In a live test on a scratch copy (2 categories, 61 s, $0.014), 4 of 6 speakers came back with a sourced Yale connection, and the industries and the ideal-candidate description shaped who was found. The report, slides, PLAN.md and docs were updated with Leah's full name, the changes and the new test count. The report is still 15 pages.
+
+### Follow-up prompt
+
+> i also want in the full profile for the "why you can trust this" to be at the bottom so it doesnt clog up the top. 
+>
+> also, you can add this to the "add more feature" part of the report - leah said it would be helpful to have a way for the planners to add a specific person and then have the website build a profile for that person. maybe on the find people area have a drop down for "input specific speaker". you dont have to build this yet just add it to the report and such. when you are done with these please reveiw your report and slide deck and let me know what you think and grade it based on the course website's rubrics and tell me what you think and any changes we need to make.
+
+**Why a follow-up was needed:** the trust box took up the top of the profile, and Leah had one more feature idea for next steps. I also wanted a review against the rubric before submitting.
+
+**Result:** "Why you can trust this" moved to the bottom of the full profile, just above "How we checked". Leah's "input a specific speaker" idea (type a name, get a verified profile) was added to next steps in the report and slides and as a new "Future features" section in PLAN.md. The report is still 15 pages.

@@ -225,3 +225,9 @@ final_project/
 ```
 
 See also: [docs/conference_research.md](docs/conference_research.md) for who real conferences book and why it shaped these choices.
+
+## 13. Future features (not built yet)
+
+- **Input a specific speaker** (from Leah Towery, YBEC speaker outreach lead): an option on the search page where a planner types a name they already have in mind, and Speaker Scout builds a verified profile for that person, with the same checks, card, Yale connection and talk history as a searched speaker, ready to save to the shortlist.
+- **Marketing assets from confirmed speakers:** announcement cards, social posts, website speaker pages and program bios once titles and bios are final (a person approves before publishing).
+- Hosting, a timed user study, calendar and email integration (still sent by a human), and a speaker memory across conferences.

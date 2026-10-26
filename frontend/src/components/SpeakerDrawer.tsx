@@ -138,8 +138,6 @@ export default function SpeakerDrawer({ card, category, searchId, onClose, initi
             </section>
           )}
 
-          <TrustBox card={card} />
-
           <section className="d-section">
             <h3>Could speak on</h3>
             <div className="speak-on-box">{card.could_speak_on}</div>
@@ -225,6 +223,8 @@ export default function SpeakerDrawer({ card, category, searchId, onClose, initi
               <p style={{ margin: 0 }}>{card.fit_reason}</p>
             </div>
           </section>
+
+          <TrustBox card={card} />
 
           <section className="d-section">
             <h3>How we checked</h3>
