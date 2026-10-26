@@ -6,6 +6,7 @@ import { CATEGORY_SHORT } from '../lib/labels'
 import { useShortlist } from '../lib/shortlist'
 import type { SearchResult, SpeakerCard } from '../lib/types'
 import Avatar from './Avatar'
+import ArchitectSection from './ArchitectSection'
 import { Chat, CheckCircle, Refresh, Sparkle, Stage, Users } from './Icons'
 import { useToast } from './Toast'
 
@@ -53,7 +54,10 @@ export default function SuggestedPanels({ result, onUpdate, onOpen }: Props) {
   if (!enough) return null
 
   return (
-    <section className="panels-section" id="suggested-panels">
+    <div id="suggested-panels">
+    <ArchitectSection id="suggested-panels" title="suggested panels"
+      summary={result.panels.length ? `${result.panels.length} panel${result.panels.length === 1 ? '' : 's'}` : 'Not suggested yet'}>
+    <section className="panels-section">
       <div className="panels-head">
         <div>
           <span className="eyebrow"><Sparkle size={13} /> Panel Architect</span>
@@ -138,5 +142,7 @@ export default function SuggestedPanels({ result, onUpdate, onOpen }: Props) {
         </div>
       )}
     </section>
+    </ArchitectSection>
+    </div>
   )
 }

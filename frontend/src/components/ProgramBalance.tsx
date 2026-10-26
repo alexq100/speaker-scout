@@ -10,6 +10,7 @@ import { CATEGORY_LABEL, CATEGORY_SHORT, LEVEL_LABEL, SPEAKING_LABEL } from '../
 import { useShortlist } from '../lib/shortlist'
 import type { Category, ProgramReview, ProgramSuggestion } from '../lib/types'
 import Avatar from './Avatar'
+import ArchitectSection from './ArchitectSection'
 import { Alert, Check, CheckCircle, Plus, Refresh, Search, Sparkle, Users } from './Icons'
 import { useToast } from './Toast'
 
@@ -78,6 +79,7 @@ export default function ProgramBalance() {
 
   if (!review) {
     return (
+      <ArchitectSection id="program-balance" title="program balance" summary="Not checked yet">
       <div className="architect architect-empty balance-empty">
         <span className="architect-icon"><Sparkle size={20} /></span>
         <div>
@@ -89,11 +91,13 @@ export default function ProgramBalance() {
           {busy ? <><span className="spinner" /> Reviewing…</> : <><Users size={16} /> Check program balance</>}
         </button>
       </div>
+      </ArchitectSection>
     )
   }
 
   const [vLabel, vCls] = VERDICT[review.verdict]
   return (
+    <ArchitectSection id="program-balance" title="program balance" summary={`${vLabel} · ${review.score}/5`}>
     <div className="architect balance">
       <div className="architect-head">
         <span className="architect-icon"><Sparkle size={20} /></span>
@@ -164,5 +168,6 @@ export default function ProgramBalance() {
         </div>
       )}
     </div>
+    </ArchitectSection>
   )
 }

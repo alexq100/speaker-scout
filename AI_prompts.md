@@ -307,3 +307,11 @@ All were tested: the program review on my General conference (about 6k tokens), 
 - The first account created adopts the work already saved.
 
 Following my HW5 rule, Claude never created an account in the real app. It tested only in a scratch copy of the database on separate ports, then deleted it and confirmed the real database has 0 accounts. 21 safety tests pass, including new login and team-isolation tests. **I need to create our real team account myself on the login screen.**
+
+## Step 20: Collapsible Panel Architect Sections
+
+### Prompt
+
+> i want to be able to collapse the panel archetect parts from short list and past searches so we dont have to see it every time bc it clogs up the page. can you pls add something to the top of the panel archetect section that says "see less" that makes it go away and just leaves a panel architect header and then when it is collapsed have it say "see more" to open it back up again
+
+**Result:** Claude added a Yale Blue "Panel Architect" header bar to every Panel Architect section: the panel review on Shortlist panel tabs, the suggested panels on search pages, and the program balance check on the at-a-glance page. Each bar shows a short status (e.g. "Promising · 3/5" or "3 panels") and a **See less** button that folds the section down to the bar alone; it then says **See more** to open it again. The browser remembers each choice. This was tested in a scratch copy of the app (not my real account), which was then deleted.

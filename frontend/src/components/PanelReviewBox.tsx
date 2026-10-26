@@ -9,6 +9,7 @@ import { CATEGORY_SHORT } from '../lib/labels'
 import { useShortlist } from '../lib/shortlist'
 import type { Group, ReviewSuggestion } from '../lib/types'
 import Avatar from './Avatar'
+import ArchitectSection from './ArchitectSection'
 import { Alert, Check, CheckCircle, Chat, Plus, Refresh, Search, Sparkle } from './Icons'
 import { useToast } from './Toast'
 
@@ -72,6 +73,7 @@ export default function PanelReviewBox({ group }: { group: Group }) {
 
   if (!r) {
     return (
+      <ArchitectSection id="panel-review" title="panel review" summary="Not reviewed yet">
       <div className="architect architect-empty">
         <span className="architect-icon"><Sparkle size={20} /></span>
         <div>
@@ -83,11 +85,13 @@ export default function PanelReviewBox({ group }: { group: Group }) {
           {busy ? <><span className="spinner" /> Reviewing…</> : <><Sparkle size={16} /> Review this panel</>}
         </button>
       </div>
+      </ArchitectSection>
     )
   }
 
   const v = VERDICT[r.verdict]
   return (
+    <ArchitectSection id="panel-review" title="panel review" summary={`${v.label} · ${r.score}/5`}>
     <div className="architect">
       <div className="architect-head">
         <span className="architect-icon"><Sparkle size={20} /></span>
@@ -178,5 +182,6 @@ export default function PanelReviewBox({ group }: { group: Group }) {
         )}
       </div>
     </div>
+    </ArchitectSection>
   )
 }
