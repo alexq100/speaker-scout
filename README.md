@@ -4,7 +4,7 @@
 
 Planners fill in a short brief (theme, keynote or panel, location, budget…). A team of AI agents searches the live web across six kinds of speakers (academics, practitioners, policy, founders, advocates, journalists), **verifies every person against real pages**, surfaces their speaking history, and suggests cross-discipline panels. The team then shortlists people into keynote slots and panels, tracks outreach, drafts invitation emails, and asks a chat assistant for more research on any speaker.
 
-Built for MGT 409 (AI Foundations for Managers, Yale SOM) by Alex Kew. All agents run on **gpt-6-luna** through Portkey.
+Built for MGT 409 (AI Foundations for Managers, Yale SOM) by Alex Kew. Repo: https://github.com/alexq100/speaker-scout All agents run on **gpt-6-luna** through Portkey.
 
 ## Run it locally
 
