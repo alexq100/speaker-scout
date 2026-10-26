@@ -284,3 +284,13 @@ All of it was tested in a temporary test conference that was then deleted. The d
 - **Find more like [name]**, which opens a prefilled search across the other sectors.
 
 All were tested: the program review on my General conference (about 6k tokens), the replacement finder (about 4.7k tokens, run on a copy of the data), both one-pagers, the trust box, and find-more in the browser. The 20 safety tests still pass, and the database was backed up first.
+
+### Follow-up prompt
+
+> the one pager cuts off the sentance description. please make sure the description is not cut off (you can leave off the has spoken at other onferences part to make more room if you need. you can also format it differently to make sure the details can make it on the page
+
+(I attached a screenshot of Andy Ruben's block on the committee one-pager, with the bio cut off after "first Chief…".)
+
+**Why a follow-up was needed:** The committee one-pager clipped each speaker's bio after four lines, so key details were missing from the printout.
+
+**Result:** Claude removed the four-line limit, so each speaker's full bio prints. It dropped the "Has spoken at" line (the speaking badge now appears in the details line instead), made the photo and text slightly smaller, and checked that every General panel still fits on one letter page (the longest uses 9.5 of 10 printable inches) with no text cut off.

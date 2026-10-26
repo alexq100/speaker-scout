@@ -4225,7 +4225,8 @@ button.flag-chip {
 .op-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 14px 18px;
+  gap: 12px 16px;
+  align-items: start;
 }
 
 .op-grid-1 {
@@ -4286,16 +4287,14 @@ button.flag-chip {
 
 .op-bio {
   margin: 0 0 5px;
-  font-size: 9pt;
-  display: -webkit-box;
-  -webkit-line-clamp: 4;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
+  font-size: 8.8pt;
+  line-height: 1.38;
 }
 
 .op-why {
   margin: 0;
-  font-size: 9pt;
+  font-size: 8.8pt;
+  line-height: 1.38;
   color: var(--yale-blue);
 }
 

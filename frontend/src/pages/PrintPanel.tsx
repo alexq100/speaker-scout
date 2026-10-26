@@ -5,7 +5,7 @@ import { ArrowRight, Printer } from '../components/Icons'
 import { TopicChips } from '../components/SpeakerBadges'
 import { useConference } from '../lib/conference'
 import { shortDate } from '../lib/format'
-import { CATEGORY_SHORT, LEVEL_LABEL, OUTREACH_LABEL } from '../lib/labels'
+import { CATEGORY_SHORT, LEVEL_LABEL, OUTREACH_LABEL, SPEAKING_LABEL } from '../lib/labels'
 import { useShortlist } from '../lib/shortlist'
 
 export default function PrintPanel() {
@@ -42,19 +42,16 @@ export default function PrintPanel() {
             return (
               <section key={p.id} className="op-person">
                 <div className="op-person-head">
-                  <Avatar name={c.name} photo={c.photo_url} size={58} />
+                  <Avatar name={c.name} photo={c.photo_url} size={50} />
                   <div>
                     <h2>{c.name}{isMod && <span className="op-mod">Moderator</span>}</h2>
                     <p className="op-role">{c.job_title}, {c.organization}</p>
-                    <p className="op-small">{CATEGORY_SHORT[p.category]} · {LEVEL_LABEL[c.level]}{c.location ? ` · ${c.location}` : ''} · <b>{OUTREACH_LABEL[p.outreach_status]}</b></p>
+                    <p className="op-small">{CATEGORY_SHORT[p.category]} · {LEVEL_LABEL[c.level]} · {SPEAKING_LABEL[c.speaking_badge]}{c.location ? ` · ${c.location}` : ''} · <b>{OUTREACH_LABEL[p.outreach_status]}</b></p>
                   </div>
                 </div>
                 <TopicChips tags={c.topic_tags} max={5} />
                 <p className="op-bio">{c.bio}</p>
                 <p className="op-why"><ArrowRight size={11} /> <b>Why on this {group.kind === 'keynote' ? 'stage' : 'panel'}:</b> {angle}</p>
-                {c.past_speaking.length > 0 && (
-                  <p className="op-small">Has spoken at: {c.past_speaking.slice(0, 2).map((t) => `${t.event}${t.year ? ` (${t.year})` : ''}`).join('; ')}</p>
-                )}
               </section>
             )
           })}
