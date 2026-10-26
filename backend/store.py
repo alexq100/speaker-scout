@@ -149,6 +149,9 @@ def _migrate(conn: sqlite3.Connection) -> None:
     )""")
     conn.execute("CREATE INDEX IF NOT EXISTS idx_notes_item ON speaker_notes(item_id)")
 
+    if "balance_json" not in _cols(conn, "conferences"):
+        conn.execute("ALTER TABLE conferences ADD COLUMN balance_json TEXT")
+
     # Anything without a conference goes to the first one.
     conn.execute("UPDATE searches SET conference_id = ? WHERE conference_id IS NULL", (default_id,))
     conn.execute("UPDATE groups SET conference_id = ? WHERE conference_id IS NULL", (default_id,))
@@ -197,6 +200,17 @@ def list_conferences() -> list[dict[str, Any]]:
                    (SELECT COUNT(*) FROM groups g WHERE g.conference_id = c.id AND g.kind = 'panel') AS panels
             FROM conferences c ORDER BY c.id""").fetchall()
     return [dict(r) for r in rows]
+
+
+def get_balance(conference_id: int) -> dict | None:
+    with _db() as conn:
+        row = conn.execute("SELECT balance_json FROM conferences WHERE id = ?", (conference_id,)).fetchone()
+    return json.loads(row["balance_json"]) if row and row["balance_json"] else None
+
+
+def set_balance(conference_id: int, review_json: str) -> None:
+    with _db() as conn:
+        conn.execute("UPDATE conferences SET balance_json = ? WHERE id = ?", (review_json, conference_id))
 
 
 def conference_exists(conference_id: int) -> bool:

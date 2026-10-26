@@ -160,6 +160,7 @@ class SpeakerCard(BaseModel):
     evidence_urls: list[str] = Field(description="Pages read during verification that confirm name + role")
     fit_score: int = Field(ge=1, le=5)
     fit_reason: str
+    verified_at: str | None = Field(default=None, description="Filled in by code when the card passes the checks")
 
 
 class DroppedCandidate(BaseModel):
@@ -225,6 +226,39 @@ class PanelReview(BaseModel):
     suggested_theme: str | None = Field(default=None, description="A sharper panel theme or question, if useful")
     suggested_search: str | None = Field(default=None, description="A new search theme to find a missing voice")
     reviewed_at: str | None = None
+    tokens: int = 0
+
+
+class ProgramSuggestion(BaseModel):
+    name: str = Field(description="Exactly as written in the candidate pool")
+    category: Category
+    session: str = Field(description="Which session they'd fit (panel name or 'Keynote')")
+    why: str
+    search_id: str | None = None
+    on_shortlist: bool = False
+
+
+class ProgramReview(BaseModel):
+    """Panel Architect review of the whole conference program."""
+
+    verdict: Literal["strong", "promising", "needs_work"]
+    score: int = Field(ge=1, le=5)
+    summary: str
+    strengths: list[str] = Field(default_factory=list)
+    gaps: list[str] = Field(default_factory=list, description="Missing voices or uncovered parts of the theme")
+    overlaps: list[str] = Field(default_factory=list, description="Sessions or people that overlap too much")
+    circuit_note: str = Field(default="", description="Usual-circuit vs rising-voices balance")
+    suggestions: list[ProgramSuggestion] = Field(default_factory=list)
+    suggested_searches: list[str] = Field(default_factory=list)
+    mix: dict = Field(default_factory=dict, description="Filled in by code: counts by category, level, speaking")
+    reviewed_at: str | None = None
+    tokens: int = 0
+
+
+class ReplacementResult(BaseModel):
+    summary: str
+    suggestions: list[ReviewSuggestion] = Field(default_factory=list)
+    suggested_search: str | None = None
     tokens: int = 0
 
 

@@ -164,6 +164,8 @@ def check_card(card: SpeakerCard, category: str, trace: RunTrace) -> tuple[Speak
             card.photo_url = None
 
     # 6. Scrub contact details.
+    from datetime import datetime, timezone
+    card.verified_at = datetime.now(timezone.utc).isoformat(timespec="seconds")
     n = _scrub_card(card)
     if n:
         note("contact_info_removed", f"{n} email address(es) or phone number(s) removed")

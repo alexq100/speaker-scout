@@ -1,7 +1,7 @@
 // One speaker, styled like a HW4 product card: photo (or monogram) on top, details below.
 import { useState } from 'react'
 import { CATEGORY_SHORT } from '../lib/labels'
-import { initials } from '../lib/format'
+import { domain, initials } from '../lib/format'
 import type { Category, SpeakerCard as Card } from '../lib/types'
 import { ArrowRight, CheckCircle, Pin } from './Icons'
 import SaveButton from './SaveButton'
@@ -18,6 +18,8 @@ interface Props {
 export default function SpeakerCard({ card, category, searchId, index, onOpen }: Props) {
   const [broken, setBroken] = useState(false)
   const sources = new Set([...card.evidence_urls, ...card.links.map((l) => l.url)]).size
+  const profileUrl = card.profile_url ?? card.links.find((l) => l.kind === 'profile')?.url
+  const profileDomain = profileUrl ? domain(profileUrl) : null
   return (
     <article className="speaker-card" style={{ animationDelay: `${index * 60}ms` }}>
       <button className="card-media" onClick={onOpen} aria-label={`Open ${card.name}`}>
@@ -41,8 +43,8 @@ export default function SpeakerCard({ card, category, searchId, index, onOpen }:
           <RoleBadges roles={card.best_for} />
         </div>
         <div className="card-foot">
-          <span className="verified" title="Confirmed on real pages during this search">
-            <CheckCircle size={15} /> Verified · {sources} source{sources === 1 ? '' : 's'}
+          <span className="verified" title="Every link was found during the search and checked by code. Open the profile to see why you can trust this.">
+            <CheckCircle size={15} /> Verified · {profileDomain ? `profile on ${profileDomain}` : `${sources} source${sources === 1 ? '' : 's'}`}
           </span>
           <FitDots score={card.fit_score} />
         </div>

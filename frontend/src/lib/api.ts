@@ -1,5 +1,5 @@
 // Thin client for the FastAPI backend (proxied at /api by Vite).
-import type { ChatAnswer, Conference, Group, LogEntry, Options, SpeakerNote, SavedSearch, SearchBrief, SearchResult, ShortlistItem } from './types'
+import type { ChatAnswer, Conference, ProgramReview, ReplacementResult, Group, LogEntry, Options, SpeakerNote, SavedSearch, SearchBrief, SearchResult, ShortlistItem } from './types'
 
 export class ApiError extends Error {
   status: number
@@ -56,6 +56,9 @@ export const api = {
   editNote: (id: number, note: string) =>
     call<ShortlistItem>(`/shortlist/${id}`, { method: 'PATCH', body: JSON.stringify({ note }) }),
   removeFromShortlist: (id: number) => call<{ removed: boolean }>(`/shortlist/${id}`, { method: 'DELETE' }),
+  getBalance: (conferenceId: number) => call<ProgramReview | null>(`/conferences/${conferenceId}/balance`),
+  checkBalance: (conferenceId: number) => call<ProgramReview>(`/conferences/${conferenceId}/balance`, { method: 'POST' }),
+  findReplacements: (itemId: number) => call<ReplacementResult>(`/shortlist/${itemId}/replacements`, { method: 'POST' }),
   speakerChat: (search_id: string, category: string, name: string, question: string, history: { role: string; text: string }[]) =>
     call<ChatAnswer>('/speaker-chat', { method: 'POST', body: JSON.stringify({ search_id, category, name, question, history }) }),
   speakerNotes: (itemId: number) => call<SpeakerNote[]>(`/shortlist/${itemId}/notes`),

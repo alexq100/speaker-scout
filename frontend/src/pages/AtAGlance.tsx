@@ -2,6 +2,7 @@
 // with who's on it and where outreach stands. Easy to scan, print, or paste into an email.
 import { Link } from 'react-router-dom'
 import Avatar from '../components/Avatar'
+import ProgramBalance from '../components/ProgramBalance'
 import { ArrowRight, Clock, Copy, Mic, Printer, Table, Users } from '../components/Icons'
 import { useToast } from '../components/Toast'
 import { useConference } from '../lib/conference'
@@ -68,7 +69,8 @@ export default function AtAGlance() {
           </div>
           <div className="glance-actions">
             <button className="btn btn-outline btn-sm" onClick={copyTable} disabled={!items.length}><Copy size={15} /> Copy as text</button>
-            <button className="btn btn-outline btn-sm" onClick={() => window.print()} disabled={!items.length}><Printer size={15} /> Print</button>
+            <button className="btn btn-outline btn-sm" onClick={() => window.print()} disabled={!items.length}><Printer size={15} /> Print this table</button>
+            <Link className="btn btn-primary btn-sm" to="/print/conference"><Printer size={15} /> Conference one-pager</Link>
           </div>
         </div>
       </section>
@@ -82,6 +84,8 @@ export default function AtAGlance() {
             <Link to="/" className="btn btn-primary">Find speakers</Link>
           </div>
         ) : (
+          <>
+          <div className="no-print"><ProgramBalance /></div>
           <div className="glance-table-wrap">
             <table className="glance-table">
               <thead>
@@ -149,6 +153,7 @@ export default function AtAGlance() {
               ))}
             </table>
           </div>
+          </>
         )}
       </div>
     </>

@@ -9,6 +9,7 @@ import { useShortlist } from '../lib/shortlist'
 import type { LogEntry, OutreachStatus, ShortlistItem, SpeakerNote } from '../lib/types'
 import { Alert, Chat, Check, CheckCircle, Clock, Copy, Doc, External, Mic, Note, Person, Plus, Refresh, Sparkle, Trash, Users } from './Icons'
 import { useToast } from './Toast'
+import ReplacementFinder from './ReplacementFinder'
 
 const SENDER_KEY = 'speakerScout.senderName'
 
@@ -125,6 +126,8 @@ export default function PlanningPanel({ item, notesVersion = 0 }: { item: Shortl
           </Field>
         </div>
       </section>
+
+      {item.outreach_status === 'declined' && <ReplacementFinder item={item} />}
 
       {/* ---- Confirmed checklist ---- */}
       {item.outreach_status === 'confirmed' && (

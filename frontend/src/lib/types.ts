@@ -54,6 +54,7 @@ export interface SpeakerCard {
   evidence_urls: string[]
   fit_score: number
   fit_reason: string
+  verified_at?: string | null
 }
 
 export interface DroppedCandidate { name: string; reason: string }
@@ -174,6 +175,23 @@ export interface ShortlistItem {
   last_outreach_at: string | null
   card: SpeakerCard
 }
+
+export interface ProgramSuggestion { name: string; category: Category; session: string; why: string; search_id: string | null; on_shortlist: boolean }
+export interface ProgramReview {
+  verdict: 'strong' | 'promising' | 'needs_work'
+  score: number
+  summary: string
+  strengths: string[]
+  gaps: string[]
+  overlaps: string[]
+  circuit_note: string
+  suggestions: ProgramSuggestion[]
+  suggested_searches: string[]
+  mix: { people?: number; sessions?: number; by_category?: Record<string, number>; by_level?: Record<string, number>; by_speaking?: Record<string, number> }
+  reviewed_at: string | null
+  tokens: number
+}
+export interface ReplacementResult { summary: string; suggestions: ReviewSuggestion[]; suggested_search: string | null; tokens: number }
 
 export interface ChatSource { title: string; url: string }
 export interface ChatAnswer { answer: string; sources: ChatSource[]; note: string; tokens: number; web_searches: number }

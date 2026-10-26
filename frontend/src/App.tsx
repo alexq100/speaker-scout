@@ -7,6 +7,8 @@ import History from './pages/History'
 import Home from './pages/Home'
 import HowItWorks from './pages/HowItWorks'
 import NotFound from './pages/NotFound'
+import PrintConference from './pages/PrintConference'
+import PrintPanel from './pages/PrintPanel'
 import SearchPage from './pages/SearchPage'
 import Shortlist from './pages/Shortlist'
 
@@ -30,6 +32,8 @@ export default function App() {
           <Route path="/search/:id" element={<SearchPage />} />
           <Route path="/shortlist" element={<Shortlist />} />
           <Route path="/at-a-glance" element={<AtAGlance />} />
+          <Route path="/print/panel/:id" element={<PrintPanel />} />
+          <Route path="/print/conference" element={<PrintConference />} />
           <Route path="/searches" element={<History />} />
           <Route path="/how-it-works" element={<HowItWorks />} />
           <Route path="*" element={<NotFound />} />

@@ -106,3 +106,10 @@ A second Panel Architect mode (`prompts/panel_reviewer.md`, `SpeakerScout.review
 - **Code checks:** sources must be pages actually seen (on the card, or returned or read in this answer); emails and phone numbers are scrubbed; stray inline citation markers are removed.
 - **Limits:** 6 model calls, 6 tool calls and 80k tokens per question; one question at a time per speaker.
 - **Measured:** a card-only answer took 12s and about 15.5k tokens (0 searches). A "recent news" question took 5s and about 15k tokens (3 searches) and found real 2025–26 Trove news. Emily King: 8s, found her May 2026 Austin Urban Forestry Committee briefing and a 2025 TreeFolks interview.
+
+
+## Program Reviewer and Replacement Finder (Step 18)
+
+Both are Panel Architect modes that reuse verified cards, with no web search:
+- **Program Reviewer** (`prompts/program_reviewer.md`, `POST /api/conferences/{id}/balance`): reviews the whole program with **counts computed in code** (by sector, level, speaking experience and location) and a candidate pool from the same conference. Suggestions are code-checked against the pool. **Never judges by personal traits.** Measured: about 6k tokens, about 10s. For Alex's "General" conference it flagged a thin keynote slot, overlap between the two water panels, and 13 established vs. 2 rising voices, and suggested Tom Szaky for keynote.
+- **Replacement Finder** (`prompts/replacement_finder.md`, `POST /api/shortlist/{id}/replacements`): for a declined speaker, it finds up to 3 people covering the same angle without duplicating the session. Measured: about 4.7k tokens, 3.8s. When Andy Ruben (a founder) declined, it suggested two founders: Alysia Garmulewicz (shortlist) and Tom Szaky.

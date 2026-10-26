@@ -49,11 +49,13 @@ Speakers *are* the conference: they're why people register and what attendees re
 ### What Speaker Scout does that these don't
 
 1. **It discovers people anywhere on the public web, not just a signed-up pool,** across **six sectors at once**: academics, practitioners, policy, founders, advocates and journalists. This reaches the city forester, the state EPR coordinator and the trade reporter, who are exactly the people niche conferences need (e.g. it found J.T. Bowers, an actual 2026 Urban Tree Summit speaker).
-2. **Verification is enforced in code, not just promised.** Every link on a card must be a page actually seen during the search; each person needs a profile or work page; weak titles and LinkedIn-only matches are dropped; photos come only from the person's own profile; prompt-injection pages disqualify a candidate. General chatbots and the AI speaker tools above don't publish checks like these.
+2. **Verification is enforced in code, not just promised, and shown on every profile** (a "Why you can trust this" box). Every link on a card must be a page actually seen during the search; each person needs a profile or work page; weak titles and LinkedIn-only matches are dropped; photos come only from the person's own profile; prompt-injection pages disqualify a candidate. General chatbots and the AI speaker tools above don't publish checks like these.
 3. **Privacy by design:** it deliberately does **not** collect personal emails or phone numbers (they're scrubbed), and it **can't send email**. It drafts; humans send. Lessie's core feature is the opposite.
 4. **It designs panels, not just lists.** The Panel Architect proposes cross-discipline panels with a central question, the angle each person brings, where they'd disagree, a moderator, and shared-stage history found in code. It also **reviews panels you build** and suggests who's missing. None of the products above describe this.
-5. **The whole planning workflow lives in one place:** conferences → keynote and panel slots → outreach status, follow-ups, owners, outreach log, confirmed-speaker checklist, drafted emails, a research chat with sourced notes, and an at-a-glance table.
-6. **Cost:** about **$0.03 per search** (measured), no API keys beyond the course key, and no subscription or commission.
+5. **It checks the whole program, not just a list.** The program balance review spots gaps across sectors and career stages, overlap between sessions, and over-reliance on the usual speaking circuit (balance judged by role, never by guessing personal traits), then suggests who to add. This directly addresses the "same people every time" problem in the research above.
+6. **It closes the loop when someone says no:** a declined speaker gets replacement suggestions that keep the panel balanced. Committee one-pagers (per panel and per conference) turn the work into something a dean or committee can approve.
+7. **The whole planning workflow lives in one place:** conferences → keynote and panel slots → outreach status, follow-ups, owners, outreach log, confirmed-speaker checklist, drafted emails, a research chat with sourced notes, and an at-a-glance table.
+8. **Cost:** about **$0.03 per search** (measured), no API keys beyond the course key, and no subscription or commission.
 
 ### Being honest about limits
 

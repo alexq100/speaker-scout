@@ -37,18 +37,23 @@ interface Props {
   busy: boolean
   onSubmit: (brief: SearchBrief) => void
   initialTheme?: string
+  initialNotes?: string
+  initialCategories?: Category[]
+  initialSkip?: string
   conference?: Conference | null
 }
 
-export default function BriefForm({ options, busy, onSubmit, initialTheme = '', conference }: Props) {
+export default function BriefForm({ options, busy, onSubmit, initialTheme = '', initialNotes = '', initialCategories, initialSkip = '', conference }: Props) {
   const [b, setB] = useState<SearchBrief>({
     ...EMPTY_BRIEF,
     conference_theme: initialTheme.slice(0, 200),
     // A new search starts with the conference you're working on (unless it's the catch-all "General").
     conference_name: conference && conference.name !== 'General' ? conference.name.slice(0, 120) : null,
+    ...(initialNotes ? { notes: initialNotes.slice(0, 300) } : {}),
+    ...(initialCategories && initialCategories.length ? { categories: initialCategories } : {}),
   })
-  const [skipText, setSkipText] = useState('')
-  const [more, setMore] = useState(false)
+  const [skipText, setSkipText] = useState(initialSkip)
+  const [more, setMore] = useState(!!initialNotes)
   const [loadedExample, setLoadedExample] = useState<string | null>(null)
 
   const set = <K extends keyof SearchBrief>(key: K, value: SearchBrief[K]) => setB((prev) => ({ ...prev, [key]: value }))
@@ -98,6 +103,11 @@ export default function BriefForm({ options, busy, onSubmit, initialTheme = '', 
       </div>
 
       <div className="brief-body">
+        {initialNotes && !loadedExample && (
+          <div className="alert alert-info" style={{ marginBottom: 24 }}>
+            <Users size={18} /> <span>Finding people like a speaker you liked, from other sectors. Review the brief, then search.</span>
+          </div>
+        )}
         {loadedExample && (
           <div className="alert alert-info" style={{ marginBottom: 24 }}>
             <Check size={18} /> Loaded the <strong>&nbsp;{loadedExample}&nbsp;</strong> brief. Change anything you like, then search.

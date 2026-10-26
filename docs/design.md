@@ -108,6 +108,15 @@ Footer: what the app does, the four checks every speaker passes, links, and **St
 - **The drawer tab is renamed "Planning, outreach & notes"** and gains a **Speaker notes** section at the bottom: notes saved from the chat (labeled "From chat", with the question asked and the source links) and notes typed by hand, each dated and deletable.
 - People not on the shortlist can still be asked about; the chat just says "Save [name] to your shortlist to keep notes."
 
+## Step 18: differentiators
+
+- **Trust badge ("Why you can trust this")** near the top of every profile, making the code-level verification visible: number of pages it was confirmed on (with domains), the profile page found, the role checked, linked past talks, where the photo came from, that every link was code-checked, and that no personal contact details are stored, plus the date it was verified. Result cards now say "✓ Verified · profile on rutgers.edu".
+- **Program balance check** on the at-a-glance page: the Panel Architect reviews the whole program (keynotes, panels, unplaced). It shows a verdict, **mix bars computed by code** (sectors, career stage, speaking experience), what works, gaps, overlaps between sessions, a usual-circuit vs. rising-voices note, who to add (with Add to shortlist), and suggested new searches. It judges balance by sector, career stage, place and organization, never by personal traits. The result is saved.
+- **Find a replacement:** when someone is Declined, their Shortlist card shows "Find a replacement" (it opens their Planning tab), and the Planning tab offers up to 3 people from the shortlist or past searches who cover the same angle without duplicating the panel, with "Add to panel".
+- **Committee one-pager** for any panel or the keynote slot (button in the panel header → `/print/panel/<id>`): a letter-size page with the panel name, question and session, and for each speaker their photo or initials, role, sector, level, location, outreach status, topic tags, short bio, "Why on this panel" (their angle), and past talks.
+- **Conference one-pager** (button on the at-a-glance page → `/print/conference`): the whole program on one page, with keynotes and every panel, who's on each, X/Y confirmed, sessions, and unplaced people.
+- **Find more like [name]** (profile drawer): opens a prefilled search with their topic tags as the theme, all *other* sectors, a note "similar focus to [name] but from other sectors", and them on the skip list.
+
 ## Design rules carried over from HW5
 
 - **One main button per screen** (Find speakers, Add to shortlist).

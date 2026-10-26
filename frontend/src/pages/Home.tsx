@@ -6,7 +6,7 @@ import { CheckCircle, Mic } from '../components/Icons'
 import { useToast } from '../components/Toast'
 import { api } from '../lib/api'
 import { useConference } from '../lib/conference'
-import type { Options, SearchBrief } from '../lib/types'
+import type { Category, Options, SearchBrief } from '../lib/types'
 
 // Illustrative cards for the hero (not real search results).
 const DECK = [
@@ -76,7 +76,9 @@ export default function Home() {
 
       <section className="container brief-wrap">
         {error && <div className="alert alert-error" style={{ marginBottom: 16 }}>{error}</div>}
-        <BriefForm key={currentId ?? 0} options={options} busy={busy} onSubmit={start} initialTheme={params.get('theme') ?? ''}
+        <BriefForm key={`${currentId ?? 0}-${params.toString()}`} options={options} busy={busy} onSubmit={start} initialTheme={params.get('theme') ?? ''}
+          initialNotes={params.get('notes') ?? ''} initialSkip={params.get('skip') ?? ''}
+          initialCategories={(params.get('cats') ?? '').split(',').filter(Boolean) as Category[]}
           conference={current} />
 
         <div className="how-strip">

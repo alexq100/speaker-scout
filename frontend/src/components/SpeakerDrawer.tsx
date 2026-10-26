@@ -4,7 +4,10 @@ import { CATEGORY_LABEL } from '../lib/labels'
 import { domain } from '../lib/format'
 import type { Category, Link, SpeakerCard } from '../lib/types'
 import Avatar from './Avatar'
-import { CheckCircle, Doc, External, Person, Pin, Stage, X } from './Icons'
+import { CheckCircle, Doc, External, Person, Pin, Stage, Users, X } from './Icons'
+import TrustBox from './TrustBox'
+import { useNavigate } from 'react-router-dom'
+import { CATEGORIES } from '../lib/labels'
 import PlanningPanel from './PlanningPanel'
 import SpeakerChat from './SpeakerChat'
 import SaveButton from './SaveButton'
@@ -25,12 +28,22 @@ interface Props {
   category: Category
   searchId: string
   onClose: () => void
+  initialTab?: 'profile' | 'planning'
 }
 
-export default function SpeakerDrawer({ card, category, searchId, onClose }: Props) {
+/** A prefilled search brief: people with a similar focus, from the other sectors. */
+function findMoreLink(card: SpeakerCard, category: Category): string {
+  const theme = (card.topic_tags.slice(0, 3).join(', ') || card.could_speak_on).slice(0, 200)
+  const notes = `People with a similar focus to ${card.name} (${card.job_title}, ${card.organization}), but from other sectors and organizations.`.slice(0, 300)
+  const cats = CATEGORIES.filter((c) => c !== category).join(',')
+  return `/?theme=${encodeURIComponent(theme)}&notes=${encodeURIComponent(notes)}&cats=${cats}&skip=${encodeURIComponent(card.name)}`
+}
+
+export default function SpeakerDrawer({ card, category, searchId, onClose, initialTab }: Props) {
   const { has } = useShortlist()
   const item = has(card.name, category)
-  const [tab, setTab] = useState<'profile' | 'planning'>('profile')
+  const [tab, setTab] = useState<'profile' | 'planning'>(initialTab ?? 'profile')
+  const navigate = useNavigate()
   const [notesVersion, setNotesVersion] = useState(0)
   const fu = item ? followUpState(item.follow_up_date) : null
   useEffect(() => {
@@ -73,6 +86,10 @@ export default function SpeakerDrawer({ card, category, searchId, onClose }: Pro
               <Person size={16} /> Open profile
             </a>
           )}
+          <button className="btn btn-ghost btn-sm" title="Start a new search for people with a similar focus in other sectors"
+            onClick={() => { onClose(); navigate(findMoreLink(card, category)) }}>
+            <Users size={15} /> Find more like {card.name.split(' ')[0]}
+          </button>
           <span style={{ display: 'flex', gap: 6, flexWrap: 'wrap', marginLeft: 'auto' }}>
             <LevelBadge level={card.level} />
             <SpeakingBadge badge={card.speaking_badge} />
@@ -107,6 +124,8 @@ export default function SpeakerDrawer({ card, category, searchId, onClose }: Pro
               <TopicChips tags={card.topic_tags} max={8} />
             </section>
           )}
+
+          <TrustBox card={card} />
 
           <section className="d-section">
             <h3>Could speak on</h3>

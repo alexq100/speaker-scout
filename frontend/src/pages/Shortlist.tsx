@@ -5,7 +5,7 @@ import { Link, useSearchParams } from 'react-router-dom'
 import Avatar from '../components/Avatar'
 import PanelReviewBox from '../components/PanelReviewBox'
 import {
-  Bookmark, Clock, Copy, Download, Flag, Folder, Grip, Inbox, Mic, Pencil, Person, Plus, Sparkle, Star, Trash, Users,
+  Bookmark, Clock, Copy, Download, Flag, Folder, Grip, Inbox, Mic, Pencil, Person, Plus, Printer, Search, Sparkle, Star, Trash, Users,
 } from '../components/Icons'
 import { LevelBadge, RoleBadges, SpeakingBadge, TopicChips } from '../components/SpeakerBadges'
 import { useToast } from '../components/Toast'
@@ -76,6 +76,7 @@ function NoteBox({ item }: { item: ShortlistItem }) {
 
 function OutreachBar({ item }: { item: ShortlistItem }) {
   const { setOutreach } = useShortlist()
+  const openProfile = useOpenProfile()
   const toast = useToast()
   const [text, setText] = useState(item.outreach_notes)
   const [saved, setSaved] = useState(true)
@@ -99,6 +100,11 @@ function OutreachBar({ item }: { item: ShortlistItem }) {
           {item.contacted_at ? `First contacted ${relativeDate(item.contacted_at)}` : 'Not contacted yet'}
           {item.outreach_updated_at && item.outreach_updated_at !== item.contacted_at ? ` · updated ${relativeDate(item.outreach_updated_at)}` : ''}
         </small>
+        {item.outreach_status === 'declined' && (
+          <button className="btn btn-outline btn-sm rep-btn" onClick={() => openProfile(item.card, item.category, item.search_id, 'planning')}>
+            <Search size={13} /> Find a replacement
+          </button>
+        )}
       </div>
       <div className="outreach-notes">
         <span className="field-label">Outreach notes</span>
@@ -352,12 +358,14 @@ export default function Shortlist() {
                           </select>
                         </label>
                       )}
+                      <Link className="btn btn-outline btn-sm" to={`/print/panel/${activeGroup.id}`}><Printer size={14} /> Committee one-pager</Link>
                       <button className="btn-danger-ghost btn btn-sm" onClick={() => removePanel(activeGroup)}><Trash size={14} /> Delete panel</button>
                     </>
                   ) : (
                     <>
                       <span className="size-pill">{activeGroup.count} {activeGroup.count === 1 ? 'candidate' : 'candidates'}</span>
                       <span className="size-pill">{confirmedIn(activeGroup.id)} confirmed</span>
+                      <Link className="btn btn-outline btn-sm" to={`/print/panel/${activeGroup.id}`}><Printer size={14} /> Committee one-pager</Link>
                     </>
                   )}
                 </div>

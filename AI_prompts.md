@@ -263,3 +263,24 @@ All of it was tested in a temporary test conference that was then deleted. The d
 **Result:** Claude researched the problem and the competition and wrote `docs/motivation_and_whats_new.md`, with sources:
 - **The problem:** 70% of planners find keynoters by word of mouth; 72% call finding a right-fit speaker a major hurdle (a bureau survey); keynotes average about $10k with 20–30% bureau commissions; event coordinator ranks about #5 among the most stressful jobs; lineups skew male (about 69% of speakers in Bizzabo's data); ChatGPT has fabricated 18–55% of references in studies.
 - **Competitors:** Lessie AI speaker finder, SpeakUp, Speaker Discovery Engine, a "Speaker Finder" Claude Code skill, speaker bureaus, directories, Sessionize/Cvent, and ChatGPT/Claude/Perplexity, with an honest comparison of what Speaker Scout does differently.
+
+### Follow-up prompt
+
+> okay is there anything we can add to this to make it more differentiated from the competitors, i feel like the fact that it can build panels is cool and different, and also that it has a space for planning and notes and outreach built in so you can find speakers and also track your progress with them is cool and different. what else could we tweak?
+
+**Why a follow-up was needed:** After seeing the competitor research, I wanted ideas to make Speaker Scout stand out even more before writing the report.
+
+## Step 18: Differentiators: Program Balance, Trust Badge, Replacements, One-Pagers, Find More Like This
+
+### Prompt
+
+> okay yes lets build them all! i really like the committee packet print off one pager too i think that is very convienent. can you also have it be able to print off a nice one pager for teh whole conference that you can access from the 'shortlist at a glance' section
+
+**Result:** Claude built all the differentiators:
+- A **"Why you can trust this"** box on every profile that makes the code-level verification visible.
+- A whole-program **balance check** on the at-a-glance page (mix bars computed by code, gaps, overlaps, a usual-circuit note, who to add, and new searches to run).
+- **Find a replacement** for declined speakers.
+- A printable **committee one-pager** for each panel, and a **conference one-pager** from the at-a-glance page.
+- **Find more like [name]**, which opens a prefilled search across the other sectors.
+
+All were tested: the program review on my General conference (about 6k tokens), the replacement finder (about 4.7k tokens, run on a copy of the data), both one-pagers, the trust box, and find-more in the browser. The 20 safety tests still pass, and the database was backed up first.

@@ -33,7 +33,7 @@ from pydantic_ai.usage import UsageLimits
 import audit
 import config
 from guards import check_card, check_panels, finalize, name_key, shared_stages
-from models import (CATEGORY_LABELS, ChatAnswer, EmailDraft, SpeakerCard, CategoryResult, DroppedCandidate, PanelPlan, PanelReview, ProgressEvent, Removal, SearchBrief, SearcherOutput, SearchPlan,
+from models import (CATEGORY_LABELS, ChatAnswer, EmailDraft, ProgramReview, ReplacementResult, SpeakerCard, CategoryResult, DroppedCandidate, PanelPlan, PanelReview, ProgressEvent, Removal, SearchBrief, SearcherOutput, SearchPlan,
                     SearchResult, VerifierOutput)
 from tools import RunTrace, ScoutDeps, fetch_page, wiki_lookup
 
@@ -123,6 +123,10 @@ class SpeakerScout:
             instructions=_instructions("speaker_chat"), retries=1, tools=[fetch_page, wiki_lookup],
             capabilities=[WebSearch(search_context_size="low", max_uses=2)],
         )
+        self.program_reviewer = Agent(model, name="program_reviewer", output_type=ProgramReview,
+                                      instructions=_instructions("program_reviewer"), retries=1)
+        self.replacer = Agent(model, name="replacement_finder", output_type=ReplacementResult,
+                              instructions=_instructions("replacement_finder"), retries=1)
         self.emailer = Agent(model, name="email_writer", output_type=EmailDraft,
                              instructions=_instructions("email_writer"), retries=1)
         self.verifier = Agent(
@@ -205,6 +209,68 @@ class SpeakerScout:
         review.suggestions = kept[:4]
         review.reviewed_at = datetime.now(timezone.utc).isoformat(timespec="seconds")
         return review
+
+    @staticmethod
+    def _brief_card(cat: str, card: SpeakerCard) -> dict:
+        return {"name": card.name, "category": cat, "title": f"{card.job_title}, {card.organization}",
+                "location": card.location, "level": card.level, "best_for": card.best_for,
+                "speaking": card.speaking_badge, "could_speak_on": card.could_speak_on, "tags": card.topic_tags[:6]}
+
+    @staticmethod
+    def _filter_pool(suggestions, pool, exclude: set[str]):
+        lookup = {name_key(card.name): (sid, cat, card, on) for sid, cat, card, on in pool}
+        kept = []
+        for sug in suggestions:
+            hit = lookup.get(name_key(sug.name))
+            if hit is None or name_key(sug.name) in exclude or any(name_key(k.name) == name_key(sug.name) for k in kept):
+                continue
+            sid, cat, card, on = hit
+            sug.name, sug.category, sug.search_id, sug.on_shortlist = card.name, cat, sid, on
+            kept.append(sug)
+        return kept
+
+    async def review_program(self, conference: str, sessions: list[dict], pool: list[tuple[str, str, SpeakerCard, bool]],
+                             mix: dict) -> ProgramReview:
+        """Panel Architect review of the whole program. sessions: [{name, kind, theme, people:[(cat, card, status)]}]."""
+        program = [{"session": s["name"], "kind": s["kind"], "theme": s["theme"] or None,
+                    "people": [{**self._brief_card(cat, card), "outreach": st} for cat, card, st in s["people"]]}
+                   for s in sessions]
+        candidates = [self._brief_card(cat, card) | {"on_shortlist": on} for _, cat, card, on in pool]
+        run = await self.program_reviewer.run(
+            f"Conference: {conference}\n\nCounts computed by code: {json.dumps(mix)}\n\n"
+            f"Program:\n{json.dumps(program, indent=1)}\n\nCandidate pool:\n{json.dumps(candidates, indent=1)}",
+            usage_limits=UsageLimits(request_limit=2, total_tokens_limit=config.AGENT_TOKEN_LIMIT))
+        msgs = run.all_messages()
+        audit.log_agent_run(f"program-{name_key(conference).replace(' ', '-')}", "program_reviewer", None, msgs)
+        review = run.output
+        placed = {name_key(card.name) for s in sessions for _, card, _ in s["people"]}
+        review.suggestions = self._filter_pool(review.suggestions, pool, placed)[:5]
+        review.mix = mix
+        u = audit.usage_of(msgs)
+        review.tokens = u.input_tokens + u.output_tokens
+        review.reviewed_at = datetime.now(timezone.utc).isoformat(timespec="seconds")
+        return review
+
+    async def find_replacement(self, declined: tuple[str, SpeakerCard], session: dict | None,
+                               pool: list[tuple[str, str, SpeakerCard, bool]]) -> ReplacementResult:
+        cat, card = declined
+        sess = None
+        if session:
+            sess = {"name": session["name"], "kind": session["kind"], "theme": session["theme"] or None,
+                    "other_members": [self._brief_card(c, k) for c, k in session["others"]]}
+        run = await self.replacer.run(
+            f"Declined speaker:\n{json.dumps(self._brief_card(cat, card), indent=1)}\n\n"
+            f"Session they were meant for: {json.dumps(sess, indent=1) if sess else '(not placed in a session)'}\n\n"
+            f"Candidate pool:\n{json.dumps([self._brief_card(c, k) | {'on_shortlist': on} for _, c, k, on in pool], indent=1)}",
+            usage_limits=UsageLimits(request_limit=2, total_tokens_limit=config.AGENT_TOKEN_LIMIT))
+        msgs = run.all_messages()
+        audit.log_agent_run(f"replace-{name_key(card.name).replace(' ', '-')}", "replacement_finder", None, msgs)
+        out = run.output
+        exclude = {name_key(card.name)} | ({name_key(k.name) for _, k in session["others"]} if session else set())
+        out.suggestions = self._filter_pool(out.suggestions, pool, exclude)[:3]
+        u = audit.usage_of(msgs)
+        out.tokens = u.input_tokens + u.output_tokens
+        return out
 
     async def ask_about(self, card: SpeakerCard, question: str, history: list[dict]) -> ChatAnswer:
         """Answer a planner's question about one speaker, searching the web only if needed.

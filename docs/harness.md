@@ -37,7 +37,7 @@ The complete guide to how the app works: the one place to start. Each part has i
 | `backend/store.py` | SQLite: saved searches (free reloads) and the shortlist |
 | `backend/main.py` | FastAPI routes (below) |
 | `start.sh` | One command: first-run setup, then API + website, Ctrl+C stops both |
-| `backend/prompts/` | `shared_rules.md` (all agents, comes first so it can be cached), `scout_lead.md`, `searcher.md`, `verifier.md`, `panel_architect.md`, `panel_reviewer.md`, `email_writer.md`, `speaker_chat.md` |
+| `backend/prompts/` | `shared_rules.md` (all agents, comes first so it can be cached), `scout_lead.md`, `searcher.md`, `verifier.md`, `panel_architect.md`, `panel_reviewer.md`, `email_writer.md`, `speaker_chat.md`, `program_reviewer.md`, `replacement_finder.md` |
 
 ## Backend routes (`backend/main.py`, FastAPI on port 8000)
 
@@ -53,6 +53,8 @@ The complete guide to how the app works: the one place to start. Each part has i
 | `POST /api/shortlist/{id}/draft-email` `{sender_name, notes}` | The Email Writer agent drafts an invitation (about 1.7k tokens, about 5s). **Draft only; nothing is ever sent.** |
 | `POST /api/speaker-chat` `{search_id, category, name, question, history}` | Speaker Chat: a sourced answer about one speaker (card loaded on the server; up to 2 web searches) |
 | `GET` / `POST /api/shortlist/{id}/notes`, `DELETE /api/notes/{id}` | Speaker notes (`origin` = chat or manual, plus the question and sources) |
+| `GET` / `POST /api/conferences/{id}/balance` | Program balance review (saved on the conference) |
+| `POST /api/shortlist/{id}/replacements` | Replacement ideas for a declined speaker |
 | `POST /api/groups/{id}/move` `{conference_id}` | Moves a panel and its people (with notes) to another conference; people already saved there are reused, not duplicated. Keynote groups can't be moved (409). |
 | `POST /api/searches/{id}/move` `{conference_id}` | Files a saved search under another conference |
 | `GET /api/searches/{id}/conference` | Which conference a search belongs to |

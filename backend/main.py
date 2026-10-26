@@ -9,6 +9,8 @@ Routes
   POST   /api/conferences                 new conference  {name}
   PATCH  /api/conferences/{id}            rename  {name}
   DELETE /api/conferences/{id}            delete it with its searches, shortlist and panels (not the last one)
+  GET/POST /api/conferences/{id}/balance  Panel Architect review of the whole program (saved)
+  POST   /api/shortlist/{item_id}/replacements  replacement ideas for a declined speaker
   (Searches, shortlist and groups take ?conference_id=…; without it they use the first conference.)
   GET    /api/options                     categories, example briefs, limits (for the form)
   POST   /api/searches                    start a search  {brief, force?} -> {id, reused}
@@ -156,6 +158,78 @@ def delete_conference(conference_id: int) -> dict[str, Any]:
     if outcome == "last":
         raise HTTPException(409, "You need at least one conference. Rename this one instead.")
     return {"deleted": True}
+
+
+def _candidate_pool(cid: int, exclude: set[str], items: list[dict]) -> list[tuple[str, str, SpeakerCard, bool]]:
+    """Shortlisted people first (unplaced before placed), then people from this conference's past searches."""
+    from guards import name_key
+    shortlisted = {name_key(i["name"]) for i in items}
+    pool, seen = [], set(exclude)
+    for i in sorted(items, key=lambda i: i["group_id"] is not None):
+        k = name_key(i["name"])
+        if k not in seen:
+            seen.add(k)
+            pool.append((i["search_id"], i["category"], SpeakerCard.model_validate(i["card"]), True))
+    for sid, cat, card in store.all_saved_cards(cid):
+        k = name_key(card.name)
+        if k not in seen:
+            seen.add(k)
+            pool.append((sid, cat, card, k in shortlisted))
+    return pool[:70]
+
+
+@app.get("/api/conferences/{conference_id}/balance")
+def get_balance(conference_id: int) -> dict[str, Any] | None:
+    return store.get_balance(conf_id(conference_id))
+
+
+@app.post("/api/conferences/{conference_id}/balance")
+async def check_balance(conference_id: int) -> dict[str, Any]:
+    """Panel Architect review of the whole program (keynotes + every panel + unplaced), with counts from code."""
+    from collections import Counter
+    from guards import name_key
+    cid = conf_id(conference_id)
+    items = store.list_shortlist(cid)
+    if not items:
+        raise HTTPException(400, "Save some speakers to this conference's shortlist first.")
+    groups = store.list_groups(cid)
+    sessions = []
+    for g in groups:
+        people = [(i["category"], SpeakerCard.model_validate(i["card"]), i["outreach_status"]) for i in items if i["group_id"] == g["id"]]
+        sessions.append({"name": g["name"], "kind": g["kind"], "theme": g["theme"], "people": people})
+    unplaced = [(i["category"], SpeakerCard.model_validate(i["card"]), i["outreach_status"]) for i in items if i["group_id"] is None]
+    if unplaced:
+        sessions.append({"name": "Not yet placed", "kind": "unplaced", "theme": "", "people": unplaced})
+    cards = [(c, k) for s in sessions for c, k, _ in s["people"]]
+    mix = {"people": len(cards), "sessions": len([g for g in groups if g["kind"] == "panel"]),
+           "by_category": dict(Counter(c for c, _ in cards)), "by_level": dict(Counter(k.level for _, k in cards)),
+           "by_speaking": dict(Counter(k.speaking_badge for _, k in cards)),
+           "by_location": dict(Counter((k.location or "unknown").split(",")[-1].strip() for _, k in cards).most_common(8))}
+    pool = _candidate_pool(cid, {name_key(k.name) for _, k in cards}, items)
+    conference = next((c["name"] for c in store.list_conferences() if c["id"] == cid), "")
+    review = await scout().review_program(conference, sessions, pool, mix)
+    store.set_balance(cid, review.model_dump_json())
+    return review.model_dump()
+
+
+@app.post("/api/shortlist/{item_id}/replacements")
+async def find_replacements(item_id: int) -> dict[str, Any]:
+    """A speaker declined: who from the shortlist / past searches could fill their seat?"""
+    from guards import name_key
+    item = store.get_item(item_id)
+    if item is None:
+        raise HTTPException(404, "Not on the shortlist.")
+    items = store.list_shortlist(item["conference_id"])
+    session = None
+    if item["group_id"]:
+        g = store.get_group(item["group_id"])
+        others = [(i["category"], SpeakerCard.model_validate(i["card"])) for i in items
+                  if i["group_id"] == item["group_id"] and i["id"] != item_id and i["outreach_status"] != "declined"]
+        session = {"name": g["name"], "kind": g["kind"], "theme": g["theme"], "others": others}
+    exclude = {name_key(item["name"])} | ({name_key(k.name) for _, k in session["others"]} if session else set())
+    pool = _candidate_pool(item["conference_id"], exclude, items)
+    out = await scout().find_replacement((item["category"], SpeakerCard.model_validate(item["card"])), session, pool)
+    return out.model_dump()
 
 
 class StartSearch(BaseModel):

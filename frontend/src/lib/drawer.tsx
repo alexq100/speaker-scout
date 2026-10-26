@@ -3,17 +3,17 @@ import { createContext, useCallback, useContext, useState, type ReactNode } from
 import SpeakerDrawer from '../components/SpeakerDrawer'
 import type { Category, SpeakerCard } from './types'
 
-interface Open { card: SpeakerCard; category: Category; searchId: string }
+interface Open { card: SpeakerCard; category: Category; searchId: string; tab?: 'profile' | 'planning' }
 
-const Ctx = createContext<(card: SpeakerCard, category: Category, searchId: string) => void>(() => {})
+const Ctx = createContext<(card: SpeakerCard, category: Category, searchId: string, tab?: 'profile' | 'planning') => void>(() => {})
 
 export function DrawerProvider({ children }: { children: ReactNode }) {
   const [open, setOpen] = useState<Open | null>(null)
-  const show = useCallback((card: SpeakerCard, category: Category, searchId: string) => setOpen({ card, category, searchId }), [])
+  const show = useCallback((card: SpeakerCard, category: Category, searchId: string, tab?: 'profile' | 'planning') => setOpen({ card, category, searchId, tab }), [])
   return (
     <Ctx.Provider value={show}>
       {children}
-      {open && <SpeakerDrawer key={open.card.name + open.category} card={open.card} category={open.category} searchId={open.searchId} onClose={() => setOpen(null)} />}
+      {open && <SpeakerDrawer key={open.card.name + open.category} card={open.card} category={open.category} searchId={open.searchId} initialTab={open.tab} onClose={() => setOpen(null)} />}
     </Ctx.Provider>
   )
 }
