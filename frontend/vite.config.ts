@@ -11,5 +11,7 @@ export default defineConfig({
   server: {
     port: Number(process.env.WEB_PORT ?? '5173'),
     proxy: { '/api': apiTarget },
+    // Allow temporary share links (Cloudflare quick tunnels / ngrok) to reach the dev server.
+    allowedHosts: ['.trycloudflare.com', '.ngrok-free.app', '.ngrok.app'],
   },
 })
