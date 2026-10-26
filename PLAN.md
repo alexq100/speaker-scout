@@ -156,12 +156,12 @@ Real example from Step 2: OpenAlex's API reply contained text telling AI agents 
 | 2 | Web search test ✅ | gpt-6-luna `web_search` works through Portkey (§9) |
 | 3 | Folder structure ✅ | `backend/ mcp_server/ frontend/ data/ docs/ output/ tests/ submission/` plus docs stubs |
 | 4 | ✅ **Backend agent team:** `models.py`, `tools.py`, `prompts/`, `agents.py`, `audit.py`, `cli.py` | `cli.py` on one real brief returns verified, sourced people in all 6 categories, with drops, tokens, and time |
-| 5 | **Safety tests:** injection page, made-up-link removal, contact-info removal, private-address block | `tests/test_safety.py` passes |
+| 5 | ✅ **Safety tests:** injection page, made-up-link removal, contact-info removal, private-address block | `tests/test_safety.py` passes |
 | 6 | ✅ **API:** `main.py` (FastAPI) + `store.py` + `start.sh` | Start a search, watch progress, get results, shortlist, reset. Tested with curl. |
 | 7 | ✅ **Frontend:** React + Vite + TypeScript, HW4 look | Brief form → live progress → sectioned cards → details → shortlist. A newcomer can use it. |
-| 8 | Official runs on the 3 real conferences + tokenomics | Measured numbers and screenshots in `output/` |
-| 9 | Extras if time: **Build a balanced panel** (first), MCP wrapper, others | Each works end to end, or is left out |
-| 10 | Fresh-clone check + GitHub | Running in under 10 minutes with `.env` one folder up |
+| 8 | ✅ Official runs on the 3 real conferences + tokenomics | Measured numbers and screenshots in `output/` |
+| 9 | ✅ Extras (panel builder, conferences, outreach, chat): **Build a balanced panel** (first), MCP wrapper, others | Each works end to end, or is left out |
+| 10 | ✅ Fresh-clone check + GitHub (github.com/alexq100/speaker-scout) | Running in under 10 minutes with `.env` one folder up |
 | 11 | `report.html` | 8 sections, 10–15 pages, images embedded |
 | 12 | `slides.html` | reveal.js, 10 slides, images embedded |
 | 13 | Optional demo video + real-user test | A Yale teammate tries it (quote + before/after time) |
