@@ -133,3 +133,18 @@ Each search's full result (cards, drops, removals, progress events) is saved to 
 ## How to run
 
 See the [README](../README.md).
+
+## Fresh-clone check (Oct 26, 2026)
+
+Following the course's dry-run instructions:
+1. Cloned the repo into a brand-new empty folder.
+2. Put a `.env` with `PORTKEY_API_KEY` **one folder above** the clone (none inside it).
+3. Ran `./start.sh` on alternate ports.
+
+Result:
+- The first run created `.venv`, installed `requirements.txt`, ran `npm install`, and printed "Speaker Scout is running" **21 seconds** after starting, with packages already in the local cache. Expect about 2–4 minutes on a machine that has never downloaded them, well under the 10-minute rule.
+- `/api/health` reported `key_set: true` (the key was found one folder up), and the website returned 200.
+- `backend/load_examples.py` loaded the three official searches.
+- A real 1-category search found 3 verified journalists for $0.004.
+
+The temporary clone and the copied `.env` were deleted afterwards.
